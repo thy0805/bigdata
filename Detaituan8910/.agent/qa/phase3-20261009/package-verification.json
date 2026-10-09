@@ -1,0 +1,7 @@
+{
+  "status": "VERIFIED",
+  "archive": ".agent/qa/phase3-20261009/Phase3_Dashboard_Handoff_20261009.zip",
+  "archive_sha256": "a217e8cfbc647aca1586aee301d043be13edacab72f5c70c834a3179659175ab",
+  "files": 45,
+  "all_entry_hashes_match": true
+}

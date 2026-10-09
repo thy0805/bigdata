@@ -1,0 +1,163 @@
+{
+  "status": "VERIFIED",
+  "passed": 19,
+  "total_checks": 19,
+  "checks": [
+    {
+      "name": "technical67_and_browser10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "UI_versions_and_ML_pins",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pip_check_final",
+      "passed": true,
+      "details": "No broken requirements found."
+    },
+    {
+      "name": "source_gate_final",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "linux_health",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "windows_localhost_health",
+      "passed": true,
+      "details": {
+        "StatusCode": 200,
+        "Content": "ok"
+      }
+    },
+    {
+      "name": "loopback_only_bind",
+      "passed": true,
+      "details": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128        127.0.0.1:8501      0.0.0.0:*    users:((\"python\",pid=24786,fd=6))"
+    },
+    {
+      "name": "launcher_refuses_busy_port",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "eight_promoted_screenshots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshots_dimensions",
+      "passed": true,
+      "details": {
+        "overview-1920.jpg": [
+          1920,
+          1080
+        ],
+        "analysis-1920-final-v3.jpg": [
+          1920,
+          1080
+        ],
+        "forecast-1920-final.jpg": [
+          1920,
+          1080
+        ],
+        "analysis-quality-1920.jpg": [
+          1920,
+          1080
+        ],
+        "overview-laptop-final.jpg": [
+          1366,
+          768
+        ],
+        "analysis-laptop-final.jpg": [
+          1366,
+          768
+        ],
+        "forecast-laptop-final.jpg": [
+          1366,
+          768
+        ],
+        "first-test-forecast.jpg": [
+          1366,
+          768
+        ]
+      }
+    },
+    {
+      "name": "1920_screens_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local_doc_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "nine_handoff_sections",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metric_exact_artifacts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_counts_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "current_context_phase3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "canonical_checklist_statuses",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "app_source_parse_final",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_frozen976_preservation",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "app_sha256": {
+    "dashboard/app.py": "15cf8dceec99b1fa09b72c6f9b871f57a21113c9ac76ed8cd7df8d67e24b54f6",
+    "dashboard/charts.py": "0f0a2cca632ebe1887b3f939651fc043fabddfb631253a344fa4f646c40317e2",
+    "dashboard/data_service.py": "e04cd65e63df854af04ddcdd27ce1e4fd1a698ebef4158940f96ee2a50d5efd4",
+    "dashboard/README.md": "471fbe5c6c781470d2f29e874af0b346b8f0bac399c51680918b23b4ad6db191",
+    "dashboard/requirements.txt": "09b7d281820b71678b778fcd413a6243a24449c10bf38da894c5f4a04b6e1e52",
+    "dashboard/serve.py": "d77fcec2f41a1f28fdbb1e5768610c85e3e267e23c68932d5b6d318c5987af35",
+    "dashboard/style.css": "a24fdae0b8a2c4539218f2c94d9311e06dc14ff0bbc5f101f5d80609b72593df",
+    "dashboard/.streamlit/config.toml": "a400bd910505bec4148b5c79d63abbe8f195a29a85f87f013baf79a774436f55"
+  },
+  "documents_read": [
+    "dashboard/README.md",
+    ".agent/qa/phase3-20261009/review.md",
+    ".agent/qa/phase3-20261009/checklist.md",
+    ".agent/qa/phase3-20261009/BUNDLE_README.md",
+    "context.md",
+    ".agent/PLAN.md",
+    ".agent/DOC_INDEX.md",
+    ".agent/mistake.md",
+    "docs/phase0-20261008/APP_UI_SPEC.md",
+    "docs/phase0-20261008/DATA_AUDIT.md",
+    "docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+    "docs/phase0-20261008/OPEN_DECISIONS.md",
+    "docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "IN_PROGRESS",
+  "started_at": "2026-10-09T13:06:36.812888+00:00",
+  "evaluation_number": 1,
+  "selection_lock_sha256": "b4a33059c8897f530f1f08a389e94144d69a17e09f5ca5edc4417e85bd574ddf",
+  "pretest_sha256": "f9f416ea7ae188f39c7b797dfb5cc1e561ce060975f0cecc3915d5304b26f2f0",
+  "candidate_sha256": "94ed8c4e493025ae363a3cc6fb1b0639ef2368264966b5bda190303e98a95c38",
+  "test_sha256": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+  "refit": false
+}

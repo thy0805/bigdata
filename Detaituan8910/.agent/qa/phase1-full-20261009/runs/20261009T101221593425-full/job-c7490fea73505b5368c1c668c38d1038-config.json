@@ -1,0 +1,10 @@
+{
+  "jid": "c7490fea73505b5368c1c668c38d1038",
+  "name": "uci-full-20261009T101221593425-full",
+  "execution-config": {
+    "restart-strategy": "Restart deactivated.",
+    "job-parallelism": 1,
+    "object-reuse-mode": true,
+    "user-config": {}
+  }
+}

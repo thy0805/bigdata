@@ -1,0 +1,222 @@
+{
+  "captured_at": "2026-10-09T16:39:30.005653+07:00",
+  "passed": 37,
+  "total": 37,
+  "checks": [
+    {
+      "name": "runtime-and-independent-checks",
+      "passed": true,
+      "evidence": "VERIFIED"
+    },
+    {
+      "name": "installation-and-linux-venv",
+      "passed": true,
+      "evidence": "Java17/venv/Flink2.3 SHA512"
+    },
+    {
+      "name": "all-final-runs-same-current-template",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "run-evidence/edge-cases",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093004639332-edge-cases"
+    },
+    {
+      "name": "run-evidence/real-10000",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093019328324-real-10000"
+    },
+    {
+      "name": "run-evidence/zero",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093034542720-zero"
+    },
+    {
+      "name": "run-evidence/precision",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093050304562-precision"
+    },
+    {
+      "name": "run-evidence/duplicate",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093104449641-duplicate"
+    },
+    {
+      "name": "run-evidence/invalid-number",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093120258115-invalid-number"
+    },
+    {
+      "name": "run-evidence/invalid-time",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093134341866-invalid-time"
+    },
+    {
+      "name": "run-evidence/header-lookalike",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093150099864-header-lookalike"
+    },
+    {
+      "name": "run-evidence/bad-structure",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093204496696-bad-structure"
+    },
+    {
+      "name": "run-evidence/extra-column",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093217164577-extra-column"
+    },
+    {
+      "name": "run-evidence/real-rerun",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093231834307-real-rerun"
+    },
+    {
+      "name": "unchanged/individual+household+electric+power+consumption.zip",
+      "passed": true,
+      "evidence": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff"
+    },
+    {
+      "name": "unchanged/BaoCao_PhanTich_DuDoan_DienNang_UCI_20261008.docx",
+      "passed": true,
+      "evidence": "51edbc9ba1f27e2d2c194eabca31f8f7fcd15568b5edc5ea1a8cdb9097582fe2"
+    },
+    {
+      "name": "unchanged/BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v2_20261008.docx",
+      "passed": true,
+      "evidence": "a69a0adcd4b007ba0cb15f29afc635342b08d939d52ed1e54de6cd34e7d2f6f5"
+    },
+    {
+      "name": "unchanged/BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx",
+      "passed": true,
+      "evidence": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1"
+    },
+    {
+      "name": "unchanged/HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx",
+      "passed": true,
+      "evidence": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c"
+    },
+    {
+      "name": "unchanged/KhoiTuan Tong Quan Bai Toan Chuong 1.docx",
+      "passed": true,
+      "evidence": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15"
+    },
+    {
+      "name": "unchanged/KhoiTuan_Chuong1_TongQuanBaiToan.docx",
+      "passed": true,
+      "evidence": "af99855df30a26483dd8be5a1363d49b14c0132c1fe73dec8444fdc88fbbcb2d"
+    },
+    {
+      "name": "unchanged/Ke hoach Do an mon hoc Nhap mon Big data.pdf",
+      "passed": true,
+      "evidence": "61e91b9c3822994a1822de9f7f51b58f97842f3d5b1f9dfcf792f23c0feeeea4"
+    },
+    {
+      "name": "raw-still-exact",
+      "passed": true,
+      "evidence": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7"
+    },
+    {
+      "name": "syntax/cluster.py",
+      "passed": true,
+      "evidence": "62e1cde1dbd09eee88170d2c3f38dc1c9c1186a371c90a891e8da250d83b2707"
+    },
+    {
+      "name": "syntax/run_smoke.py",
+      "passed": true,
+      "evidence": "35713f95b960b876efa7a8a4fc0a90c9ce69ffd7e34330f46e06b00c8f98b4e9"
+    },
+    {
+      "name": "syntax/verify_phase1_smoke.py",
+      "passed": true,
+      "evidence": "2b5e68dd7750a923b438dd265f52028fe5075b91aa0d36c34a352daa87f47710"
+    },
+    {
+      "name": "syntax/check_phase1_environment.py",
+      "passed": true,
+      "evidence": "fbc1891e328ac818e8d1045db063cb235a9d3af22fc5497e80f3274ad2bb7194"
+    },
+    {
+      "name": "readback/context.md",
+      "passed": true,
+      "evidence": "57cebd0b30682eccc5a36f84d351028f51c198fc0302d46240f26eb29b2645cc"
+    },
+    {
+      "name": "readback/.agent/PLAN.md",
+      "passed": true,
+      "evidence": "fd468f5d29cea412a39849f31ae26fb0a8b45124921b0ee6af1b81c484fae8d7"
+    },
+    {
+      "name": "readback/.agent/DOC_INDEX.md",
+      "passed": true,
+      "evidence": "a2cb47cab694d0921189a80675d5c1890422d4ad1d21a34964d12233dca4aa94"
+    },
+    {
+      "name": "readback/.agent/qa/phase1-smoke-20261009/checklist.md",
+      "passed": true,
+      "evidence": "ff8710f8d28b0d24f42b28e945f6ee726b836d6ff330faedc3f192f7b567f346"
+    },
+    {
+      "name": "readback/.agent/qa/phase1-smoke-20261009/review.md",
+      "passed": true,
+      "evidence": "26f31cb4f14ae35fff4b7955e5a4caecaf67b47259b20ab7668e9caccaf22c73"
+    },
+    {
+      "name": "readback/pipeline/README.md",
+      "passed": true,
+      "evidence": "e24a416482f92f657b2a7e14b584a5fe3d5ab20619bcddb0db0ed4dc291951d3"
+    },
+    {
+      "name": "readback/docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+      "passed": true,
+      "evidence": "728969ca7eddf5a68235b2dd7e35a13876ec804b81dd9a29977aebb9aaaa1675"
+    },
+    {
+      "name": "readback/docs/phase0-20261008/OPEN_DECISIONS.md",
+      "passed": true,
+      "evidence": "7c2db52e1c50b2ddbad86c1aa8edc3eeca657c5f833257d8c434a22344d9cf60"
+    },
+    {
+      "name": "D01-D05-locked-and-next-gate-kept",
+      "passed": true,
+      "evidence": [
+        "| D01 | Flink 2.3.0 + Java17 Linux, pipeline Flink SQL; chưa cài PyFlink | SQL có filesystem/CSV sẵn, giữ Flink thật và giảm dependency Python | LOCKED |",
+        "| D02 | Cài openjdk-17-jdk-headless, python3.12-venv; runtime trong home Linux, raw/output trên D | Không thay Python/Java Windows/WSL; disk kiểm thực trước/sau cài | LOCKED |",
+        "| D03 | Giữ tất cả giờ, energy_kwh NULL nếu không đủ60; vòng đầu không nội suy | Bảo toàn trục thời gian và loại nhãn mục tiêu sai; giảm mẫu huấn luyện quanh gap | LOCKED |",
+        "| D04 | Giữ residual âm và flag, không clamp hoặc gọi phần âm là “Khác” | Nguyên nhân chưa được chứng minh cho mọi dòng; UI phải trình bày giới hạn | LOCKED |",
+        "| D05 | Vòng đầu bounded BATCH; streaming replay xem xét riêng sau | Kiểm số liệu trước demo nâng cao; không mô tả watermark/checkpoint đã nghiệm thu từ group-by batch | LOCKED |"
+      ]
+    },
+    {
+      "name": "cluster-live-at-handoff",
+      "passed": true,
+      "evidence": {
+        "taskmanagers": 1,
+        "slots-total": 2,
+        "slots-available": 2,
+        "jobs-running": 0,
+        "jobs-finished": 20,
+        "jobs-cancelled": 0,
+        "jobs-failed": 4,
+        "flink-version": "2.3.0",
+        "flink-commit": "c0f8d1a"
+      }
+    }
+  ],
+  "disk_now": {
+    "C": {
+      "total": 510481395712,
+      "used": 482658455552,
+      "free": 27822940160
+    },
+    "D": {
+      "total": 1000202784768,
+      "used": 775824408576,
+      "free": 224378376192
+    }
+  },
+  "scope": "F01-F04 only; F05/F06 await approval",
+  "source_preservation_verified": true
+}

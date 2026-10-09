@@ -1,0 +1,455 @@
+{
+  "status": "VERIFIED",
+  "scope": "technical; visual QA separate",
+  "time": "2026-10-09T13:58:46.417520+00:00",
+  "total_checks": 65,
+  "passed": 65,
+  "checks": [
+    {
+      "name": "syntax/no_fit:app.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "syntax/no_fit:charts.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "syntax/no_fit:data_service.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "syntax/no_fit:serve.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_gate_21_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "data_cache_hit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "content_signature_cache_invalidation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "wrong_hash_rejected_before_cache",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hourly_complete_and_missing",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test_schema_and_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KPI_decimal_oracle:whole",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "subgroups_decimal_oracle:whole",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KPI_decimal_oracle:default",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "subgroups_decimal_oracle:default",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KPI_decimal_oracle:first_day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "subgroups_decimal_oracle:first_day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KPI_decimal_oracle:last_day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "subgroups_decimal_oracle:last_day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "KPI_decimal_oracle:reversed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "subgroups_decimal_oracle:reversed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_missing_not_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "boundary_minutes_81",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "recorded_missing_25979",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "energy_gap_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "comparison_gap_and_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chart_empty_safe:empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chart_empty_safe:missing",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "model_cache_hit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_model_saved_prediction:0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_target_input_and_order:0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_label_perturbation:0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_model_saved_prediction:2295",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_target_input_and_order:2295",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_label_perturbation:2295",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_model_saved_prediction:4589",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_target_input_and_order:4589",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_label_perturbation:4589",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing_features_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "nonfinite_features_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_initial",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "exact_three_tabs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "official_metric_4590",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_real_forecast_last",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "button_real_final_model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_baselines",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "AppTest_filter:first_day_no_test",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "fixed_metric_after_filter:first_day_no_test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_forecast_when_ineligible:first_day_no_test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_filter:whole",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "fixed_metric_after_filter:whole",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_filter:first_test",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "fixed_metric_after_filter:first_test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_real_forecast_first",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "button_first_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_filter:last_day",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "fixed_metric_after_filter:last_day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_filter:reversed",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "fixed_metric_after_filter:reversed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_forecast_when_ineligible:reversed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AppTest_all_missing_day",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "missing_KPI_not_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bad_hash_visible_error_and_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_fit_runtime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_raw_scan_or_frozen_write",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen_976_files_preserved",
+      "passed": true,
+      "details": {
+        "preserved": 976,
+        "changed": [],
+        "missing": []
+      }
+    }
+  ],
+  "witness": {
+    "fit_calls": 0,
+    "forbidden_io": [],
+    "app_runs": 10
+  },
+  "kpi_oracle": {
+    "whole": {
+      "observed_kwh": "37283.74770000000000831",
+      "average_full_kwh": "1.090361303603735758880152560",
+      "peak_kwh": "6.560533333333334",
+      "peak_hour": "2008-11-23 18:00:00",
+      "coverage": "0.9874430213844478495089961163",
+      "valid_minutes": "2049280",
+      "expected_minutes": "2075340",
+      "recorded_minutes": "2075259",
+      "missing_measurement_minutes": "25979",
+      "unrecorded_boundary_minutes": "81",
+      "complete_hours": "34085",
+      "incomplete_hours": "504",
+      "hours": "34589",
+      "negative_residual_minutes": "1050"
+    },
+    "default": {
+      "observed_kwh": "190.54173333333333404",
+      "average_full_kwh": "1.154515151515151519454545455",
+      "peak_kwh": "5.626833333333334",
+      "peak_hour": "2010-11-20 18:00:00",
+      "coverage": "0.9942771084337349397590361446",
+      "valid_minutes": "9903",
+      "expected_minutes": "9960",
+      "recorded_minutes": "9903",
+      "missing_measurement_minutes": "0",
+      "unrecorded_boundary_minutes": "57",
+      "complete_hours": "165",
+      "incomplete_hours": "1",
+      "hours": "166",
+      "negative_residual_minutes": "0"
+    },
+    "first_day": {
+      "observed_kwh": "20.1529333333333329",
+      "average_full_kwh": "2.936533333333333316666666667",
+      "peak_kwh": "3.6321999999999997",
+      "peak_hour": "2006-12-16 18:00:00",
+      "coverage": "0.9428571428571428571428571429",
+      "valid_minutes": "396",
+      "expected_minutes": "420",
+      "recorded_minutes": "396",
+      "missing_measurement_minutes": "0",
+      "unrecorded_boundary_minutes": "24",
+      "complete_hours": "6",
+      "incomplete_hours": "1",
+      "hours": "7",
+      "negative_residual_minutes": "0"
+    },
+    "last_day": {
+      "observed_kwh": "24.80173333333333350",
+      "average_full_kwh": "1.178809523809523817619047619",
+      "peak_kwh": "2.8839333333333332",
+      "peak_hour": "2010-11-26 07:00:00",
+      "coverage": "0.9568181818181818181818181818",
+      "valid_minutes": "1263",
+      "expected_minutes": "1320",
+      "recorded_minutes": "1263",
+      "missing_measurement_minutes": "0",
+      "unrecorded_boundary_minutes": "57",
+      "complete_hours": "21",
+      "incomplete_hours": "1",
+      "hours": "22",
+      "negative_residual_minutes": "0"
+    },
+    "reversed": {
+      "observed_kwh": "None",
+      "average_full_kwh": "None",
+      "peak_kwh": "None",
+      "peak_hour": "None",
+      "coverage": "None",
+      "valid_minutes": "0",
+      "expected_minutes": "0",
+      "recorded_minutes": "0",
+      "missing_measurement_minutes": "0",
+      "unrecorded_boundary_minutes": "0",
+      "complete_hours": "0",
+      "incomplete_hours": "0",
+      "hours": "0",
+      "negative_residual_minutes": "0"
+    }
+  },
+  "model_sha256": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+  "source_signature": {
+    ".agent/qa/phase2b2-20261009/verification.json": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+    "data/ml/runs/20261009-phase2a-a/eligibility.csv": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+    "data/ml/runs/20261009-phase2a-a/feature-schema.json": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+    "data/ml/runs/20261009-phase2a-a/holdout/seal.json": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+    "data/ml/runs/20261009-phase2a-a/holdout/test.csv": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+    "data/ml/runs/20261009-phase2a-a/manifest.json": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+    "data/ml/runs/20261009-phase2a-a/metrics-validation.json": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+    "data/ml/runs/20261009-phase2a-a/predictions-validation.csv": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+    "data/ml/runs/20261009-phase2a-a/split-summary.json": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+    "data/ml/runs/20261009-phase2a-a/train.csv": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+    "data/ml/runs/20261009-phase2a-a/validation.csv": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884",
+    "data/processed/runs/20261009T102201900234-full/hourly-grid.csv": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+    "data/processed/runs/20261009T102201900234-full/manifest.json": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+    "data/processed/runs/20261009T102201900234-full/verification.json": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+    "models/final/hgb-uci-hourly-v1.0-train-only/manifest.json": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+    "models/final/hgb-uci-hourly-v1.0-train-only/model.joblib": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+    "models/runs/20261009-phase2b2-a/manifest.json": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+    "models/runs/20261009-phase2b2-a/metrics-test.json": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c",
+    "models/runs/20261009-phase2b2-a/predictions-test.csv": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+    "models/runs/20261009-phase2b2-a/runtime-evidence.json": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7",
+    "models/runs/20261009-phase2b2-a/verification.json": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe"
+  },
+  "preservation": {
+    "total": 976,
+    "matching": 976,
+    "changed": [],
+    "missing": []
+  }
+}

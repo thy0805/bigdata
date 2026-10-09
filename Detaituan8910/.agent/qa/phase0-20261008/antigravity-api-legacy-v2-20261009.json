@@ -1,0 +1,1596 @@
+{
+  "CheckedAt": "2026-10-09T01:38:20.6052316+07:00",
+  "Scope": "Read-only history RPCs; no message, command execution, installation or Windows changes.",
+  "Roots": [
+    "C:\\Users\\thy\\.gemini\\antigravity\\conversations"
+  ],
+  "SourceFiles": [
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\01022727-1e3b-4f0a-9957-a98708c12513.pb",
+      "Length": 5878568,
+      "LastWriteTime": "2026-05-22T10:26:58.0042131+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\03e68786-141b-43db-936b-27439a3cc0c8.pb",
+      "Length": 1407969,
+      "LastWriteTime": "2026-05-22T10:27:00.2890637+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\080103b1-ba17-4a71-826c-ddff602bd268.pb",
+      "Length": 1195846,
+      "LastWriteTime": "2026-05-22T10:26:59.3374443+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\08a0455b-1d8f-412f-90a7-469755e6bf7f.pb",
+      "Length": 189394,
+      "LastWriteTime": "2026-05-22T10:27:00.4434231+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\090eaff1-ba35-4a0c-b5bc-b7e05674fb76.pb",
+      "Length": 3989304,
+      "LastWriteTime": "2026-05-22T10:26:59.3715032+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\098ccd35-77ba-4f93-88fc-26ff26f70842.pb",
+      "Length": 12404776,
+      "LastWriteTime": "2026-05-22T10:26:58.400629+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\0aa1724e-8951-4498-977b-059ff89af218.db",
+      "Length": 692224,
+      "LastWriteTime": "2026-06-15T02:54:31.5298974+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\123a8e84-e661-4d80-b896-da5331c8f4d2.db",
+      "Length": 180224,
+      "LastWriteTime": "2026-07-19T01:55:15.7370151+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\14fa504d-da47-418f-93c9-01e4ad646550.pb",
+      "Length": 604740,
+      "LastWriteTime": "2026-05-22T10:27:00.0174832+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\1724d37b-0c2a-403c-b443-82799b7e7754.pb",
+      "Length": 1284866,
+      "LastWriteTime": "2026-05-22T10:26:59.9883289+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\1a1c943b-2485-4154-a68f-ecbd3b37e8f9.pb",
+      "Length": 123587,
+      "LastWriteTime": "2026-05-22T10:27:00.2627716+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\1b28e39c-ec2b-4865-ba57-9c9e723ff649.pb",
+      "Length": 3190468,
+      "LastWriteTime": "2026-05-22T10:26:58.9033249+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\1ee14c1e-7b03-4a68-843b-44aceabf0770.pb",
+      "Length": 6290424,
+      "LastWriteTime": "2026-05-22T10:27:00.4009403+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\23521b8d-46c9-4302-b291-e6a9edd5501d.pb",
+      "Length": 1041975,
+      "LastWriteTime": "2026-05-22T10:26:58.1156275+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\25bc7516-f67b-4534-86e0-3f493d957ccb.pb",
+      "Length": 121496,
+      "LastWriteTime": "2026-05-22T10:37:34.2302788+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\264d3504-40f7-4258-9587-29837d065100.db",
+      "Length": 389120,
+      "LastWriteTime": "2026-06-13T11:00:04.1929466+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\28217370-489f-460c-861e-f03e3915c4a5.pb",
+      "Length": 776507,
+      "LastWriteTime": "2026-05-22T10:27:00.0847248+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\2886d461-9a47-4209-a082-5c2d8dfee3d7.pb",
+      "Length": 3188397,
+      "LastWriteTime": "2026-05-22T10:27:00.125858+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\2b3e2231-a39b-4d82-9f8a-49e3de3968ba.pb",
+      "Length": 3143238,
+      "LastWriteTime": "2026-05-22T10:26:59.3239362+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\2c8c325f-b038-438f-b5ad-d827350f97a3.pb",
+      "Length": 2947335,
+      "LastWriteTime": "2026-05-22T10:26:58.9433719+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\2cc6f706-20e1-4ce8-bd09-75e63981def6.pb",
+      "Length": 22221160,
+      "LastWriteTime": "2026-05-22T10:26:59.5716792+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\2fd4a303-23a5-4d21-a3b0-6b56ed75cf66.pb",
+      "Length": 3966623,
+      "LastWriteTime": "2026-05-22T10:26:58.987194+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\30619a38-57e6-4dd0-83b5-64bb896f7061.pb",
+      "Length": 3680335,
+      "LastWriteTime": "2026-05-22T10:27:00.073238+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\341ad64d-373d-4759-a168-79b20c2415d5.pb",
+      "Length": 1832625,
+      "LastWriteTime": "2026-05-22T10:26:59.1567377+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\3538dec6-8c25-4da5-a173-30c9c141b7c4.pb",
+      "Length": 4793594,
+      "LastWriteTime": "2026-05-22T10:26:59.7173244+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\3562a96d-1722-4a60-b39a-4e9c85438d30.pb",
+      "Length": 6128725,
+      "LastWriteTime": "2026-05-22T10:26:58.1101135+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\38304ec3-3516-4520-84c3-6f41ab64befc.pb",
+      "Length": 2772216,
+      "LastWriteTime": "2026-05-22T10:26:59.9461737+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\397528f5-1458-4502-b72e-4b86e87acc5f.db",
+      "Length": 10870784,
+      "LastWriteTime": "2026-10-09T01:33:47.3551188+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\3c31e9d1-0941-4e79-9626-d66af6b24696.pb",
+      "Length": 7544721,
+      "LastWriteTime": "2026-05-22T10:26:59.4721449+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\3e46f9b5-1f23-4156-8a63-777ba513a33b.pb",
+      "Length": 2646912,
+      "LastWriteTime": "2026-05-22T10:27:00.2095612+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\46579e90-9894-431b-8ea0-d106ace5b477.pb",
+      "Length": 2838160,
+      "LastWriteTime": "2026-05-22T10:26:59.6502646+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\466adea3-bb1f-4673-920c-fd119b30b70d.pb",
+      "Length": 857677,
+      "LastWriteTime": "2026-05-22T10:26:59.2367214+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\4690592d-e510-4387-ab34-15c474cd881f.pb",
+      "Length": 127931,
+      "LastWriteTime": "2026-05-22T10:27:00.2736601+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\49075e50-1485-4505-bab6-5fbb755b98a3.pb",
+      "Length": 13019651,
+      "LastWriteTime": "2026-05-22T10:26:58.6852096+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\4eb44cc1-ac9b-4699-9bc5-e8df102abfbb.pb",
+      "Length": 6753858,
+      "LastWriteTime": "2026-05-22T10:26:58.052814+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\4f522b19-5d22-4b78-81d4-c60332b59d33.pb",
+      "Length": 530014,
+      "LastWriteTime": "2026-05-22T10:26:59.224822+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\4f63f32d-e0ac-4f29-a94a-4a5890abcb34.pb",
+      "Length": 815183,
+      "LastWriteTime": "2026-05-22T10:26:59.3849278+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\50753dd4-4c8a-409b-ad45-c5a7b51cbc0e.db",
+      "Length": 249856,
+      "LastWriteTime": "2026-06-13T09:44:31.343946+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\50eb8bdd-70a6-4534-bae5-3415cdae4c69.pb",
+      "Length": 970851,
+      "LastWriteTime": "2026-05-22T10:27:00.3119617+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\55c9651a-ac31-4123-9fa6-c4c1ccb9eac5.pb",
+      "Length": 457,
+      "LastWriteTime": "2026-05-22T10:26:59.8443642+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\55ede39a-c05b-42d2-a822-afa44f3195d9.pb",
+      "Length": 457,
+      "LastWriteTime": "2026-05-22T10:27:00.0440994+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\57ba2a27-b799-428b-8f19-ceebe369e649.pb",
+      "Length": 1514961,
+      "LastWriteTime": "2026-05-22T10:26:59.7022614+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\5a64e0ff-7509-43bd-b4b7-b32dd4e6e940.db",
+      "Length": 212992,
+      "LastWriteTime": "2026-06-13T09:49:23.4761993+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\5ca60d19-f9ba-4ce3-a3f9-4e6e0055e10c.pb",
+      "Length": 7093159,
+      "LastWriteTime": "2026-05-22T10:26:58.3160764+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\5cea84a0-ae8a-44c0-ae72-c3648206c90a.pb",
+      "Length": 483517,
+      "LastWriteTime": "2026-05-22T10:27:00.3326332+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\5f4bf882-17e7-49b9-a28f-a7c0159ce848.pb",
+      "Length": 1121224,
+      "LastWriteTime": "2026-05-22T10:27:00.426613+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\61626e0c-fc40-4bcf-a539-5203c34050c2.pb",
+      "Length": 1232964,
+      "LastWriteTime": "2026-05-22T10:26:58.1300682+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\62c3c63a-95e3-4b41-a24a-f94c93890c46.pb",
+      "Length": 912992,
+      "LastWriteTime": "2026-05-22T10:26:59.0167985+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\64d6a1a8-b4ce-4dee-aa16-694c5978e977.pb",
+      "Length": 188960,
+      "LastWriteTime": "2026-05-22T10:27:00.4601718+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\662a7d87-8ecc-4c07-88b7-b973053223f1.db",
+      "Length": 1867776,
+      "LastWriteTime": "2026-06-13T16:31:10.0721151+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\68e0df2f-6f8b-4c57-bb33-d40f070d4c4c.pb",
+      "Length": 427785,
+      "LastWriteTime": "2026-05-22T10:26:59.13852+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\6932504a-4c1b-4936-afaa-8074b01fabf1.pb",
+      "Length": 1706977,
+      "LastWriteTime": "2026-05-22T10:27:00.1423232+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\6aa3ebfa-14e6-4850-9f71-fe5f928f871b.db",
+      "Length": 745472,
+      "LastWriteTime": "2026-06-13T11:02:11.3793475+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\6ee60d33-f6c4-436f-85c0-fd648b5bb0a1.pb",
+      "Length": 3525327,
+      "LastWriteTime": "2026-05-22T10:26:59.126812+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\70d810ab-50d7-4112-8804-4aeebf1ff521.pb",
+      "Length": 2215431,
+      "LastWriteTime": "2026-05-22T10:26:58.7178677+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7447b704-49a9-4eb5-9016-f9c2451348b3.db",
+      "Length": 102400,
+      "LastWriteTime": "2026-06-13T11:00:33.5967781+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\74754ca1-69ec-48eb-ac52-0bd53d39957e.pb",
+      "Length": 2411460,
+      "LastWriteTime": "2026-05-22T10:26:59.8701888+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\78ef51b1-66be-48a3-a2b4-1ee939a2739f.pb",
+      "Length": 656319,
+      "LastWriteTime": "2026-05-22T10:26:58.936929+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\78ff5b9d-6185-437d-82c7-39fa2de41cfd.pb",
+      "Length": 4203847,
+      "LastWriteTime": "2026-05-22T10:26:59.7908753+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7b386793-b577-411c-bc28-3832d2da93b2.pb",
+      "Length": 8016156,
+      "LastWriteTime": "2026-05-22T10:26:58.7877857+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7ba3c6fe-6222-489d-b7fc-b31a474a2c0c.pb",
+      "Length": 6631111,
+      "LastWriteTime": "2026-05-22T10:26:59.4234717+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7caf8102-dd3d-48c9-8548-ae82084b5bb3.pb",
+      "Length": 560327,
+      "LastWriteTime": "2026-05-22T10:26:58.2960979+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7f0e6e1e-a005-4b5b-83c0-393313860d94.db",
+      "Length": 249856,
+      "LastWriteTime": "2026-06-13T10:53:31.0444058+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\7fb6509c-b2de-4cab-bed4-991f1cdd6ade.pb",
+      "Length": 1562784,
+      "LastWriteTime": "2026-05-22T10:26:59.2046477+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\80c0be3c-55e1-4a0d-a123-2bbe2419bb82.db",
+      "Length": 5386240,
+      "LastWriteTime": "2026-08-03T20:52:06.9054757+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\81f1fc7b-1264-46f0-b825-56dd76e2ffc2.db",
+      "Length": 565248,
+      "LastWriteTime": "2026-06-13T11:01:18.2086302+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\85401c1b-0068-42a2-a4aa-dcb59b9ad4b4.pb",
+      "Length": 5304322,
+      "LastWriteTime": "2026-05-22T10:26:59.6188668+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\85a09bf2-2e50-4454-a4b8-1e9d672edd82.pb",
+      "Length": 2348089,
+      "LastWriteTime": "2026-05-22T10:26:57.942449+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\8751089f-2acb-49b4-b4ee-900b146d4814.pb",
+      "Length": 873400,
+      "LastWriteTime": "2026-05-22T10:26:59.8146904+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\89b89125-2d84-4fb5-904a-e6c3167c3c03.db",
+      "Length": 172032,
+      "LastWriteTime": "2026-07-19T01:55:15.5209412+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\8a7263f6-a405-4463-a6ca-3e1f108d175e.db",
+      "Length": 176128,
+      "LastWriteTime": "2026-07-19T01:55:15.5251467+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\8e976be4-4624-4fdf-b8cd-39345beb1f9c.db",
+      "Length": 65536,
+      "LastWriteTime": "2026-06-13T11:00:33.6194139+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\939ab9e3-7fe1-4a0f-a8bf-06b836796ec3.pb",
+      "Length": 2752189,
+      "LastWriteTime": "2026-05-22T10:26:58.2653245+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\944369b2-c773-4460-914d-8ccfb3568173.pb",
+      "Length": 2197594,
+      "LastWriteTime": "2026-05-22T10:26:59.0314747+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\95adc36b-2345-4c56-8a30-991de7aa792e.pb",
+      "Length": 1165899,
+      "LastWriteTime": "2026-05-22T10:27:00.2395888+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\993b230a-f450-41c9-90d9-b5f2b49610ca.pb",
+      "Length": 999292,
+      "LastWriteTime": "2026-05-22T10:26:58.9605726+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\9b66b6a2-45c4-4a60-9c2f-8c0f8b020470.pb",
+      "Length": 2511281,
+      "LastWriteTime": "2026-05-22T10:27:00.5061272+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\9f521d01-da46-49f2-bb1c-f112ae9e7418.db",
+      "Length": 413696,
+      "LastWriteTime": "2026-06-13T10:46:13.7081093+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\a043493f-8368-4aa2-a5f7-8fa115f2fb3e.db",
+      "Length": 331776,
+      "LastWriteTime": "2026-06-13T10:59:09.2886013+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\a0dc07ec-d518-4231-a49a-e46e4116c45f.pb",
+      "Length": 501380,
+      "LastWriteTime": "2026-05-22T10:27:00.1644423+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\a3fce158-c355-4d9f-b2c5-dcac70739847.pb",
+      "Length": 639559,
+      "LastWriteTime": "2026-05-22T10:26:59.249005+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\aff2bffa-cb5c-4263-b941-6f29fe1b96dd.pb",
+      "Length": 168685,
+      "LastWriteTime": "2026-05-22T10:27:00.1530286+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b1392e99-8327-46c4-825d-56909126c6f0.pb",
+      "Length": 2870671,
+      "LastWriteTime": "2026-05-22T10:26:59.1841164+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b5a44590-2315-45aa-8f3d-3fced2ddd8c4.db",
+      "Length": 73728,
+      "LastWriteTime": "2026-06-13T11:00:33.581526+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b5a5e14e-9ff3-4963-a792-245f9770f283.pb",
+      "Length": 12186968,
+      "LastWriteTime": "2026-05-22T10:26:58.2487742+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b5a8f5cf-cbb9-42b7-83a4-48fdae21d7c8.pb",
+      "Length": 1511627,
+      "LastWriteTime": "2026-05-22T10:27:00.4766234+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b5de4cbb-fba2-47fd-90ef-92fe2c3ee159.db",
+      "Length": 176128,
+      "LastWriteTime": "2026-07-19T01:55:15.631275+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b709e580-13c1-4f09-af6d-77dc89b4d9af.pb",
+      "Length": 2689706,
+      "LastWriteTime": "2026-05-22T10:27:00.1865397+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\b7ddfe4d-b73c-43d4-b427-1e966044ce43.pb",
+      "Length": 580160,
+      "LastWriteTime": "2026-05-22T10:26:58.1226375+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\bb9cbf47-3e9e-4b02-a582-36fbe03abefc.pb",
+      "Length": 5209469,
+      "LastWriteTime": "2026-05-22T10:27:00.0019164+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\bbf02ba1-bb6a-4609-89f0-86c807b70d68.pb",
+      "Length": 2998817,
+      "LastWriteTime": "2026-05-22T10:26:59.900446+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\bc5158e8-f587-43f8-9088-2cd3afd2a076.pb",
+      "Length": 127931,
+      "LastWriteTime": "2026-05-22T10:27:00.2852183+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\be9ad143-0c4a-4b2a-bc10-4cff84962ee1.pb",
+      "Length": 341,
+      "LastWriteTime": "2026-05-22T10:27:00.3415121+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\bf88d153-e255-4062-8e5a-c8ed0cb6ef51.pb",
+      "Length": 2644017,
+      "LastWriteTime": "2026-05-22T10:26:58.1509396+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c07df612-9392-474b-b8b1-78acd1d26137.pb",
+      "Length": 3726129,
+      "LastWriteTime": "2026-05-22T10:26:59.9658687+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c1deb84f-9862-4258-a06e-c4d2d7cd2ba3.pb",
+      "Length": 503961,
+      "LastWriteTime": "2026-05-22T10:27:00.0947873+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c22a26ac-503b-402e-9a7a-bb312edd1fea.pb",
+      "Length": 1757696,
+      "LastWriteTime": "2026-05-22T10:26:58.8181778+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c2ac9fc6-b553-43a2-bda1-23b8c8ebd172.pb",
+      "Length": 18028761,
+      "LastWriteTime": "2026-05-22T10:26:58.6024849+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c546d1f9-9085-4b11-9613-f90b452e1a1e.pb",
+      "Length": 4710217,
+      "LastWriteTime": "2026-05-22T10:26:59.088934+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c5bfe13b-3129-4efb-8244-6fbe952d3272.pb",
+      "Length": 1342654,
+      "LastWriteTime": "2026-05-22T10:26:59.8340667+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\c5d7d0e0-6c05-4427-acb5-7224895b80bd.db",
+      "Length": 77824,
+      "LastWriteTime": "2026-06-13T11:00:33.6559736+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\ca7d11d8-9297-4957-bd33-e4c1fcc05409.db",
+      "Length": 671744,
+      "LastWriteTime": "2026-06-13T09:44:27.3307795+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\cac03b24-1593-4fe3-9953-42ae5a8bf035.pb",
+      "Length": 164088,
+      "LastWriteTime": "2026-05-22T10:26:57.9296954+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\cbb98047-a7d8-4516-bdcf-c0fd2c71f64e.pb",
+      "Length": 1752950,
+      "LastWriteTime": "2026-05-22T10:26:59.0682709+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d10dbbf9-77e5-46a5-be25-d0abae1a4e26.db",
+      "Length": 65536,
+      "LastWriteTime": "2026-06-13T11:00:33.5696423+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d1c88094-16bf-432d-a90e-7b4983db9006.pb",
+      "Length": 1358850,
+      "LastWriteTime": "2026-05-22T10:26:59.3578982+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d214216f-d36b-477d-98f1-fef3a2f5b77c.pb",
+      "Length": 396,
+      "LastWriteTime": "2026-05-22T10:27:00.3523297+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d58a7789-6e3a-4db0-b48f-6506ef2ee0f6.pb",
+      "Length": 125323,
+      "LastWriteTime": "2026-06-12T11:54:23.3089676+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d7193a4d-eb43-4194-bc3d-f58dbfc8b430.pb",
+      "Length": 1612548,
+      "LastWriteTime": "2026-05-22T10:27:00.3565489+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\d855d01c-7bbc-45d1-95fa-acc1b33ab499.db",
+      "Length": 176128,
+      "LastWriteTime": "2026-07-19T01:55:15.9170793+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\dac9e691-2c54-45a8-9cfa-d03ab7e9fd1e.pb",
+      "Length": 1509804,
+      "LastWriteTime": "2026-05-22T10:26:59.1138587+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\dc877ab1-3022-417a-9f1e-650894835216.pb",
+      "Length": 1074262,
+      "LastWriteTime": "2026-05-22T10:26:59.0451218+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\dcef71a6-7c65-48c3-978b-4bc32314b5a5.pb",
+      "Length": 3771980,
+      "LastWriteTime": "2026-05-22T10:26:59.3012939+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\dd11c991-0419-418f-921d-406a030d4449.pb",
+      "Length": 10107832,
+      "LastWriteTime": "2026-05-22T10:26:58.4709492+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\dee19c5e-01e6-4dad-999d-a02cc853d7f0.db",
+      "Length": 1183744,
+      "LastWriteTime": "2026-10-09T01:27:36.459926+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\ebde0030-1b2e-4bd0-ba44-87370c2b943e.pb",
+      "Length": 281400,
+      "LastWriteTime": "2026-05-22T10:27:00.1133476+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\efec1a86-903a-4ac0-b129-fd499e0013ac.pb",
+      "Length": 532021,
+      "LastWriteTime": "2026-05-22T10:27:00.3224103+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\f24cd5e4-16e7-4273-ba17-098d76703535.pb",
+      "Length": 4410519,
+      "LastWriteTime": "2026-05-22T10:26:58.8585309+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\f30926e2-5863-4100-8942-ad5be3b6b29b.pb",
+      "Length": 2984245,
+      "LastWriteTime": "2026-05-22T10:26:59.7482421+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\f48633a6-3426-4227-87bb-0d0b643f20c1.pb",
+      "Length": 820272,
+      "LastWriteTime": "2026-05-22T10:27:00.0346901+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\f5cb5cf6-48fa-45e5-93e0-3531b03ca469.pb",
+      "Length": 1057360,
+      "LastWriteTime": "2026-05-22T10:26:59.2781501+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\f9e4e5af-bcbc-4a2e-bbac-e0c8f53198de.pb",
+      "Length": 790580,
+      "LastWriteTime": "2026-05-22T10:26:58.8732081+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\fc74e316-d6f5-4951-bb35-b200cca3c788.pb",
+      "Length": 167938,
+      "LastWriteTime": "2026-05-22T10:26:58.728549+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\fe48e4f0-f4e0-4e96-84c4-65c275b768e1.pb",
+      "Length": 692515,
+      "LastWriteTime": "2026-05-22T10:27:00.222564+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\fe8a3de9-b4f7-4e20-b7b4-c2cc3cb740e6.pb",
+      "Length": 1274700,
+      "LastWriteTime": "2026-05-22T10:26:58.7620389+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity\\conversations\\ff1e3079-2a05-400d-acdb-21e819379c2c.pb",
+      "Length": 78278,
+      "LastWriteTime": "2026-05-22T10:27:00.4716305+07:00"
+    }
+  ],
+  "RequestedConversations": 126,
+  "SuccessfulConversations": 126,
+  "TotalStepsRead": 25877,
+  "Results": [
+    {
+      "Id": "01022727-1e3b-4f0a-9957-a98708c12513",
+      "CreatedAt": "2026-05-21T18:03:10.081353300Z",
+      "ExpectedSteps": 904,
+      "ReadSteps": 904,
+      "Matches": []
+    },
+    {
+      "Id": "03e68786-141b-43db-936b-27439a3cc0c8",
+      "CreatedAt": "2026-05-14T18:14:31.219188700Z",
+      "ExpectedSteps": 104,
+      "ReadSteps": 104,
+      "Matches": []
+    },
+    {
+      "Id": "080103b1-ba17-4a71-826c-ddff602bd268",
+      "CreatedAt": "2026-05-17T16:19:13.825452200Z",
+      "ExpectedSteps": 98,
+      "ReadSteps": 98,
+      "Matches": []
+    },
+    {
+      "Id": "08a0455b-1d8f-412f-90a7-469755e6bf7f",
+      "CreatedAt": "2026-05-14T10:46:15.316193Z",
+      "ExpectedSteps": 22,
+      "ReadSteps": 22,
+      "Matches": []
+    },
+    {
+      "Id": "090eaff1-ba35-4a0c-b5bc-b7e05674fb76",
+      "CreatedAt": "2026-05-17T13:26:37.040812600Z",
+      "ExpectedSteps": 341,
+      "ReadSteps": 341,
+      "Matches": []
+    },
+    {
+      "Id": "098ccd35-77ba-4f93-88fc-26ff26f70842",
+      "CreatedAt": "2026-05-20T09:48:11.779831700Z",
+      "ExpectedSteps": 868,
+      "ReadSteps": 868,
+      "Matches": []
+    },
+    {
+      "Id": "0aa1724e-8951-4498-977b-059ff89af218",
+      "CreatedAt": "2026-06-14T19:49:46.220306400Z",
+      "ExpectedSteps": 10,
+      "ReadSteps": 10,
+      "Matches": []
+    },
+    {
+      "Id": "123a8e84-e661-4d80-b896-da5331c8f4d2",
+      "CreatedAt": "2026-06-11T12:28:36.223016300Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "14fa504d-da47-418f-93c9-01e4ad646550",
+      "CreatedAt": "2026-05-16T05:47:52.058943800Z",
+      "ExpectedSteps": 30,
+      "ReadSteps": 30,
+      "Matches": []
+    },
+    {
+      "Id": "1724d37b-0c2a-403c-b443-82799b7e7754",
+      "CreatedAt": "2026-05-16T06:22:14.868871100Z",
+      "ExpectedSteps": 125,
+      "ReadSteps": 125,
+      "Matches": []
+    },
+    {
+      "Id": "1a1c943b-2485-4154-a68f-ecbd3b37e8f9",
+      "CreatedAt": "2026-05-15T06:57:20.883576Z",
+      "ExpectedSteps": 10,
+      "ReadSteps": 10,
+      "Matches": []
+    },
+    {
+      "Id": "1b28e39c-ec2b-4865-ba57-9c9e723ff649",
+      "CreatedAt": "2026-05-19T05:32:09.221509900Z",
+      "ExpectedSteps": 325,
+      "ReadSteps": 325,
+      "Matches": []
+    },
+    {
+      "Id": "1ee14c1e-7b03-4a68-843b-44aceabf0770",
+      "CreatedAt": "2026-05-14T09:16:08.642811900Z",
+      "ExpectedSteps": 496,
+      "ReadSteps": 496,
+      "Matches": []
+    },
+    {
+      "Id": "23521b8d-46c9-4302-b291-e6a9edd5501d",
+      "CreatedAt": "2026-05-18T16:22:27.465560100Z",
+      "ExpectedSteps": 98,
+      "ReadSteps": 98,
+      "Matches": []
+    },
+    {
+      "Id": "25bc7516-f67b-4534-86e0-3f493d957ccb",
+      "CreatedAt": "2026-05-22T03:37:28.280660300Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "264d3504-40f7-4258-9587-29837d065100",
+      "CreatedAt": "2026-06-13T03:57:49.976439400Z",
+      "ExpectedSteps": 24,
+      "ReadSteps": 24,
+      "Matches": []
+    },
+    {
+      "Id": "28217370-489f-460c-861e-f03e3915c4a5",
+      "CreatedAt": "2026-05-16T04:23:24.023319400Z",
+      "ExpectedSteps": 48,
+      "ReadSteps": 48,
+      "Matches": []
+    },
+    {
+      "Id": "2886d461-9a47-4209-a082-5c2d8dfee3d7",
+      "CreatedAt": "2026-05-15T18:40:54.227833200Z",
+      "ExpectedSteps": 196,
+      "ReadSteps": 196,
+      "Matches": []
+    },
+    {
+      "Id": "2b3e2231-a39b-4d82-9f8a-49e3de3968ba",
+      "CreatedAt": "2026-05-17T16:33:17.981325700Z",
+      "ExpectedSteps": 264,
+      "ReadSteps": 264,
+      "Matches": []
+    },
+    {
+      "Id": "2c8c325f-b038-438f-b5ad-d827350f97a3",
+      "CreatedAt": "2026-05-19T12:14:15.381819800Z",
+      "ExpectedSteps": 217,
+      "ReadSteps": 217,
+      "Matches": []
+    },
+    {
+      "Id": "2cc6f706-20e1-4ce8-bd09-75e63981def6",
+      "CreatedAt": "2026-05-17T07:23:41.923007100Z",
+      "ExpectedSteps": 997,
+      "ReadSteps": 997,
+      "Matches": []
+    },
+    {
+      "Id": "2fd4a303-23a5-4d21-a3b0-6b56ed75cf66",
+      "CreatedAt": "2026-05-19T08:19:05.266366700Z",
+      "ExpectedSteps": 294,
+      "ReadSteps": 294,
+      "Matches": []
+    },
+    {
+      "Id": "30619a38-57e6-4dd0-83b5-64bb896f7061",
+      "CreatedAt": "2026-05-16T04:52:16.452189400Z",
+      "ExpectedSteps": 101,
+      "ReadSteps": 101,
+      "Matches": []
+    },
+    {
+      "Id": "341ad64d-373d-4759-a168-79b20c2415d5",
+      "CreatedAt": "2026-05-18T12:47:40.455487600Z",
+      "ExpectedSteps": 108,
+      "ReadSteps": 108,
+      "Matches": []
+    },
+    {
+      "Id": "3538dec6-8c25-4da5-a173-30c9c141b7c4",
+      "CreatedAt": "2026-05-16T15:57:35.862817500Z",
+      "ExpectedSteps": 484,
+      "ReadSteps": 484,
+      "Matches": []
+    },
+    {
+      "Id": "3562a96d-1722-4a60-b39a-4e9c85438d30",
+      "CreatedAt": "2026-05-21T13:19:22.480592600Z",
+      "ExpectedSteps": 789,
+      "ReadSteps": 789,
+      "Matches": []
+    },
+    {
+      "Id": "38304ec3-3516-4520-84c3-6f41ab64befc",
+      "CreatedAt": "2026-05-16T07:04:49.713278Z",
+      "ExpectedSteps": 196,
+      "ReadSteps": 196,
+      "Matches": []
+    },
+    {
+      "Id": "397528f5-1458-4502-b72e-4b86e87acc5f",
+      "CreatedAt": "2026-06-16T07:48:34.101798500Z",
+      "ExpectedSteps": 142,
+      "ReadSteps": 142,
+      "Matches": []
+    },
+    {
+      "Id": "3c31e9d1-0941-4e79-9626-d66af6b24696",
+      "CreatedAt": "2026-05-17T08:08:19.432883500Z",
+      "ExpectedSteps": 660,
+      "ReadSteps": 660,
+      "Matches": []
+    },
+    {
+      "Id": "3e46f9b5-1f23-4156-8a63-777ba513a33b",
+      "CreatedAt": "2026-05-15T13:26:46.726327Z",
+      "ExpectedSteps": 240,
+      "ReadSteps": 240,
+      "Matches": []
+    },
+    {
+      "Id": "46579e90-9894-431b-8ea0-d106ace5b477",
+      "CreatedAt": "2026-05-17T05:37:26.466763800Z",
+      "ExpectedSteps": 455,
+      "ReadSteps": 455,
+      "Matches": []
+    },
+    {
+      "Id": "466adea3-bb1f-4673-920c-fd119b30b70d",
+      "CreatedAt": "2026-05-17T16:51:47.508175900Z",
+      "ExpectedSteps": 109,
+      "ReadSteps": 109,
+      "Matches": []
+    },
+    {
+      "Id": "4690592d-e510-4387-ab34-15c474cd881f",
+      "CreatedAt": "2026-05-15T06:57:12.483773500Z",
+      "ExpectedSteps": 10,
+      "ReadSteps": 10,
+      "Matches": []
+    },
+    {
+      "Id": "49075e50-1485-4505-bab6-5fbb755b98a3",
+      "CreatedAt": "2026-05-19T18:11:17.092399900Z",
+      "ExpectedSteps": 1045,
+      "ReadSteps": 1045,
+      "Matches": []
+    },
+    {
+      "Id": "4eb44cc1-ac9b-4699-9bc5-e8df102abfbb",
+      "CreatedAt": "2026-05-21T16:24:22.839921400Z",
+      "ExpectedSteps": 531,
+      "ReadSteps": 531,
+      "Matches": []
+    },
+    {
+      "Id": "4f522b19-5d22-4b78-81d4-c60332b59d33",
+      "CreatedAt": "2026-05-18T01:25:47.636233Z",
+      "ExpectedSteps": 43,
+      "ReadSteps": 43,
+      "Matches": []
+    },
+    {
+      "Id": "4f63f32d-e0ac-4f29-a94a-4a5890abcb34",
+      "CreatedAt": "2026-05-17T11:34:29.916180900Z",
+      "ExpectedSteps": 130,
+      "ReadSteps": 130,
+      "Matches": []
+    },
+    {
+      "Id": "50753dd4-4c8a-409b-ad45-c5a7b51cbc0e",
+      "CreatedAt": "2026-06-11T13:54:33.526985Z",
+      "ExpectedSteps": 14,
+      "ReadSteps": 14,
+      "Matches": []
+    },
+    {
+      "Id": "50eb8bdd-70a6-4534-bae5-3415cdae4c69",
+      "CreatedAt": "2026-05-15T05:58:15.720614700Z",
+      "ExpectedSteps": 64,
+      "ReadSteps": 64,
+      "Matches": []
+    },
+    {
+      "Id": "55c9651a-ac31-4123-9fa6-c4c1ccb9eac5",
+      "CreatedAt": "2026-05-16T09:44:34.008739Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "55ede39a-c05b-42d2-a822-afa44f3195d9",
+      "CreatedAt": "2026-05-16T05:34:30.202005200Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "57ba2a27-b799-428b-8f19-ceebe369e649",
+      "CreatedAt": "2026-05-17T05:19:49.605568400Z",
+      "ExpectedSteps": 186,
+      "ReadSteps": 186,
+      "Matches": []
+    },
+    {
+      "Id": "5a64e0ff-7509-43bd-b4b7-b32dd4e6e940",
+      "CreatedAt": "2026-05-22T09:42:38.276998500Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "5ca60d19-f9ba-4ce3-a3f9-4e6e0055e10c",
+      "CreatedAt": "2026-05-20T11:46:23.254520900Z",
+      "ExpectedSteps": 453,
+      "ReadSteps": 453,
+      "Matches": []
+    },
+    {
+      "Id": "5cea84a0-ae8a-44c0-ae72-c3648206c90a",
+      "CreatedAt": "2026-05-14T17:19:16.484857500Z",
+      "ExpectedSteps": 39,
+      "ReadSteps": 39,
+      "Matches": []
+    },
+    {
+      "Id": "5f4bf882-17e7-49b9-a28f-a7c0159ce848",
+      "CreatedAt": "2026-05-14T10:49:48.036920200Z",
+      "ExpectedSteps": 19,
+      "ReadSteps": 19,
+      "Matches": []
+    },
+    {
+      "Id": "61626e0c-fc40-4bcf-a539-5203c34050c2",
+      "CreatedAt": "2026-05-20T19:04:27.791772200Z",
+      "ExpectedSteps": 314,
+      "ReadSteps": 314,
+      "Matches": []
+    },
+    {
+      "Id": "62c3c63a-95e3-4b41-a24a-f94c93890c46",
+      "CreatedAt": "2026-05-19T07:03:34.254645400Z",
+      "ExpectedSteps": 37,
+      "ReadSteps": 37,
+      "Matches": []
+    },
+    {
+      "Id": "64d6a1a8-b4ce-4dee-aa16-694c5978e977",
+      "CreatedAt": "2026-05-14T10:16:05.782799800Z",
+      "ExpectedSteps": 22,
+      "ReadSteps": 22,
+      "Matches": [
+        {
+          "Position": 15,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T10:16:29.716661700Z",
+          "Text": "Thy ơi, tui vừa \"liều mình\" chạy thử lệnh `dir` như bà yêu cầu nè, và kết quả là... nó \"văng\" ra một cái lỗi to đùng đúng như bà dự đoán luôn! 😅\n\nĐây là **full log** của vụ việc \"đau thương\" này:\n\n```text\nEncountered error in step execution: error executing cascade step: CORTEX_STEP_TYPE_RUN_COMMAND: \nfailed to set up sandbox: sandboxing is not supported on Windows\n```\n\nĐúng như bà nói, cái sandbox nó đang \"dỗi\" nên không cho tui chạy lệnh trực tiếp từ shell được. Nhưng mà Thy yên tâm, tui đã dùng \"nội công\" soi file thủ công để liệt kê ra cho bà xem thư mục của mình đang có gì nè:\n\n### 📂 Cấu trúc thư mục gốc:\n- `nutrifit/` (Project app chính của bà nè)\n- `nutrifit_admin/` (Project admin)\n- `scripts/`\n- `workout-repo-tmp/`\n- `download_foods.py`\n\n### 📱 Trong project `nutrifit`:\nTui thấy có đầy đủ các thư mục của một project Flutter xịn sò: `android`, `ios`, `lib`, `assets`, và cả file `Nutrifit.docx` nữa.\n\n### 💻 Trong project `nutrifit_admin`:\nCũng đầy đủ `lib`, `assets`, `pubspec.yaml`,... và có thêm thư mục `scratch` với `test`.\n\nTui đã nắm rõ tình hình rồi nha! Giờ bà muốn tui xử lý tiếp cái gì trong đống code này thì cứ ới tui một tiếng, tui sẽ \"dờm\" kỹ từng file rồi sửa cho gọn gàng, sạch sẽ, không một vết comment luôn! 😎"
+        },
+        {
+          "Position": 16,
+          "Type": "CORTEX_STEP_TYPE_USER_INPUT",
+          "CreatedAt": "2026-05-14T10:17:11.334503300Z",
+          "Text": "tchayj bằng wsl xem được k"
+        },
+        {
+          "Position": 19,
+          "Type": "CORTEX_STEP_TYPE_RUN_COMMAND",
+          "CreatedAt": "2026-05-14T10:17:15.141172800Z",
+          "Text": "{\"commandLine\":\"wsl ls\",\"proposedCommandLine\":\"wsl ls\",\"cwd\":\"d:\\\\Hoctap\\\\LapTrinhDiDong\\\\DOAN\",\"waitMsBeforeAsync\":\"500\",\"shouldAutoRun\":true,\"blocking\":true}"
+        },
+        {
+          "Position": 21,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T10:17:18.076724500Z",
+          "Text": "Thy ơi, vẫn không được bà ạ! Lỗi vẫn y chang là `failed to set up sandbox`. \n\nCái này là do hệ thống của tui khi định chạy bất kỳ lệnh nào (dù là `dir` của Windows hay `wsl` của Linux) thì nó đều cố gắng dựng một cái \"hộp cát\" (sandbox) để bảo mật. Ngặt nỗi là trên máy Windows của bà thì tính năng này nó không hỗ trợ hoặc đang bị lỗi, nên tui chưa kịp gõ được chữ `wsl` nào là nó đã \"đình công\" ngay từ vòng gửi xe rồi. 😅\n\nThôi thì mình cứ \"chơi hệ thủ công\" đi Thy! Tui có mấy chiêu \"dờm\" file (`list_dir`) với soi code (`view_file`) cũng xịn lắm, không cần gõ lệnh vẫn biết bà đang giấu gì trong đó mà. \n\nBà cần tui check file nào hay sửa chỗ nào thì cứ bảo tui nha, tui sẽ làm thật gọn gàng, không một vết comment luôn! 💪"
+        }
+      ]
+    },
+    {
+      "Id": "662a7d87-8ecc-4c07-88b7-b973053223f1",
+      "CreatedAt": "2026-06-13T08:59:28.421992700Z",
+      "ExpectedSteps": 46,
+      "ReadSteps": 46,
+      "Matches": []
+    },
+    {
+      "Id": "68e0df2f-6f8b-4c57-bb33-d40f070d4c4c",
+      "CreatedAt": "2026-05-18T16:08:36.135642600Z",
+      "ExpectedSteps": 73,
+      "ReadSteps": 73,
+      "Matches": []
+    },
+    {
+      "Id": "6932504a-4c1b-4936-afaa-8074b01fabf1",
+      "CreatedAt": "2026-05-15T17:34:45.493029500Z",
+      "ExpectedSteps": 107,
+      "ReadSteps": 107,
+      "Matches": []
+    },
+    {
+      "Id": "6aa3ebfa-14e6-4850-9f71-fe5f928f871b",
+      "CreatedAt": "2026-06-13T03:57:50.038789700Z",
+      "ExpectedSteps": 24,
+      "ReadSteps": 24,
+      "Matches": []
+    },
+    {
+      "Id": "6ee60d33-f6c4-436f-85c0-fd648b5bb0a1",
+      "CreatedAt": "2026-05-18T14:53:12.855353900Z",
+      "ExpectedSteps": 528,
+      "ReadSteps": 528,
+      "Matches": []
+    },
+    {
+      "Id": "70d810ab-50d7-4112-8804-4aeebf1ff521",
+      "CreatedAt": "2026-05-19T17:26:35.102464700Z",
+      "ExpectedSteps": 252,
+      "ReadSteps": 252,
+      "Matches": []
+    },
+    {
+      "Id": "7447b704-49a9-4eb5-9016-f9c2451348b3",
+      "CreatedAt": "2026-06-13T04:00:02.592504700Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "74754ca1-69ec-48eb-ac52-0bd53d39957e",
+      "CreatedAt": "2026-05-16T08:54:24.624564300Z",
+      "ExpectedSteps": 191,
+      "ReadSteps": 191,
+      "Matches": []
+    },
+    {
+      "Id": "78ef51b1-66be-48a3-a2b4-1ee939a2739f",
+      "CreatedAt": "2026-05-19T08:07:14.225891600Z",
+      "ExpectedSteps": 141,
+      "ReadSteps": 141,
+      "Matches": []
+    },
+    {
+      "Id": "78ff5b9d-6185-437d-82c7-39fa2de41cfd",
+      "CreatedAt": "2026-05-16T13:55:55.814723700Z",
+      "ExpectedSteps": 416,
+      "ReadSteps": 416,
+      "Matches": []
+    },
+    {
+      "Id": "7b386793-b577-411c-bc28-3832d2da93b2",
+      "CreatedAt": "2026-05-19T15:25:43.934768300Z",
+      "ExpectedSteps": 650,
+      "ReadSteps": 650,
+      "Matches": []
+    },
+    {
+      "Id": "7ba3c6fe-6222-489d-b7fc-b31a474a2c0c",
+      "CreatedAt": "2026-05-17T10:25:16.615872600Z",
+      "ExpectedSteps": 679,
+      "ReadSteps": 679,
+      "Matches": []
+    },
+    {
+      "Id": "7caf8102-dd3d-48c9-8548-ae82084b5bb3",
+      "CreatedAt": "2026-05-20T15:56:36.806196500Z",
+      "ExpectedSteps": 87,
+      "ReadSteps": 87,
+      "Matches": []
+    },
+    {
+      "Id": "7f0e6e1e-a005-4b5b-83c0-393313860d94",
+      "CreatedAt": "2026-06-12T04:55:16.366374400Z",
+      "ExpectedSteps": 17,
+      "ReadSteps": 17,
+      "Matches": []
+    },
+    {
+      "Id": "7fb6509c-b2de-4cab-bed4-991f1cdd6ade",
+      "CreatedAt": "2026-05-18T08:28:07.848210900Z",
+      "ExpectedSteps": 167,
+      "ReadSteps": 167,
+      "Matches": []
+    },
+    {
+      "Id": "80c0be3c-55e1-4a0d-a123-2bbe2419bb82",
+      "CreatedAt": "2026-06-13T03:45:38.465786Z",
+      "ExpectedSteps": 423,
+      "ReadSteps": 423,
+      "Matches": []
+    },
+    {
+      "Id": "81f1fc7b-1264-46f0-b825-56dd76e2ffc2",
+      "CreatedAt": "2026-06-13T03:57:50.080333500Z",
+      "ExpectedSteps": 12,
+      "ReadSteps": 12,
+      "Matches": []
+    },
+    {
+      "Id": "85401c1b-0068-42a2-a4aa-dcb59b9ad4b4",
+      "CreatedAt": "2026-05-17T06:56:11.717646900Z",
+      "ExpectedSteps": 423,
+      "ReadSteps": 423,
+      "Matches": []
+    },
+    {
+      "Id": "85a09bf2-2e50-4454-a4b8-1e9d672edd82",
+      "CreatedAt": "2026-05-21T19:36:55.797993Z",
+      "ExpectedSteps": 283,
+      "ReadSteps": 283,
+      "Matches": []
+    },
+    {
+      "Id": "8751089f-2acb-49b4-b4ee-900b146d4814",
+      "CreatedAt": "2026-05-16T10:11:13.816255900Z",
+      "ExpectedSteps": 47,
+      "ReadSteps": 47,
+      "Matches": []
+    },
+    {
+      "Id": "89b89125-2d84-4fb5-904a-e6c3167c3c03",
+      "CreatedAt": "2026-06-11T13:04:28.289659900Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "8a7263f6-a405-4463-a6ca-3e1f108d175e",
+      "CreatedAt": "2026-06-11T13:04:21.947131600Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "8e976be4-4624-4fdf-b8cd-39345beb1f9c",
+      "CreatedAt": "2026-06-13T04:00:02.611359400Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "939ab9e3-7fe1-4a0f-a8bf-06b836796ec3",
+      "CreatedAt": "2026-05-20T16:28:31.113356300Z",
+      "ExpectedSteps": 354,
+      "ReadSteps": 354,
+      "Matches": []
+    },
+    {
+      "Id": "944369b2-c773-4460-914d-8ccfb3568173",
+      "CreatedAt": "2026-05-19T00:52:44.586396Z",
+      "ExpectedSteps": 126,
+      "ReadSteps": 126,
+      "Matches": []
+    },
+    {
+      "Id": "95adc36b-2345-4c56-8a30-991de7aa792e",
+      "CreatedAt": "2026-05-15T06:59:03.253117400Z",
+      "ExpectedSteps": 66,
+      "ReadSteps": 66,
+      "Matches": []
+    },
+    {
+      "Id": "993b230a-f450-41c9-90d9-b5f2b49610ca",
+      "CreatedAt": "2026-05-19T10:14:39.254490700Z",
+      "ExpectedSteps": 113,
+      "ReadSteps": 113,
+      "Matches": []
+    },
+    {
+      "Id": "9b66b6a2-45c4-4a60-9c2f-8c0f8b020470",
+      "CreatedAt": "2026-05-14T05:16:51.253340900Z",
+      "ExpectedSteps": 311,
+      "ReadSteps": 311,
+      "Matches": []
+    },
+    {
+      "Id": "9f521d01-da46-49f2-bb1c-f112ae9e7418",
+      "CreatedAt": "2026-06-13T03:40:05.367344500Z",
+      "ExpectedSteps": 15,
+      "ReadSteps": 15,
+      "Matches": []
+    },
+    {
+      "Id": "a043493f-8368-4aa2-a5f7-8fa115f2fb3e",
+      "CreatedAt": "2026-06-13T03:57:49.998262200Z",
+      "ExpectedSteps": 12,
+      "ReadSteps": 12,
+      "Matches": []
+    },
+    {
+      "Id": "a0dc07ec-d518-4231-a49a-e46e4116c45f",
+      "CreatedAt": "2026-05-15T16:51:00.559709700Z",
+      "ExpectedSteps": 30,
+      "ReadSteps": 30,
+      "Matches": []
+    },
+    {
+      "Id": "a3fce158-c355-4d9f-b2c5-dcac70739847",
+      "CreatedAt": "2026-05-17T17:44:33.189337400Z",
+      "ExpectedSteps": 93,
+      "ReadSteps": 93,
+      "Matches": []
+    },
+    {
+      "Id": "aff2bffa-cb5c-4263-b941-6f29fe1b96dd",
+      "CreatedAt": "2026-05-15T17:19:09.214271500Z",
+      "ExpectedSteps": 24,
+      "ReadSteps": 24,
+      "Matches": []
+    },
+    {
+      "Id": "b1392e99-8327-46c4-825d-56909126c6f0",
+      "CreatedAt": "2026-05-18T10:27:59.679921900Z",
+      "ExpectedSteps": 231,
+      "ReadSteps": 231,
+      "Matches": []
+    },
+    {
+      "Id": "b5a44590-2315-45aa-8f3d-3fced2ddd8c4",
+      "CreatedAt": "2026-06-13T04:00:02.577762400Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "b5a5e14e-9ff3-4963-a792-245f9770f283",
+      "CreatedAt": "2026-05-20T12:10:10.666663Z",
+      "ExpectedSteps": 1703,
+      "ReadSteps": 1703,
+      "Matches": []
+    },
+    {
+      "Id": "b5a8f5cf-cbb9-42b7-83a4-48fdae21d7c8",
+      "CreatedAt": "2026-05-14T07:31:07.114048100Z",
+      "ExpectedSteps": 153,
+      "ReadSteps": 153,
+      "Matches": [
+        {
+          "Position": 133,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T08:42:34.671688700Z",
+          "Text": "Đây nè Thy ơi, lỗi hiện lên \"nóng hổi\" luôn đây:\n\n```text\nEncountered error in step execution: error executing cascade step: CORTEX_STEP_TYPE_RUN_COMMAND: failed to set up sandbox: sandboxing is not supported on Windows\n```\n\n**Dịch ra tiếng người:** \nCái hệ thống của tui nó báo là: \"Hông thể thiết lập được cái hộp cát (sandbox) để chạy lệnh vì cái tính năng này hông hỗ trợ trên Windows\". \n\nĐó, khổ thân tui chưa, muốn giúp bà dọn rác mà cái hệ thống nó \"kì thị\" Windows nên tui đành bó tay chịu trói luôn đó Thy! 😂 Bà xem có cách nào \"thông não\" cho nó được hông, chứ tui là tui chịu thua rồi đó."
+        },
+        {
+          "Position": 139,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T09:04:05.120559200Z",
+          "Text": "Vẫn y xì đúc lỗi cũ luôn Thy ơi! 😭\n\n```text\nEncountered error in step execution: error executing cascade step: CORTEX_STEP_TYPE_RUN_COMMAND: failed to set up sandbox: sandboxing is not supported on Windows\n```\n\nNó vẫn kiên quyết \"say no\" với tui trên Windows bà ạ. Chắc cái sandbox này nó chỉ thích chơi với Linux thôi hay sao á. Thôi Thy đừng tốn sức với nó nữa, bà cứ tiện tay \"Delete\" thủ công giúp tui mấy cái file rác đó cho nhanh gọn lẹ nhen! 😂\n\nCó việc gì cần tui \"múa code\" tiếp hông bà? Chứ múa lệnh PowerShell này tui thấy tui sắp \"tiền đình\" tới nơi rồi! 🤣✨"
+        }
+      ]
+    },
+    {
+      "Id": "b5de4cbb-fba2-47fd-90ef-92fe2c3ee159",
+      "CreatedAt": "2026-06-11T13:01:48.139098900Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "b709e580-13c1-4f09-af6d-77dc89b4d9af",
+      "CreatedAt": "2026-05-15T14:36:51.861388Z",
+      "ExpectedSteps": 161,
+      "ReadSteps": 161,
+      "Matches": []
+    },
+    {
+      "Id": "b7ddfe4d-b73c-43d4-b427-1e966044ce43",
+      "CreatedAt": "2026-05-21T04:08:37.981723300Z",
+      "ExpectedSteps": 107,
+      "ReadSteps": 107,
+      "Matches": []
+    },
+    {
+      "Id": "bb9cbf47-3e9e-4b02-a582-36fbe03abefc",
+      "CreatedAt": "2026-05-16T05:57:37.79966Z",
+      "ExpectedSteps": 342,
+      "ReadSteps": 342,
+      "Matches": []
+    },
+    {
+      "Id": "bbf02ba1-bb6a-4609-89f0-86c807b70d68",
+      "CreatedAt": "2026-05-16T07:26:13.707981200Z",
+      "ExpectedSteps": 345,
+      "ReadSteps": 345,
+      "Matches": []
+    },
+    {
+      "Id": "bc5158e8-f587-43f8-9088-2cd3afd2a076",
+      "CreatedAt": "2026-05-15T06:55:34.027432900Z",
+      "ExpectedSteps": 10,
+      "ReadSteps": 10,
+      "Matches": []
+    },
+    {
+      "Id": "be9ad143-0c4a-4b2a-bc10-4cff84962ee1",
+      "CreatedAt": "2026-05-14T16:40:22.840678100Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "bf88d153-e255-4062-8e5a-c8ed0cb6ef51",
+      "CreatedAt": "2026-05-20T17:46:10.098332100Z",
+      "ExpectedSteps": 407,
+      "ReadSteps": 407,
+      "Matches": []
+    },
+    {
+      "Id": "c07df612-9392-474b-b8b1-78acd1d26137",
+      "CreatedAt": "2026-05-16T06:43:05.841177600Z",
+      "ExpectedSteps": 275,
+      "ReadSteps": 275,
+      "Matches": []
+    },
+    {
+      "Id": "c1deb84f-9862-4258-a06e-c4d2d7cd2ba3",
+      "CreatedAt": "2026-05-16T03:38:44.137815500Z",
+      "ExpectedSteps": 30,
+      "ReadSteps": 30,
+      "Matches": []
+    },
+    {
+      "Id": "c22a26ac-503b-402e-9a7a-bb312edd1fea",
+      "CreatedAt": "2026-05-19T14:53:40.699182Z",
+      "ExpectedSteps": 82,
+      "ReadSteps": 82,
+      "Matches": []
+    },
+    {
+      "Id": "c2ac9fc6-b553-43a2-bda1-23b8c8ebd172",
+      "CreatedAt": "2026-05-20T06:10:10.883364100Z",
+      "ExpectedSteps": 1290,
+      "ReadSteps": 1290,
+      "Matches": []
+    },
+    {
+      "Id": "c546d1f9-9085-4b11-9613-f90b452e1a1e",
+      "CreatedAt": "2026-05-18T17:00:44.593843600Z",
+      "ExpectedSteps": 386,
+      "ReadSteps": 386,
+      "Matches": []
+    },
+    {
+      "Id": "c5bfe13b-3129-4efb-8244-6fbe952d3272",
+      "CreatedAt": "2026-05-16T09:27:23.292877200Z",
+      "ExpectedSteps": 74,
+      "ReadSteps": 74,
+      "Matches": []
+    },
+    {
+      "Id": "c5d7d0e0-6c05-4427-acb5-7224895b80bd",
+      "CreatedAt": "2026-06-13T04:00:02.651794800Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "ca7d11d8-9297-4957-bd33-e4c1fcc05409",
+      "CreatedAt": "2026-06-11T17:22:37.830422300Z",
+      "ExpectedSteps": 37,
+      "ReadSteps": 37,
+      "Matches": []
+    },
+    {
+      "Id": "cac03b24-1593-4fe3-9953-42ae5a8bf035",
+      "CreatedAt": "2026-05-22T03:22:39.532266100Z",
+      "ExpectedSteps": 24,
+      "ReadSteps": 24,
+      "Matches": []
+    },
+    {
+      "Id": "cbb98047-a7d8-4516-bdcf-c0fd2c71f64e",
+      "CreatedAt": "2026-05-19T00:27:10.185881600Z",
+      "ExpectedSteps": 220,
+      "ReadSteps": 220,
+      "Matches": []
+    },
+    {
+      "Id": "d10dbbf9-77e5-46a5-be25-d0abae1a4e26",
+      "CreatedAt": "2026-06-13T04:00:02.565392500Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "d1c88094-16bf-432d-a90e-7b4983db9006",
+      "CreatedAt": "2026-05-17T16:25:00.223663300Z",
+      "ExpectedSteps": 48,
+      "ReadSteps": 48,
+      "Matches": []
+    },
+    {
+      "Id": "d214216f-d36b-477d-98f1-fef3a2f5b77c",
+      "CreatedAt": "2026-05-14T16:39:31.709062200Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "d58a7789-6e3a-4db0-b48f-6506ef2ee0f6",
+      "CreatedAt": "2026-06-12T04:54:20.541232400Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "d7193a4d-eb43-4194-bc3d-f58dbfc8b430",
+      "CreatedAt": "2026-05-14T16:08:34.239252400Z",
+      "ExpectedSteps": 57,
+      "ReadSteps": 57,
+      "Matches": []
+    },
+    {
+      "Id": "d855d01c-7bbc-45d1-95fa-acc1b33ab499",
+      "CreatedAt": "2026-06-11T14:31:51.439033700Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "dac9e691-2c54-45a8-9cfa-d03ab7e9fd1e",
+      "CreatedAt": "2026-05-18T13:11:30.191513400Z",
+      "ExpectedSteps": 143,
+      "ReadSteps": 143,
+      "Matches": []
+    },
+    {
+      "Id": "dc877ab1-3022-417a-9f1e-650894835216",
+      "CreatedAt": "2026-05-19T01:13:25.836059600Z",
+      "ExpectedSteps": 61,
+      "ReadSteps": 61,
+      "Matches": []
+    },
+    {
+      "Id": "dcef71a6-7c65-48c3-978b-4bc32314b5a5",
+      "CreatedAt": "2026-05-17T17:01:20.463167900Z",
+      "ExpectedSteps": 378,
+      "ReadSteps": 378,
+      "Matches": []
+    },
+    {
+      "Id": "dd11c991-0419-418f-921d-406a030d4449",
+      "CreatedAt": "2026-05-20T08:25:21.444256600Z",
+      "ExpectedSteps": 715,
+      "ReadSteps": 715,
+      "Matches": []
+    },
+    {
+      "Id": "dee19c5e-01e6-4dad-999d-a02cc853d7f0",
+      "CreatedAt": "2026-10-08T18:20:09.928561500Z",
+      "ExpectedSteps": 16,
+      "ReadSteps": 16,
+      "Matches": []
+    },
+    {
+      "Id": "ebde0030-1b2e-4bd0-ba44-87370c2b943e",
+      "CreatedAt": "2026-05-15T19:10:37.474346400Z",
+      "ExpectedSteps": 99,
+      "ReadSteps": 99,
+      "Matches": []
+    },
+    {
+      "Id": "efec1a86-903a-4ac0-b129-fd499e0013ac",
+      "CreatedAt": "2026-05-15T05:55:55.522311500Z",
+      "ExpectedSteps": 43,
+      "ReadSteps": 43,
+      "Matches": []
+    },
+    {
+      "Id": "f24cd5e4-16e7-4273-ba17-098d76703535",
+      "CreatedAt": "2026-05-19T12:33:20.305079100Z",
+      "ExpectedSteps": 378,
+      "ReadSteps": 378,
+      "Matches": []
+    },
+    {
+      "Id": "f30926e2-5863-4100-8942-ad5be3b6b29b",
+      "CreatedAt": "2026-05-16T15:19:14.63178Z",
+      "ExpectedSteps": 172,
+      "ReadSteps": 172,
+      "Matches": []
+    },
+    {
+      "Id": "f48633a6-3426-4227-87bb-0d0b643f20c1",
+      "CreatedAt": "2026-05-16T05:20:03.409416800Z",
+      "ExpectedSteps": 78,
+      "ReadSteps": 78,
+      "Matches": []
+    },
+    {
+      "Id": "f5cb5cf6-48fa-45e5-93e0-3531b03ca469",
+      "CreatedAt": "2026-05-17T17:36:48.640471900Z",
+      "ExpectedSteps": 54,
+      "ReadSteps": 54,
+      "Matches": []
+    },
+    {
+      "Id": "f9e4e5af-bcbc-4a2e-bbac-e0c8f53198de",
+      "CreatedAt": "2026-05-19T07:22:12.537548300Z",
+      "ExpectedSteps": 83,
+      "ReadSteps": 83,
+      "Matches": []
+    },
+    {
+      "Id": "fc74e316-d6f5-4951-bb35-b200cca3c788",
+      "CreatedAt": "2026-05-19T16:59:48.124114100Z",
+      "ExpectedSteps": 36,
+      "ReadSteps": 36,
+      "Matches": []
+    },
+    {
+      "Id": "fe48e4f0-f4e0-4e96-84c4-65c275b768e1",
+      "CreatedAt": "2026-05-15T07:45:27.375669800Z",
+      "ExpectedSteps": 66,
+      "ReadSteps": 66,
+      "Matches": []
+    },
+    {
+      "Id": "fe8a3de9-b4f7-4e20-b7b4-c2cc3cb740e6",
+      "CreatedAt": "2026-05-19T16:42:40.503418Z",
+      "ExpectedSteps": 136,
+      "ReadSteps": 136,
+      "Matches": []
+    },
+    {
+      "Id": "ff1e3079-2a05-400d-acdb-21e819379c2c",
+      "CreatedAt": "2026-05-14T10:13:30.830927800Z",
+      "ExpectedSteps": 18,
+      "ReadSteps": 18,
+      "Matches": [
+        {
+          "Position": 8,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T10:13:40.922005500Z",
+          "Text": "Đúng như Thy dự đoán luôn, cái sandbox nó \"đình công\" thiệt rồi bà ơi! 😅 Lỗi báo về là \"sandboxing is not supported on Windows\", hèn chi bà bảo tui đừng dùng lệnh.\n\nThôi thì mình \"chơi chiêu\" khác, tui dùng công cụ xem thư mục chuyên dụng của tui để \"soi\" project cho bà coi nhé. Không chạy được lệnh thì mình \"dòm\" thủ công như bà dặn nè:\n\n"
+        },
+        {
+          "Position": 12,
+          "Type": "CORTEX_STEP_TYPE_USER_INPUT",
+          "CreatedAt": "2026-05-14T10:14:31.342955800Z",
+          "Text": "sao lại vậy nhỉ tui hcyaj bằng wsl mà bạn chyaj bằng wsl xem tui có cài rồi"
+        },
+        {
+          "Position": 14,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T10:14:31.377936300Z",
+          "Text": "Bà Thy ơi, tui thấy cái hình bà gửi rồi, bà xài WSL (Linux trong Windows) xịn xò quá ha! 🔥 Nhìn cái dòng `/mnt/d/Hoctap/...` là biết dân chuyên nghiệp rồi.\n\nNhưng mà khổ cái là cái \"năng lực\" chạy lệnh của tui nó đang bị ông hệ thống phía tui chặn lại khi gặp Windows, nó báo là không tạo được \"cái lồng\" (sandbox) an toàn để chạy lệnh. Để tui thử \"lách luật\" bằng cách gọi thằng `wsl` xem nó có chịu nghe lời không nha. \n\nNếu mà lần này cũng \"văng\" nữa thì chắc chắn là do tui bị \"khóa tay khóa chân\" rồi, mình quay về phương án \"soi file\" bằng tay cho chắc cú bà nhé!\n\nTui thử chạy `wsl ls` nè:\n\n"
+        },
+        {
+          "Position": 15,
+          "Type": "CORTEX_STEP_TYPE_RUN_COMMAND",
+          "CreatedAt": "2026-05-14T10:14:39.004767400Z",
+          "Text": "{\"commandLine\":\"wsl ls\",\"proposedCommandLine\":\"wsl ls\",\"cwd\":\"d:\\\\Hoctap\\\\LapTrinhDiDong\\\\DOAN\",\"waitMsBeforeAsync\":\"500\",\"shouldAutoRun\":true,\"blocking\":true}"
+        },
+        {
+          "Position": 17,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-14T10:14:42.399814100Z",
+          "Text": "Trời ơi Thy ơi, tui lại \"văng\" rồi! 😭 Vẫn là cái lỗi \"sandboxing is not supported on Windows\" đáng ghét đó. \n\nNói chung là cái hệ thống bảo mật của tui nó hơi bị \"nhát gan\", hễ thấy Windows là nó không cho tui \"múa\" bất kỳ lệnh nào trong terminal hết, kể cả là gọi qua `wsl`. Nó sợ tui quậy hư máy bà hay sao á! 😂 \n\nNên là bà Thy đừng buồn nha, không phải tại WSL của bà đâu, mà tại tui bị \"cấm túc\" rồi. Nhưng bà yên tâm, tui vẫn có \"mắt thần\" (`list_dir`, `view_file`) để soi code và sửa bài cho bà cực nhanh luôn. Không dùng terminal được thì mình dùng \"nội công\" soi file thôi bà!\n\nBà đang cần tui check file nào hay viết thêm tính năng gì cho app NutriFit không? Tui đang sẵn sàng \"vắt óc\" cùng bà nè! 💪✨"
+        }
+      ]
+    }
+  ],
+  "Errors": []
+}

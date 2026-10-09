@@ -1,0 +1,450 @@
+{
+  "status": "VERIFIED",
+  "passed": 37,
+  "total_checks": 37,
+  "checks": [
+    {
+      "name": "preserved_before_training_rerun",
+      "passed": true,
+      "details": {
+        "count": 933,
+        "changed": []
+      }
+    },
+    {
+      "name": "independent_fit_witness_exact_train_only",
+      "passed": true,
+      "details": [
+        {
+          "rows": 22513,
+          "columns": [
+            "lag_1_kwh",
+            "lag_2_kwh",
+            "lag_3_kwh",
+            "lag_24_kwh",
+            "lag_168_kwh",
+            "rolling_mean_3_kwh",
+            "rolling_mean_24_kwh",
+            "target_hour_of_day",
+            "target_day_of_week",
+            "target_month",
+            "target_is_weekend"
+          ],
+          "exact_train_X": true,
+          "exact_train_y": true,
+          "kwargs": {},
+          "params": {
+            "categorical_features": "from_dtype",
+            "early_stopping": false,
+            "interaction_cst": null,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "loss": "squared_error",
+            "max_bins": 255,
+            "max_depth": null,
+            "max_features": 1.0,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 30,
+            "monotonic_cst": null,
+            "n_iter_no_change": 10,
+            "quantile": null,
+            "random_state": 42,
+            "scoring": "loss",
+            "tol": 1e-07,
+            "validation_fraction": 0.1,
+            "verbose": 0,
+            "warm_start": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "20261009-phase2b1-a2:output_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:source_hashes_and_verified_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:configuration_exact_and_no_early_stopping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:feature_order_train_count_and_fit_digests",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:no_test_or_final_model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:runtime_dataset_read_gate",
+      "passed": true,
+      "details": [
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/train.csv",
+          "mode": "r",
+          "fit_complete": false
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/train.csv",
+          "mode": "r",
+          "fit_complete": false
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        }
+      ]
+    },
+    {
+      "name": "20261009-phase2b1-a2:timestamp_and_target_alignment_all_4727",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:baselines_frozen_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:D09_every_value_all_models",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:decimal_metrics_hgb",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "raw": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-a2:decimal_metrics_naive",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "raw": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-a2:decimal_metrics_seasonal_naive_24",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "raw": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-a2:load_in_new_verifier_matches_saved_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:bundle_policy_and_schema",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-a2:inference_ignores_labels_by_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:output_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:source_hashes_and_verified_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:configuration_exact_and_no_early_stopping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:feature_order_train_count_and_fit_digests",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:no_test_or_final_model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:runtime_dataset_read_gate",
+      "passed": true,
+      "details": [
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/train.csv",
+          "mode": "r",
+          "fit_complete": false
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/train.csv",
+          "mode": "r",
+          "fit_complete": false
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        },
+        {
+          "path": "data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+          "mode": "r",
+          "fit_complete": true
+        }
+      ]
+    },
+    {
+      "name": "20261009-phase2b1-b:timestamp_and_target_alignment_all_4727",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:baselines_frozen_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:D09_every_value_all_models",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:decimal_metrics_hgb",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "raw": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-b:decimal_metrics_naive",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "raw": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-b:decimal_metrics_seasonal_naive_24",
+      "passed": true,
+      "details": {
+        "final": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "raw": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "negatives": 0
+      }
+    },
+    {
+      "name": "20261009-phase2b1-b:load_in_new_verifier_matches_saved_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:bundle_policy_and_schema",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20261009-phase2b1-b:inference_ignores_labels_by_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "same_config_reproducibility_saved_artifacts",
+      "passed": true,
+      "details": {
+        "candidate.joblib": true,
+        "predictions-validation.csv": true,
+        "metrics-validation.json": true,
+        "model-config.json": true
+      }
+    },
+    {
+      "name": "D09_synthetic_negative_zero_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "D09_rejects_nan_inf_and_wrong_dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_fit_no_search_or_random_split",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "preserved_after_all_training_and_QA",
+      "passed": true,
+      "details": {
+        "count": 933,
+        "changed": []
+      }
+    }
+  ],
+  "captured_at": "2026-10-09T12:08:20.023828+00:00",
+  "independent_metrics": {
+    "20261009-phase2b1-a2": {
+      "hgb": {
+        "final": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "raw": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "negatives": 0
+      },
+      "naive": {
+        "final": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "raw": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "negatives": 0
+      },
+      "seasonal_naive_24": {
+        "final": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "raw": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "negatives": 0
+      }
+    },
+    "20261009-phase2b1-b": {
+      "hgb": {
+        "final": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "raw": {
+          "mae_kwh": 0.3694427311570533,
+          "rmse_kwh": 0.5306058050415966
+        },
+        "negatives": 0
+      },
+      "naive": {
+        "final": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "raw": {
+          "mae_kwh": 0.4592722868627036,
+          "rmse_kwh": 0.6828109073989009
+        },
+        "negatives": 0
+      },
+      "seasonal_naive_24": {
+        "final": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "raw": {
+          "mae_kwh": 0.6597176503772654,
+          "rmse_kwh": 0.9503385628415242
+        },
+        "negatives": 0
+      }
+    }
+  },
+  "preserved_files": 933,
+  "reproducibility": {
+    "candidate.joblib": true,
+    "predictions-validation.csv": true,
+    "metrics-validation.json": true,
+    "model-config.json": true
+  },
+  "test_evaluated": false,
+  "limitations": "Feature leakage inherited from immutable Phase2A full-axis QA; Test binary hashes only; no Test scoring or final model lock"
+}

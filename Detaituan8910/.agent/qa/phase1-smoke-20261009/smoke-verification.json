@@ -1,0 +1,1571 @@
+{
+  "captured_at": "2026-10-09T09:32:48.226098+00:00",
+  "status": "VERIFIED",
+  "passed": 82,
+  "total": 82,
+  "checks": [
+    {
+      "name": "edge-cases/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "7d434298652f54725c98ed541c5c778b",
+          "name": "uci-smoke-edge-cases",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538216718,
+          "end-time": 1791538217712,
+          "duration": 994,
+          "state": "FINISHED",
+          "last-modification": 1791538217712,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "edge-cases/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 361,
+          "header_rows": 1,
+          "data_rows": 360,
+          "parse_error_rows": 0,
+          "missing_cells": 421
+        },
+        "actual": {
+          "total_input_rows": 361,
+          "header_rows": 1,
+          "data_rows": 360,
+          "parse_error_rows": 0,
+          "missing_cells": 421
+        }
+      }
+    },
+    {
+      "name": "edge-cases/validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "edge-cases/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "edge-cases/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "edge-cases/hour-columns",
+      "passed": true,
+      "evidence": [
+        "hour_start",
+        "record_count",
+        "distinct_minute_count",
+        "valid_power_count",
+        "observed_energy_kwh",
+        "is_complete",
+        "energy_kwh",
+        "sub1_valid_count",
+        "sub2_valid_count",
+        "sub3_valid_count",
+        "sub1_observed_kwh",
+        "sub2_observed_kwh",
+        "sub3_observed_kwh",
+        "negative_residual_count"
+      ]
+    },
+    {
+      "name": "edge-cases/all-hour-values-independent-decimal",
+      "passed": true,
+      "evidence": {
+        "compared_hours": 7,
+        "tolerance": "1e-10 absolute and relative",
+        "hour_columns": 14
+      }
+    },
+    {
+      "name": "edge-cases/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093004639332-edge-cases"
+    },
+    {
+      "name": "real-10000/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "012e738558e523488383da8e5456fe5d",
+          "name": "uci-smoke-real-10000",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538230379,
+          "end-time": 1791538232487,
+          "duration": 2108,
+          "state": "FINISHED",
+          "last-modification": 1791538232487,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "real-10000/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 10001,
+          "header_rows": 1,
+          "data_rows": 10000,
+          "parse_error_rows": 0,
+          "missing_cells": 14
+        },
+        "actual": {
+          "total_input_rows": 10001,
+          "header_rows": 1,
+          "data_rows": 10000,
+          "parse_error_rows": 0,
+          "missing_cells": 14
+        }
+      }
+    },
+    {
+      "name": "real-10000/validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "real-10000/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "real-10000/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "real-10000/hour-columns",
+      "passed": true,
+      "evidence": [
+        "hour_start",
+        "record_count",
+        "distinct_minute_count",
+        "valid_power_count",
+        "observed_energy_kwh",
+        "is_complete",
+        "energy_kwh",
+        "sub1_valid_count",
+        "sub2_valid_count",
+        "sub3_valid_count",
+        "sub1_observed_kwh",
+        "sub2_observed_kwh",
+        "sub3_observed_kwh",
+        "negative_residual_count"
+      ]
+    },
+    {
+      "name": "real-10000/all-hour-values-independent-decimal",
+      "passed": true,
+      "evidence": {
+        "compared_hours": 168,
+        "tolerance": "1e-10 absolute and relative",
+        "hour_columns": 14
+      }
+    },
+    {
+      "name": "real-10000/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093019328324-real-10000"
+    },
+    {
+      "name": "zero/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "9e5bc12252c041427c0ec7e28c0ab9b9",
+          "name": "uci-smoke-zero",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538247639,
+          "end-time": 1791538248732,
+          "duration": 1093,
+          "state": "FINISHED",
+          "last-modification": 1791538248732,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "zero/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 61,
+          "header_rows": 1,
+          "data_rows": 60,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 61,
+          "header_rows": 1,
+          "data_rows": 60,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "zero/validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "zero/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "zero/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "zero/hour-columns",
+      "passed": true,
+      "evidence": [
+        "hour_start",
+        "record_count",
+        "distinct_minute_count",
+        "valid_power_count",
+        "observed_energy_kwh",
+        "is_complete",
+        "energy_kwh",
+        "sub1_valid_count",
+        "sub2_valid_count",
+        "sub3_valid_count",
+        "sub1_observed_kwh",
+        "sub2_observed_kwh",
+        "sub3_observed_kwh",
+        "negative_residual_count"
+      ]
+    },
+    {
+      "name": "zero/all-hour-values-independent-decimal",
+      "passed": true,
+      "evidence": {
+        "compared_hours": 1,
+        "tolerance": "1e-10 absolute and relative",
+        "hour_columns": 14
+      }
+    },
+    {
+      "name": "zero/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093034542720-zero"
+    },
+    {
+      "name": "precision/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "81f8dc697832b5bbef88cabc922547c5",
+          "name": "uci-smoke-precision",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538261817,
+          "end-time": 1791538262792,
+          "duration": 975,
+          "state": "FINISHED",
+          "last-modification": 1791538262792,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "precision/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 3,
+          "header_rows": 1,
+          "data_rows": 2,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 3,
+          "header_rows": 1,
+          "data_rows": 2,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "precision/validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "precision/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "precision/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "precision/hour-columns",
+      "passed": true,
+      "evidence": [
+        "hour_start",
+        "record_count",
+        "distinct_minute_count",
+        "valid_power_count",
+        "observed_energy_kwh",
+        "is_complete",
+        "energy_kwh",
+        "sub1_valid_count",
+        "sub2_valid_count",
+        "sub3_valid_count",
+        "sub1_observed_kwh",
+        "sub2_observed_kwh",
+        "sub3_observed_kwh",
+        "negative_residual_count"
+      ]
+    },
+    {
+      "name": "precision/all-hour-values-independent-decimal",
+      "passed": true,
+      "evidence": {
+        "compared_hours": 1,
+        "tolerance": "1e-10 absolute and relative",
+        "hour_columns": 14
+      }
+    },
+    {
+      "name": "precision/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093050304562-precision"
+    },
+    {
+      "name": "duplicate/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "44621ab489cb9aed92008c55a7637cec",
+          "name": "uci-smoke-duplicate",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538277629,
+          "end-time": 1791538278580,
+          "duration": 951,
+          "state": "FINISHED",
+          "last-modification": 1791538278580,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "duplicate/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 3,
+          "header_rows": 1,
+          "data_rows": 2,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 3,
+          "header_rows": 1,
+          "data_rows": 2,
+          "parse_error_rows": 0,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "duplicate/validation",
+      "passed": true,
+      "evidence": false
+    },
+    {
+      "name": "duplicate/duplicates",
+      "passed": true,
+      "evidence": 1
+    },
+    {
+      "name": "duplicate/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "duplicate/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093104449641-duplicate"
+    },
+    {
+      "name": "invalid-number/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "82cd05cf64eef05093e4a0d4d03d2121",
+          "name": "uci-smoke-invalid-number",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538291765,
+          "end-time": 1791538292718,
+          "duration": 953,
+          "state": "FINISHED",
+          "last-modification": 1791538292718,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "invalid-number/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "invalid-number/validation",
+      "passed": true,
+      "evidence": false
+    },
+    {
+      "name": "invalid-number/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "invalid-number/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "invalid-number/quarantine-raw-values",
+      "passed": true,
+      "evidence": [
+        {
+          "date_raw": "01/01/2006",
+          "time_raw": "00:00:00",
+          "event_time": "2006-01-01 00:00:00",
+          "parse_error": "true",
+          "missing_cells": "0",
+          "power_kw": "NULL",
+          "sub1_wh": "1E+1",
+          "sub2_wh": "1E+1",
+          "sub3_wh": "1E+1",
+          "residual_wh": "NULL",
+          "power_raw": "abc",
+          "reactive_raw": "0.1",
+          "voltage_raw": "230",
+          "intensity_raw": "5",
+          "sub1_raw": "10",
+          "sub2_raw": "10",
+          "sub3_raw": "10"
+        }
+      ]
+    },
+    {
+      "name": "invalid-number/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093120258115-invalid-number"
+    },
+    {
+      "name": "invalid-time/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "948e7c5b38b64d070dec1b768552519b",
+          "name": "uci-smoke-invalid-time",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538306057,
+          "end-time": 1791538306947,
+          "duration": 890,
+          "state": "FINISHED",
+          "last-modification": 1791538306947,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "invalid-time/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "invalid-time/validation",
+      "passed": true,
+      "evidence": false
+    },
+    {
+      "name": "invalid-time/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "invalid-time/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "invalid-time/quarantine-raw-values",
+      "passed": true,
+      "evidence": [
+        {
+          "date_raw": "31/02/2006",
+          "time_raw": "00:00:00",
+          "event_time": "2006-02-28 00:00:00",
+          "parse_error": "true",
+          "missing_cells": "0",
+          "power_kw": "1",
+          "sub1_wh": "1E+1",
+          "sub2_wh": "1E+1",
+          "sub3_wh": "1E+1",
+          "residual_wh": "-13.333333333333334",
+          "power_raw": "1",
+          "reactive_raw": "0.1",
+          "voltage_raw": "230",
+          "intensity_raw": "5",
+          "sub1_raw": "10",
+          "sub2_raw": "10",
+          "sub3_raw": "10"
+        }
+      ]
+    },
+    {
+      "name": "invalid-time/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093134341866-invalid-time"
+    },
+    {
+      "name": "header-lookalike/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "2ac3274ab3a0283c4686fd2cc15fe09a",
+          "name": "uci-smoke-header-lookalike",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538321905,
+          "end-time": 1791538322781,
+          "duration": 876,
+          "state": "FINISHED",
+          "last-modification": 1791538322781,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "header-lookalike/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        },
+        "actual": {
+          "total_input_rows": 2,
+          "header_rows": 1,
+          "data_rows": 1,
+          "parse_error_rows": 1,
+          "missing_cells": 0
+        }
+      }
+    },
+    {
+      "name": "header-lookalike/validation",
+      "passed": true,
+      "evidence": false
+    },
+    {
+      "name": "header-lookalike/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "header-lookalike/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "header-lookalike/quarantine-raw-values",
+      "passed": true,
+      "evidence": [
+        {
+          "date_raw": "Date",
+          "time_raw": "Time",
+          "event_time": "NULL",
+          "parse_error": "true",
+          "missing_cells": "0",
+          "power_kw": "NULL",
+          "sub1_wh": "NULL",
+          "sub2_wh": "NULL",
+          "sub3_wh": "NULL",
+          "residual_wh": "NULL",
+          "power_raw": "changed",
+          "reactive_raw": "Global_reactive_power",
+          "voltage_raw": "Voltage",
+          "intensity_raw": "Global_intensity",
+          "sub1_raw": "Sub_metering_1",
+          "sub2_raw": "Sub_metering_2",
+          "sub3_raw": "Sub_metering_3"
+        }
+      ]
+    },
+    {
+      "name": "header-lookalike/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093150099864-header-lookalike"
+    },
+    {
+      "name": "bad-structure/strict-runtime-failure",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "c4d78139a66a2daa1e25213d6855c253",
+          "name": "uci-smoke-bad-structure",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538335912,
+          "end-time": 1791538336445,
+          "duration": 533,
+          "state": "FAILED",
+          "last-modification": 1791538336445,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 2,
+            "total": 3,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 0,
+            "initializing": 0,
+            "failed": 1
+          },
+          "pending-operators": 21
+        }
+      ]
+    },
+    {
+      "name": "bad-structure/no-promoted-grid",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093204496696-bad-structure"
+    },
+    {
+      "name": "extra-column/strict-runtime-failure",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "9bb22e8e538b7250305bf2b2a9f35338",
+          "name": "uci-smoke-extra-column",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538350484,
+          "end-time": 1791538351031,
+          "duration": 547,
+          "state": "FAILED",
+          "last-modification": 1791538351031,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 2,
+            "total": 3,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 0,
+            "initializing": 0,
+            "failed": 1
+          },
+          "pending-operators": 21
+        }
+      ]
+    },
+    {
+      "name": "extra-column/no-promoted-grid",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093217164577-extra-column"
+    },
+    {
+      "name": "real-rerun/real-job-finished",
+      "passed": true,
+      "evidence": [
+        {
+          "jid": "3aa29bb5c6fee8b17a7e33504b9e1d35",
+          "name": "uci-smoke-real-rerun",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538363625,
+          "end-time": 1791538365760,
+          "duration": 2135,
+          "state": "FINISHED",
+          "last-modification": 1791538365760,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ]
+    },
+    {
+      "name": "real-rerun/metrics",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "total_input_rows": 10001,
+          "header_rows": 1,
+          "data_rows": 10000,
+          "parse_error_rows": 0,
+          "missing_cells": 14
+        },
+        "actual": {
+          "total_input_rows": 10001,
+          "header_rows": 1,
+          "data_rows": 10000,
+          "parse_error_rows": 0,
+          "missing_cells": 14
+        }
+      }
+    },
+    {
+      "name": "real-rerun/validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "real-rerun/duplicates",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "real-rerun/source-template-hash",
+      "passed": true,
+      "evidence": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3"
+    },
+    {
+      "name": "real-rerun/hour-columns",
+      "passed": true,
+      "evidence": [
+        "hour_start",
+        "record_count",
+        "distinct_minute_count",
+        "valid_power_count",
+        "observed_energy_kwh",
+        "is_complete",
+        "energy_kwh",
+        "sub1_valid_count",
+        "sub2_valid_count",
+        "sub3_valid_count",
+        "sub1_observed_kwh",
+        "sub2_observed_kwh",
+        "sub3_observed_kwh",
+        "negative_residual_count"
+      ]
+    },
+    {
+      "name": "real-rerun/all-hour-values-independent-decimal",
+      "passed": true,
+      "evidence": {
+        "compared_hours": 168,
+        "tolerance": "1e-10 absolute and relative",
+        "hour_columns": 14
+      }
+    },
+    {
+      "name": "real-rerun/no-promoted-grid-on-rejection",
+      "passed": true,
+      "evidence": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093231834307-real-rerun"
+    },
+    {
+      "name": "rerun/identical-grid-bytes",
+      "passed": true,
+      "evidence": {
+        "first_job": "012e738558e523488383da8e5456fe5d",
+        "second_job": "3aa29bb5c6fee8b17a7e33504b9e1d35"
+      }
+    },
+    {
+      "name": "scope/full-job-blocked-before-submission",
+      "passed": true,
+      "evidence": "F04 restricted to QA sample/fixture input; full dataset needs F05 approval"
+    },
+    {
+      "name": "preservation/individual+household+electric+power+consumption.zip",
+      "passed": true,
+      "evidence": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff"
+    },
+    {
+      "name": "preservation/BaoCao_PhanTich_DuDoan_DienNang_UCI_20261008.docx",
+      "passed": true,
+      "evidence": "51edbc9ba1f27e2d2c194eabca31f8f7fcd15568b5edc5ea1a8cdb9097582fe2"
+    },
+    {
+      "name": "preservation/BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v2_20261008.docx",
+      "passed": true,
+      "evidence": "a69a0adcd4b007ba0cb15f29afc635342b08d939d52ed1e54de6cd34e7d2f6f5"
+    },
+    {
+      "name": "preservation/BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx",
+      "passed": true,
+      "evidence": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1"
+    },
+    {
+      "name": "preservation/HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx",
+      "passed": true,
+      "evidence": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c"
+    },
+    {
+      "name": "preservation/KhoiTuan Tong Quan Bai Toan Chuong 1.docx",
+      "passed": true,
+      "evidence": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15"
+    },
+    {
+      "name": "preservation/KhoiTuan_Chuong1_TongQuanBaiToan.docx",
+      "passed": true,
+      "evidence": "af99855df30a26483dd8be5a1363d49b14c0132c1fe73dec8444fdc88fbbcb2d"
+    },
+    {
+      "name": "preservation/Ke hoach Do an mon hoc Nhap mon Big data.pdf",
+      "passed": true,
+      "evidence": "61e91b9c3822994a1822de9f7f51b58f97842f3d5b1f9dfcf792f23c0feeeea4"
+    },
+    {
+      "name": "raw/extracted-bytes-match",
+      "passed": true,
+      "evidence": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7"
+    }
+  ],
+  "runs": [
+    {
+      "captured_at": "2026-10-09T09:30:19.279712+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/edge-cases.txt",
+      "source_sha256": "15375cf974afbee89fec206c162fbfdfb3b14d520cdb25bc91d8c544f0c92867",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "065a2345303151eff2ffca4753b7b63be7ffcf669d9cb8f3a98df2018a000ea9",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "edge-cases",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "7d434298652f54725c98ed541c5c778b",
+          "name": "uci-smoke-edge-cases",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538216718,
+          "end-time": 1791538217712,
+          "duration": 994,
+          "state": "FINISHED",
+          "last-modification": 1791538217712,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": true,
+      "metrics": {
+        "total_input_rows": 361,
+        "header_rows": 1,
+        "data_rows": 360,
+        "parse_error_rows": 0,
+        "missing_cells": 421
+      },
+      "minute_output_rows": 360,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 6,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093004639332-edge-cases",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:30:34.330341+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/real-10000.txt",
+      "source_sha256": "47048d221b6b85f0a38289d9695cebfd641f3547981e886c774081bdb47a942a",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "d9f655eff52b6bddc411e02fd62e1b76636737585b575b10b542f60d9a305717",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "real-10000",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "012e738558e523488383da8e5456fe5d",
+          "name": "uci-smoke-real-10000",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538230379,
+          "end-time": 1791538232487,
+          "duration": 2108,
+          "state": "FINISHED",
+          "last-modification": 1791538232487,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": true,
+      "metrics": {
+        "total_input_rows": 10001,
+        "header_rows": 1,
+        "data_rows": 10000,
+        "parse_error_rows": 0,
+        "missing_cells": 14
+      },
+      "minute_output_rows": 10000,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 168,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093019328324-real-10000",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:30:50.274923+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/zero.txt",
+      "source_sha256": "8e7ee3ed03c44ffdc9d40fd187b64ebd9ab19de8bd1e879c65f2f19598aa2198",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "7bae97f504dcab9b9c0da182d74e0d620f075ce8d292565834b6f8188cb0bd7a",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "zero",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "9e5bc12252c041427c0ec7e28c0ab9b9",
+          "name": "uci-smoke-zero",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538247639,
+          "end-time": 1791538248732,
+          "duration": 1093,
+          "state": "FINISHED",
+          "last-modification": 1791538248732,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": true,
+      "metrics": {
+        "total_input_rows": 61,
+        "header_rows": 1,
+        "data_rows": 60,
+        "parse_error_rows": 0,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 60,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 1,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093034542720-zero",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:31:04.424792+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/precision.txt",
+      "source_sha256": "302730af99c1fdac05cd65baf24ae7836b8d2d77df9401d63cc83bb17cca86fd",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "05fccecb2b2aef166dba20da203918ba3fe0c65a63b708312787d0b84e296d1e",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "precision",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "81f8dc697832b5bbef88cabc922547c5",
+          "name": "uci-smoke-precision",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538261817,
+          "end-time": 1791538262792,
+          "duration": 975,
+          "state": "FINISHED",
+          "last-modification": 1791538262792,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": true,
+      "metrics": {
+        "total_input_rows": 3,
+        "header_rows": 1,
+        "data_rows": 2,
+        "parse_error_rows": 0,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 2,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 1,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093050304562-precision",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:31:20.231309+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/duplicate.txt",
+      "source_sha256": "1b5630b2f79894ee1442a31d5d35a79d04c562acca8fa0d5f645790ab1ff79c7",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "6193023cadd8e8e0ba58f8d8b96407c52db4396d3140a9ceaa32d297edb07d4d",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "duplicate",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "44621ab489cb9aed92008c55a7637cec",
+          "name": "uci-smoke-duplicate",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538277629,
+          "end-time": 1791538278580,
+          "duration": 951,
+          "state": "FINISHED",
+          "last-modification": 1791538278580,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": false,
+      "metrics": {
+        "total_input_rows": 3,
+        "header_rows": 1,
+        "data_rows": 2,
+        "parse_error_rows": 0,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 2,
+      "duplicate_groups": 1,
+      "hourly_flink_rows": 1,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093104449641-duplicate",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:31:34.317651+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/invalid-number.txt",
+      "source_sha256": "409975a4c7ebaf460c9a2241606226749d79e784fd8e89643b3850945b151444",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "cfb6e555d12be78055a373dea188cacbfa492f1eec139df312053f0d633681d5",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "invalid-number",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "82cd05cf64eef05093e4a0d4d03d2121",
+          "name": "uci-smoke-invalid-number",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538291765,
+          "end-time": 1791538292718,
+          "duration": 953,
+          "state": "FINISHED",
+          "last-modification": 1791538292718,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": false,
+      "metrics": {
+        "total_input_rows": 2,
+        "header_rows": 1,
+        "data_rows": 1,
+        "parse_error_rows": 1,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 1,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 0,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093120258115-invalid-number",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:31:50.071900+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/invalid-time.txt",
+      "source_sha256": "04a007577bb9e5601f5dc85cc043a12d46ec07b2e0b02a8d4c2193ee68be2343",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "1ebb409c181a0a43627b9d59e306843ba7cced1ffd4403edbaca3cf84f50bb68",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "invalid-time",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "948e7c5b38b64d070dec1b768552519b",
+          "name": "uci-smoke-invalid-time",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538306057,
+          "end-time": 1791538306947,
+          "duration": 890,
+          "state": "FINISHED",
+          "last-modification": 1791538306947,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": false,
+      "metrics": {
+        "total_input_rows": 2,
+        "header_rows": 1,
+        "data_rows": 1,
+        "parse_error_rows": 1,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 1,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 0,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093134341866-invalid-time",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:32:04.470583+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/header-lookalike.txt",
+      "source_sha256": "c16403500fa881422e308f1d857e67035a033630f612b5eef316ea3297f241f7",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "66c01445c22dfce0ba3057f21041bde9305ed7893d18f527e89eb0b132397d7f",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "header-lookalike",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "2ac3274ab3a0283c4686fd2cc15fe09a",
+          "name": "uci-smoke-header-lookalike",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538321905,
+          "end-time": 1791538322781,
+          "duration": 876,
+          "state": "FINISHED",
+          "last-modification": 1791538322781,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": false,
+      "metrics": {
+        "total_input_rows": 2,
+        "header_rows": 1,
+        "data_rows": 1,
+        "parse_error_rows": 1,
+        "missing_cells": 0
+      },
+      "minute_output_rows": 1,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 0,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093150099864-header-lookalike",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:32:17.138756+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/bad-structure.txt",
+      "source_sha256": "a1a2b34d56a7b6cd3d7bc8a819317b203b8a82458350403234c79cba121ad4bd",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "adda992383e9548ad731e5af5f4002b4744cc19b5fa0549c9e36c4d85194509a",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "bad-structure",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "c4d78139a66a2daa1e25213d6855c253",
+          "name": "uci-smoke-bad-structure",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538335912,
+          "end-time": 1791538336445,
+          "duration": 533,
+          "state": "FAILED",
+          "last-modification": 1791538336445,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 2,
+            "total": 3,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 0,
+            "initializing": 0,
+            "failed": 1
+          },
+          "pending-operators": 21
+        }
+      ],
+      "runtime_finished": false,
+      "validation_accepted": false,
+      "metrics": {},
+      "minute_output_rows": 0,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 0,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093204496696-bad-structure",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:32:31.800973+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/extra-column.txt",
+      "source_sha256": "060321a18a1a91dd6c2de01cf29e1987b84db1d182416526e4d97f2f43d67951",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "112653f667eac35ad7d3408e906af8e0b64817ee8e1a608c0082c58382776c6b",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "extra-column",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "9bb22e8e538b7250305bf2b2a9f35338",
+          "name": "uci-smoke-extra-column",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538350484,
+          "end-time": 1791538351031,
+          "duration": 547,
+          "state": "FAILED",
+          "last-modification": 1791538351031,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 2,
+            "total": 3,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 0,
+            "initializing": 0,
+            "failed": 1
+          },
+          "pending-operators": 21
+        }
+      ],
+      "runtime_finished": false,
+      "validation_accepted": false,
+      "metrics": {},
+      "minute_output_rows": 0,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 0,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093217164577-extra-column",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    },
+    {
+      "captured_at": "2026-10-09T09:32:47.487259+00:00",
+      "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs/real-10000.txt",
+      "source_sha256": "47048d221b6b85f0a38289d9695cebfd641f3547981e886c774081bdb47a942a",
+      "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "sql_sha256": "013f733de6bb9797a93a05b7a79ba157970866f983632ead822d1516d05fadb0",
+      "flink_version": "2.3.0",
+      "java_home": "/usr/lib/jvm/java-17-openjdk-amd64",
+      "mode": "BATCH",
+      "label": "real-rerun",
+      "client_exit_code": 0,
+      "jobs": [
+        {
+          "jid": "3aa29bb5c6fee8b17a7e33504b9e1d35",
+          "name": "uci-smoke-real-rerun",
+          "jobType": "BATCH",
+          "schedulerType": "AdaptiveBatch",
+          "start-time": 1791538363625,
+          "end-time": 1791538365760,
+          "duration": 2135,
+          "state": "FINISHED",
+          "last-modification": 1791538365760,
+          "tasks": {
+            "running": 0,
+            "canceling": 0,
+            "canceled": 0,
+            "total": 11,
+            "created": 0,
+            "scheduled": 0,
+            "deploying": 0,
+            "reconciling": 0,
+            "finished": 11,
+            "initializing": 0,
+            "failed": 0
+          },
+          "pending-operators": 0
+        }
+      ],
+      "runtime_finished": true,
+      "validation_accepted": true,
+      "metrics": {
+        "total_input_rows": 10001,
+        "header_rows": 1,
+        "data_rows": 10000,
+        "parse_error_rows": 0,
+        "missing_cells": 14
+      },
+      "minute_output_rows": 10000,
+      "duplicate_groups": 0,
+      "hourly_flink_rows": 168,
+      "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/runs/20261009T093231834307-real-rerun",
+      "scope": "F04 QA sample/fixture only; not product or full data"
+    }
+  ],
+  "scope": "F04 only; fixtures are not empirical product results"
+}

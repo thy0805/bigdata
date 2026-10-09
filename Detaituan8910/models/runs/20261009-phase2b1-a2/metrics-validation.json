@@ -1,0 +1,43 @@
+{
+  "evaluation_split": "validation",
+  "unit": "kWh",
+  "n": 4727,
+  "official_prediction": "final",
+  "prediction_policy": "D09:max(0,prediction_raw)",
+  "models": {
+    "hgb": {
+      "mae_kwh": 0.3694427311570533,
+      "rmse_kwh": 0.5306058050415966,
+      "raw_mae_kwh": 0.3694427311570533,
+      "raw_rmse_kwh": 0.5306058050415966,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.2407157168875143,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    },
+    "naive": {
+      "mae_kwh": 0.45927228686270355,
+      "rmse_kwh": 0.6828109073989009,
+      "raw_mae_kwh": 0.45927228686270355,
+      "raw_rmse_kwh": 0.6828109073989009,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.1956,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    },
+    "seasonal_naive_24": {
+      "mae_kwh": 0.6597176503772654,
+      "rmse_kwh": 0.9503385628415242,
+      "raw_mae_kwh": 0.6597176503772654,
+      "raw_rmse_kwh": 0.9503385628415242,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.1956,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    }
+  },
+  "test_evaluated": false
+}

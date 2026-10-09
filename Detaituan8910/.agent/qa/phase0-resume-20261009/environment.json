@@ -1,0 +1,126 @@
+{
+  "captured_at": "2026-10-09T15:43:00.546918+07:00",
+  "wsl_status": {
+    "exit_code": 0,
+    "stdout": "Default Distribution: Ubuntu-24.04\r\nDefault Version: 2\r\nWSL1 is not supported with your current machine configuration.\r\nPlease enable the \"Windows Subsystem for Linux\" optional component to use WSL1.",
+    "stderr": ""
+  },
+  "wsl_version": {
+    "exit_code": 0,
+    "stdout": "WSL version: 2.7.14.0\r\nKernel version: 6.18.33.2-2\r\nWSLg version: 1.0.73.2\r\nMSRDC version: 1.2.7214\r\nDirect3D version: 1.611.1-81528511\r\nDXCore version: 10.0.26100.1-240331-1435.ge-release\r\nWindows version: 10.0.26200.9457",
+    "stderr": ""
+  },
+  "wsl_distros": {
+    "exit_code": 0,
+    "stdout": "NAME            STATE           VERSION\r\n* Ubuntu-24.04    Running         2",
+    "stderr": ""
+  },
+  "linux": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "os_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+    "identity": {
+      "exit_code": 0,
+      "stdout": "uid=1000(cute) gid=1000(cute) groups=1000(cute),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)",
+      "stderr": ""
+    },
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "python_executable": "/usr/bin/python3",
+    "modules": {
+      "pip": false,
+      "venv": true,
+      "ensurepip": false,
+      "pyflink": false,
+      "pandas": false,
+      "numpy": false,
+      "sklearn": false,
+      "streamlit": false,
+      "plotly": false
+    },
+    "packages": {
+      "apache-flink": null,
+      "pandas": null,
+      "numpy": null,
+      "scikit-learn": null,
+      "streamlit": null,
+      "plotly": null
+    },
+    "linux_packages": {
+      "exit_code": 1,
+      "stdout": "python3-venv  unknown ok not-installed\npython3.12-venv  unknown ok not-installed",
+      "stderr": "dpkg-query: no packages found matching openjdk*\ndpkg-query: no packages found matching python3-pip"
+    },
+    "java_home": null,
+    "java_linux_candidates": [],
+    "flink_candidates": [],
+    "commands": {
+      "java": null,
+      "flink": null,
+      "pip3": null,
+      "curl": "/usr/bin/curl",
+      "wget": "/usr/bin/wget",
+      "tar": "/usr/bin/tar",
+      "unzip": null
+    },
+    "memory": [
+      "MemTotal:       16215716 kB",
+      "MemFree:        15523168 kB",
+      "MemAvailable:   15527340 kB",
+      "Buffers:            5852 kB",
+      "Cached:           175768 kB",
+      "SwapCached:            0 kB",
+      "Active:            57664 kB",
+      "Inactive:         249248 kB"
+    ],
+    "disk": {
+      "/": {
+        "total_bytes": 1081101176832,
+        "free_bytes": 1024752062464,
+        "used_bytes": 1356759040
+      },
+      "/mnt/c": {
+        "total_bytes": 510481395712,
+        "free_bytes": 19687514112,
+        "used_bytes": 490793881600
+      },
+      "/mnt/d": {
+        "total_bytes": 1000202784768,
+        "free_bytes": 225378103296,
+        "used_bytes": 774824681472
+      }
+    },
+    "path_access": {
+      "/mnt/d/Hoctap/bigdata/Detaituan8910": {
+        "exists": true,
+        "readable": true
+      },
+      "/mnt/c/Users/thy/Downloads/individual+household+electric+power+consumption.zip": {
+        "exists": true,
+        "readable": true
+      }
+    },
+    "listening": {
+      "exit_code": 0,
+      "stdout": "State  Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess\nLISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          \nLISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          \nLISTEN 0      4096       127.0.0.54:53        0.0.0.0:*",
+      "stderr": ""
+    },
+    "windows_interop": {
+      "exit_code": 0,
+      "stdout": "Microsoft Windows [Version 10.0.26200.9457]",
+      "stderr": ""
+    },
+    "https_pypi": {
+      "status": 200,
+      "version": "2.3.0",
+      "requires_python": ">=3.9",
+      "cp312_linux_wheels": [
+        "apache_flink-2.3.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      ]
+    }
+  },
+  "windows_to_wsl_http": {
+    "port": 36269,
+    "status": 200,
+    "body": "phase0-wsl-localhost-ok"
+  },
+  "http_probe_exit": 0
+}

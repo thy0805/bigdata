@@ -1,0 +1,28 @@
+jobmanager:
+  rpc:
+    address: localhost
+    bind-host: 127.0.0.1
+  memory:
+    process:
+      size: 1024m
+taskmanager:
+  host: localhost
+  bind-host: 127.0.0.1
+  numberOfTaskSlots: 2
+  memory:
+    process:
+      size: 2048m
+parallelism:
+  default: 1
+rest:
+  address: localhost
+  bind-address: 0.0.0.0
+  port: 8081
+execution:
+  runtime-mode: BATCH
+env:
+  java:
+    home: /usr/lib/jvm/java-17-openjdk-amd64
+io:
+  tmp:
+    dirs: /mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp

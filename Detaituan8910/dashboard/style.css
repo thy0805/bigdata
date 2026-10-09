@@ -1,0 +1,22 @@
+.stApp {background:#f5f7fb; color:#20344e; font-family:Geist,"Segoe UI",Arial,sans-serif;}
+[data-testid="stMainBlockContainer"] {max-width:1440px; padding:2rem 3.2rem 2.5rem;}
+header[data-testid="stHeader"] {background:transparent;}
+h1 {font-size:2.2rem !important; letter-spacing:-.045em; padding-bottom:.25rem !important;}
+h3 {font-size:1.05rem !important; letter-spacing:-.015em;}
+[data-testid="stCaptionContainer"] {color:#62738c; opacity:1;}
+[data-testid="stMetric"] {background:white; border:1px solid #e1e8f2; border-radius:12px; padding:1rem 1.2rem; min-height:112px;}
+[data-testid="stMetricLabel"] {color:#62738c; font-size:.83rem;}
+[data-testid="stMetricValue"] {color:#20344e; font-size:1.75rem; font-variant-numeric:tabular-nums;}
+[class*="st-key-card_"] {background:white; border-radius:12px;}
+[class*="st-key-card_"] > [data-testid="stVerticalBlock"] {border-color:#e1e8f2 !important; border-radius:12px !important;}
+[data-baseweb="tab-list"] {gap:1.2rem; border-bottom:1px solid #dfe6f0; margin-bottom:.6rem;}
+[data-baseweb="tab"] {font-size:.95rem; min-height:44px; padding:0 .2rem;}
+[data-baseweb="tab"][aria-selected="true"] {color:#3976db; font-weight:650;}
+.brand {font-size:.82rem; letter-spacing:.14em; color:#5377a8; font-weight:650; margin-bottom:.3rem;}
+.forecast-value {font-size:2.25rem; line-height:1.2; font-weight:650; color:#3976db; letter-spacing:-.04em; margin:.6rem 0;}
+.forecast-unit {font-size:.9rem; color:#697c95; font-weight:400; margin-left:.4rem;}
+.small-label {font-size:.8rem; color:#73859b; margin-top:.45rem;}
+.small-value {font-size:.92rem; color:#20344e; margin-bottom:.7rem;}
+.footer-note {font-size:.75rem; color:#73859b; border-top:1px solid #e1e8f2; padding-top:.8rem; margin-top:.8rem;}
+[data-testid="stBaseButton-primary"] {border-radius:8px; font-weight:600;}
+@media (max-width:900px) {[data-testid="stMainBlockContainer"] {padding:1.6rem 1.2rem;} h1 {font-size:1.8rem !important;} [data-testid="stMetricValue"] {font-size:1.4rem;}}

@@ -1,0 +1,55 @@
+{
+  "status": "VERIFIED",
+  "passed": 10,
+  "total_checks": 10,
+  "checks": [
+    {
+      "name": "combined96_unchanged",
+      "passed": true
+    },
+    {
+      "name": "U00_U05_VERIFIED_readback",
+      "passed": true
+    },
+    {
+      "name": "recovery_block_and_approval_boundary",
+      "passed": true
+    },
+    {
+      "name": "final_handoff_96_and_scope",
+      "passed": true
+    },
+    {
+      "name": "source_gate_readback",
+      "passed": true
+    },
+    {
+      "name": "app_files_unchanged_after_tests",
+      "passed": true
+    },
+    {
+      "name": "source976_after_doc_updates",
+      "passed": true
+    },
+    {
+      "name": "zip_integrity",
+      "passed": true
+    },
+    {
+      "name": "all_packaged_entry_hashes",
+      "passed": true
+    },
+    {
+      "name": "model_packaged_expected_hash",
+      "passed": true
+    }
+  ],
+  "archive": ".agent/qa/phase3-20261009/Phase3_Dashboard_Handoff_20261009_FINAL.zip",
+  "archive_sha256": "c9777aaee70b9b0131f718c9cd80964ff903ec0bef289da084f33602f7c58002",
+  "archive_bytes": 1761746,
+  "files": 55,
+  "source_preservation": 976,
+  "app_qa": 96,
+  "acceptance": "PENDING",
+  "next_phase_authorized": false
+}

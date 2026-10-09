@@ -1,0 +1,78 @@
+{
+  "sampling_interval_seconds": 3,
+  "samples": 67,
+  "before": {
+    "at": "2026-10-09T10:22:01.900152+00:00",
+    "MemTotal_bytes": 16604893184,
+    "MemAvailable_bytes": 12823773184,
+    "SwapTotal_bytes": 4294967296,
+    "SwapFree_bytes": 4294967296,
+    "C_free_bytes": 28201496576,
+    "D_free_bytes": 242620379136,
+    "processes": [
+      {
+        "pid": 6910,
+        "name": "python3",
+        "rss_bytes": 23306240
+      },
+      {
+        "pid": 7643,
+        "name": "java",
+        "rss_bytes": 913809408
+      },
+      {
+        "pid": 8167,
+        "name": "java",
+        "rss_bytes": 2150785024
+      },
+      {
+        "pid": 21538,
+        "name": "python3",
+        "rss_bytes": 12099584
+      },
+      {
+        "pid": 21544,
+        "name": "python3",
+        "rss_bytes": 27041792
+      }
+    ],
+    "java_rss_sum_bytes": 3064594432
+  },
+  "after": {
+    "at": "2026-10-09T10:26:24.006792+00:00",
+    "MemTotal_bytes": 16604893184,
+    "MemAvailable_bytes": 12740317184,
+    "SwapTotal_bytes": 4294967296,
+    "SwapFree_bytes": 4294967296,
+    "C_free_bytes": 27961999360,
+    "D_free_bytes": 242337009664,
+    "processes": [
+      {
+        "pid": 6910,
+        "name": "python3",
+        "rss_bytes": 23306240
+      },
+      {
+        "pid": 7643,
+        "name": "java",
+        "rss_bytes": 925057024
+      },
+      {
+        "pid": 8167,
+        "name": "java",
+        "rss_bytes": 2172559360
+      },
+      {
+        "pid": 21544,
+        "name": "python3",
+        "rss_bytes": 62312448
+      }
+    ],
+    "java_rss_sum_bytes": 3097616384
+  },
+  "peak_observed_java_rss_bytes": 3904696320,
+  "min_observed_mem_available_bytes": 11995230208,
+  "min_C_free_bytes": 27961999360,
+  "min_D_free_bytes": 242218119168,
+  "limitations": "Observed Linux process RSS sums can count shared pages. Not Windows whole-machine peak; sampled every3s, not continuous. C/D statvfs is mounted physical volume, not VHD virtual capacity."
+}

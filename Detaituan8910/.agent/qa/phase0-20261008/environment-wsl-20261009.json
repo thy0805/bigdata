@@ -1,0 +1,241 @@
+{
+  "captured_at": "2026-10-09T00:11:30.8298191+07:00",
+  "powershell_version": "7.6.5",
+  "process_64bit": true,
+  "is_admin": false,
+  "os": {
+    "Caption": "Microsoft Windows 11 Home Single Language",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200",
+    "OSArchitecture": "64-bit",
+    "TotalVisibleMemorySize": 33234808,
+    "FreePhysicalMemory": 14714472
+  },
+  "windows": {
+    "DisplayVersion": "25H2",
+    "UBR": 9457,
+    "EditionID": "CoreSingleLanguage"
+  },
+  "host": {
+    "HypervisorPresent": true,
+    "Manufacturer": "Acer",
+    "Model": "Aspire A715-59G",
+    "TotalPhysicalMemory": 34032443392
+  },
+  "cpu": {
+    "Name": "12th Gen Intel(R) Core(TM) i7-12650H",
+    "NumberOfCores": 10,
+    "NumberOfLogicalProcessors": 16,
+    "VirtualizationFirmwareEnabled": false,
+    "VMMonitorModeExtensions": false,
+    "SecondLevelAddressTranslationExtensions": false
+  },
+  "optional_features": [
+    {
+      "Name": "VirtualMachinePlatform",
+      "InstallState": 2
+    },
+    {
+      "Name": "HypervisorPlatform",
+      "InstallState": 1
+    },
+    {
+      "Name": "Microsoft-Windows-Subsystem-Linux",
+      "InstallState": 2
+    }
+  ],
+  "services": [
+    {
+      "Name": "msiserver",
+      "State": "Stopped",
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\system32\\msiexec.exe /V"
+    }
+  ],
+  "service_names_not_found": [
+    "WslService",
+    "WslInstaller",
+    "LxssManager",
+    "vmcompute"
+  ],
+  "appx_packages": [
+    {
+      "name": "MicrosoftCorporationII.WindowsSubsystemForLinux",
+      "version": "2.7.3.0",
+      "full_name": "MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe",
+      "location": "C:\\Program Files\\WindowsApps\\microsoftcorporationii.windowssubsystemforlinux_2.7.3.0_x64__8wekyb3d8bbwe",
+      "status": "Ok",
+      "manifest_sha256": "5F3CEEB8F8BA6222EE6028D8539E41E83310FFEE71E9DD821611A7EAA0084723",
+      "has_installer_service": false,
+      "has_installer_class": false,
+      "files": [
+        {
+          "Name": "AppxMetadata",
+          "Length": null
+        },
+        {
+          "Name": "Images",
+          "Length": null
+        },
+        {
+          "Name": "microsoft.system.package.metadata",
+          "Length": null
+        },
+        {
+          "Name": "AppxBlockMap.xml",
+          "Length": 13542
+        },
+        {
+          "Name": "AppxManifest.xml",
+          "Length": 4470
+        },
+        {
+          "Name": "AppxSignature.p7x",
+          "Length": 10221
+        },
+        {
+          "Name": "resources.pri",
+          "Length": 987408
+        },
+        {
+          "Name": "wsl.exe",
+          "Length": 4291384
+        }
+      ]
+    }
+  ],
+  "registry": [
+    {
+      "path": "Registry::HKEY_CLASSES_ROOT\\CLSID\\{B5AEB4C3-9541-492F-AD4D-505951F6ADA4}",
+      "exists": false
+    },
+    {
+      "path": "HKLM:\\SOFTWARE\\Classes\\PackagedCom\\ClassIndex\\{B5AEB4C3-9541-492F-AD4D-505951F6ADA4}",
+      "exists": false
+    },
+    {
+      "path": "HKCU:\\SOFTWARE\\Classes\\PackagedCom\\ClassIndex\\{B5AEB4C3-9541-492F-AD4D-505951F6ADA4}",
+      "exists": false
+    },
+    {
+      "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Lxss\\MSI",
+      "exists": false
+    },
+    {
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Lxss",
+      "exists": false
+    }
+  ],
+  "wsl_msi_folder_exists": false,
+  "wsl_uninstall_entries": [],
+  "windows_installer_com": {
+    "success": true,
+    "install_method_called": false
+  },
+  "device_guard": [
+    {
+      "VirtualizationBasedSecurityStatus": 2,
+      "SecurityServicesRunning": [
+        2
+      ],
+      "AvailableSecurityProperties": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "path": "C:\\Users\\thy\\miniconda3\\python.exe",
+      "exists": true,
+      "timed_out": false,
+      "exit_code": 0,
+      "stdout": "Python 3.13.13",
+      "stderr": ""
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe",
+      "exists": true,
+      "timed_out": false,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "java version \"1.8.0_401\"\r\nJava(TM) SE Runtime Environment (build 1.8.0_401-b10)\r\nJava HotSpot(TM) 64-Bit Server VM (build 25.401-b10, mixed mode)"
+    },
+    {
+      "path": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\java.exe",
+      "exists": true,
+      "timed_out": false,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "openjdk version \"21.0.8\" 2025-07-15\r\nOpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)\r\nOpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)"
+    }
+  ],
+  "system_files": [
+    {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "file_version": "10.0.26100.8737 (WinBuild.160101.0800)",
+      "sha256": "27CC8DD52BE326E138A89F8889241B1D8C51DD1978B22EB70BE77036CCDEE3C2"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msiexec.exe",
+      "file_version": "5.0.26100.1 (WinBuild.160101.0800)",
+      "sha256": "954D7D13A11827116CC88A12B1E12CE34604264948CC32E4A3EF6D6D6AFA2913"
+    }
+  ],
+  "commands": [
+    {
+      "Name": "python.exe",
+      "Source": "C:\\Users\\thy\\miniconda3\\python.exe",
+      "CommandType": 32
+    },
+    {
+      "Name": "java.exe",
+      "Source": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe",
+      "CommandType": 32
+    },
+    {
+      "Name": "wsl.exe",
+      "Source": "C:\\WINDOWS\\system32\\wsl.exe",
+      "CommandType": 32
+    }
+  ],
+  "disks": [
+    {
+      "DeviceID": "C:",
+      "Size": 510481395712,
+      "FreeSpace": 36472057856
+    },
+    {
+      "DeviceID": "D:",
+      "Size": 1000202784768,
+      "FreeSpace": 225333846016
+    },
+    {
+      "DeviceID": "G:",
+      "Size": 16106127360,
+      "FreeSpace": 16086077440
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "C:\\Users\\thy\\Downloads\\individual+household+electric+power+consumption.zip",
+      "sha256": "9F84B46ADE8A2D8E1286EC4B2B6C2987A45A755C59F263BE3B3B3D10DFBDA3FF"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx",
+      "sha256": "EFC3ACDFEC05BC264EB3320F2DF363241CAB29818830A7159CC88AABDB77BDD1"
+    }
+  ],
+  "safety": {
+    "wsl_executed": false,
+    "installed_anything": false,
+    "changed_registry": false,
+    "changed_features": false,
+    "rebooted": false
+  }
+}

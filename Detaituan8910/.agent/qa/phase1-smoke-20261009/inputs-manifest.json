@@ -1,0 +1,34 @@
+{
+  "captured_at": "2026-10-09T16:14:31.233892+07:00",
+  "source_zip": "C:\\Users\\thy\\Downloads\\individual+household+electric+power+consumption.zip",
+  "source_zip_sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+  "raw_path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\raw\\household_power_consumption.txt",
+  "raw_bytes": 132960755,
+  "raw_sha256": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7",
+  "raw_matches_zip_member_bytes": true,
+  "sample_rows": 10000,
+  "real_sample_sha256": "47048d221b6b85f0a38289d9695cebfd641f3547981e886c774081bdb47a942a",
+  "fixtures_are_test_only": true,
+  "source_hashes_before": {
+    "C:\\Users\\thy\\Downloads\\individual+household+electric+power+consumption.zip": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_20261008.docx": "51edbc9ba1f27e2d2c194eabca31f8f7fcd15568b5edc5ea1a8cdb9097582fe2",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v2_20261008.docx": "a69a0adcd4b007ba0cb15f29afc635342b08d939d52ed1e54de6cd34e7d2f6f5",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan Tong Quan Bai Toan Chuong 1.docx": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan_Chuong1_TongQuanBaiToan.docx": "af99855df30a26483dd8be5a1363d49b14c0132c1fe73dec8444fdc88fbbcb2d",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\Ke hoach Do an mon hoc Nhap mon Big data.pdf": "61e91b9c3822994a1822de9f7f51b58f97842f3d5b1f9dfcf792f23c0feeeea4"
+  },
+  "disk_after_preparation": {
+    "C": {
+      "total": 510481395712,
+      "used": 482020696064,
+      "free": 28460699648
+    },
+    "D": {
+      "total": 1000202784768,
+      "used": 775662735360,
+      "free": 224540049408
+    }
+  }
+}

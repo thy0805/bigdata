@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-09T09:13:09.733170+00:00",
+  "source_url": "https://downloads.apache.org/flink/flink-2.3.0/flink-2.3.0-bin-scala_2.12.tgz",
+  "checksum_url": "https://downloads.apache.org/flink/flink-2.3.0/flink-2.3.0-bin-scala_2.12.tgz.sha512",
+  "sha512_expected": "e5863767caeaa7c72e45fc62d45f7df9f435a1c83aed813ea550db39e9221194d148ea4a6c3bfb5604335974729c579d48c6c4c3eb43502e37310a0bf982462a",
+  "sha512_actual": "e5863767caeaa7c72e45fc62d45f7df9f435a1c83aed813ea550db39e9221194d148ea4a6c3bfb5604335974729c579d48c6c4c3eb43502e37310a0bf982462a",
+  "checksum_match": true,
+  "archive_bytes": 604828545,
+  "runtime_path": "/home/cute/.local/opt/flink-2.3.0",
+  "runtime_file_bytes": 653947269,
+  "uid": 1000,
+  "java": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-24.04-Ubuntu, mixed mode, sharing)\n",
+  "flink_installed_without_root": true
+}

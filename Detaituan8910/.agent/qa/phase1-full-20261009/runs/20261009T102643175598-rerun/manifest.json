@@ -1,0 +1,172 @@
+{
+  "status": "APPLIED_UNVERIFIED",
+  "scope": "F05 full Flink; pending independent F06 oracle",
+  "captured_at": "2026-10-09T10:29:51.259391+00:00",
+  "run_id": "20261009T102643175598-rerun",
+  "run_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/data/processed/runs/20261009T102643175598-rerun",
+  "support_dir": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun",
+  "source": "/mnt/d/Hoctap/bigdata/Detaituan8910/data/raw/household_power_consumption.txt",
+  "source_sha256_before": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7",
+  "source_sha256_after": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7",
+  "template_sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+  "sql_sha256": "f9b1d7a0f2501a373da4648d9f4bf6b903ff47ce0da448cb6ba07aeba0588d75",
+  "launcher_sha256": "73c81ff2ac3fe4aacedd8932cb112e8efbf7ce59dfe21611ca904220f12bd820",
+  "parser_revision": "F05-D/M/YYYY-and-DD/MM/YYYY; date parts padded before validated TRY_CAST; aggregation unchanged",
+  "runtime": {
+    "refresh-interval": 3000,
+    "timezone-name": "Coordinated Universal Time",
+    "timezone-offset": 0,
+    "flink-version": "2.3.0",
+    "flink-revision": "c0f8d1a @ 2026-06-14T16:29:03+02:00",
+    "features": {
+      "web-submit": true,
+      "web-cancel": true,
+      "web-rescale": false,
+      "web-history": false
+    }
+  },
+  "mode": "BATCH",
+  "timezone_policy": "naive source calendar; no UTC/DST inference",
+  "client_exit_code": 0,
+  "client_wall_seconds": 150.50761667300048,
+  "jobs": [
+    {
+      "jid": "170801766af83f1b80107c86d91cedfd",
+      "name": "uci-full-20261009T102643175598-rerun",
+      "jobType": "BATCH",
+      "schedulerType": "AdaptiveBatch",
+      "start-time": 1791541618654,
+      "end-time": 1791541757098,
+      "duration": 138444,
+      "state": "FINISHED",
+      "last-modification": 1791541757098,
+      "tasks": {
+        "running": 0,
+        "canceling": 0,
+        "canceled": 0,
+        "total": 11,
+        "created": 0,
+        "scheduled": 0,
+        "deploying": 0,
+        "reconciling": 0,
+        "finished": 11,
+        "initializing": 0,
+        "failed": 0
+      },
+      "pending-operators": 0
+    }
+  ],
+  "metrics": {
+    "total_input_rows": 2075260,
+    "header_rows": 1,
+    "data_rows": 2075259,
+    "parse_error_rows": 0,
+    "missing_cells": 181853
+  },
+  "minute_output_rows": 2075259,
+  "duplicate_groups": 0,
+  "flink_hourly_rows": 34589,
+  "hourly_grid_rows": 34589,
+  "reindex_only_python": true,
+  "resources": {
+    "sampling_interval_seconds": 3,
+    "samples": 53,
+    "before": {
+      "at": "2026-10-09T10:26:43.175567+00:00",
+      "MemTotal_bytes": 16604893184,
+      "MemAvailable_bytes": 12764958720,
+      "SwapTotal_bytes": 4294967296,
+      "SwapFree_bytes": 4294967296,
+      "C_free_bytes": 27961802752,
+      "D_free_bytes": 242336989184,
+      "processes": [
+        {
+          "pid": 6910,
+          "name": "python3",
+          "rss_bytes": 23306240
+        },
+        {
+          "pid": 7643,
+          "name": "java",
+          "rss_bytes": 925065216
+        },
+        {
+          "pid": 8167,
+          "name": "java",
+          "rss_bytes": 2172559360
+        },
+        {
+          "pid": 22646,
+          "name": "python3",
+          "rss_bytes": 27750400
+        },
+        {
+          "pid": 22653,
+          "name": "python3",
+          "rss_bytes": 27054080
+        }
+      ],
+      "java_rss_sum_bytes": 3097624576
+    },
+    "after": {
+      "at": "2026-10-09T10:29:51.256683+00:00",
+      "MemTotal_bytes": 16604893184,
+      "MemAvailable_bytes": 12581044224,
+      "SwapTotal_bytes": 4294967296,
+      "SwapFree_bytes": 4294967296,
+      "C_free_bytes": 27958829056,
+      "D_free_bytes": 242080296960,
+      "processes": [
+        {
+          "pid": 6910,
+          "name": "python3",
+          "rss_bytes": 23306240
+        },
+        {
+          "pid": 7643,
+          "name": "java",
+          "rss_bytes": 928235520
+        },
+        {
+          "pid": 8167,
+          "name": "java",
+          "rss_bytes": 2346676224
+        },
+        {
+          "pid": 22653,
+          "name": "python3",
+          "rss_bytes": 62267392
+        }
+      ],
+      "java_rss_sum_bytes": 3274911744
+    },
+    "peak_observed_java_rss_bytes": 4115120128,
+    "min_observed_mem_available_bytes": 11779817472,
+    "min_C_free_bytes": 27958829056,
+    "min_D_free_bytes": 241945882624,
+    "limitations": "Observed Linux process RSS sums can count shared pages. Not Windows whole-machine peak; sampled every3s, not continuous. C/D statvfs is mounted physical volume, not VHD virtual capacity."
+  },
+  "artifacts": [
+    {
+      "path": "flink-parts/hourly/part-601a1a0c-969c-4f9e-85a4-775710166aa2-task-0-file-0",
+      "bytes": 3252164,
+      "sha256": "f367e936cdf05ee967787df92032d6922e4ad6aa9769e07a812da40eb996b606"
+    },
+    {
+      "path": "flink-parts/metrics/part-5829b1b4-5c33-41ef-bca7-db06690ef59c-task-0-file-0",
+      "bytes": 27,
+      "sha256": "e2dcf8093b2949a18a0fc8fd6ace4f1add648fc5b3850dd694bb933e33922c42"
+    },
+    {
+      "path": "flink-parts/minutes/part-b885c79e-35d6-4101-b472-5fbe48569e82-task-0-file-0",
+      "bytes": 246870071,
+      "sha256": "f63a753fb1d84a714ac894bd2eb1cabbb8825d2f02dcc5e2b675595145efd66d"
+    },
+    {
+      "path": "hourly-grid.csv",
+      "bytes": 3217812,
+      "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc"
+    }
+  ],
+  "product_bytes": 253340074
+}

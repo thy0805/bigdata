@@ -1,0 +1,515 @@
+{
+  "status": "VERIFIED",
+  "captured_at": "2026-10-09T13:09:57.118223+00:00",
+  "passed": 51,
+  "total_checks": 51,
+  "checks": [
+    {
+      "name": "selection_pretest_PASS_before_official_Test_start",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "one_official_evaluation_and_runtime_no_fit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_and_Test_hash_exact_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "evaluation_output_and_code_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ML_Flink_lineage_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pinned_runtime_packages",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "evaluation_code_has_no_fit_or_hyperparameter_search_call",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Test_and_prediction_schema_4590_finite_nonnegative_targets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "shared_mask_target_origin_end_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "baseline_predictions_are_past_lag1_lag24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full_hourly_axis_and_missing_policy",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_Test_eligibility_exact_4590_no_mask_change",
+      "passed": true,
+      "details": {
+        "first": "2010-04-24 17:00:00",
+        "last": "2010-11-26 20:00:00",
+        "axis_hours": 5189,
+        "excluded": 599
+      }
+    },
+    {
+      "name": "all_11_features_and_targets_independent_timestamp_oracle",
+      "passed": true,
+      "details": {
+        "rows": 4590,
+        "maximum_difference_kwh": "7.06666666666666666666666666667E-15",
+        "errors": []
+      }
+    },
+    {
+      "name": "no_future_measurement_offsets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_and_future_hour_perturbation_cannot_change_current_features",
+      "passed": true,
+      "details": {
+        "timestamp": "2010-08-02 16:00:00"
+      }
+    },
+    {
+      "name": "hgb_raw_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.322054258829114658248366013071895424836601307",
+        "library": 0.3220542588291146,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "hgb_raw_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.463487485471698707090827093194593597296114250",
+        "library": 0.4634874854716987,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "hgb_final_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.322054258829114658248366013071895424836601307",
+        "library": 0.3220542588291146,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "hgb_final_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.463487485471698707090827093194593597296114250",
+        "library": 0.4634874854716987,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "hgb_D09_all_rows_and_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hgb_D09_metric_effect",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "naive_raw_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.385786942628903409122004357298474945533769063",
+        "library": 0.3857869426289034,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "naive_raw_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.584520037392880049858329992935481260861380040",
+        "library": 0.58452003739288,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "naive_final_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.385786942628903409122004357298474945533769063",
+        "library": 0.3857869426289034,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "naive_final_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.584520037392880049858329992935481260861380040",
+        "library": 0.58452003739288,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "naive_D09_all_rows_and_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "naive_D09_metric_effect",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seasonal_naive_24_raw_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.503636673928830789721132897603485838779956427",
+        "library": 0.5036366739288308,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "seasonal_naive_24_raw_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.752648121705457921663296224161314960796787246",
+        "library": 0.7526481217054579,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "seasonal_naive_24_final_mae_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.503636673928830789721132897603485838779956427",
+        "library": 0.5036366739288308,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "seasonal_naive_24_final_rmse_Decimal_vs_library",
+      "passed": true,
+      "details": {
+        "decimal": "0.752648121705457921663296224161314960796787246",
+        "library": 0.7526481217054579,
+        "tolerance_kwh": "1e-12"
+      }
+    },
+    {
+      "name": "seasonal_naive_24_D09_all_rows_and_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seasonal_naive_24_D09_metric_effect",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_still_Train_only_22513_no_early_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Test_label_perturbation_cannot_change_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "in_process_fixed_candidate_exact_saved_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "D09_negative_zero_positive_fixture",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "D09_rejects_nonfinite_and_nonvector",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "feature_order_invalid_inference_schema_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_column_invalid_inference_schema_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reproducibility-candidate.json_separate_process",
+      "passed": true,
+      "details": {
+        "exit_code": 0,
+        "stderr": "",
+        "stdout": "{\"captured_at\": \"2026-10-09T13:09:35.055552+00:00\", \"pid\": 24269, \"python\": \"3.12.3\", \"model_sha256\": \"94ed8c4e493025ae363a3cc6fb1b0639ef2368264966b5bda190303e98a95c38\", \"feature_columns\": [\"lag_1_kwh\", \"lag_2_kwh\", \"lag_3_kwh\", \"lag_24_kwh\", \"lag_168_kwh\", \"rolling_mean_3_kwh\", \"rolling_mean_24_kwh\", \"target_hour_of_day\", \"target_day_of_week\", \"target_month\", \"target_is_weekend\"], \"n\": 4590, \"fit_calls\": 0, \"labels_passed_to_predict\": false, \"exact_raw\": true, \"exact_final\": true, \"maximum_difference_kwh\": 0.0, \"raw_sha256\": \"edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3\", \"final_sha256\": \"edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3\", \"estimator_fingerprint\": \"c9474b1121b103f58b9c7d78bd88e13bae146bc5\", \"evaluated_again\": false, \"note\": \"Fixed-model inference only; no scoring, fit or model selection\"}\n"
+      }
+    },
+    {
+      "name": "reproducibility-candidate.json_exact_predictions_no_fit",
+      "passed": true,
+      "details": {
+        "captured_at": "2026-10-09T13:09:35.055552+00:00",
+        "pid": 24269,
+        "python": "3.12.3",
+        "model_sha256": "94ed8c4e493025ae363a3cc6fb1b0639ef2368264966b5bda190303e98a95c38",
+        "feature_columns": [
+          "lag_1_kwh",
+          "lag_2_kwh",
+          "lag_3_kwh",
+          "lag_24_kwh",
+          "lag_168_kwh",
+          "rolling_mean_3_kwh",
+          "rolling_mean_24_kwh",
+          "target_hour_of_day",
+          "target_day_of_week",
+          "target_month",
+          "target_is_weekend"
+        ],
+        "n": 4590,
+        "fit_calls": 0,
+        "labels_passed_to_predict": false,
+        "exact_raw": true,
+        "exact_final": true,
+        "maximum_difference_kwh": 0.0,
+        "raw_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+        "final_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+        "estimator_fingerprint": "c9474b1121b103f58b9c7d78bd88e13bae146bc5",
+        "evaluated_again": false,
+        "note": "Fixed-model inference only; no scoring, fit or model selection"
+      }
+    },
+    {
+      "name": "accepted_artifacts_preserved_before_final_packaging",
+      "passed": true,
+      "details": {
+        "count": 951,
+        "matched": 951,
+        "cache": 0
+      }
+    },
+    {
+      "name": "no_training_during_independent_QA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_metadata_LOCKED_Train_only_no_refit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_estimator_identical_to_candidate_fingerprint",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reproducibility-final.json_separate_process",
+      "passed": true,
+      "details": {
+        "exit_code": 0,
+        "stderr": "",
+        "stdout": "{\"captured_at\": \"2026-10-09T13:09:46.184620+00:00\", \"pid\": 24303, \"python\": \"3.12.3\", \"model_sha256\": \"f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c\", \"feature_columns\": [\"lag_1_kwh\", \"lag_2_kwh\", \"lag_3_kwh\", \"lag_24_kwh\", \"lag_168_kwh\", \"rolling_mean_3_kwh\", \"rolling_mean_24_kwh\", \"target_hour_of_day\", \"target_day_of_week\", \"target_month\", \"target_is_weekend\"], \"n\": 4590, \"fit_calls\": 0, \"labels_passed_to_predict\": false, \"exact_raw\": true, \"exact_final\": true, \"maximum_difference_kwh\": 0.0, \"raw_sha256\": \"edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3\", \"final_sha256\": \"edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3\", \"estimator_fingerprint\": \"c9474b1121b103f58b9c7d78bd88e13bae146bc5\", \"evaluated_again\": false, \"note\": \"Fixed-model inference only; no scoring, fit or model selection\"}\n"
+      }
+    },
+    {
+      "name": "reproducibility-final.json_exact_predictions_no_fit",
+      "passed": true,
+      "details": {
+        "captured_at": "2026-10-09T13:09:46.184620+00:00",
+        "pid": 24303,
+        "python": "3.12.3",
+        "model_sha256": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+        "feature_columns": [
+          "lag_1_kwh",
+          "lag_2_kwh",
+          "lag_3_kwh",
+          "lag_24_kwh",
+          "lag_168_kwh",
+          "rolling_mean_3_kwh",
+          "rolling_mean_24_kwh",
+          "target_hour_of_day",
+          "target_day_of_week",
+          "target_month",
+          "target_is_weekend"
+        ],
+        "n": 4590,
+        "fit_calls": 0,
+        "labels_passed_to_predict": false,
+        "exact_raw": true,
+        "exact_final": true,
+        "maximum_difference_kwh": 0.0,
+        "raw_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+        "final_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+        "estimator_fingerprint": "c9474b1121b103f58b9c7d78bd88e13bae146bc5",
+        "evaluated_again": false,
+        "note": "Fixed-model inference only; no scoring, fit or model selection"
+      }
+    },
+    {
+      "name": "candidate_final_prediction_digest_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_manifest_hash_model_and_verified_Test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted_artifacts_preserved_after_packaging_no_fit",
+      "passed": true,
+      "details": {
+        "captured_at": "2026-10-09T13:09:57.118134+00:00",
+        "count": 951,
+        "matched": 951,
+        "changed_products": [],
+        "current_new_cache_exceptions": [],
+        "inherited_runtime_exceptions": [
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/170801766af83f1b80107c86d91cedfd",
+            "expected": "1f777d71629d7d20408087713ff84a9169f0f09cd9b9e2a67e738f1dc4d8204d",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/527504d503e4695a0d94c11363e77bf2",
+            "expected": "f51871d6bbe7cba3f28043da56a64070da977ebd75fb36b2ec9e94af21de2ada",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/9307ab8abf4d8286245019045ed694ac",
+            "expected": "d9a75870edb8470ef205ba2f05199b22f0c07f3ed6c1104d705ec046c5e7da02",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-b570aca956928b19c2c747502c3a63da",
+            "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-756836f6e7cd98dbb6ddf8e83d83dfed4a6261a2-a999b8c0534a7df53e52793698a2f363",
+            "expected": "9254aa57150f571ee7f1e3b1df0c67ef4bc2ca38e2918f5b0be3dfa82d4addc2",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-438c09c758eb440b905fb88679e84583969e3d82-16db8d4f01eca2165d702aaf948a6fed",
+            "expected": "463ea95e489cc2ca8043a3709a86eded8ae702a4da9b3918c12be4322612ba8e",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-dd3383726f5f6dbadb2808ee0a89c1f6cf5fc736-93927693e189b6df4a110ce03ae9f18c",
+            "expected": "2ae4a4de53b5375fbe300e36f84804ab31d48576d24b933e0b09d3d07204ec0d",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-39a22bf98a11769bdf08a104cd4766a3",
+            "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-da97095f7d5edb390ae97dd994834ccb8ce00d17-b6a5dbb81ef6085ff3126cf6bb26b17a",
+            "expected": "daae51536687eb8e21458ef3b1e84888f2873135a2aa205c3eb73ac95503b564",
+            "actual": null
+          }
+        ],
+        "historical_68": {
+          "archive": 16,
+          "blobStorage": 52
+        },
+        "inherited_933_matched": 924
+      }
+    }
+  ],
+  "preservation": {
+    "captured_at": "2026-10-09T13:09:57.118134+00:00",
+    "count": 951,
+    "matched": 951,
+    "changed_products": [],
+    "current_new_cache_exceptions": [],
+    "inherited_runtime_exceptions": [
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/170801766af83f1b80107c86d91cedfd",
+        "expected": "1f777d71629d7d20408087713ff84a9169f0f09cd9b9e2a67e738f1dc4d8204d",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/527504d503e4695a0d94c11363e77bf2",
+        "expected": "f51871d6bbe7cba3f28043da56a64070da977ebd75fb36b2ec9e94af21de2ada",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/9307ab8abf4d8286245019045ed694ac",
+        "expected": "d9a75870edb8470ef205ba2f05199b22f0c07f3ed6c1104d705ec046c5e7da02",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-b570aca956928b19c2c747502c3a63da",
+        "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-756836f6e7cd98dbb6ddf8e83d83dfed4a6261a2-a999b8c0534a7df53e52793698a2f363",
+        "expected": "9254aa57150f571ee7f1e3b1df0c67ef4bc2ca38e2918f5b0be3dfa82d4addc2",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-438c09c758eb440b905fb88679e84583969e3d82-16db8d4f01eca2165d702aaf948a6fed",
+        "expected": "463ea95e489cc2ca8043a3709a86eded8ae702a4da9b3918c12be4322612ba8e",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-dd3383726f5f6dbadb2808ee0a89c1f6cf5fc736-93927693e189b6df4a110ce03ae9f18c",
+        "expected": "2ae4a4de53b5375fbe300e36f84804ab31d48576d24b933e0b09d3d07204ec0d",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-39a22bf98a11769bdf08a104cd4766a3",
+        "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+        "actual": null
+      },
+      {
+        "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-da97095f7d5edb390ae97dd994834ccb8ce00d17-b6a5dbb81ef6085ff3126cf6bb26b17a",
+        "expected": "daae51536687eb8e21458ef3b1e84888f2873135a2aa205c3eb73ac95503b564",
+        "actual": null
+      }
+    ],
+    "historical_68": {
+      "archive": 16,
+      "blobStorage": 52
+    },
+    "inherited_933_matched": 924
+  },
+  "final_model_sha256": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+  "final_manifest_sha256": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+  "no_refit": true,
+  "fit_calls": 0,
+  "official_evaluation_number": 1,
+  "verifier_sha256": "222a5b7c3933806cbfe606b793b1df946b3c25cda5c6ae4ee9539ab83ce88803"
+}

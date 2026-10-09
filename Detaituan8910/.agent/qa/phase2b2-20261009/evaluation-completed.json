@@ -1,0 +1,114 @@
+{
+  "completed_at": "2026-10-09T13:06:37.058877+00:00",
+  "status": "APPLIED_UNVERIFIED",
+  "official_evaluation_number": 1,
+  "run_id": "20261009-phase2b2-a",
+  "manifest_sha256": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+  "checks": [
+    {
+      "name": "pretest_PASS_selection_LOCKED_before_Test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_VERIFIED_bound_to_37_checks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_exact_approved_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_outputs_and_code_frozen",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Phase2A_manifest_verification_bound",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_ML_outputs_unchanged_binary_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Flink_lineage_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Test_seal_4590_and_expected_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pinned_Python_and_packages",
+      "passed": true,
+      "details": {
+        "numpy": "2.2.6",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.6.1",
+        "scipy": "1.15.3",
+        "joblib": "1.5.1",
+        "threadpoolctl": "3.6.0",
+        "python-dateutil": "2.9.0.post0",
+        "pytz": "2025.2",
+        "tzdata": "2025.2",
+        "six": "1.17.0"
+      }
+    },
+    {
+      "name": "fixed_config_features_D09_no_refit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "model_code_and_config_match_pretest_lock",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "loaded_candidate_schema_policy_parameters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test_schema_count_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test_timestamp_mask_boundaries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test_origin_target_past_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_refit_and_Test_only_after_authorization",
+      "passed": true,
+      "details": {
+        "test_authorized": true,
+        "hashing": null,
+        "test_text_opens": 1,
+        "test_hash_opens": 2,
+        "fit_calls": 0
+      }
+    }
+  ],
+  "state": {
+    "test_authorized": true,
+    "hashing": null,
+    "test_text_opens": 1,
+    "test_hash_opens": 2,
+    "fit_calls": 0
+  },
+  "note": "Independent verification and final packaging still pending; do not repeat evaluation"
+}

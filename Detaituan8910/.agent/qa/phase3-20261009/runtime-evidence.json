@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-09T14:16:57.320096+00:00",
+  "windows_health": {
+    "StatusCode": 200,
+    "Content": "ok"
+  },
+  "linux_bind": "State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\nLISTEN 0      128        127.0.0.1:8501      0.0.0.0:*    users:((\"python\",pid=24786,fd=6))",
+  "url": "http://localhost:8501",
+  "launch_session": 35813,
+  "foreground_not_service": true,
+  "historical_flink_not_live": true,
+  "launcher_collision_refused": true
+}

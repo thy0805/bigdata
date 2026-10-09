@@ -1,0 +1,248 @@
+{
+  "status": "VERIFIED",
+  "passed": 38,
+  "total_checks": 38,
+  "read_back_files": 16,
+  "files_sha256": {
+    "Detaituan8910/context.md": "e8e22f409111d7cef9e0c6fea4fbc1ece3eb45bf66b378da2a2b99a8f5ad8043",
+    "Detaituan8910/.agent/PLAN.md": "40b35786c771dd3e8765f6355e685deb9b610a85e805e686bbadb2f713f46b73",
+    "Detaituan8910/.agent/DOC_INDEX.md": "f8915e4c87cbf31f30082d4e77a3bee4c92e35ad202e39cecf2e15b9f87d61f7",
+    "Detaituan8910/.agent/mistake.md": "7e2cff39e30cb0c2ba35c34a582be5c158b9aae4d157c3d859f72f10b5020ef9",
+    ".agent/context.md": "b265b54f9ef38b1e5d916c8fa1da1fb1d5ce0c34c7d79b729ffb1592bc5470d9",
+    ".agent/PLAN.md": "c11aace4d90f173c08b18659e6e775acd940b9e1e52038b218caccb71a63b599",
+    ".agent/DOC_INDEX.md": "3262663a457991baa3455ed137241523cece6988f7ae52555b3410d6c71ee5c9",
+    "Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md": "efc80c303f325aff621a9225f735bb5d550355e01272d2a2c98579c18acd5d6f",
+    "Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md": "6e8c8f52fbff6bdf13ed85aa830602cdc96867e128956ae2f68fd59d6d94ad88",
+    "Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md": "fe2e6fa1e4590f82d45b1df6283104f38727eaec21ac3412d337b0934ce51f05",
+    "Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md": "67028d4b4ffe65a05448939f3b00bcf1fa807e2813a014beb4f5def9159dbee3",
+    "Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md": "1b623d6aff131d7ce451c0a7653bdf9b71a6844f1720d06d50f29d587a0c6d3b",
+    "Detaituan8910/.agent/decisions/20261009-phase2a-approval.md": "3ff76473efa7c8e653db06a1c1e12e7fbf74de422cf405b46d70eca8d6122ce5",
+    "Detaituan8910/.agent/qa/phase2a-20261009/checklist.md": "420f024bc359639e5a85e2a523b3823d4dfaf54f557f1bf72c588d88c784f928",
+    "Detaituan8910/.agent/qa/phase2a-20261009/review.md": "ce843f25d00e3fc302782c01f18504b15ca13056399f9b9abc645ae421efa228",
+    "Detaituan8910/forecasting/README.md": "539b569e98dfdadb383a28c1e52e4eb85da376445b7f9170cc094e8fd499883e"
+  },
+  "checks": [
+    {
+      "name": "UTF8_full_read:context.md:Detaituan8910",
+      "passed": true,
+      "details": {
+        "characters": 37401
+      }
+    },
+    {
+      "name": "UTF8_full_read:PLAN.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 12458
+      }
+    },
+    {
+      "name": "UTF8_full_read:DOC_INDEX.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 14427
+      }
+    },
+    {
+      "name": "UTF8_full_read:mistake.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 7614
+      }
+    },
+    {
+      "name": "UTF8_full_read:context.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 36457
+      }
+    },
+    {
+      "name": "UTF8_full_read:PLAN.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 11719
+      }
+    },
+    {
+      "name": "UTF8_full_read:DOC_INDEX.md:.agent",
+      "passed": true,
+      "details": {
+        "characters": 16598
+      }
+    },
+    {
+      "name": "UTF8_full_read:APP_UI_SPEC.md:phase0-20261008",
+      "passed": true,
+      "details": {
+        "characters": 4569
+      }
+    },
+    {
+      "name": "UTF8_full_read:DATA_AUDIT.md:phase0-20261008",
+      "passed": true,
+      "details": {
+        "characters": 7550
+      }
+    },
+    {
+      "name": "UTF8_full_read:IMPLEMENTATION_PLAN.md:phase0-20261008",
+      "passed": true,
+      "details": {
+        "characters": 8969
+      }
+    },
+    {
+      "name": "UTF8_full_read:OPEN_DECISIONS.md:phase0-20261008",
+      "passed": true,
+      "details": {
+        "characters": 3954
+      }
+    },
+    {
+      "name": "UTF8_full_read:TECHNICAL_ARCHITECTURE.md:phase0-20261008",
+      "passed": true,
+      "details": {
+        "characters": 9663
+      }
+    },
+    {
+      "name": "UTF8_full_read:20261009-phase2a-approval.md:decisions",
+      "passed": true,
+      "details": {
+        "characters": 1930
+      }
+    },
+    {
+      "name": "UTF8_full_read:checklist.md:phase2a-20261009",
+      "passed": true,
+      "details": {
+        "characters": 1412
+      }
+    },
+    {
+      "name": "UTF8_full_read:review.md:phase2a-20261009",
+      "passed": true,
+      "details": {
+        "characters": 10912
+      }
+    },
+    {
+      "name": "UTF8_full_read:README.md:forecasting",
+      "passed": true,
+      "details": {
+        "characters": 3098
+      }
+    },
+    {
+      "name": "deliverable_local_links:review.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "deliverable_local_links:README.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "review_source_checksum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_counts_from_manifest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_counts:train",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_range:train",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_counts:validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_range:validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_counts:test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_split_range:test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metrics:naive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metrics:seasonal_naive_24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_exclusion_reconciliation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QA_report_final:20261009-phase2a-a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "QA_report_final:20261009-phase2a-b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "rerun_hash_manifest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_gap_and_mask_limits_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_HGB_and_D09_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "state_parser_rejects_APPLIED_UNVERIFIED_as_VERIFIED",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "M01_M04_verified_with_evidence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "G06_workflow_state_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "latest_context_gate",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

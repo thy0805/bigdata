@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "captured_at": "2026-10-09T13:09:57.125899+00:00",
+  "passed": 51,
+  "total_checks": 51,
+  "qa_path": ".agent/qa/phase2b2-20261009/verification.json",
+  "qa_sha256": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+  "final_path": "models/final/hgb-uci-hourly-v1.0-train-only",
+  "final_model_sha256": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c"
+}

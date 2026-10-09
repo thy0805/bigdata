@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-10-09T13:09:35.055552+00:00",
+  "pid": 24269,
+  "python": "3.12.3",
+  "model_sha256": "94ed8c4e493025ae363a3cc6fb1b0639ef2368264966b5bda190303e98a95c38",
+  "feature_columns": [
+    "lag_1_kwh",
+    "lag_2_kwh",
+    "lag_3_kwh",
+    "lag_24_kwh",
+    "lag_168_kwh",
+    "rolling_mean_3_kwh",
+    "rolling_mean_24_kwh",
+    "target_hour_of_day",
+    "target_day_of_week",
+    "target_month",
+    "target_is_weekend"
+  ],
+  "n": 4590,
+  "fit_calls": 0,
+  "labels_passed_to_predict": false,
+  "exact_raw": true,
+  "exact_final": true,
+  "maximum_difference_kwh": 0.0,
+  "raw_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+  "final_sha256": "edb2b8a4063f6a651c4b61e17604288d04f2c621138ffae6d18e3f77f54e9fe3",
+  "estimator_fingerprint": "c9474b1121b103f58b9c7d78bd88e13bae146bc5",
+  "evaluated_again": false,
+  "note": "Fixed-model inference only; no scoring, fit or model selection"
+}

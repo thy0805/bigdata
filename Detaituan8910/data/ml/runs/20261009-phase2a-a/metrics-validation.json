@@ -1,0 +1,17 @@
+{
+  "evaluation_split": "validation",
+  "unit": "kWh",
+  "common_mask": "all ML features and target available",
+  "n": 4727,
+  "test_evaluated": false,
+  "models": {
+    "naive": {
+      "mae_kwh": 0.45927228686270355,
+      "rmse_kwh": 0.6828109073989009
+    },
+    "seasonal_naive_24": {
+      "mae_kwh": 0.6597176503772654,
+      "rmse_kwh": 0.9503385628415242
+    }
+  }
+}

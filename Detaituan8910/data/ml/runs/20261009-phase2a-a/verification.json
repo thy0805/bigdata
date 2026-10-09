@@ -1,0 +1,252 @@
+{
+  "captured_at": "2026-10-09T11:10:38.159878+00:00",
+  "run_id": "20261009-phase2a-a",
+  "status": "VERIFIED",
+  "passed": 29,
+  "total_checks": 29,
+  "checks": [
+    {
+      "name": "source_VERIFIED_hash_run_metadata",
+      "passed": true,
+      "details": {
+        "run_id": "20261009T102201900234-full",
+        "path": "data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+        "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+        "verification_sha256": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+        "manifest_sha256": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+        "verification_status": "VERIFIED",
+        "flink_job_ids": [
+          "9307ab8abf4d8286245019045ed694ac"
+        ],
+        "mode": "BATCH",
+        "timezone_policy": "naive source calendar; no UTC/DST inference"
+      }
+    },
+    {
+      "name": "all_declared_output_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "code_requirements_provenance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Python312_pinned_packages",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "dependency_compatibility",
+      "passed": true,
+      "details": "No broken requirements found."
+    },
+    {
+      "name": "source_grid_NULL_coverage",
+      "passed": true,
+      "details": {
+        "hours": 34589,
+        "null": 504
+      }
+    },
+    {
+      "name": "partial_observed_not_used_as_target",
+      "passed": true,
+      "details": {
+        "partial_with_observed": 83
+      }
+    },
+    {
+      "name": "independent_full_axis_feature_target_oracle",
+      "passed": true,
+      "details": {
+        "hours": 34589,
+        "features": 11,
+        "max_error_kwh": {
+          "lag_1_kwh": "9E-16",
+          "lag_2_kwh": "9E-16",
+          "lag_3_kwh": "9E-16",
+          "lag_24_kwh": "9E-16",
+          "lag_168_kwh": "9E-16",
+          "rolling_mean_3_kwh": "8.0E-15",
+          "rolling_mean_24_kwh": "7.58333333333E-16"
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "saved_CSV_values_schema_order_and_eligibility",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "rows": {
+          "train": 22513,
+          "validation": 4727,
+          "test": 4590
+        },
+        "holdout_QA": "preparation/schema checks only; no Test predictions or metrics"
+      }
+    },
+    {
+      "name": "eligibility_axis_preserved_no_dropped_NULLs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "split_before_filter_no_overlap",
+      "passed": true,
+      "details": {
+        "train_end": "2009-09-20 12:00:00",
+        "validation_start": "2009-09-20 13:00:00",
+        "validation_end": "2010-04-24 16:00:00",
+        "test_start": "2010-04-24 17:00:00"
+      }
+    },
+    {
+      "name": "train_labels_available_by_first_validation_origin",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "measurement_sources_strictly_before_target",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target_and_diagnostics_excluded_from_feature_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "dataset_start_end_boundaries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "long_missing_region_excluded_and_rolling_not_compressed",
+      "passed": true,
+      "details": {
+        "hourly_gap_start": "2010-08-17 21:00:00",
+        "hourly_gap_end": "2010-08-22 21:00:00",
+        "incomplete_hours": 121,
+        "raw_gap_7226_minutes": "Phase1 audit reference only, raw not re-audited in Phase2A"
+      }
+    },
+    {
+      "name": "synthetic_missing_hour_not_zero_or_fake_adjacent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "synthetic_rolling_full_coverage_required",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compressed_time_axis_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "future_and_target_perturbation_leaves_features_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Test_perturbation_cannot_change_Validation_outputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "baselines_common_Validation_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "baseline_predictions_independent_timestamp_oracle",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "manual_samples": [
+          {
+            "target_hour": "2009-09-20 13:00:00",
+            "prediction_origin": "2009-09-20 13:00:00",
+            "target_end": "2009-09-20 14:00:00",
+            "target_energy_kwh": "2.496666666666667",
+            "naive_kwh": "2.1332666666666662",
+            "seasonal_naive_24_kwh": "3.3283999999999998"
+          },
+          {
+            "target_hour": "2010-01-01 09:00:00",
+            "prediction_origin": "2010-01-01 09:00:00",
+            "target_end": "2010-01-01 10:00:00",
+            "target_energy_kwh": "0.60606666666666664",
+            "naive_kwh": "0.66010000000000002",
+            "seasonal_naive_24_kwh": "1.8775333333333333"
+          },
+          {
+            "target_hour": "2010-04-24 16:00:00",
+            "prediction_origin": "2010-04-24 16:00:00",
+            "target_end": "2010-04-24 17:00:00",
+            "target_energy_kwh": "0.69879999999999998",
+            "naive_kwh": "1.2421333333333335",
+            "seasonal_naive_24_kwh": "0.41930000000000001"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Validation_MAE_RMSE_independent_Decimal",
+      "passed": true,
+      "details": {
+        "naive": {
+          "mae_kwh": "0.4592722868627036140765813412312248783584",
+          "rmse_kwh": "0.6828109073989009285316453357820069676034"
+        },
+        "seasonal_naive_24": {
+          "mae_kwh": "0.6597176503772653557647556589803257880262",
+          "rmse_kwh": "0.9503385628415242205827018127395580590421"
+        }
+      }
+    },
+    {
+      "name": "only_Validation_metrics_no_Test_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_fit_training_calls_in_Phase2A",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "holdout_procedural_seal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Phase1_pipeline_sources_Word_PDF_all_preserved",
+      "passed": true,
+      "details": {
+        "files": 965,
+        "changed": [],
+        "new_frozen_paths": []
+      }
+    },
+    {
+      "name": "physical_C_D_free_space_above_5GiB",
+      "passed": true,
+      "details": {
+        "c": 27643551744,
+        "d": 242059292672
+      }
+    }
+  ],
+  "scope": "M01-M04; no ML fit, no Test evaluation",
+  "independent_oracle": "Decimal + timestamp dictionary from accepted Flink hourly CSV only; all hours/features and all Validation baseline predictions/metrics",
+  "disk": {
+    "c": 27643551744,
+    "d": 242059292672
+  }
+}

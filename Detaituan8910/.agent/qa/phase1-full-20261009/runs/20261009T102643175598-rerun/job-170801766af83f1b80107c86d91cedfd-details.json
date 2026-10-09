@@ -1,0 +1,1201 @@
+{
+  "jid": "170801766af83f1b80107c86d91cedfd",
+  "application-id": "170801766af83f1b80107c86d91cedfd",
+  "name": "uci-full-20261009T102643175598-rerun",
+  "isStoppable": false,
+  "state": "FINISHED",
+  "job-type": "BATCH",
+  "schedulerType": "AdaptiveBatch",
+  "start-time": 1791541618654,
+  "end-time": 1791541757098,
+  "duration": 138444,
+  "maxParallelism": -1,
+  "now": 1791541760111,
+  "timestamps": {
+    "FAILED": 0,
+    "SUSPENDED": 0,
+    "CANCELED": 0,
+    "RECONCILING": 0,
+    "RESTARTING": 0,
+    "RUNNING": 1791541618736,
+    "CREATED": 1791541618692,
+    "FINISHED": 1791541757098,
+    "INITIALIZING": 1791541618654,
+    "FAILING": 0,
+    "CANCELLING": 0
+  },
+  "vertices": [
+    {
+      "id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+      "slotSharingGroupId": "c8b2a811062db77d9d8a40e86914b7a2",
+      "name": "Source: raw_input[1] -> (Calc[2] -> Expand[3], Calc[44] -> Sort[45] -> SortAggregate[46])",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541618844,
+      "end-time": 1791541727585,
+      "duration": 108741,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 0,
+        "read-bytes-complete": true,
+        "write-bytes": 404675557,
+        "write-bytes-complete": true,
+        "read-records": 2075260,
+        "read-records-complete": true,
+        "write-records": 6225777,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 51,
+        "accumulated-busy-time": 108292.0
+      }
+    },
+    {
+      "id": "1c23d51267c4e1a5275574d8bb7220b1",
+      "slotSharingGroupId": "c0dc7631799ac56e2fff83bc4fea2d18",
+      "name": "Source: raw_input[21] -> (Calc[22] -> HashAggregate[23], Calc[27] -> HashAggregate[28], Calc[33] -> HashAggregate[34], Calc[42] -> Sink: Filesystem)",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541618847,
+      "end-time": 1791541756677,
+      "duration": 137830,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 0,
+        "read-bytes-complete": true,
+        "write-bytes": 128,
+        "write-bytes-complete": true,
+        "read-records": 2075260,
+        "read-records-complete": true,
+        "write-records": 2,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 55,
+        "accumulated-busy-time": 137122.0
+      }
+    },
+    {
+      "id": "881363bd819d7055d9780b56988b5c49",
+      "slotSharingGroupId": "74271f25a335362a5962aea3aba94305",
+      "name": "Source: raw_input[15] -> Calc[16] -> HashAggregate[17]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541727587,
+      "end-time": 1791541734984,
+      "duration": 7397,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 0,
+        "read-bytes-complete": true,
+        "write-bytes": 59,
+        "write-bytes-complete": true,
+        "read-records": 2075260,
+        "read-records-complete": true,
+        "write-records": 1,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 5104,
+        "accumulated-busy-time": 2232.0
+      }
+    },
+    {
+      "id": "7c8f14fc2e3ea683c22b932228071a69",
+      "slotSharingGroupId": "18a7f0913b5075f756a5ccf3231d19e0",
+      "name": "Sort[5] -> SortAggregate[6] -> Sort[7] -> Calc[8] -> SortAggregate[9]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541734985,
+      "end-time": 1791541752122,
+      "duration": 17137,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 336191984,
+        "read-bytes-complete": true,
+        "write-bytes": 6095335,
+        "write-bytes-complete": true,
+        "read-records": 4150518,
+        "read-records-complete": true,
+        "write-records": 34589,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 21,
+        "accumulated-busy-time": 17031.0
+      }
+    },
+    {
+      "id": "8929c132dd83382d9af251b0b22217fd",
+      "slotSharingGroupId": "883f591401a9b0cc6624cbb055ca4a3c",
+      "name": "Sort[48] -> SortAggregate[49] -> Calc[50] -> Sink: Filesystem",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541752125,
+      "end-time": 1791541752938,
+      "duration": 813,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 68483573,
+        "read-bytes-complete": true,
+        "write-bytes": 0,
+        "write-bytes-complete": true,
+        "read-records": 2075259,
+        "read-records-complete": true,
+        "write-records": 0,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 34,
+        "accumulated-busy-time": 719.0
+      }
+    },
+    {
+      "id": "ec52d301dc27f250c6c96ab5107c0f9e",
+      "slotSharingGroupId": "8cd7d8803d1c09ad3672141779167000",
+      "name": "HashAggregate[19]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541752942,
+      "end-time": 1791541752985,
+      "duration": 43,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 59,
+        "read-bytes-complete": true,
+        "write-bytes": 55,
+        "write-bytes-complete": true,
+        "read-records": 1,
+        "read-records-complete": true,
+        "write-records": 1,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 2,
+        "accumulated-busy-time": 11.0
+      }
+    },
+    {
+      "id": "51391d4678978eb23e3cbdcbd60e6aa5",
+      "slotSharingGroupId": "2e421bf0aaa583caabf343737aefd74d",
+      "name": "Sort[11] -> SortAggregate[12] -> Calc[13] -> Sink: Filesystem",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541752987,
+      "end-time": 1791541753470,
+      "duration": 483,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 6095335,
+        "read-bytes-complete": true,
+        "write-bytes": 0,
+        "write-bytes-complete": true,
+        "read-records": 34589,
+        "read-records-complete": true,
+        "write-records": 0,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 9,
+        "accumulated-busy-time": 401.0
+      }
+    },
+    {
+      "id": "af11825d9f6f0731be6aea0c1433a2b8",
+      "slotSharingGroupId": "a1fa6de5166f0d7434bcd7c795af12d7",
+      "name": "HashAggregate[36] -> Calc[37] -> HashAggregate[38]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541756683,
+      "end-time": 1791541756721,
+      "duration": 38,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 51,
+        "read-bytes-complete": true,
+        "write-bytes": 47,
+        "write-bytes-complete": true,
+        "read-records": 1,
+        "read-records-complete": true,
+        "write-records": 1,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 2,
+        "accumulated-busy-time": 9.0
+      }
+    },
+    {
+      "id": "98a1a31894a75ac220c0fe73eae465c8",
+      "slotSharingGroupId": "2fce685b8ed1ffef177abbb2a8627b43",
+      "name": "HashAggregate[30]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541756685,
+      "end-time": 1791541756711,
+      "duration": 26,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 26,
+        "read-bytes-complete": true,
+        "write-bytes": 47,
+        "write-bytes-complete": true,
+        "read-records": 0,
+        "read-records-complete": true,
+        "write-records": 1,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 0,
+        "accumulated-busy-time": 10.0
+      }
+    },
+    {
+      "id": "4f32d50a22771536bb0bc605f00da0fe",
+      "slotSharingGroupId": "18bb453bf7d2d84b7d5613b25e5766b6",
+      "name": "HashAggregate[25]",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541756711,
+      "end-time": 1791541756740,
+      "duration": 29,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 51,
+        "read-bytes-complete": true,
+        "write-bytes": 51,
+        "write-bytes-complete": true,
+        "read-records": 1,
+        "read-records-complete": true,
+        "write-records": 1,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 1,
+        "accumulated-busy-time": 12.0
+      }
+    },
+    {
+      "id": "de5d687c8cae48cd42d967e2dbb6534c",
+      "slotSharingGroupId": "6574583b296fc6d082fed5f36f424670",
+      "name": "MultipleInput[52] -> Sink: Filesystem",
+      "maxParallelism": 1,
+      "parallelism": 1,
+      "status": "FINISHED",
+      "start-time": 1791541756749,
+      "end-time": 1791541756829,
+      "duration": 80,
+      "tasks": {
+        "CANCELING": 0,
+        "RUNNING": 0,
+        "FINISHED": 1,
+        "CANCELED": 0,
+        "SCHEDULED": 0,
+        "INITIALIZING": 0,
+        "CREATED": 0,
+        "FAILED": 0,
+        "RECONCILING": 0,
+        "DEPLOYING": 0
+      },
+      "metrics": {
+        "read-bytes": 200,
+        "read-bytes-complete": true,
+        "write-bytes": 0,
+        "write-bytes-complete": true,
+        "read-records": 4,
+        "read-records-complete": true,
+        "write-records": 0,
+        "write-records-complete": true,
+        "accumulated-backpressured-time": 0,
+        "accumulated-idle-time": 0,
+        "accumulated-busy-time": 28.0
+      }
+    }
+  ],
+  "status-counts": {
+    "CANCELING": 0,
+    "RUNNING": 0,
+    "FINISHED": 11,
+    "CANCELED": 0,
+    "SCHEDULED": 0,
+    "INITIALIZING": 0,
+    "CREATED": 0,
+    "FAILED": 0,
+    "RECONCILING": 0,
+    "DEPLOYING": 0
+  },
+  "plan": {
+    "jid": "170801766af83f1b80107c86d91cedfd",
+    "name": "uci-full-20261009T102643175598-rerun",
+    "type": "BATCH",
+    "nodes": [
+      {
+        "id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[1]:TableSourceScan(table=[[default_catalog, default_database, raw_input, filter=[and(and(and(COALESCE(AND(REGEXP(d, _UTF-16LE'^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$'), REGEXP(t, _UTF-16LE'^[0-9]{2}:[0-9]{2}:00$')), false), NOT(COALESCE(AND(AND(AND(AND(AND(AND(AND(AND(=(d, _UTF-16LE'Date':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;), =(t, _UTF-16LE'Time':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(p, _UTF-16LE'Global_active_power':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(r, _UTF-16LE'Global_reactive_power':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(v, _UTF-16LE'Voltage':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(a, _UTF-16LE'Global_intensity':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s1, _UTF-16LE'Sub_metering_1':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s2, _UTF-16LE'Sub_metering_2':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s3, _UTF-16LE'Sub_metering_3':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), false))), NOT(COALESCE(&lt;&gt;(DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t) AS TIMESTAMP(3)), _UTF-16LE'yyyy-MM-dd HH:mm:ss'), CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t)), true))), IS NOT NULL(TRY_CAST(CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t) AS TIMESTAMP(3))))]]], fields=[d, t, p, r, v, a, s1, s2, s3])<br/>:- [2]:Calc(select=[FLOOR(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), HOUR) AS hour_start, TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time, CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS power_kw, CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub1_wh, CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub2_wh, CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub3_wh, CASE(((CAST(((CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) * 1000) - (60 * ((CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) + CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))) + CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))))) AS DOUBLE) / 60.0) &lt; 0), 1, 0) AS $f6], where=[(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?') OR CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?') OR CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?') OR CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?') OR CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?') OR CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?') OR CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?') OR CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)) AND NOT(COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') &lt;&gt; CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true)) AND TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NOT NULL)])<br/>:  +- [3]:Expand(projects=[{hour_start, event_time, power_kw, sub1_wh, sub2_wh, sub3_wh, $f6, 0 AS $e}, {hour_start, null AS event_time, power_kw, sub1_wh, sub2_wh, sub3_wh, $f6, 1 AS $e}])<br/>+- [44]:Calc(select=[TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time], where=[(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?') OR CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?') OR CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?') OR CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?') OR CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?') OR CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?') OR CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?') OR CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)) AND NOT(COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') &lt;&gt; CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true)) AND TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NOT NULL)])<br/>   +- [45]:Sort(orderBy=[event_time ASC])<br/>      +- [46]:LocalSortAggregate(groupBy=[event_time], select=[event_time, Partial_COUNT(*) AS count1$0])<br/>",
+        "optimizer_properties": {}
+      },
+      {
+        "id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[21]:TableSourceScan(table=[[default_catalog, default_database, raw_input, filter=[NOT(COALESCE(AND(AND(AND(AND(AND(AND(AND(AND(=(d, _UTF-16LE'Date':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;), =(t, _UTF-16LE'Time':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(p, _UTF-16LE'Global_active_power':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(r, _UTF-16LE'Global_reactive_power':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(v, _UTF-16LE'Voltage':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(a, _UTF-16LE'Global_intensity':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s1, _UTF-16LE'Sub_metering_1':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s2, _UTF-16LE'Sub_metering_2':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), =(s3, _UTF-16LE'Sub_metering_3':VARCHAR(2147483647) CHARACTER SET &quot;UTF-16LE&quot;)), false))]]], fields=[d, t, p, r, v, a, s1, s2, s3])<br/>:- [22]:Calc(select=[0 AS $f0], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])<br/>:  +- [23]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0])<br/>:- [27]:Calc(select=[0 AS $f0], where=[((TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NULL OR NOT(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false)) OR COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') &lt;&gt; CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true) OR (CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NULL, true) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')) IS NOT TRUE AND p IS NOT NULL) OR (CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NULL, true) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')) IS NOT TRUE AND r IS NOT NULL) OR (CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NULL, true) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')) IS NOT TRUE AND v IS NOT NULL) OR (CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NULL, true) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')) IS NOT TRUE AND a IS NOT NULL) OR (CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NULL, true) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')) IS NOT TRUE AND s1 IS NOT NULL) OR (CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NULL, true) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')) IS NOT TRUE AND s2 IS NOT NULL) OR (CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NULL, true) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')) IS NOT TRUE AND s3 IS NOT NULL)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)))])<br/>:  +- [28]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0])<br/>:- [33]:Calc(select=[CAST(((((((CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NULL, 1, 0) + CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NULL, 1, 0)) + CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NULL, 1, 0)) + CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NULL, 1, 0)) + CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NULL, 1, 0)) + CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NULL, 1, 0)) + CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NULL, 1, 0)) AS BIGINT) AS $f0], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])<br/>:  +- [34]:LocalHashAggregate(select=[Partial_SUM($f0) AS sum$0])<br/>+- [42]:Calc(select=[d, t, TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time, (TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NULL OR NOT(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false)) OR COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') &lt;&gt; CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true) OR (CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NOT NULL AND CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NOT NULL AND CASE(REGEXP(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NOT NULL AND CASE(REGEXP(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NOT NULL AND CASE(REGEXP(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NOT NULL AND CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NOT NULL AND CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NOT NULL AND CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL)) AS parse_error, ((((((CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NULL, 1, 0) + CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NULL, 1, 0)) + CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NULL, 1, 0)) + CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NULL, 1, 0)) + CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NULL, 1, 0)) + CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NULL, 1, 0)) + CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NULL, 1, 0)) AS missing_cells, CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS power_kw, CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub1_wh, CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub2_wh, CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub3_wh, (CAST(((CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) * 1000) - (60 * ((CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) + CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))) + CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))))) AS DOUBLE) / 60.0) AS residual_wh, p, r, v, a, s1, s2, s3], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])<br/>   +- Sink: Filesystem<br/>",
+        "optimizer_properties": {}
+      },
+      {
+        "id": "881363bd819d7055d9780b56988b5c49",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[15]:TableSourceScan(table=[[default_catalog, default_database, raw_input]], fields=[d, t, p, r, v, a, s1, s2, s3])<br/>+- [16]:Calc(select=[CASE(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false), 1, 0) AS $f0])<br/>   +- [17]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0, Partial_SUM($f0) AS sum$1])<br/>",
+        "optimizer_properties": {}
+      },
+      {
+        "id": "7c8f14fc2e3ea683c22b932228071a69",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[5]:Sort(orderBy=[hour_start ASC, event_time ASC, $e ASC])<br/>+- [6]:SortAggregate(isMerge=[false], groupBy=[hour_start, event_time, $e], select=[hour_start, event_time, $e, COUNT(*) AS record_count, COUNT(power_kw) AS valid_power_count, SUM(power_kw) AS $f4, COUNT(sub1_wh) AS sub1_valid_count, COUNT(sub2_wh) AS sub2_valid_count, COUNT(sub3_wh) AS sub3_valid_count, SUM(sub1_wh) AS $f8, SUM(sub2_wh) AS $f9, SUM(sub3_wh) AS $f10, SUM($f6) AS negative_residual_count])<br/>   +- [7]:Sort(orderBy=[hour_start ASC])<br/>      +- [8]:Calc(select=[hour_start, event_time, record_count, valid_power_count, $f4, sub1_valid_count, sub2_valid_count, sub3_valid_count, $f8, $f9, $f10, negative_residual_count, (CASE(($e = 0), 0, 1) = 0) AS $g_0, (CASE(($e = 0), 0, 1) = 1) AS $g_1])<br/>         +- [9]:LocalSortAggregate(groupBy=[hour_start], select=[hour_start, Partial_MIN(record_count) FILTER $g_1 AS min$0, Partial_COUNT(event_time) FILTER $g_0 AS count$1, Partial_MIN(valid_power_count) FILTER $g_1 AS min$2, Partial_MIN($f4) FILTER $g_1 AS min$3, Partial_MIN(sub1_valid_count) FILTER $g_1 AS min$4, Partial_MIN(sub2_valid_count) FILTER $g_1 AS min$5, Partial_MIN(sub3_valid_count) FILTER $g_1 AS min$6, Partial_MIN($f8) FILTER $g_1 AS min$7, Partial_MIN($f9) FILTER $g_1 AS min$8, Partial_MIN($f10) FILTER $g_1 AS min$9, Partial_MIN(negative_residual_count) FILTER $g_1 AS min$10])<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "HASH[hour_start, event_time, $e]"
+          }
+        ]
+      },
+      {
+        "id": "8929c132dd83382d9af251b0b22217fd",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[48]:Sort(orderBy=[event_time ASC])<br/>+- [49]:SortAggregate(isMerge=[true], groupBy=[event_time], select=[event_time, Final_COUNT(count1$0) AS EXPR$1])<br/>   +- [50]:Calc(select=[event_time, EXPR$1], where=[(EXPR$1 &gt; 1)])<br/>      +- Sink: Filesystem<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "HASH[event_time]"
+          }
+        ]
+      },
+      {
+        "id": "ec52d301dc27f250c6c96ab5107c0f9e",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[19]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0, Final_SUM(sum$1) AS EXPR$1])<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "881363bd819d7055d9780b56988b5c49",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "GLOBAL"
+          }
+        ]
+      },
+      {
+        "id": "51391d4678978eb23e3cbdcbd60e6aa5",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[11]:Sort(orderBy=[hour_start ASC])<br/>+- [12]:SortAggregate(isMerge=[true], groupBy=[hour_start], select=[hour_start, Final_MIN(min$0) AS record_count, Final_COUNT(count$1) AS distinct_minute_count, Final_MIN(min$2) AS valid_power_count, Final_MIN(min$3) AS $f4, Final_MIN(min$4) AS sub1_valid_count, Final_MIN(min$5) AS sub2_valid_count, Final_MIN(min$6) AS sub3_valid_count, Final_MIN(min$7) AS $f8, Final_MIN(min$8) AS $f9, Final_MIN(min$9) AS $f10, Final_MIN(min$10) AS negative_residual_count])<br/>   +- [13]:Calc(select=[hour_start, CAST(record_count AS BIGINT) AS record_count, distinct_minute_count, CAST(valid_power_count AS BIGINT) AS valid_power_count, (CAST($f4 AS DOUBLE) / 60.0) AS observed_energy_kwh, ((CAST(record_count AS BIGINT) = 60) AND (distinct_minute_count = 60) AND (CAST(valid_power_count AS BIGINT) = 60)) AS EXPR$5, CASE(((CAST(record_count AS BIGINT) = 60) AND (distinct_minute_count = 60) AND (CAST(valid_power_count AS BIGINT) = 60)), (CAST($f4 AS DOUBLE) / 60.0), null:DOUBLE) AS EXPR$6, CAST(sub1_valid_count AS BIGINT) AS sub1_valid_count, CAST(sub2_valid_count AS BIGINT) AS sub2_valid_count, CAST(sub3_valid_count AS BIGINT) AS sub3_valid_count, (CAST($f8 AS DOUBLE) / 1000.0) AS sub1_observed_kwh, (CAST($f9 AS DOUBLE) / 1000.0) AS sub2_observed_kwh, (CAST($f10 AS DOUBLE) / 1000.0) AS sub3_observed_kwh, CAST(negative_residual_count AS BIGINT) AS negative_residual_count])<br/>      +- Sink: Filesystem<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "7c8f14fc2e3ea683c22b932228071a69",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "HASH[hour_start]"
+          }
+        ]
+      },
+      {
+        "id": "af11825d9f6f0731be6aea0c1433a2b8",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[36]:HashAggregate(isMerge=[true], select=[Final_SUM(sum$0) AS $f0])<br/>+- [37]:Calc(select=[COALESCE($f0, 0) AS EXPR$0])<br/>   +- [38]:HashAggregate(isMerge=[false], select=[SINGLE_VALUE(EXPR$0) AS $f0])<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "1c23d51267c4e1a5275574d8bb7220b1",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "GLOBAL"
+          }
+        ]
+      },
+      {
+        "id": "98a1a31894a75ac220c0fe73eae465c8",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[30]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "1c23d51267c4e1a5275574d8bb7220b1",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "GLOBAL"
+          }
+        ]
+      },
+      {
+        "id": "4f32d50a22771536bb0bc605f00da0fe",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[25]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "1c23d51267c4e1a5275574d8bb7220b1",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "GLOBAL"
+          }
+        ]
+      },
+      {
+        "id": "de5d687c8cae48cd42d967e2dbb6534c",
+        "operator": "",
+        "parallelism": 1,
+        "operator_strategy": "",
+        "description": "[52]:MultipleInput(readOrder=[0,0,0,1], members=[&#92;nNestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00, EXPR$01, $f0], build=[right], singleRowJoin=[true])&#92;n:- NestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00, EXPR$01], build=[right], singleRowJoin=[true])&#92;n:  :- NestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00], build=[left], singleRowJoin=[true])&#92;n:  :  :- [#3] Exchange(distribution=[broadcast])&#92;n:  :  +- [#4] HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])&#92;n:  +- [#2] Exchange(distribution=[broadcast])&#92;n+- [#1] Exchange(distribution=[broadcast])&#92;n])<br/>+- Sink: Filesystem<br/>",
+        "optimizer_properties": {},
+        "inputs": [
+          {
+            "id": "ec52d301dc27f250c6c96ab5107c0f9e",
+            "num": 0,
+            "exchange": "blocking",
+            "ship_strategy": "BROADCAST"
+          },
+          {
+            "id": "4f32d50a22771536bb0bc605f00da0fe",
+            "num": 1,
+            "exchange": "blocking",
+            "ship_strategy": "RESCALE"
+          },
+          {
+            "id": "98a1a31894a75ac220c0fe73eae465c8",
+            "num": 2,
+            "exchange": "blocking",
+            "ship_strategy": "BROADCAST"
+          },
+          {
+            "id": "af11825d9f6f0731be6aea0c1433a2b8",
+            "num": 3,
+            "exchange": "blocking",
+            "ship_strategy": "BROADCAST"
+          }
+        ]
+      }
+    ]
+  },
+  "stream-graph": {
+    "nodes": [
+      {
+        "id": "1",
+        "parallelism": 1,
+        "operator": "Source: raw_input[1]",
+        "description": "[1]:TableSourceScan(table=[[default_catalog, default_database, raw_input, filter=[and(and(and(COALESCE(AND(REGEXP(d, _UTF-16LE'^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$'), REGEXP(t, _UTF-16LE'^[0-9]{2}:[0-9]{2}:00$')), false), NOT(COALESCE(AND(AND(AND(AND(AND(AND(AND(AND(=(d, _UTF-16LE'Date':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\"), =(t, _UTF-16LE'Time':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(p, _UTF-16LE'Global_active_power':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(r, _UTF-16LE'Global_reactive_power':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(v, _UTF-16LE'Voltage':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(a, _UTF-16LE'Global_intensity':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s1, _UTF-16LE'Sub_metering_1':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s2, _UTF-16LE'Sub_metering_2':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s3, _UTF-16LE'Sub_metering_3':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), false))), NOT(COALESCE(<>(DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t) AS TIMESTAMP(3)), _UTF-16LE'yyyy-MM-dd HH:mm:ss'), CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t)), true))), IS NOT NULL(TRY_CAST(CONCAT(SPLIT_INDEX(d, _UTF-16LE'/', 2), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 1), 2, _UTF-16LE'0'), _UTF-16LE'-', LPAD(SPLIT_INDEX(d, _UTF-16LE'/', 0), 2, _UTF-16LE'0'), _UTF-16LE' ', t) AS TIMESTAMP(3))))]]], fields=[d, t, p, r, v, a, s1, s2, s3])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": []
+      },
+      {
+        "id": "2",
+        "parallelism": 1,
+        "operator": "Calc[2]",
+        "description": "[2]:Calc(select=[FLOOR(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), HOUR) AS hour_start, TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time, CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS power_kw, CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub1_wh, CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub2_wh, CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub3_wh, CASE(((CAST(((CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) * 1000) - (60 * ((CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) + CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))) + CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))))) AS DOUBLE) / 60.0) < 0), 1, 0) AS $f6], where=[(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?') OR CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?') OR CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?') OR CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?') OR CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?') OR CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?') OR CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?') OR CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)) AND NOT(COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') <> CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true)) AND TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NOT NULL)])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "1",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "parallelism": 1,
+        "operator": "Expand[3]",
+        "description": "[3]:Expand(projects=[{hour_start, event_time, power_kw, sub1_wh, sub2_wh, sub3_wh, $f6, 0 AS $e}, {hour_start, null AS event_time, power_kw, sub1_wh, sub2_wh, sub3_wh, $f6, 1 AS $e}])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "2",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "parallelism": 1,
+        "operator": "Sort[5]",
+        "description": "[5]:Sort(orderBy=[hour_start ASC, event_time ASC, $e ASC])",
+        "job_vertex_id": "7c8f14fc2e3ea683c22b932228071a69",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "3",
+            "ship_strategy": "HASH[hour_start, event_time, $e]",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "parallelism": 1,
+        "operator": "SortAggregate[6]",
+        "description": "[6]:SortAggregate(isMerge=[false], groupBy=[hour_start, event_time, $e], select=[hour_start, event_time, $e, COUNT(*) AS record_count, COUNT(power_kw) AS valid_power_count, SUM(power_kw) AS $f4, COUNT(sub1_wh) AS sub1_valid_count, COUNT(sub2_wh) AS sub2_valid_count, COUNT(sub3_wh) AS sub3_valid_count, SUM(sub1_wh) AS $f8, SUM(sub2_wh) AS $f9, SUM(sub3_wh) AS $f10, SUM($f6) AS negative_residual_count])",
+        "job_vertex_id": "7c8f14fc2e3ea683c22b932228071a69",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "5",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "parallelism": 1,
+        "operator": "Sort[7]",
+        "description": "[7]:Sort(orderBy=[hour_start ASC])",
+        "job_vertex_id": "7c8f14fc2e3ea683c22b932228071a69",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "7",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "parallelism": 1,
+        "operator": "Calc[8]",
+        "description": "[8]:Calc(select=[hour_start, event_time, record_count, valid_power_count, $f4, sub1_valid_count, sub2_valid_count, sub3_valid_count, $f8, $f9, $f10, negative_residual_count, (CASE(($e = 0), 0, 1) = 0) AS $g_0, (CASE(($e = 0), 0, 1) = 1) AS $g_1])",
+        "job_vertex_id": "7c8f14fc2e3ea683c22b932228071a69",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "8",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "parallelism": 1,
+        "operator": "SortAggregate[9]",
+        "description": "[9]:LocalSortAggregate(groupBy=[hour_start], select=[hour_start, Partial_MIN(record_count) FILTER $g_1 AS min$0, Partial_COUNT(event_time) FILTER $g_0 AS count$1, Partial_MIN(valid_power_count) FILTER $g_1 AS min$2, Partial_MIN($f4) FILTER $g_1 AS min$3, Partial_MIN(sub1_valid_count) FILTER $g_1 AS min$4, Partial_MIN(sub2_valid_count) FILTER $g_1 AS min$5, Partial_MIN(sub3_valid_count) FILTER $g_1 AS min$6, Partial_MIN($f8) FILTER $g_1 AS min$7, Partial_MIN($f9) FILTER $g_1 AS min$8, Partial_MIN($f10) FILTER $g_1 AS min$9, Partial_MIN(negative_residual_count) FILTER $g_1 AS min$10])",
+        "job_vertex_id": "7c8f14fc2e3ea683c22b932228071a69",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "9",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "parallelism": 1,
+        "operator": "Sort[11]",
+        "description": "[11]:Sort(orderBy=[hour_start ASC])",
+        "job_vertex_id": "51391d4678978eb23e3cbdcbd60e6aa5",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "10",
+            "ship_strategy": "HASH[hour_start]",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "parallelism": 1,
+        "operator": "SortAggregate[12]",
+        "description": "[12]:SortAggregate(isMerge=[true], groupBy=[hour_start], select=[hour_start, Final_MIN(min$0) AS record_count, Final_COUNT(count$1) AS distinct_minute_count, Final_MIN(min$2) AS valid_power_count, Final_MIN(min$3) AS $f4, Final_MIN(min$4) AS sub1_valid_count, Final_MIN(min$5) AS sub2_valid_count, Final_MIN(min$6) AS sub3_valid_count, Final_MIN(min$7) AS $f8, Final_MIN(min$8) AS $f9, Final_MIN(min$9) AS $f10, Final_MIN(min$10) AS negative_residual_count])",
+        "job_vertex_id": "51391d4678978eb23e3cbdcbd60e6aa5",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "12",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "parallelism": 1,
+        "operator": "Calc[13]",
+        "description": "[13]:Calc(select=[hour_start, CAST(record_count AS BIGINT) AS record_count, distinct_minute_count, CAST(valid_power_count AS BIGINT) AS valid_power_count, (CAST($f4 AS DOUBLE) / 60.0) AS observed_energy_kwh, ((CAST(record_count AS BIGINT) = 60) AND (distinct_minute_count = 60) AND (CAST(valid_power_count AS BIGINT) = 60)) AS EXPR$5, CASE(((CAST(record_count AS BIGINT) = 60) AND (distinct_minute_count = 60) AND (CAST(valid_power_count AS BIGINT) = 60)), (CAST($f4 AS DOUBLE) / 60.0), null:DOUBLE) AS EXPR$6, CAST(sub1_valid_count AS BIGINT) AS sub1_valid_count, CAST(sub2_valid_count AS BIGINT) AS sub2_valid_count, CAST(sub3_valid_count AS BIGINT) AS sub3_valid_count, (CAST($f8 AS DOUBLE) / 1000.0) AS sub1_observed_kwh, (CAST($f9 AS DOUBLE) / 1000.0) AS sub2_observed_kwh, (CAST($f10 AS DOUBLE) / 1000.0) AS sub3_observed_kwh, CAST(negative_residual_count AS BIGINT) AS negative_residual_count])",
+        "job_vertex_id": "51391d4678978eb23e3cbdcbd60e6aa5",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "14",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "parallelism": 1,
+        "operator": "Sink: Filesystem",
+        "description": "Sink: Filesystem",
+        "job_vertex_id": "51391d4678978eb23e3cbdcbd60e6aa5",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "15",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "parallelism": 1,
+        "operator": "Source: raw_input[21]",
+        "description": "[21]:TableSourceScan(table=[[default_catalog, default_database, raw_input, filter=[NOT(COALESCE(AND(AND(AND(AND(AND(AND(AND(AND(=(d, _UTF-16LE'Date':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\"), =(t, _UTF-16LE'Time':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(p, _UTF-16LE'Global_active_power':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(r, _UTF-16LE'Global_reactive_power':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(v, _UTF-16LE'Voltage':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(a, _UTF-16LE'Global_intensity':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s1, _UTF-16LE'Sub_metering_1':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s2, _UTF-16LE'Sub_metering_2':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), =(s3, _UTF-16LE'Sub_metering_3':VARCHAR(2147483647) CHARACTER SET \"UTF-16LE\")), false))]]], fields=[d, t, p, r, v, a, s1, s2, s3])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": []
+      },
+      {
+        "id": "18",
+        "parallelism": 1,
+        "operator": "Calc[33]",
+        "description": "[33]:Calc(select=[CAST(((((((CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NULL, 1, 0) + CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NULL, 1, 0)) + CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NULL, 1, 0)) + CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NULL, 1, 0)) + CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NULL, 1, 0)) + CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NULL, 1, 0)) + CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NULL, 1, 0)) AS BIGINT) AS $f0], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "17",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "parallelism": 1,
+        "operator": "HashAggregate[34]",
+        "description": "[34]:LocalHashAggregate(select=[Partial_SUM($f0) AS sum$0])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "18",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "parallelism": 1,
+        "operator": "HashAggregate[36]",
+        "description": "[36]:HashAggregate(isMerge=[true], select=[Final_SUM(sum$0) AS $f0])",
+        "job_vertex_id": "af11825d9f6f0731be6aea0c1433a2b8",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "19",
+            "ship_strategy": "GLOBAL",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "parallelism": 1,
+        "operator": "Calc[37]",
+        "description": "[37]:Calc(select=[COALESCE($f0, 0) AS EXPR$0])",
+        "job_vertex_id": "af11825d9f6f0731be6aea0c1433a2b8",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "21",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "parallelism": 1,
+        "operator": "HashAggregate[38]",
+        "description": "[38]:HashAggregate(isMerge=[false], select=[SINGLE_VALUE(EXPR$0) AS $f0])",
+        "job_vertex_id": "af11825d9f6f0731be6aea0c1433a2b8",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "22",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "25",
+        "parallelism": 1,
+        "operator": "Calc[27]",
+        "description": "[27]:Calc(select=[0 AS $f0], where=[((TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NULL OR NOT(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false)) OR COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') <> CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true) OR (CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NULL, true) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')) IS NOT TRUE AND p IS NOT NULL) OR (CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NULL, true) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')) IS NOT TRUE AND r IS NOT NULL) OR (CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NULL, true) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')) IS NOT TRUE AND v IS NOT NULL) OR (CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NULL, true) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')) IS NOT TRUE AND a IS NOT NULL) OR (CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NULL, true) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')) IS NOT TRUE AND s1 IS NOT NULL) OR (CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NULL, true) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')) IS NOT TRUE AND s2 IS NOT NULL) OR (CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NULL, true) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')) IS NOT TRUE AND s3 IS NOT NULL)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)))])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "17",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "26",
+        "parallelism": 1,
+        "operator": "HashAggregate[28]",
+        "description": "[28]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "25",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "28",
+        "parallelism": 1,
+        "operator": "HashAggregate[30]",
+        "description": "[30]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])",
+        "job_vertex_id": "98a1a31894a75ac220c0fe73eae465c8",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "26",
+            "ship_strategy": "GLOBAL",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "30",
+        "parallelism": 1,
+        "operator": "Source: raw_input[15]",
+        "description": "[15]:TableSourceScan(table=[[default_catalog, default_database, raw_input]], fields=[d, t, p, r, v, a, s1, s2, s3])",
+        "job_vertex_id": "881363bd819d7055d9780b56988b5c49",
+        "inputs": []
+      },
+      {
+        "id": "31",
+        "parallelism": 1,
+        "operator": "Calc[16]",
+        "description": "[16]:Calc(select=[CASE(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false), 1, 0) AS $f0])",
+        "job_vertex_id": "881363bd819d7055d9780b56988b5c49",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "30",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "32",
+        "parallelism": 1,
+        "operator": "HashAggregate[17]",
+        "description": "[17]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0, Partial_SUM($f0) AS sum$1])",
+        "job_vertex_id": "881363bd819d7055d9780b56988b5c49",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "31",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "34",
+        "parallelism": 1,
+        "operator": "HashAggregate[19]",
+        "description": "[19]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0, Final_SUM(sum$1) AS EXPR$1])",
+        "job_vertex_id": "ec52d301dc27f250c6c96ab5107c0f9e",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "32",
+            "ship_strategy": "GLOBAL",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "36",
+        "parallelism": 1,
+        "operator": "Calc[22]",
+        "description": "[22]:Calc(select=[0 AS $f0], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "17",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "37",
+        "parallelism": 1,
+        "operator": "HashAggregate[23]",
+        "description": "[23]:LocalHashAggregate(select=[Partial_COUNT(*) AS count1$0])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "36",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "39",
+        "parallelism": 1,
+        "operator": "HashAggregate[25]",
+        "description": "[25]:HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])",
+        "job_vertex_id": "4f32d50a22771536bb0bc605f00da0fe",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "37",
+            "ship_strategy": "GLOBAL",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "43",
+        "parallelism": 1,
+        "operator": "MultipleInput[52]",
+        "description": "[52]:MultipleInput(readOrder=[0,0,0,1], members=[\\nNestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00, EXPR$01, $f0], build=[right], singleRowJoin=[true])\\n:- NestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00, EXPR$01], build=[right], singleRowJoin=[true])\\n:  :- NestedLoopJoin(joinType=[LeftOuterJoin], where=[true], select=[EXPR$0, EXPR$1, EXPR$00], build=[left], singleRowJoin=[true])\\n:  :  :- [#3] Exchange(distribution=[broadcast])\\n:  :  +- [#4] HashAggregate(isMerge=[true], select=[Final_COUNT(count1$0) AS EXPR$0])\\n:  +- [#2] Exchange(distribution=[broadcast])\\n+- [#1] Exchange(distribution=[broadcast])\\n])",
+        "job_vertex_id": "de5d687c8cae48cd42d967e2dbb6534c",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "34",
+            "ship_strategy": "BROADCAST",
+            "exchange": "BATCH"
+          },
+          {
+            "num": 1,
+            "id": "39",
+            "ship_strategy": "RESCALE",
+            "exchange": "UNDEFINED"
+          },
+          {
+            "num": 2,
+            "id": "28",
+            "ship_strategy": "BROADCAST",
+            "exchange": "BATCH"
+          },
+          {
+            "num": 3,
+            "id": "23",
+            "ship_strategy": "BROADCAST",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "44",
+        "parallelism": 1,
+        "operator": "Sink: Filesystem",
+        "description": "Sink: Filesystem",
+        "job_vertex_id": "de5d687c8cae48cd42d967e2dbb6534c",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "43",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "45",
+        "parallelism": 1,
+        "operator": "Calc[42]",
+        "description": "[42]:Calc(select=[d, t, TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time, (TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NULL OR NOT(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false)) OR COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') <> CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true) OR (CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NOT NULL AND CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NOT NULL AND CASE(REGEXP(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NOT NULL AND CASE(REGEXP(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NOT NULL AND CASE(REGEXP(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NOT NULL AND CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NOT NULL AND CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL) OR (CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NOT NULL AND CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) IS NULL)) AS parse_error, ((((((CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) IS NULL, 1, 0) + CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) IS NULL, 1, 0)) + CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) IS NULL, 1, 0)) + CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) IS NULL, 1, 0)) + CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) IS NULL, 1, 0)) + CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) IS NULL, 1, 0)) + CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) IS NULL, 1, 0)) AS missing_cells, CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS power_kw, CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub1_wh, CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub2_wh, CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) AS sub3_wh, (CAST(((CASE(REGEXP(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) * 1000) - (60 * ((CASE(REGEXP(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6)) + CASE(REGEXP(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))) + CASE(REGEXP(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)), '^[+]?[0-9]+([.][0-9]{1,6})?$'), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)), null:DECIMAL(18, 6))))) AS DOUBLE) / 60.0) AS residual_wh, p, r, v, a, s1, s2, s3], where=[NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false))])",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "17",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "46",
+        "parallelism": 1,
+        "operator": "Sink: Filesystem",
+        "description": "Sink: Filesystem",
+        "job_vertex_id": "1c23d51267c4e1a5275574d8bb7220b1",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "45",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "47",
+        "parallelism": 1,
+        "operator": "Calc[44]",
+        "description": "[44]:Calc(select=[TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) AS event_time], where=[(COALESCE((REGEXP(d, '^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$') AND REGEXP(t, '^[0-9]{2}:[0-9]{2}:00$')), false) AND (p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?') OR CASE(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), false, REGEXP(TRIM(BOTH, ' ', p), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((p IS NULL OR (TRIM(BOTH, ' ', p) = '') OR (TRIM(BOTH, ' ', p) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', p)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?') OR CASE(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), false, REGEXP(TRIM(BOTH, ' ', r), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((r IS NULL OR (TRIM(BOTH, ' ', r) = '') OR (TRIM(BOTH, ' ', r) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', r)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?') OR CASE(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), false, REGEXP(TRIM(BOTH, ' ', v), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((v IS NULL OR (TRIM(BOTH, ' ', v) = '') OR (TRIM(BOTH, ' ', v) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', v)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?') OR CASE(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), false, REGEXP(TRIM(BOTH, ' ', a), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((a IS NULL OR (TRIM(BOTH, ' ', a) = '') OR (TRIM(BOTH, ' ', a) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', a)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?') OR CASE(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), false, REGEXP(TRIM(BOTH, ' ', s1), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s1 IS NULL OR (TRIM(BOTH, ' ', s1) = '') OR (TRIM(BOTH, ' ', s1) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s1)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?') OR CASE(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), false, REGEXP(TRIM(BOTH, ' ', s2), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s2 IS NULL OR (TRIM(BOTH, ' ', s2) = '') OR (TRIM(BOTH, ' ', s2) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s2)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND (s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?') OR CASE(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), false, REGEXP(TRIM(BOTH, ' ', s3), '^[+]?[0-9]+([.][0-9]{1,6})?$')), TRY_CAST(CASE((s3 IS NULL OR (TRIM(BOTH, ' ', s3) = '') OR (TRIM(BOTH, ' ', s3) = '?')), null:VARCHAR(2147483647), TRIM(BOTH, ' ', s3)) AS DECIMAL(18, 6)) IS NOT NULL, false)) AND NOT(COALESCE(((d = 'Date') AND (t = 'Time') AND (p = 'Global_active_power') AND (r = 'Global_reactive_power') AND (v = 'Voltage') AND (a = 'Global_intensity') AND (s1 = 'Sub_metering_1') AND (s2 = 'Sub_metering_2') AND (s3 = 'Sub_metering_3')), false)) AND NOT(COALESCE((DATE_FORMAT(TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)), 'yyyy-MM-dd HH:mm:ss') <> CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t)), true)) AND TRY_CAST(CONCAT(SPLIT_INDEX(d, '/', 2), '-', LPAD(SPLIT_INDEX(d, '/', 1), 2, '0'), '-', LPAD(SPLIT_INDEX(d, '/', 0), 2, '0'), ' ', t) AS TIMESTAMP(3)) IS NOT NULL)])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "1",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "48",
+        "parallelism": 1,
+        "operator": "Sort[45]",
+        "description": "[45]:Sort(orderBy=[event_time ASC])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "47",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "50",
+        "parallelism": 1,
+        "operator": "SortAggregate[46]",
+        "description": "[46]:LocalSortAggregate(groupBy=[event_time], select=[event_time, Partial_COUNT(*) AS count1$0])",
+        "job_vertex_id": "e3dfc0d7e9ecd8a43f85f0b68ebf3b80",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "48",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "52",
+        "parallelism": 1,
+        "operator": "Sort[48]",
+        "description": "[48]:Sort(orderBy=[event_time ASC])",
+        "job_vertex_id": "8929c132dd83382d9af251b0b22217fd",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "50",
+            "ship_strategy": "HASH[event_time]",
+            "exchange": "BATCH"
+          }
+        ]
+      },
+      {
+        "id": "54",
+        "parallelism": 1,
+        "operator": "SortAggregate[49]",
+        "description": "[49]:SortAggregate(isMerge=[true], groupBy=[event_time], select=[event_time, Final_COUNT(count1$0) AS EXPR$1])",
+        "job_vertex_id": "8929c132dd83382d9af251b0b22217fd",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "52",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "55",
+        "parallelism": 1,
+        "operator": "Calc[50]",
+        "description": "[50]:Calc(select=[event_time, EXPR$1], where=[(EXPR$1 > 1)])",
+        "job_vertex_id": "8929c132dd83382d9af251b0b22217fd",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "54",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      },
+      {
+        "id": "56",
+        "parallelism": 1,
+        "operator": "Sink: Filesystem",
+        "description": "Sink: Filesystem",
+        "job_vertex_id": "8929c132dd83382d9af251b0b22217fd",
+        "inputs": [
+          {
+            "num": 0,
+            "id": "55",
+            "ship_strategy": "FORWARD",
+            "exchange": "UNDEFINED"
+          }
+        ]
+      }
+    ]
+  },
+  "pending-operators": 0
+}

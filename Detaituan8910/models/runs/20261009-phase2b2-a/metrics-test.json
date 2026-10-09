@@ -1,0 +1,46 @@
+{
+  "evaluation_split": "test",
+  "unit": "kWh",
+  "n": 4590,
+  "models": {
+    "hgb": {
+      "mae_kwh": 0.3220542588291146,
+      "rmse_kwh": 0.4634874854716987,
+      "raw_mae_kwh": 0.3220542588291146,
+      "raw_rmse_kwh": 0.4634874854716987,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.20239101624522457,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    },
+    "naive": {
+      "mae_kwh": 0.3857869426289034,
+      "rmse_kwh": 0.58452003739288,
+      "raw_mae_kwh": 0.3857869426289034,
+      "raw_rmse_kwh": 0.58452003739288,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.1951,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    },
+    "seasonal_naive_24": {
+      "mae_kwh": 0.5036366739288308,
+      "rmse_kwh": 0.7526481217054579,
+      "raw_mae_kwh": 0.5036366739288308,
+      "raw_rmse_kwh": 0.7526481217054579,
+      "negative_raw_count": 0,
+      "minimum_raw_kwh": 0.1951,
+      "changed_prediction_count": 0,
+      "d09_mae_reduction_kwh": 0.0,
+      "d09_rmse_reduction_kwh": 0.0
+    }
+  },
+  "official_prediction": "final",
+  "prediction_policy": "D09:max(0,prediction_raw)",
+  "official_evaluation_number": 1,
+  "refit": false,
+  "protocol": "one-step rolling origin; observed actual history through s-1; target [s,s+1), origin=s; naive source calendar",
+  "test_evaluated": true
+}

@@ -1,0 +1,343 @@
+{
+  "captured_at": "2026-10-09T10:38:48.173253+00:00",
+  "status": "VERIFIED",
+  "passed": 63,
+  "total_checks": 63,
+  "read_back": [
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/context.md",
+      "bytes": 42413,
+      "sha256": "f70868dc3f78a108026d525b9808826bbbe3178d9c51240fe2d59f530e1ecd0f"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/PLAN.md",
+      "bytes": 13985,
+      "sha256": "32439822bf2f4499713750eba5db888576cab33cb698192befbe46c3baade243"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/DOC_INDEX.md",
+      "bytes": 14639,
+      "sha256": "b8da775243425702f19f9d947a5163f31fc2526112652c91fdcf91d29719dfdd"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/mistake.md",
+      "bytes": 8414,
+      "sha256": "5b25af2ba42a64fd0cc2736fed0aa6e5823a017ffe57c18b4d831468db68e9d4"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/pipeline/README.md",
+      "bytes": 5260,
+      "sha256": "9b7afa3821b1137b03f8b08052b0bb9ee63739fe4b378efec36d57a18e15d98d"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-full-20261009/checklist.md",
+      "bytes": 1392,
+      "sha256": "dbc245e5f10a869a810ce99db4a9db5ab7823c0bb5fb8b110c50c4cc8e131e58"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-full-20261009/review.md",
+      "bytes": 9807,
+      "sha256": "fef33eff9df09cd687ae31833af7e01cfc729a8335aac8b07d674cadc749e603"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/decisions/20261009-flink-full-approval.md",
+      "bytes": 2001,
+      "sha256": "472a899d15318edcd6fe56f059c2d0ccb52576cb63f67eda03b67216a5b73b70"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md",
+      "bytes": 5557,
+      "sha256": "d1a8394f4d0ddf72f9cf867a45944384be9f33c7685fe13c3c9363394a67689d"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md",
+      "bytes": 8409,
+      "sha256": "0f694c82eaee49e3f9546c03a165fc36801e7b2a5adc6deba24dee0f53e9ced8"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+      "bytes": 9702,
+      "sha256": "6427d32945f68f0968954c4737757bf81c69ed4774036b2f69247900fec34221"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md",
+      "bytes": 4450,
+      "sha256": "2719b9f6b7cf845afc1b422e9a171f540f8ebb86b7b51f5467718fd31a04491c"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md",
+      "bytes": 10662,
+      "sha256": "bec7f254ce9eb718bd13f3444453dc7297f61aadd98219263933388d91d7534d"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/.agent/context.md",
+      "bytes": 42923,
+      "sha256": "ecd9a4d63e8c49c9ce815bf2aa28e1c1c03ea8924b71c80590eb0ae40742650c"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/.agent/PLAN.md",
+      "bytes": 13442,
+      "sha256": "e0db3863d36a91b8f52b18afd006249cc358faf7c60b2e0a7b50e3e1ed59e6c3"
+    },
+    {
+      "path": "/mnt/d/Hoctap/bigdata/.agent/DOC_INDEX.md",
+      "bytes": 18754,
+      "sha256": "6e26e40bc78a38d627fb9223b36495a5bc23617aded6b7fe893739233c9fbb97"
+    }
+  ],
+  "checks": [
+    {
+      "name": "handoff_all_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:pipeline/run_full.py",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/scripts/verify_full_pipeline.py",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/scripts/verify_full_date_parser.py",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/scripts/collect_full_handoff.py",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job.sql",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/sql-client.log",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/verification.json",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/resources.jsonl",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/resource-summary.json",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job.sql",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/sql-client.log",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/verification.json",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/resources.jsonl",
+      "passed": true
+    },
+    {
+      "name": "support_hash_preserved:.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/resource-summary.json",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/context.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/DOC_INDEX.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/mistake.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/pipeline/README.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/qa/phase1-full-20261009/checklist.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/qa/phase1-full-20261009/review.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/.agent/decisions/20261009-flink-full-approval.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:APP_UI_SPEC.md:TECHNICAL_ARCHITECTURE.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:DATA_AUDIT.md:../../.agent/qa/phase0-20261008/dataset-audit.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:DATA_AUDIT.md:../../.agent/qa/phase0-resume-20261009/dataset-verification.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:DATA_AUDIT.md:../../.agent/scripts/audit_phase0_uci.py",
+      "passed": true
+    },
+    {
+      "name": "local_link:DATA_AUDIT.md:IMPLEMENTATION_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:DATA_AUDIT.md:OPEN_DECISIONS.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:../../.agent/qa/phase1-full-20261009/review.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:../../.agent/qa/phase1-full-20261009/checklist.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:../../.agent/qa/phase1-full-20261009/handoff-verification.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:DATA_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:TECHNICAL_ARCHITECTURE.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:APP_UI_SPEC.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:OPEN_DECISIONS.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:IMPLEMENTATION_PLAN.md:../../.agent/qa/phase0-resume-20261009/checklist.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:OPEN_DECISIONS.md:DATA_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:OPEN_DECISIONS.md:TECHNICAL_ARCHITECTURE.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:OPEN_DECISIONS.md:APP_UI_SPEC.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:OPEN_DECISIONS.md:IMPLEMENTATION_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:TECHNICAL_ARCHITECTURE.md:../../.agent/qa/phase0-resume-20261009/environment.json",
+      "passed": true
+    },
+    {
+      "name": "local_link:TECHNICAL_ARCHITECTURE.md:../../.agent/qa/phase0-resume-20261009/environment-extra.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:TECHNICAL_ARCHITECTURE.md:DATA_AUDIT.md",
+      "passed": true
+    },
+    {
+      "name": "local_link:TECHNICAL_ARCHITECTURE.md:IMPLEMENTATION_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:.agent/context.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:.agent/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "markdown_utf8:.agent/DOC_INDEX.md",
+      "passed": true
+    },
+    {
+      "name": "review_has_real_run_and_job:20261009T102201900234-full",
+      "passed": true
+    },
+    {
+      "name": "final_csv_hash_and_schema:20261009T102201900234-full",
+      "passed": true
+    },
+    {
+      "name": "oracle_coverage_semantics:20261009T102201900234-full",
+      "passed": true
+    },
+    {
+      "name": "review_has_real_run_and_job:20261009T102643175598-rerun",
+      "passed": true
+    },
+    {
+      "name": "final_csv_hash_and_schema:20261009T102643175598-rerun",
+      "passed": true
+    },
+    {
+      "name": "oracle_coverage_semantics:20261009T102643175598-rerun",
+      "passed": true
+    },
+    {
+      "name": "review_preserves_acceptance_gate",
+      "passed": true
+    },
+    {
+      "name": "no_missing_pending_labeled_complete",
+      "passed": true
+    }
+  ],
+  "scope": "Read-back all16 current/relevant Markdown; historical QA kept unchanged. Source artifacts separately verified in both full-run verification reports. No Word/render/model/UI performed."
+}

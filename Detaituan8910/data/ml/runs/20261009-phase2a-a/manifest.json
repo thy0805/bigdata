@@ -1,0 +1,53 @@
+{
+  "status": "APPLIED_UNVERIFIED",
+  "run_id": "20261009-phase2a-a",
+  "created_at": "2026-10-09T11:10:03.055455+00:00",
+  "source": {
+    "run_id": "20261009T102201900234-full",
+    "path": "data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+    "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+    "verification_sha256": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+    "manifest_sha256": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+    "verification_status": "VERIFIED",
+    "flink_job_ids": [
+      "9307ab8abf4d8286245019045ed694ac"
+    ],
+    "mode": "BATCH",
+    "timezone_policy": "naive source calendar; no UTC/DST inference"
+  },
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "joblib": "1.5.1",
+    "threadpoolctl": "3.6.0",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2025.2",
+    "tzdata": "2025.2",
+    "six": "1.17.0"
+  },
+  "code_sha256": "1f722d2e69e1bbc09cfb06862a5eb6b58a04de18d426fe279d70c8e836a286c5",
+  "requirements_sha256": "bdd8d086ef4a5ecb823e5fd04f7ed001fb3dce24fefe97e6a74fd231c77ab94d",
+  "input_axis_hours": 34589,
+  "input_complete_hours": 34085,
+  "input_null_hours": 504,
+  "eligible_ml_hours": 31830,
+  "excluded_ml_hours": 2759,
+  "split_rule": "floor(0.70*N), floor(0.85*N) on complete target-hour axis before eligibility filtering",
+  "evaluation_mode": "one-step rolling origin with previously observed actuals; not recursive multi-step",
+  "test_evaluated": false,
+  "model_trained": false,
+  "outputs_sha256": {
+    "eligibility.csv": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+    "feature-schema.json": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+    "holdout/seal.json": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+    "holdout/test.csv": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+    "metrics-validation.json": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+    "predictions-validation.csv": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+    "split-summary.json": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+    "train.csv": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+    "validation.csv": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884"
+  }
+}

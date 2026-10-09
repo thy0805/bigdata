@@ -1,0 +1,223 @@
+{
+  "status": "LOCKED",
+  "locked_at": "2026-10-09T13:06:04.964254+00:00",
+  "selected_model": "HistGradientBoostingRegressor",
+  "candidate_path": "models/runs/20261009-phase2b1-a2/candidate.joblib",
+  "candidate_sha256": "94ed8c4e493025ae363a3cc6fb1b0639ef2368264966b5bda190303e98a95c38",
+  "selected_version": "hgb-uci-hourly-v0.1-candidate",
+  "final_version": "hgb-uci-hourly-v1.0-train-only",
+  "refit": false,
+  "training_split": "train",
+  "fitted_rows": 22513,
+  "feature_schema": {
+    "feature_columns": [
+      "lag_1_kwh",
+      "lag_2_kwh",
+      "lag_3_kwh",
+      "lag_24_kwh",
+      "lag_168_kwh",
+      "rolling_mean_3_kwh",
+      "rolling_mean_24_kwh",
+      "target_hour_of_day",
+      "target_day_of_week",
+      "target_month",
+      "target_is_weekend"
+    ],
+    "features": [
+      {
+        "name": "lag_1_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "E(target_hour - 1 hours)",
+        "latest_source_offset_hours": -1
+      },
+      {
+        "name": "lag_2_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "E(target_hour - 2 hours)",
+        "latest_source_offset_hours": -2
+      },
+      {
+        "name": "lag_3_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "E(target_hour - 3 hours)",
+        "latest_source_offset_hours": -3
+      },
+      {
+        "name": "lag_24_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "E(target_hour - 24 hours)",
+        "latest_source_offset_hours": -24
+      },
+      {
+        "name": "lag_168_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "E(target_hour - 168 hours)",
+        "latest_source_offset_hours": -168
+      },
+      {
+        "name": "rolling_mean_3_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "mean E(target_hour - 3 hours) through E(target_hour - 1 hour); all required",
+        "latest_source_offset_hours": -1
+      },
+      {
+        "name": "rolling_mean_24_kwh",
+        "dtype": "float64",
+        "unit": "kWh",
+        "source": "mean E(target_hour - 24 hours) through E(target_hour - 1 hour); all required",
+        "latest_source_offset_hours": -1
+      },
+      {
+        "name": "target_hour_of_day",
+        "dtype": "integer",
+        "unit": "calendar",
+        "source": "target_hour known calendar: 0..23",
+        "latest_source_offset_hours": null
+      },
+      {
+        "name": "target_day_of_week",
+        "dtype": "integer",
+        "unit": "calendar",
+        "source": "target_hour known calendar: Monday=0..Sunday=6",
+        "latest_source_offset_hours": null
+      },
+      {
+        "name": "target_month",
+        "dtype": "integer",
+        "unit": "calendar",
+        "source": "target_hour known calendar: 1..12",
+        "latest_source_offset_hours": null
+      },
+      {
+        "name": "target_is_weekend",
+        "dtype": "integer",
+        "unit": "calendar",
+        "source": "target_hour known calendar: Saturday/Sunday=1, other=0",
+        "latest_source_offset_hours": null
+      }
+    ],
+    "target": "target_energy_kwh = E(target_hour), interval [target_hour,target_hour+1h)",
+    "prediction_origin": "target_hour, immediately after the preceding hour is fully observed",
+    "horizon_hours": 1,
+    "latest_allowed_measurement": "hour_start <= target_hour - 1h",
+    "missing_policy": "No imputation; complete source hours only; exact timestamp lags; full rolling windows",
+    "gap_policy": "Exact lag168 may reference a real past hour across intervening missing timestamps. No compressed shifts or rolling across missing hours.",
+    "excluded_from_features": [
+      "target_energy_kwh",
+      "prediction_origin",
+      "target_end",
+      "latest_observed_hour",
+      "split",
+      "eligible",
+      "exclusion_primary",
+      "exclusion_reasons"
+    ]
+  },
+  "model_config": {
+    "approved_parameters": {
+      "loss": "squared_error",
+      "learning_rate": 0.05,
+      "max_iter": 200,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "max_bins": 255,
+      "early_stopping": false,
+      "random_state": 42
+    },
+    "actual_parameters": {
+      "categorical_features": "from_dtype",
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.05,
+      "loss": "squared_error",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 200,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 30,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "quantile": null,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "feature_columns": [
+      "lag_1_kwh",
+      "lag_2_kwh",
+      "lag_3_kwh",
+      "lag_24_kwh",
+      "lag_168_kwh",
+      "rolling_mean_3_kwh",
+      "rolling_mean_24_kwh",
+      "target_hour_of_day",
+      "target_day_of_week",
+      "target_month",
+      "target_is_weekend"
+    ],
+    "model_version": "hgb-uci-hourly-v0.1-candidate",
+    "prediction_policy": "D09:max(0,prediction_raw)",
+    "training_split": "train",
+    "final_locked": false
+  },
+  "prediction_policy": "D09:max(0,prediction_raw)",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "joblib": "1.5.1",
+    "threadpoolctl": "3.6.0",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2025.2",
+    "tzdata": "2025.2",
+    "six": "1.17.0"
+  },
+  "python": "3.12.3",
+  "source_phase2a_manifest_sha256": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+  "source_phase2a_verification_sha256": "3a7ad0ad97c1dd95a2194b0742729d5285e7be07130d10aad6e30029aeebd9b8",
+  "source_phase2a_outputs": {
+    "eligibility.csv": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+    "feature-schema.json": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+    "holdout/seal.json": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+    "holdout/test.csv": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+    "metrics-validation.json": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+    "predictions-validation.csv": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+    "split-summary.json": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+    "train.csv": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+    "validation.csv": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884"
+  },
+  "flink_source": {
+    "run_id": "20261009T102201900234-full",
+    "path": "data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+    "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+    "verification_sha256": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+    "manifest_sha256": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+    "verification_status": "VERIFIED",
+    "flink_job_ids": [
+      "9307ab8abf4d8286245019045ed694ac"
+    ],
+    "mode": "BATCH",
+    "timezone_policy": "naive source calendar; no UTC/DST inference"
+  },
+  "test_sha256": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+  "test_n": 4590,
+  "official_evaluation": "once; no model selection from Test",
+  "protocol": "one-step rolling origin; observed actual history through s-1; target [s,s+1), origin=s; naive source calendar",
+  "authorized_request_sha256": "65c4da6bb0e512aebf559197787e44ca57daad57e6327225b47a019dc5765704",
+  "evaluation_code_sha256": "d092de678cc4ef9a6247dbe44d5972fac82a2ac57f682df456c509cedd792ad9",
+  "validation_match_exact": true,
+  "test_content_read_before_lock": false
+}

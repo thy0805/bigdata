@@ -1,0 +1,68 @@
+{
+  "captured_at": "2026-10-09T10:22:24.788297+00:00",
+  "overview": {
+    "taskmanagers": 1,
+    "slots-total": 2,
+    "slots-available": 2,
+    "jobs-running": 0,
+    "jobs-finished": 22,
+    "jobs-cancelled": 0,
+    "jobs-failed": 4,
+    "flink-version": "2.3.0",
+    "flink-commit": "c0f8d1a"
+  },
+  "taskmanagers": {
+    "taskmanagers": [
+      {
+        "id": "localhost:34243-89cb17",
+        "path": "pekko.tcp://flink@localhost:34243/user/rpc/taskmanager_0",
+        "dataPort": 43061,
+        "jmxPort": -1,
+        "timeSinceLastHeartbeat": 1791541338953,
+        "slotsNumber": 2,
+        "freeSlots": 2,
+        "assignedTasks": 0,
+        "totalResource": {
+          "cpuCores": 2.0,
+          "taskHeapMemory": 537,
+          "taskOffHeapMemory": 0,
+          "managedMemory": 634,
+          "networkMemory": 158,
+          "extendedResources": {}
+        },
+        "freeResource": {
+          "cpuCores": 2.0,
+          "taskHeapMemory": 537,
+          "taskOffHeapMemory": 0,
+          "managedMemory": 634,
+          "networkMemory": 158,
+          "extendedResources": {}
+        },
+        "hardware": {
+          "cpuCores": 16,
+          "physicalMemory": 16604893184,
+          "freeMemory": 698351616,
+          "managedMemory": 665719939
+        },
+        "memoryConfiguration": {
+          "frameworkHeap": 134217728,
+          "taskHeap": 563714445,
+          "frameworkOffHeap": 134217728,
+          "taskOffHeap": 0,
+          "networkMemory": 166429984,
+          "managedMemory": 665719939,
+          "jvmMetaspace": 268435456,
+          "jvmOverhead": 214748368,
+          "totalFlinkMemory": 1664299824,
+          "totalProcessMemory": 2147483648
+        }
+      }
+    ]
+  },
+  "environment": {
+    "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64",
+    "FLINK_CONF_DIR": "/mnt/d/Hoctap/bigdata/Detaituan8910/pipeline/flink-conf",
+    "FLINK_LOG_DIR": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-logs",
+    "FLINK_PID_DIR": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-pids"
+  }
+}

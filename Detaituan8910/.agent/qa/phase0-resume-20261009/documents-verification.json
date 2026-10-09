@@ -1,0 +1,244 @@
+{
+  "captured_at": "2026-10-09T16:02:45.209770+07:00",
+  "checks": {
+    "five_documents_exist": true,
+    "dataset_checks_pass": true,
+    "wsl_version_2": true,
+    "linux_python_312": true,
+    "localhost_probe_pass": true,
+    "pyflink_not_installed": true,
+    "cp312_wheel_exists": true,
+    "DATA_AUDIT.md_has_title": true,
+    "DATA_AUDIT.md_utf8_no_replacement_or_thai": true,
+    "DATA_AUDIT.md_balanced_fences": true,
+    "TECHNICAL_ARCHITECTURE.md_has_title": true,
+    "TECHNICAL_ARCHITECTURE.md_utf8_no_replacement_or_thai": true,
+    "TECHNICAL_ARCHITECTURE.md_balanced_fences": true,
+    "APP_UI_SPEC.md_has_title": true,
+    "APP_UI_SPEC.md_utf8_no_replacement_or_thai": true,
+    "APP_UI_SPEC.md_balanced_fences": true,
+    "IMPLEMENTATION_PLAN.md_has_title": true,
+    "IMPLEMENTATION_PLAN.md_utf8_no_replacement_or_thai": true,
+    "IMPLEMENTATION_PLAN.md_balanced_fences": true,
+    "OPEN_DECISIONS.md_has_title": true,
+    "OPEN_DECISIONS.md_utf8_no_replacement_or_thai": true,
+    "OPEN_DECISIONS.md_balanced_fences": true,
+    "local_links_resolve": true,
+    "audit_number_rows": true,
+    "audit_number_missing": true,
+    "audit_number_total_hours": true,
+    "audit_number_full_hours": true,
+    "audit_number_incomplete": true,
+    "audit_number_residual_negative": true,
+    "audit_hash_in_doc": true,
+    "sample_not_claimed_full_rescan": true,
+    "missing_policy_keeps_grid_and_null": true,
+    "no_claim_flink_running": true,
+    "sql_is_real_flink_not_pandas": true,
+    "bounded_not_fake_realtime": true,
+    "storage_reality_flagged": true,
+    "phase1_requires_approval": true,
+    "forecast_leakage_guards": true,
+    "ui_3_tabs_and_history": true,
+    "locked_choices_not_reopened": true,
+    "source_hashes_still_match": true,
+    "official_links_http_ok": true
+  },
+  "passed": 42,
+  "total": 42,
+  "documents": {
+    "DATA_AUDIT.md": {
+      "sha256": "a3adf0abad79b1665b3d916bd459df49f357f44c430de013b2bd7385f2858888",
+      "bytes": 7950,
+      "lines": 104
+    },
+    "TECHNICAL_ARCHITECTURE.md": {
+      "sha256": "149092c9f5ab413b628ac7b29b3edd2080f51ce7de97a5413db276f01c3298db",
+      "bytes": 9631,
+      "lines": 79
+    },
+    "APP_UI_SPEC.md": {
+      "sha256": "c6bcb722e3bb1fa576a54b31065f58f362c1e3916fb371d40f848d73b40ff876",
+      "bytes": 5433,
+      "lines": 54
+    },
+    "IMPLEMENTATION_PLAN.md": {
+      "sha256": "967ab5d563cd087b05343c2ec5d812a4ee26a7cf8f70d299747354be3b770f60",
+      "bytes": 8908,
+      "lines": 84
+    },
+    "OPEN_DECISIONS.md": {
+      "sha256": "83284e04bb75a0d3771225a8c148b2c5b6c8af08217d6bb3c596deeb1138e326",
+      "bytes": 4242,
+      "lines": 43
+    }
+  },
+  "local_links": [
+    {
+      "document": "DATA_AUDIT.md",
+      "target": "../../.agent/qa/phase0-20261008/dataset-audit.json",
+      "exists": true
+    },
+    {
+      "document": "DATA_AUDIT.md",
+      "target": "../../.agent/qa/phase0-resume-20261009/dataset-verification.json",
+      "exists": true
+    },
+    {
+      "document": "DATA_AUDIT.md",
+      "target": "../../.agent/scripts/audit_phase0_uci.py",
+      "exists": true
+    },
+    {
+      "document": "DATA_AUDIT.md",
+      "target": "IMPLEMENTATION_PLAN.md",
+      "exists": true
+    },
+    {
+      "document": "DATA_AUDIT.md",
+      "target": "OPEN_DECISIONS.md",
+      "exists": true
+    },
+    {
+      "document": "TECHNICAL_ARCHITECTURE.md",
+      "target": "../../.agent/qa/phase0-resume-20261009/environment.json",
+      "exists": true
+    },
+    {
+      "document": "TECHNICAL_ARCHITECTURE.md",
+      "target": "../../.agent/qa/phase0-resume-20261009/environment-extra.md",
+      "exists": true
+    },
+    {
+      "document": "TECHNICAL_ARCHITECTURE.md",
+      "target": "DATA_AUDIT.md",
+      "exists": true
+    },
+    {
+      "document": "TECHNICAL_ARCHITECTURE.md",
+      "target": "IMPLEMENTATION_PLAN.md",
+      "exists": true
+    },
+    {
+      "document": "APP_UI_SPEC.md",
+      "target": "TECHNICAL_ARCHITECTURE.md",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "../../.agent/qa/phase0-resume-20261009/documents-verification.json",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "DATA_AUDIT.md",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "TECHNICAL_ARCHITECTURE.md",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "APP_UI_SPEC.md",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "OPEN_DECISIONS.md",
+      "exists": true
+    },
+    {
+      "document": "IMPLEMENTATION_PLAN.md",
+      "target": "../../.agent/qa/phase0-resume-20261009/checklist.md",
+      "exists": true
+    },
+    {
+      "document": "OPEN_DECISIONS.md",
+      "target": "DATA_AUDIT.md",
+      "exists": true
+    },
+    {
+      "document": "OPEN_DECISIONS.md",
+      "target": "TECHNICAL_ARCHITECTURE.md",
+      "exists": true
+    },
+    {
+      "document": "OPEN_DECISIONS.md",
+      "target": "APP_UI_SPEC.md",
+      "exists": true
+    },
+    {
+      "document": "OPEN_DECISIONS.md",
+      "target": "IMPLEMENTATION_PLAN.md",
+      "exists": true
+    }
+  ],
+  "official_links": [
+    {
+      "url": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "status": 200,
+      "final_url": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption"
+    },
+    {
+      "url": "https://docs.streamlit.io/develop/concepts/architecture/caching",
+      "status": 200,
+      "final_url": "https://docs.streamlit.io/develop/concepts/architecture/caching"
+    },
+    {
+      "url": "https://flink.apache.org/downloads/",
+      "status": 200,
+      "final_url": "https://flink.apache.org/downloads/"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/wsl/networking",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/windows/wsl/networking"
+    },
+    {
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/connectors/table/filesystem/",
+      "status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/connectors/table/filesystem/"
+    },
+    {
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/connectors/table/formats/csv/",
+      "status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/connectors/table/formats/csv/"
+    },
+    {
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/deployment/java_compatibility/",
+      "status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/deployment/java_compatibility/"
+    },
+    {
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/",
+      "status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/"
+    },
+    {
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/getting-started/local_installation/",
+      "status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/getting-started/local_installation/"
+    },
+    {
+      "url": "https://pypi.org/pypi/apache-flink/2.3.0/json",
+      "status": 200,
+      "final_url": "https://pypi.org/pypi/apache-flink/2.3.0/json"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
+      "status": 200,
+      "final_url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "status": 200,
+      "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html"
+    }
+  ],
+  "limits": [
+    "No Flink install/job/model/UI runtime was executed. Version compatibility is based on official documentation and release wheel metadata, not a dependency-install test.",
+    "Reuse full dataset scan with matching hash; current independent recalculation covers 10000 rows and two hours, not every record."
+  ]
+}

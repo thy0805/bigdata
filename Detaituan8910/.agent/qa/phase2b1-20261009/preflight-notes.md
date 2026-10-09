@@ -1,0 +1,4 @@
+# Ghi nhận kiểm tra trước huấn luyện
+
+- Snapshot Phase2A có 965 đường dẫn. Trước huấn luyện 2B1, 68 file tạm dưới `flink-tmp/archivedApplicationStore-*` đã không còn hoặc khác hash. Đây là trạng thái runtime tạm; không thay đổi hoặc dựng lại chúng. Còn 897 file từ snapshot cũ giữ hash, cộng các artifact/code/QA Phase2A tạo thành 933 file kiểm bảo toàn của 2B1. Chi tiết nằm trong `preservation-before.json`. Không tuyên bố toàn bộ 965 file cũ vẫn nguyên trạng ở lượt này.
+- Lượt khởi tạo `20261009-phase2b1-a` bị audit gate chặn trước fit khi kiểm hash Validation. Python audit `open` trên Linux không thể phân loại chắc chế độ nhị phân chỉ bằng chuỗi mode. Thư mục run a giữ nguyên, không có model hoặc metric. Gate được sửa để chỉ đọc Train trước fit, kiểm hash và đọc Validation sau fit. Run chính dùng hậu tố a2. Không thay cấu hình HGB hoặc artifact Phase2A.

@@ -1,0 +1,48 @@
+{
+  "calls": [
+    {
+      "rows": 22513,
+      "columns": [
+        "lag_1_kwh",
+        "lag_2_kwh",
+        "lag_3_kwh",
+        "lag_24_kwh",
+        "lag_168_kwh",
+        "rolling_mean_3_kwh",
+        "rolling_mean_24_kwh",
+        "target_hour_of_day",
+        "target_day_of_week",
+        "target_month",
+        "target_is_weekend"
+      ],
+      "exact_train_X": true,
+      "exact_train_y": true,
+      "kwargs": {},
+      "params": {
+        "categorical_features": "from_dtype",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 30,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  ],
+  "validation_labels_available_to_fit": false,
+  "train_sha256": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1"
+}

@@ -1,0 +1,159 @@
+{
+  "captured_at": "2026-10-09T16:28:10.401083+07:00",
+  "commands": [
+    {
+      "command": [
+        "java",
+        "-version"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-24.04-Ubuntu, mixed mode, sharing)\n"
+    },
+    {
+      "command": [
+        "python3",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Python 3.12.3\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "dpkg-query",
+        "-W",
+        "openjdk-17-jdk-headless",
+        "python3.12-venv"
+      ],
+      "exit_code": 0,
+      "stdout": "openjdk-17-jdk-headless:amd64\t17.0.20.1+1-1~24.04\npython3.12-venv\t3.12.3-1ubuntu0.17\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/cute/.local/opt/flink-2.3.0/bin/flink",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Version: 2.3.0, Commit ID: c0f8d1a\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "venv",
+        "/home/cute/.local/share/uci-flink-qa/venv"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/cute/.local/share/uci-flink-qa/venv/bin/python",
+        "-m",
+        "pip",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "pip 24.0 from /home/cute/.local/share/uci-flink-qa/venv/lib/python3.12/site-packages/pip (python 3.12)\n",
+      "stderr": ""
+    }
+  ],
+  "venv_on_linux_fs": "/home/cute/.local/share/uci-flink-qa/venv",
+  "ui_http_status": 200,
+  "html_has_flink": true,
+  "overview_windows": {
+    "taskmanagers": 1,
+    "slots-total": 2,
+    "slots-available": 2,
+    "jobs-running": 0,
+    "jobs-finished": 10,
+    "jobs-cancelled": 0,
+    "jobs-failed": 2,
+    "flink-version": "2.3.0",
+    "flink-commit": "c0f8d1a"
+  },
+  "taskmanagers_windows": {
+    "taskmanagers": [
+      {
+        "id": "localhost:34243-89cb17",
+        "path": "pekko.tcp://flink@localhost:34243/user/rpc/taskmanager_0",
+        "dataPort": 43061,
+        "jmxPort": -1,
+        "timeSinceLastHeartbeat": 1791538084922,
+        "slotsNumber": 2,
+        "freeSlots": 2,
+        "assignedTasks": 0,
+        "totalResource": {
+          "cpuCores": 2.0,
+          "taskHeapMemory": 537,
+          "taskOffHeapMemory": 0,
+          "managedMemory": 634,
+          "networkMemory": 158,
+          "extendedResources": {}
+        },
+        "freeResource": {
+          "cpuCores": 2.0,
+          "taskHeapMemory": 537,
+          "taskOffHeapMemory": 0,
+          "managedMemory": 634,
+          "networkMemory": 158,
+          "extendedResources": {}
+        },
+        "hardware": {
+          "cpuCores": 16,
+          "physicalMemory": 16604893184,
+          "freeMemory": 698351616,
+          "managedMemory": 665719939
+        },
+        "memoryConfiguration": {
+          "frameworkHeap": 134217728,
+          "taskHeap": 563714445,
+          "frameworkOffHeap": 134217728,
+          "taskOffHeap": 0,
+          "networkMemory": 166429984,
+          "managedMemory": 665719939,
+          "jvmMetaspace": 268435456,
+          "jvmOverhead": 214748368,
+          "totalFlinkMemory": 1664299824,
+          "totalProcessMemory": 2147483648
+        }
+      }
+    ]
+  },
+  "disk_preinstall_bytes_free": {
+    "C": 30785843200,
+    "D": 225280733184
+  },
+  "disk_now": {
+    "C": {
+      "total": 510481395712,
+      "used": 482614730752,
+      "free": 27866664960
+    },
+    "D": {
+      "total": 1000202784768,
+      "used": 775778402304,
+      "free": 224424382464
+    }
+  },
+  "source_preservation": {
+    "C:\\Users\\thy\\Downloads\\individual+household+electric+power+consumption.zip": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_20261008.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v2_20261008.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan Tong Quan Bai Toan Chuong 1.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan_Chuong1_TongQuanBaiToan.docx": true,
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\Ke hoach Do an mon hoc Nhap mon Big data.pdf": true
+  },
+  "notes": [
+    "Linux venv on D had ensurepip error; final probe uses Linux filesystem",
+    "Observed Windows volume delta also includes background Windows activity",
+    "REST listens inside WSL NAT on 0.0.0.0; no Windows portproxy/firewall changes"
+  ],
+  "passed": true
+}

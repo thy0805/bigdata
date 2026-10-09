@@ -1,0 +1,27 @@
+{
+  "captured_at": "2026-10-09T13:06:37.026866+00:00",
+  "state": {
+    "test_authorized": true,
+    "hashing": null,
+    "test_text_opens": 1,
+    "test_hash_opens": 2,
+    "fit_calls": 0
+  },
+  "no_fit": true,
+  "model_input_columns": [
+    "lag_1_kwh",
+    "lag_2_kwh",
+    "lag_3_kwh",
+    "lag_24_kwh",
+    "lag_168_kwh",
+    "rolling_mean_3_kwh",
+    "rolling_mean_24_kwh",
+    "target_hour_of_day",
+    "target_day_of_week",
+    "target_month",
+    "target_is_weekend"
+  ],
+  "prediction_rows": 4590,
+  "target_passed_to_predict": false,
+  "evaluation_started_sha256": "0e8db38314c02374022a53348a7a9a67eb2ba30f291b629c3f2f99d319115ee9"
+}

@@ -1,0 +1,351 @@
+{
+  "status": "VERIFIED",
+  "passed": 47,
+  "total_checks": 47,
+  "checks": [
+    {
+      "name": "UTF8_full_read:Detaituan8910/context.md",
+      "passed": true,
+      "details": {
+        "characters": 39167
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/PLAN.md",
+      "passed": true,
+      "details": {
+        "characters": 12989
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/DOC_INDEX.md",
+      "passed": true,
+      "details": {
+        "characters": 15794
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/mistake.md",
+      "passed": true,
+      "details": {
+        "characters": 8339
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/forecasting/README.md",
+      "passed": true,
+      "details": {
+        "characters": 3098
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/forecasting/TRAINING.md",
+      "passed": true,
+      "details": {
+        "characters": 2498
+      }
+    },
+    {
+      "name": "UTF8_full_read:.agent/context.md",
+      "passed": true,
+      "details": {
+        "characters": 37081
+      }
+    },
+    {
+      "name": "UTF8_full_read:.agent/PLAN.md",
+      "passed": true,
+      "details": {
+        "characters": 12079
+      }
+    },
+    {
+      "name": "UTF8_full_read:.agent/DOC_INDEX.md",
+      "passed": true,
+      "details": {
+        "characters": 17037
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md",
+      "passed": true,
+      "details": {
+        "characters": 4623
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md",
+      "passed": true,
+      "details": {
+        "characters": 7614
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+      "passed": true,
+      "details": {
+        "characters": 9198
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md",
+      "passed": true,
+      "details": {
+        "characters": 4042
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md",
+      "passed": true,
+      "details": {
+        "characters": 9717
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/decisions/20261009-phase2b1-approval.md",
+      "passed": true,
+      "details": {
+        "characters": 1978
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/qa/phase2b1-20261009/checklist.md",
+      "passed": true,
+      "details": {
+        "characters": 1386
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/qa/phase2b1-20261009/review.md",
+      "passed": true,
+      "details": {
+        "characters": 7849
+      }
+    },
+    {
+      "name": "UTF8_full_read:Detaituan8910/.agent/qa/phase2b1-20261009/preflight-notes.md",
+      "passed": true,
+      "details": {
+        "characters": 866
+      }
+    },
+    {
+      "name": "local_links:review.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "local_links:TRAINING.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "handoff_eight_numbered_sections",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metric:hgb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metric:naive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_metric:seasonal_naive_24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:loss",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:max_iter",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:max_leaf_nodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:min_samples_leaf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:l2_regularization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:max_bins",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:early_stopping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_parameter:random_state",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "technical_QA_exact_state_37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_hash_size_provenance_in_review",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "D09_zero_negative_impact_supported",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "save_load_and_reproducibility_supported",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "relative_improvement_not_accuracy_claim",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "B00_B04_exact_VERIFIED",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "B05_workflow_state",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "state_parser_regression",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "latest_checkpoint_scope_and_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "scope_contract_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "saved_artifact_and_code_hashes:20261009-phase2b1-a2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "saved_artifact_and_code_hashes:20261009-phase2b1-b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_preservation_933",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "transient_drift_disclosed_68",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "read_back_files": 18,
+  "files_sha256": {
+    "Detaituan8910/context.md": "7baf0048be240bb73ba967c42d339d7fdcaa4529d87d5bc354c4944e3777840f",
+    "Detaituan8910/.agent/PLAN.md": "73d2a0f655d9acf1a375c5ec03448b029f3db646ac8d64962b1a6aa852291355",
+    "Detaituan8910/.agent/DOC_INDEX.md": "d7e105e66eec4f6906e1c277b2335aef63f983094bbf2c98a12114f4416b0252",
+    "Detaituan8910/.agent/mistake.md": "8ee60b39b63c15a51bc723a04bab6f448a9fdaea29144b46386d004a77f13808",
+    "Detaituan8910/forecasting/README.md": "539b569e98dfdadb383a28c1e52e4eb85da376445b7f9170cc094e8fd499883e",
+    "Detaituan8910/forecasting/TRAINING.md": "532efde3320cdd1051498ecd86491ad89c4a71d4a7d42318a6c98ec432ff16ce",
+    ".agent/context.md": "8baf87fa1b17e8b36966f8b06cdc98e0ad6dde2c9c705384faaeaaa54e65b840",
+    ".agent/PLAN.md": "ec86d49f26e3963dbc6acbb07f17a664a28426a0f46ec2f5bde232ff9ce4b869",
+    ".agent/DOC_INDEX.md": "59a69b531894f3b7bf5a693b8b0fb33bc6de84d3391609df9c3b8a8c3f719226",
+    "Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md": "63a279301e766fa3427fd0b7b0f261f281d84e0b32d27c1232c11ae1a85758e1",
+    "Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md": "a9d54d2a7639d6f8f2f2b8a652855d1246654ad3eb33d8ae351bdf1746619db9",
+    "Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md": "b0aa542174bae6ca8d1978e87ccc89245f798ecc160d3254e83e043854ccdb06",
+    "Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md": "0aa1967564523d6c31c3c0360460d7704489792fe074ce92f4eb453963199cdb",
+    "Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md": "9d72b081341954041a9ff476d011d16969a30c70a5894ba996fb058b75e8c7e8",
+    "Detaituan8910/.agent/decisions/20261009-phase2b1-approval.md": "96670ef60f266a295054b6235cd616cb8b601e67b1b1545142910b15843c4e65",
+    "Detaituan8910/.agent/qa/phase2b1-20261009/checklist.md": "1bfddde7635af59f7c5d822775fa84b1d7d6afb6587896e27ced598f4dc17eed",
+    "Detaituan8910/.agent/qa/phase2b1-20261009/review.md": "c38389af6f2e4d869445df910a709b1f1bb3084dd0561f826154760caff94e7e",
+    "Detaituan8910/.agent/qa/phase2b1-20261009/preflight-notes.md": "606fa23b37a63a96142815e747fbaa69c585e83a191b0425863a482be0803f97"
+  },
+  "markdown_inventory": [
+    ".agent/DOC_INDEX.md",
+    ".agent/PLAN.md",
+    ".agent/decisions/20261009-flink-full-approval.md",
+    ".agent/decisions/20261009-flink-phase1-approval.md",
+    ".agent/decisions/20261009-phase2a-approval.md",
+    ".agent/decisions/20261009-phase2b1-approval.md",
+    ".agent/mistake.md",
+    ".agent/qa/chapter-outlines/qa-summary.md",
+    ".agent/qa/diennang-khung-20261006/artifact.md",
+    ".agent/qa/diennang-khung-20261006/checklist.md",
+    ".agent/qa/diennang-khung-20261006/qa-summary.md",
+    ".agent/qa/diennang-mssv-20261006/checklist.md",
+    ".agent/qa/intake-20261008/checklist.md",
+    ".agent/qa/intake-20261008/review.md",
+    ".agent/qa/phase0-20261008/WSL_DIAGNOSIS.md",
+    ".agent/qa/phase0-20261008/antigravity-wsl-history-20261009.md",
+    ".agent/qa/phase0-20261008/checklist.md",
+    ".agent/qa/phase0-20261008/dism-progress-20261009-0028.md",
+    ".agent/qa/phase0-resume-20261009/checklist.md",
+    ".agent/qa/phase0-resume-20261009/environment-extra.md",
+    ".agent/qa/phase0-resume-20261009/review.md",
+    ".agent/qa/phase1-full-20261009/checklist.md",
+    ".agent/qa/phase1-full-20261009/review.md",
+    ".agent/qa/phase1-smoke-20261009/checklist.md",
+    ".agent/qa/phase1-smoke-20261009/review.md",
+    ".agent/qa/phase2a-20261009/checklist.md",
+    ".agent/qa/phase2a-20261009/review.md",
+    ".agent/qa/phase2b1-20261009/checklist.md",
+    ".agent/qa/phase2b1-20261009/preflight-notes.md",
+    ".agent/qa/phase2b1-20261009/review.md",
+    ".agent/qa/power-timer-20261009/checklist.md",
+    ".agent/qa/word-uci-20261008/artifact.md",
+    ".agent/qa/word-uci-20261008/checklist.md",
+    ".agent/qa/word-uci-20261008/review.md",
+    ".agent/qa/word-uci-caption-math-20261008/checklist.md",
+    ".agent/qa/word-uci-cover-citations-20261008/artifact.md",
+    ".agent/qa/word-uci-cover-citations-20261008/checklist.md",
+    ".agent/qa/word-uci-cover-citations-20261008/review.md",
+    "context.md",
+    "docs/phase0-20261008/APP_UI_SPEC.md",
+    "docs/phase0-20261008/DATA_AUDIT.md",
+    "docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+    "docs/phase0-20261008/OPEN_DECISIONS.md",
+    "docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md",
+    "forecasting/README.md",
+    "forecasting/TRAINING.md",
+    "pipeline/README.md"
+  ],
+  "historical_policy": "Frozen previous QA and approved source documents reused by hash; current coordination files and new handoff read in full",
+  "captured_at": "2026-10-09T12:15:57.876034+00:00",
+  "test_evaluated": false
+}

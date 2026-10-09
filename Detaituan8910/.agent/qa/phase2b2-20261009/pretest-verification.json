@@ -1,0 +1,165 @@
+{
+  "status": "VERIFIED",
+  "captured_at": "2026-10-09T13:06:04.974512+00:00",
+  "passed": 17,
+  "total_checks": 17,
+  "checks": [
+    {
+      "name": "candidate_VERIFIED_bound_to_37_checks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_exact_approved_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_outputs_and_code_frozen",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Phase2A_manifest_verification_bound",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_ML_outputs_unchanged_binary_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Flink_lineage_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Test_seal_4590_and_expected_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pinned_Python_and_packages",
+      "passed": true,
+      "details": {
+        "numpy": "2.2.6",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.6.1",
+        "scipy": "1.15.3",
+        "joblib": "1.5.1",
+        "threadpoolctl": "3.6.0",
+        "python-dateutil": "2.9.0.post0",
+        "pytz": "2025.2",
+        "tzdata": "2025.2",
+        "six": "1.17.0"
+      }
+    },
+    {
+      "name": "fixed_config_features_D09_no_refit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prior_933_guard_only_runtime_exceptions",
+      "passed": true,
+      "details": {
+        "matched": 924,
+        "exceptions": [
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/170801766af83f1b80107c86d91cedfd",
+            "expected": "1f777d71629d7d20408087713ff84a9169f0f09cd9b9e2a67e738f1dc4d8204d",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/527504d503e4695a0d94c11363e77bf2",
+            "expected": "f51871d6bbe7cba3f28043da56a64070da977ebd75fb36b2ec9e94af21de2ada",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/archivedApplicationStore-2bab01ca-fb30-45d3-8b9c-3a0e7e8c4b54/9307ab8abf4d8286245019045ed694ac",
+            "expected": "d9a75870edb8470ef205ba2f05199b22f0c07f3ed6c1104d705ec046c5e7da02",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-b570aca956928b19c2c747502c3a63da",
+            "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_170801766af83f1b80107c86d91cedfd/blob_p-756836f6e7cd98dbb6ddf8e83d83dfed4a6261a2-a999b8c0534a7df53e52793698a2f363",
+            "expected": "9254aa57150f571ee7f1e3b1df0c67ef4bc2ca38e2918f5b0be3dfa82d4addc2",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-438c09c758eb440b905fb88679e84583969e3d82-16db8d4f01eca2165d702aaf948a6fed",
+            "expected": "463ea95e489cc2ca8043a3709a86eded8ae702a4da9b3918c12be4322612ba8e",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_527504d503e4695a0d94c11363e77bf2/blob_p-dd3383726f5f6dbadb2808ee0a89c1f6cf5fc736-93927693e189b6df4a110ce03ae9f18c",
+            "expected": "2ae4a4de53b5375fbe300e36f84804ab31d48576d24b933e0b09d3d07204ec0d",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-4371d9acb13c3ac30d63fab2a47e6bd62f3be212-39a22bf98a11769bdf08a104cd4766a3",
+            "expected": "c6997bb14555984089536300918f019edcbddb263fc41ebb947a398191496123",
+            "actual": null
+          },
+          {
+            "path": "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/flink-tmp/tm_localhost:34243-89cb17/blobStorage/job_9307ab8abf4d8286245019045ed694ac/blob_p-da97095f7d5edb390ae97dd994834ccb8ce00d17-b6a5dbb81ef6085ff3126cf6bb26b17a",
+            "expected": "daae51536687eb8e21458ef3b1e84888f2873135a2aa205c3eb73ac95503b564",
+            "actual": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "loaded_candidate_schema_policy_parameters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "validation_schema_count_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "validation_timestamp_mask_boundaries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "validation_origin_target_past_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "load_matches_all_Validation_timestamps_targets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "load_matches_Validation_raw_final_exact",
+      "passed": true,
+      "details": {
+        "n": 4727,
+        "max_difference_kwh": 0.0
+      }
+    },
+    {
+      "name": "no_Test_content_or_fit_before_lock",
+      "passed": true,
+      "details": {
+        "test_authorized": false,
+        "hashing": null,
+        "test_text_opens": 0,
+        "test_hash_opens": 4,
+        "fit_calls": 0
+      }
+    }
+  ],
+  "selection_lock_sha256": "b4a33059c8897f530f1f08a389e94144d69a17e09f5ca5edc4417e85bd574ddf",
+  "test_content_read": false,
+  "fit_calls": 0
+}

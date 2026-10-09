@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-09",
+  "scope": "Read-only WSL and environment diagnosis; no installation or system repair",
+  "structural": {
+    "evidence": "environment-wsl-20261009.json",
+    "readback_assertions": 10,
+    "passed": 10,
+    "fields_checked": ["optional_features", "vmp_disabled", "glue_without_installer", "missing_msi_registry", "missing_wsl_runtime", "generic_msi_com_responds", "source_zip_hash", "source_word_hash", "no_system_write", "phase0_documents_pending"]
+  },
+  "semantic": {
+    "feature_states": "Microsoft Win32_OptionalFeature: 1 Enabled, 2 Disabled",
+    "wsl_source_tag": "2.7.3",
+    "error_path": "CallMsiPackage -> missing MSI InstallLocation -> WaitForMsiInstall -> missing WslInstaller class",
+    "clsid": "B5AEB4C3-9541-492F-AD4D-505951F6ADA4",
+    "generic_windows_installer_failure_proven": false,
+    "historical_reason_for_missing_components_known": false
+  },
+  "runtime": {
+    "probe_exit_code": 0,
+    "native_version_probes_passed": 3,
+    "windows_installer_com_creation_succeeded": true,
+    "install_method_called": false,
+    "wsl_cli_rerun_in_final_probe": false,
+    "linux_execution_verified": false,
+    "flink_execution_verified": false,
+    "source_zip_and_word_hashes_preserved": true
+  },
+  "pending": ["Thy performs Administrator step and sends output", "WSL MSI installation and optional manual restart", "WSL2 Linux runtime verification", "Independent dataset checks", "Five phase 0 Markdown deliverables", "User approval before stage 1"],
+  "status": "VERIFIED_DIAGNOSIS_ONLY"
+}

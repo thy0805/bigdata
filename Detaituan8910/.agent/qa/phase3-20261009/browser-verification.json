@@ -1,0 +1,158 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "laptop-analysis-no-horizontal-overflow",
+      "passed": true,
+      "evidence": {
+        "height": 769,
+        "main": [
+          {
+            "client": 1357,
+            "scroll": 1357
+          }
+        ],
+        "selected": "Phân tích",
+        "title": [
+          {
+            "height": 66.23863983154297,
+            "width": 1254.70458984375
+          }
+        ],
+        "width": 1366
+      }
+    },
+    {
+      "name": "browser-filter-first-test-fixed-metrics",
+      "passed": true,
+      "evidence": "Dự báo tại mốc lịch sử\n\nMốc phát dự báo / giờ mục tiêu\n\n24/04/2010 17:00\n\nChạy dự báo\n\n0,810kWh\n\nGiờ mục tiêu: 24/04/2010 17:00 – 18:00\n\nMốc phát dự báo: 24/04/2010 17:00\n\nDữ liệu đã biết đến hết khoảng giờ bắt đầu 24/04/2010 16:00\n\nThực tế để đối chiếu sau dự báo: 1,681 kWh\n\nGiá trị thực tế không được truyền vào model.\n\nThực tế và dự báo HGB\n\nHiển thị hai baseline\n\n00:00Apr 24, 2010\n03:00\n06:00\n09:00\n12:00\n15:00\n18:00\n21:00\n0,5\n1\n1,5\n2\n2,5\n3\nThực tế\nHGB\nNaive\nSeasonal Naive24\nkWh\n\nBiểu đồ trong khoảng chọn chỉ gồm mốc đủ điều kiện Test. Khoảng thiếu không nối đường. Đối chiếu sau dự báo; dự báo một bước cuốn chiếu có nhận quan sát thực tế mới.\n\nĐánh giá chính thức trên toàn bộ Test\n\nHGB MAE (kWh)\n\n0,3221\n\nHGB RMSE (kWh)\n\n0,4635\n\nSố mẫu Test\n\n4.590\n\n24/04/2010 17:00 – 26/11/2010 20:00; 4.590 mẫu. Metric không thay đổi theo bộ lọc. Không dùng Test để chỉnh lại model."
+    },
+    {
+      "name": "1920-overview-layout",
+      "passed": true,
+      "evidence": {
+        "captionOpacity": "1",
+        "height": 1080,
+        "main": [
+          {
+            "client": 1920,
+            "scroll": 1920
+          }
+        ],
+        "width": 1920
+      }
+    },
+    {
+      "name": "1920-analysis-layout",
+      "passed": true,
+      "evidence": {
+        "height": 1080,
+        "main": [
+          {
+            "client": 1920,
+            "scroll": 1920
+          }
+        ],
+        "selected": "Phân tích",
+        "width": 1920
+      }
+    },
+    {
+      "name": "monthly-label-after-restart",
+      "passed": true,
+      "evidence": "analysis-1920-final-v3.jpg; categorical month2010-11"
+    },
+    {
+      "name": "1920-forecast-baselines-layout",
+      "passed": true,
+      "evidence": {
+        "baseline": true,
+        "height": 1080,
+        "main": [
+          {
+            "client": 1920,
+            "scroll": 1920
+          }
+        ],
+        "selected": "Dự báo",
+        "width": 1920
+      }
+    },
+    {
+      "name": "final-laptop-layout:Tổng quan",
+      "passed": true,
+      "evidence": {
+        "height": 769,
+        "main": [
+          {
+            "client": 1357,
+            "scroll": 1357
+          }
+        ],
+        "selected": "Tổng quan",
+        "width": 1366
+      }
+    },
+    {
+      "name": "final-laptop-layout:Phân tích",
+      "passed": true,
+      "evidence": {
+        "height": 769,
+        "main": [
+          {
+            "client": 1357,
+            "scroll": 1357
+          }
+        ],
+        "selected": "Phân tích",
+        "width": 1366
+      }
+    },
+    {
+      "name": "final-laptop-layout:Dự báo",
+      "passed": true,
+      "evidence": {
+        "height": 769,
+        "main": [
+          {
+            "client": 1357,
+            "scroll": 1357
+          }
+        ],
+        "selected": "Dự báo",
+        "width": 1366
+      }
+    },
+    {
+      "name": "browser-real-forecast-last-scoped",
+      "passed": true,
+      "evidence": "1,931kWh"
+    }
+  ],
+  "history": [
+    {
+      "name": "browser-real-forecast-last",
+      "passed": false,
+      "evidence": "button click; target26/11/2010 20:00, final1.931kWh; actualnotinput",
+      "superseded": true,
+      "reason": "Unscoped text locator resolved the hidden Overview forecast; retested within visible Forecast tab."
+    }
+  ],
+  "screenshots": [
+    "overview-1920.jpg",
+    "analysis-1920-final-v3.jpg",
+    "forecast-1920-final.jpg",
+    "analysis-quality-1920.jpg",
+    "overview-laptop-final.jpg",
+    "analysis-laptop-final.jpg",
+    "forecast-laptop-final.jpg",
+    "first-test-forecast.jpg"
+  ],
+  "limitations": [
+    "Screenshot API scales with devicePixelRatio1.1; explicit clip used; observed CSS viewports1366x769 and1920x1080.",
+    "Laptop pages intentionally scroll vertically; no horizontal overflow.",
+    "Superseded or blank screenshot attempts are not promoted.",
+    "No mobile UI validation; no cluster live status assertion."
+  ],
+  "url": "http://localhost:8501/"
+}

@@ -1,0 +1,110 @@
+{
+  "feature_columns": [
+    "lag_1_kwh",
+    "lag_2_kwh",
+    "lag_3_kwh",
+    "lag_24_kwh",
+    "lag_168_kwh",
+    "rolling_mean_3_kwh",
+    "rolling_mean_24_kwh",
+    "target_hour_of_day",
+    "target_day_of_week",
+    "target_month",
+    "target_is_weekend"
+  ],
+  "features": [
+    {
+      "name": "lag_1_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "E(target_hour - 1 hours)",
+      "latest_source_offset_hours": -1
+    },
+    {
+      "name": "lag_2_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "E(target_hour - 2 hours)",
+      "latest_source_offset_hours": -2
+    },
+    {
+      "name": "lag_3_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "E(target_hour - 3 hours)",
+      "latest_source_offset_hours": -3
+    },
+    {
+      "name": "lag_24_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "E(target_hour - 24 hours)",
+      "latest_source_offset_hours": -24
+    },
+    {
+      "name": "lag_168_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "E(target_hour - 168 hours)",
+      "latest_source_offset_hours": -168
+    },
+    {
+      "name": "rolling_mean_3_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "mean E(target_hour - 3 hours) through E(target_hour - 1 hour); all required",
+      "latest_source_offset_hours": -1
+    },
+    {
+      "name": "rolling_mean_24_kwh",
+      "dtype": "float64",
+      "unit": "kWh",
+      "source": "mean E(target_hour - 24 hours) through E(target_hour - 1 hour); all required",
+      "latest_source_offset_hours": -1
+    },
+    {
+      "name": "target_hour_of_day",
+      "dtype": "integer",
+      "unit": "calendar",
+      "source": "target_hour known calendar: 0..23",
+      "latest_source_offset_hours": null
+    },
+    {
+      "name": "target_day_of_week",
+      "dtype": "integer",
+      "unit": "calendar",
+      "source": "target_hour known calendar: Monday=0..Sunday=6",
+      "latest_source_offset_hours": null
+    },
+    {
+      "name": "target_month",
+      "dtype": "integer",
+      "unit": "calendar",
+      "source": "target_hour known calendar: 1..12",
+      "latest_source_offset_hours": null
+    },
+    {
+      "name": "target_is_weekend",
+      "dtype": "integer",
+      "unit": "calendar",
+      "source": "target_hour known calendar: Saturday/Sunday=1, other=0",
+      "latest_source_offset_hours": null
+    }
+  ],
+  "target": "target_energy_kwh = E(target_hour), interval [target_hour,target_hour+1h)",
+  "prediction_origin": "target_hour, immediately after the preceding hour is fully observed",
+  "horizon_hours": 1,
+  "latest_allowed_measurement": "hour_start <= target_hour - 1h",
+  "missing_policy": "No imputation; complete source hours only; exact timestamp lags; full rolling windows",
+  "gap_policy": "Exact lag168 may reference a real past hour across intervening missing timestamps. No compressed shifts or rolling across missing hours.",
+  "excluded_from_features": [
+    "target_energy_kwh",
+    "prediction_origin",
+    "target_end",
+    "latest_observed_hour",
+    "split",
+    "eligible",
+    "exclusion_primary",
+    "exclusion_reasons"
+  ]
+}

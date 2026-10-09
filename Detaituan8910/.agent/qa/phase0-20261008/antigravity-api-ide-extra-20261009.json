@@ -1,0 +1,2474 @@
+{
+  "CheckedAt": "2026-10-09T01:41:54.8427031+07:00",
+  "Scope": "Read-only history RPCs; no message, command execution, installation or Windows changes.",
+  "Roots": [
+    "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations"
+  ],
+  "SourceFiles": [
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\01022727-1e3b-4f0a-9957-a98708c12513.pb",
+      "Length": 5878529,
+      "LastWriteTime": "2026-05-22T02:32:15.2413367+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\021d555a-0287-40b6-98d6-e94ca0c082d5.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T00:49:23.1700345+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\02e9129b-f342-4ebd-a4b6-e22bab66c41c.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:21:00.6490853+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\03e68786-141b-43db-936b-27439a3cc0c8.pb",
+      "Length": 1407930,
+      "LastWriteTime": "2026-05-15T13:16:36.4285223+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0504770c-8a90-49fd-8155-8d4afe65f327.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-08T12:55:15.7396435+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\065e48e8-67aa-4699-b110-761d22ad0050.db",
+      "Length": 3227648,
+      "LastWriteTime": "2026-05-22T16:24:28.1099394+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0696b0a7-31d5-475b-9864-0e15090fdafc.pb",
+      "Length": 4467008,
+      "LastWriteTime": "2026-05-25T01:12:00.4681315+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0744dc2c-6d66-4df3-9340-c70f83db48a4.db",
+      "Length": 16650240,
+      "LastWriteTime": "2026-06-02T00:01:33.3256181+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\080103b1-ba17-4a71-826c-ddff602bd268.pb",
+      "Length": 1195807,
+      "LastWriteTime": "2026-05-17T23:26:26.7976673+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\08a0455b-1d8f-412f-90a7-469755e6bf7f.pb",
+      "Length": 189355,
+      "LastWriteTime": "2026-05-14T17:47:26.3225136+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\090eaff1-ba35-4a0c-b5bc-b7e05674fb76.pb",
+      "Length": 3989265,
+      "LastWriteTime": "2026-05-17T23:16:23.746375+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\098ccd35-77ba-4f93-88fc-26ff26f70842.pb",
+      "Length": 12404737,
+      "LastWriteTime": "2026-05-20T18:44:13.4150116+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\09cfdcb3-d592-4b40-8fcd-108f2fe9b8cb.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:33:13.6604129+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0b67e759-d8ee-4733-8553-b9e6f57f9f3f.db",
+      "Length": 4173824,
+      "LastWriteTime": "2026-06-11T18:13:23.5388433+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0ebeb78e-8e82-4f89-bcec-431c07edfa76.db",
+      "Length": 950272,
+      "LastWriteTime": "2026-07-02T01:53:48.4187664+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0ec18ca1-76b5-4f1b-bc80-472f38641a14.pb",
+      "Length": 555153,
+      "LastWriteTime": "2026-06-02T19:41:57.1172003+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0ee42869-e916-4d1a-9bb2-7d45e83aad64.pb",
+      "Length": 156756,
+      "LastWriteTime": "2026-06-02T20:08:54.1642722+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\0f8426aa-b60a-4af3-ae59-4cdfd7d53f8b.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T01:04:11.0899328+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\115dff3b-a8b1-47ef-982f-2edfb87324d5.pb",
+      "Length": 171526,
+      "LastWriteTime": "2026-06-13T09:43:13.1682049+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\140f81a7-cdd9-41e9-b895-1d1468fec6ce.pb",
+      "Length": 35273064,
+      "LastWriteTime": "2026-05-31T23:21:10.4699809+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\14fa504d-da47-418f-93c9-01e4ad646550.pb",
+      "Length": 604701,
+      "LastWriteTime": "2026-05-16T12:54:05.8039443+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\157bc84f-25b3-499c-a609-2aa0ead68db8.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-11T18:59:41.1965414+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\15ee3719-f1af-4ece-9495-095303cd9938.pb",
+      "Length": 1162184,
+      "LastWriteTime": "2026-05-26T21:44:10.5049138+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1724d37b-0c2a-403c-b443-82799b7e7754.pb",
+      "Length": 1284827,
+      "LastWriteTime": "2026-05-16T13:31:49.0400118+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\18b99d74-e817-4d34-8382-1ecc638ba815.db",
+      "Length": 1019904,
+      "LastWriteTime": "2026-06-08T13:03:39.8376227+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1a1c943b-2485-4154-a68f-ecbd3b37e8f9.pb",
+      "Length": 123548,
+      "LastWriteTime": "2026-05-15T13:57:34.799203+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1a9baad4-c624-4660-a509-5f55e78040b9.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:46:03.9176249+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1ab5d033-c9cd-4d42-8e02-5e256584be55.pb",
+      "Length": 1205540,
+      "LastWriteTime": "2026-05-23T11:05:00.5926629+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1b28e39c-ec2b-4865-ba57-9c9e723ff649.pb",
+      "Length": 3190429,
+      "LastWriteTime": "2026-05-19T19:31:09.9852288+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1b4693a0-d053-41f5-ace2-c06b4f4f6739.db",
+      "Length": 12701696,
+      "LastWriteTime": "2026-06-01T18:39:20.5475199+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1e26e113-da14-4ce1-aeb7-43dfe5963025.db",
+      "Length": 4521984,
+      "LastWriteTime": "2026-06-04T11:26:47.2022207+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1ee14c1e-7b03-4a68-843b-44aceabf0770.pb",
+      "Length": 6290385,
+      "LastWriteTime": "2026-05-14T23:08:26.124595+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\1f443df7-0bdc-4989-af5e-f304e2243603.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-11T00:54:03.4941604+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\20e3eb5e-68f1-43e0-8111-2c93673e4f67.db",
+      "Length": 237568,
+      "LastWriteTime": "2026-06-08T13:15:41.5087183+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\21024b76-0d19-48e8-a285-67ad161f057b.pb",
+      "Length": 337977,
+      "LastWriteTime": "2026-06-08T15:55:40.9338877+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\21448dab-129b-4f82-acc2-a747c486c777.db",
+      "Length": 7245824,
+      "LastWriteTime": "2026-06-03T02:01:08.1120803+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\218f88b9-85fd-4d9f-a2b2-d55dcadc3259.db",
+      "Length": 5345280,
+      "LastWriteTime": "2026-06-01T20:40:04.5119919+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\23521b8d-46c9-4302-b291-e6a9edd5501d.pb",
+      "Length": 1041936,
+      "LastWriteTime": "2026-05-21T20:29:25.9133501+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\23ff8218-bbb5-4834-a8d8-e4217d1c8e4f.db",
+      "Length": 5029888,
+      "LastWriteTime": "2026-06-03T12:11:07.1186049+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\28217370-489f-460c-861e-f03e3915c4a5.pb",
+      "Length": 776468,
+      "LastWriteTime": "2026-05-16T11:53:14.3798757+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\282d61d9-0f99-4749-b8f2-3c85ef4f4d23.pb",
+      "Length": 188914,
+      "LastWriteTime": "2026-06-02T19:04:24.7852444+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2886d461-9a47-4209-a082-5c2d8dfee3d7.pb",
+      "Length": 3188358,
+      "LastWriteTime": "2026-05-16T02:09:32.2645563+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2b3e2231-a39b-4d82-9f8a-49e3de3968ba.pb",
+      "Length": 3143199,
+      "LastWriteTime": "2026-05-17T23:49:37.864399+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2c2f2529-3b23-48e4-ae76-089dd7972d4e.db",
+      "Length": 491520,
+      "LastWriteTime": "2026-05-22T16:23:39.5960727+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2c8c325f-b038-438f-b5ad-d827350f97a3.pb",
+      "Length": 2947296,
+      "LastWriteTime": "2026-05-19T19:29:50.1374372+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2cc6f706-20e1-4ce8-bd09-75e63981def6.pb",
+      "Length": 22221121,
+      "LastWriteTime": "2026-05-17T15:02:19.7731188+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2db27fa9-deee-461e-9275-78673b573e54.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-11T00:54:45.1918355+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2e5688ae-24b4-4fcb-8040-e8006babad60.pb",
+      "Length": 14536357,
+      "LastWriteTime": "2026-05-30T16:32:13.2073313+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\2fd4a303-23a5-4d21-a3b0-6b56ed75cf66.pb",
+      "Length": 3966584,
+      "LastWriteTime": "2026-05-19T17:13:00.6695932+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\300fd91a-74d0-407e-98d4-639baa5fa85e.db",
+      "Length": 2195456,
+      "LastWriteTime": "2026-06-11T18:48:18.7773296+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\30619a38-57e6-4dd0-83b5-64bb896f7061.pb",
+      "Length": 3680296,
+      "LastWriteTime": "2026-05-16T12:21:34.139662+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\30d0fddc-1d99-450c-b86d-9e22b59f7e1d.db",
+      "Length": 1482752,
+      "LastWriteTime": "2026-06-04T16:57:11.7349023+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\30f9c2b4-0f26-4261-811a-68dbabf6e0f5.pb",
+      "Length": 1547058,
+      "LastWriteTime": "2026-05-27T19:03:41.1480964+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3163ad6e-4527-46c7-ab43-60389b873e9d.pb",
+      "Length": 124156,
+      "LastWriteTime": "2026-06-08T01:29:12.378736+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\31a63013-ee46-4cdf-bfb7-e946e01b388d.db",
+      "Length": 352256,
+      "LastWriteTime": "2026-06-08T13:05:35.9082544+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\341ad64d-373d-4759-a168-79b20c2415d5.pb",
+      "Length": 1832586,
+      "LastWriteTime": "2026-05-18T20:10:44.0660938+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\34c2a817-fb1b-4b57-ba00-6e3bdf439a3f.pb",
+      "Length": 214758,
+      "LastWriteTime": "2026-06-08T13:24:08.8067962+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3538dec6-8c25-4da5-a173-30c9c141b7c4.pb",
+      "Length": 4793555,
+      "LastWriteTime": "2026-05-17T12:19:38.7304978+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3562a96d-1722-4a60-b39a-4e9c85438d30.pb",
+      "Length": 6128686,
+      "LastWriteTime": "2026-05-22T00:59:53.3246239+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\35a70df8-d2c7-47fb-9427-46e307c0a596.pb",
+      "Length": 1352696,
+      "LastWriteTime": "2026-05-24T14:02:48.4467912+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3605ab81-27d2-47a7-91f9-a551a2fb5960.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T13:56:42.656062+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3663b786-d4fd-427d-a9b8-a1ade1a7b843.pb",
+      "Length": 3431632,
+      "LastWriteTime": "2026-05-29T02:20:31.6540285+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\38304ec3-3516-4520-84c3-6f41ab64befc.pb",
+      "Length": 2772177,
+      "LastWriteTime": "2026-05-16T14:24:23.8558131+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\38f27dbd-e282-423a-aff2-dfa35b86482d.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T17:34:12.4479043+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3b2c7924-a94d-43d9-84eb-6590ee777ea9.pb",
+      "Length": 1362175,
+      "LastWriteTime": "2026-06-02T00:34:04.1803222+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3c31e9d1-0941-4e79-9626-d66af6b24696.pb",
+      "Length": 7544682,
+      "LastWriteTime": "2026-05-17T17:27:15.244965+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3e46f9b5-1f23-4156-8a63-777ba513a33b.pb",
+      "Length": 2646873,
+      "LastWriteTime": "2026-05-15T21:23:42.4773463+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\3f1503d1-3b40-4cb8-a47c-f721bd8b37df.db",
+      "Length": 2752512,
+      "LastWriteTime": "2026-06-03T23:54:10.4379935+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4077c95a-7db9-4f63-9379-8d507cfbaf10.pb",
+      "Length": 479434,
+      "LastWriteTime": "2026-06-08T13:34:11.6689496+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\43a3d627-934b-4a53-ba0e-ca62dfddd380.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:22:55.8178046+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\46579e90-9894-431b-8ea0-d106ace5b477.pb",
+      "Length": 2838121,
+      "LastWriteTime": "2026-05-17T13:55:34.7074953+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\466adea3-bb1f-4673-920c-fd119b30b70d.pb",
+      "Length": 857638,
+      "LastWriteTime": "2026-05-18T08:09:21.1430587+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4690592d-e510-4387-ab34-15c474cd881f.pb",
+      "Length": 127892,
+      "LastWriteTime": "2026-05-15T13:57:16.9577698+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\48bac735-a188-4a1c-b3c1-c47061717bda.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-16T14:40:44.0063508+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\49075e50-1485-4505-bab6-5fbb755b98a3.pb",
+      "Length": 13019612,
+      "LastWriteTime": "2026-05-20T13:07:28.8167124+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\491bcbbd-b293-4b6c-b82e-696e2aa94ee1.db",
+      "Length": 24248320,
+      "LastWriteTime": "2026-06-03T22:47:31.1281933+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\495a0277-638c-4fed-90f8-cca995bcd91d.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:16:09.1964587+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4b7fbf2c-13ff-44ac-95c3-abac7647df08.db",
+      "Length": 401408,
+      "LastWriteTime": "2026-09-28T22:29:15.0603848+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4c4fc6fc-0ca3-4f8e-ad3b-5e41aa3cf787.pb",
+      "Length": 4573784,
+      "LastWriteTime": "2026-05-25T09:08:22.3728474+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4df39afb-3c47-44f6-9e38-fe74f13e3877.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:32:00.9935437+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4eb44cc1-ac9b-4699-9bc5-e8df102abfbb.pb",
+      "Length": 6753819,
+      "LastWriteTime": "2026-05-22T01:43:41.5495878+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4f04978f-9055-4909-ab4f-86d499e493bd.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-11T18:58:39.3706514+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4f162713-f7da-45ee-9d22-e8121408fd0a.db",
+      "Length": 6225920,
+      "LastWriteTime": "2026-05-22T22:45:43.6600449+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4f522b19-5d22-4b78-81d4-c60332b59d33.pb",
+      "Length": 529975,
+      "LastWriteTime": "2026-05-18T08:27:16.8893284+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\4f63f32d-e0ac-4f29-a94a-4a5890abcb34.pb",
+      "Length": 815144,
+      "LastWriteTime": "2026-05-17T19:46:07.9976665+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\50eb8bdd-70a6-4534-bae5-3415cdae4c69.pb",
+      "Length": 970812,
+      "LastWriteTime": "2026-05-15T13:12:09.2261674+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\52633ee9-d5fb-4f4a-9bd8-70c9e37b1c50.pb",
+      "Length": 211527,
+      "LastWriteTime": "2026-06-08T02:16:05.4449016+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5291f0e5-fe52-4f88-901c-8ae4927de1e5.pb",
+      "Length": 633108,
+      "LastWriteTime": "2026-05-28T13:04:15.3525066+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\54f59dd6-3aca-47c8-ada1-f015e05ed1b1.pb",
+      "Length": 706652,
+      "LastWriteTime": "2026-06-08T09:31:23.9894712+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\55c9651a-ac31-4123-9fa6-c4c1ccb9eac5.pb",
+      "Length": 418,
+      "LastWriteTime": "2026-05-16T16:49:07.0670471+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\55ede39a-c05b-42d2-a822-afa44f3195d9.pb",
+      "Length": 418,
+      "LastWriteTime": "2026-05-16T12:44:53.1649439+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\56184582-0649-4454-9945-3ecc6a03165c.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-01T16:53:53.6538323+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5637b353-9e87-4bb0-afed-38d6e99b62ef.pb",
+      "Length": 1229065,
+      "LastWriteTime": "2026-06-02T14:37:03.1058641+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5662e661-31fa-4982-bec5-8c7ea8d9a94d.pb",
+      "Length": 837678,
+      "LastWriteTime": "2026-05-25T19:39:32.7892596+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\56ae86bc-c53f-4053-ac82-c9770f301836.pb",
+      "Length": 257586,
+      "LastWriteTime": "2026-06-02T00:22:01.4630383+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\57ba2a27-b799-428b-8f19-ceebe369e649.pb",
+      "Length": 1514922,
+      "LastWriteTime": "2026-05-17T12:35:59.2591741+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\59dfc5af-1efd-41a2-be0e-e815a3e74c95.pb",
+      "Length": 7940745,
+      "LastWriteTime": "2026-05-24T01:04:47.2351726+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5a9f7a16-a03a-4c0d-9dba-54e0fd46270f.db",
+      "Length": 1347584,
+      "LastWriteTime": "2026-06-04T11:33:38.6843638+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5ca60d19-f9ba-4ce3-a3f9-4e6e0055e10c.pb",
+      "Length": 7093120,
+      "LastWriteTime": "2026-05-20T19:09:12.775351+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5cea84a0-ae8a-44c0-ae72-c3648206c90a.pb",
+      "Length": 483478,
+      "LastWriteTime": "2026-05-15T01:07:24.4938059+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5e8d8ed8-f4a5-4aba-a46b-ee56abae71e9.pb",
+      "Length": 1343692,
+      "LastWriteTime": "2026-05-25T10:16:10.6667765+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5f4bf882-17e7-49b9-a28f-a7c0159ce848.pb",
+      "Length": 1121185,
+      "LastWriteTime": "2026-05-14T18:11:00.6106502+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\5f6f3cf6-1364-41d1-92ea-637b359db99e.pb",
+      "Length": 160343,
+      "LastWriteTime": "2026-06-08T12:53:33.6706493+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\61626e0c-fc40-4bcf-a539-5203c34050c2.pb",
+      "Length": 1232925,
+      "LastWriteTime": "2026-05-21T02:59:38.3082441+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\62c3c63a-95e3-4b41-a24a-f94c93890c46.pb",
+      "Length": 912953,
+      "LastWriteTime": "2026-05-19T14:06:41.2427717+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\64d6a1a8-b4ce-4dee-aa16-694c5978e977.pb",
+      "Length": 188921,
+      "LastWriteTime": "2026-05-14T17:17:25.2898453+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6706714c-2e7a-44e8-8599-566ff0f2a538.pb",
+      "Length": 779631,
+      "LastWriteTime": "2026-05-25T19:49:28.9030048+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6855f1e9-7f0b-48ab-b0e9-04ad66c5ef3e.db",
+      "Length": 4034560,
+      "LastWriteTime": "2026-05-22T17:45:54.7425435+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\68e0df2f-6f8b-4c57-bb33-d40f070d4c4c.pb",
+      "Length": 427746,
+      "LastWriteTime": "2026-05-18T23:11:05.072899+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6932504a-4c1b-4936-afaa-8074b01fabf1.pb",
+      "Length": 1706938,
+      "LastWriteTime": "2026-05-16T01:23:14.6198643+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6b0bccbe-a930-4ddd-b00d-1442b722d22f.pb",
+      "Length": 6258011,
+      "LastWriteTime": "2026-06-02T19:04:40.7632859+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6b942968-554e-4ca3-99af-9765266a2a9f.pb",
+      "Length": 2641350,
+      "LastWriteTime": "2026-05-24T23:32:38.737923+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6c54a2e7-7406-497d-a2ff-a4dc052dfb56.pb",
+      "Length": 133446,
+      "LastWriteTime": "2026-06-08T13:16:49.2738972+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6c681eac-9cd1-4ad6-8a66-59c8e0a4c67e.pb",
+      "Length": 1083486,
+      "LastWriteTime": "2026-05-28T20:37:20.0983315+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6e8956cc-ddd2-4409-b8f1-4c862488bec8.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T13:58:43.1573056+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6ee60d33-f6c4-436f-85c0-fd648b5bb0a1.pb",
+      "Length": 3525288,
+      "LastWriteTime": "2026-05-18T23:16:39.2495167+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\6f5bf562-28bf-4b60-8753-014911fe160e.pb",
+      "Length": 1181571,
+      "LastWriteTime": "2026-05-26T15:27:15.3411778+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\70258add-3d8c-4111-9d4a-e5232f1e7252.pb",
+      "Length": 3746595,
+      "LastWriteTime": "2026-05-27T19:06:00.8274567+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\702a2d2d-a44f-4ed9-ae5e-1e875dcc2c93.pb",
+      "Length": 2159639,
+      "LastWriteTime": "2026-05-25T19:58:27.8765595+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\70ab5beb-1cdf-4526-a27c-bf0887d2cd94.pb",
+      "Length": 1558907,
+      "LastWriteTime": "2026-05-31T01:33:47.0548565+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\70d810ab-50d7-4112-8804-4aeebf1ff521.pb",
+      "Length": 2215392,
+      "LastWriteTime": "2026-05-20T00:40:55.1713004+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\717c0976-f5b6-4b09-9225-dba5fedddfcb.pb",
+      "Length": 1507062,
+      "LastWriteTime": "2026-06-10T00:47:12.9303421+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\72669506-5f6a-432f-9bfc-eed5cebf7299.pb",
+      "Length": 4696744,
+      "LastWriteTime": "2026-05-24T02:58:19.8929778+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7312bdb1-0426-4664-825d-79d453c2c7ea.pb",
+      "Length": 171651,
+      "LastWriteTime": "2026-06-14T00:57:02.574198+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\745c508e-f818-408c-ab4f-b7c322f26003.db",
+      "Length": 6213632,
+      "LastWriteTime": "2026-06-01T15:38:28.7076312+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\74754ca1-69ec-48eb-ac52-0bd53d39957e.pb",
+      "Length": 2411421,
+      "LastWriteTime": "2026-05-16T16:20:39.1073886+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\74a6b26b-4c79-4ddc-b738-b281d3e32787.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T01:21:46.9882819+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\76a6ce10-e3b5-482f-98c6-f853fa235bc7.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:45:18.4046807+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7756f47b-085a-474b-8dcf-9cb0bd767b34.pb",
+      "Length": 1513452,
+      "LastWriteTime": "2026-05-24T23:00:19.5716178+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\78b6106a-02db-4c3f-aafb-116d8be51633.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T13:55:45.7581263+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\78ef51b1-66be-48a3-a2b4-1ee939a2739f.pb",
+      "Length": 656280,
+      "LastWriteTime": "2026-05-19T19:31:09.9669635+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\78ff5b9d-6185-437d-82c7-39fa2de41cfd.pb",
+      "Length": 4203808,
+      "LastWriteTime": "2026-05-16T22:17:06.296806+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\79ac92f6-7b3f-4e77-8d25-0ea917919f0d.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-16T14:37:55.9319982+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7b2acf3e-8d77-4c86-bf88-6d88045e57bf.pb",
+      "Length": 2937203,
+      "LastWriteTime": "2026-05-27T14:48:19.1150129+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7b386793-b577-411c-bc28-3832d2da93b2.pb",
+      "Length": 8016117,
+      "LastWriteTime": "2026-05-19T23:41:34.624613+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7ba3c6fe-6222-489d-b7fc-b31a474a2c0c.pb",
+      "Length": 6631072,
+      "LastWriteTime": "2026-05-17T18:32:23.4858136+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7bc23f7d-74c4-4ae3-bc8c-5eef6c1cb98e.pb",
+      "Length": 677926,
+      "LastWriteTime": "2026-05-23T18:45:34.7174874+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7caf8102-dd3d-48c9-8548-ae82084b5bb3.pb",
+      "Length": 560288,
+      "LastWriteTime": "2026-05-20T23:21:39.1202151+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7cb6b13e-cd73-41fc-925c-496bd9588fc1.pb",
+      "Length": 2536839,
+      "LastWriteTime": "2026-05-31T16:04:36.2784983+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7defce2f-7976-4537-bcd6-7269bcbae388.db",
+      "Length": 2875392,
+      "LastWriteTime": "2026-06-08T21:43:02.629843+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\7fb6509c-b2de-4cab-bed4-991f1cdd6ade.pb",
+      "Length": 1562745,
+      "LastWriteTime": "2026-05-18T19:45:23.1529173+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\808a4c35-1553-46dd-92c9-ad88b3bfdd95.pb",
+      "Length": 713632,
+      "LastWriteTime": "2026-06-02T10:18:30.5403838+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\81eb5275-90e8-41ce-9f1e-a2817e957187.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T15:30:04.7730443+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\82327015-3afc-4c21-aebc-bcc3d5bc8f57.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-02T20:15:54.3784757+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\833c0fdf-34f5-4572-b527-98632e095b89.pb",
+      "Length": 474737,
+      "LastWriteTime": "2026-06-08T01:33:47.2329598+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\83e1e54f-7ef3-414d-87bb-ae4288cafc15.db",
+      "Length": 712704,
+      "LastWriteTime": "2026-06-11T07:38:04.4853253+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8431d049-46ce-43a5-bcb7-3dcf82ea455a.db",
+      "Length": 454656,
+      "LastWriteTime": "2026-06-02T22:00:41.9237536+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\85401c1b-0068-42a2-a4aa-dcb59b9ad4b4.pb",
+      "Length": 5304283,
+      "LastWriteTime": "2026-05-17T14:14:21.2107699+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\85a09bf2-2e50-4454-a4b8-1e9d672edd82.pb",
+      "Length": 2348050,
+      "LastWriteTime": "2026-05-22T03:21:28.3066765+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8751089f-2acb-49b4-b4ee-900b146d4814.pb",
+      "Length": 873361,
+      "LastWriteTime": "2026-05-16T17:15:20.1107857+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\89207322-7f96-42bc-85c0-20032e419f9e.db",
+      "Length": 1437696,
+      "LastWriteTime": "2026-06-04T22:29:05.1018467+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8a8aa450-225a-4eba-83c1-2a747595f833.db",
+      "Length": 1433600,
+      "LastWriteTime": "2026-06-08T23:16:56.7707618+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8a9a5c7a-eea7-4d03-b1c4-e81e768bedd5.pb",
+      "Length": 673586,
+      "LastWriteTime": "2026-05-28T10:59:01.0314761+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8b645ddf-7528-4d7c-8078-237f779cf904.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:25:06.7688371+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\8f24cea6-1943-4107-bf28-82ebfe32feaf.pb",
+      "Length": 259936,
+      "LastWriteTime": "2026-05-28T10:29:36.1139125+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\937f1e74-47c9-4a69-ae77-b2ef28c3b21f.db",
+      "Length": 1105920,
+      "LastWriteTime": "2026-06-02T22:47:21.8586119+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\939ab9e3-7fe1-4a0f-a8bf-06b836796ec3.pb",
+      "Length": 2752150,
+      "LastWriteTime": "2026-05-20T23:53:38.6232143+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\94133ede-8861-4ca4-99db-81ae174ab9c9.pb",
+      "Length": 442561,
+      "LastWriteTime": "2026-06-08T13:17:30.5160116+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\944369b2-c773-4460-914d-8ccfb3568173.pb",
+      "Length": 2197555,
+      "LastWriteTime": "2026-05-19T10:25:09.1671808+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\945f18d8-4ec4-4b1d-83be-e3beac825752.pb",
+      "Length": 834417,
+      "LastWriteTime": "2026-06-08T09:31:24.0976527+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\94f28ff4-1b90-4f0e-9479-a27b4b63aaa2.pb",
+      "Length": 892025,
+      "LastWriteTime": "2026-05-24T01:36:29.3737387+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\95adc36b-2345-4c56-8a30-991de7aa792e.pb",
+      "Length": 1165860,
+      "LastWriteTime": "2026-05-15T14:09:10.9707625+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\97c50cd6-f804-4f1b-9f28-521563122edf.pb",
+      "Length": 407502,
+      "LastWriteTime": "2026-06-17T20:33:45.6539392+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\98965385-fa46-4756-b5bf-7068bd0f7d11.pb",
+      "Length": 658706,
+      "LastWriteTime": "2026-06-02T13:34:43.2250624+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\98a4cf1f-6d64-4d89-bb85-d9f8e726978a.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T13:57:18.2729071+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\993b230a-f450-41c9-90d9-b5f2b49610ca.pb",
+      "Length": 999253,
+      "LastWriteTime": "2026-05-19T19:10:55.7179525+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9b66b6a2-45c4-4a60-9c2f-8c0f8b020470.pb",
+      "Length": 2511242,
+      "LastWriteTime": "2026-05-14T14:29:49.7736125+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9b6cb669-d792-405b-831b-407e6f695852.pb",
+      "Length": 2313200,
+      "LastWriteTime": "2026-05-24T19:48:32.3891324+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9cd8bbf1-db07-4ba8-9ca5-ab790b67b5a4.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-04T23:58:59.5939245+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9d67f0c5-8bdc-4ed4-9ac1-556ab066c480.db",
+      "Length": 1290240,
+      "LastWriteTime": "2026-06-08T13:02:03.0644308+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9f9fe588-2cbb-4cb8-8470-3a48cd7d9ce5.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:43:03.4164938+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\9ffff7ac-ce19-4d45-9e31-2c1f2faf0456.db",
+      "Length": 524288,
+      "LastWriteTime": "2026-06-11T18:56:13.0118781+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a022a060-cf9e-4514-95e7-02af84dd3609.pb",
+      "Length": 2896080,
+      "LastWriteTime": "2026-06-08T16:55:48.2356314+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a0dc07ec-d518-4231-a49a-e46e4116c45f.pb",
+      "Length": 501341,
+      "LastWriteTime": "2026-05-16T00:16:27.1553563+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a1fd10a9-9764-428e-9489-3cfe90986228.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:38:31.4383634+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a3fce158-c355-4d9f-b2c5-dcac70739847.pb",
+      "Length": 639520,
+      "LastWriteTime": "2026-05-18T00:56:24.1889779+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a5bfb105-671e-4fc7-bf24-d335432f6a0f.pb",
+      "Length": 5708107,
+      "LastWriteTime": "2026-05-24T23:23:58.0760374+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a69698d7-4ca6-4c5d-81cb-4c20aef649b2.pb",
+      "Length": 1142476,
+      "LastWriteTime": "2026-06-08T13:13:59.0976309+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a6a8d86b-464e-429e-b6ae-0c48a079a7f1.pb",
+      "Length": 3676120,
+      "LastWriteTime": "2026-05-27T23:58:38.5389137+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\a7b1ee9f-88f8-4b3e-b299-b762692925c8.db",
+      "Length": 3903488,
+      "LastWriteTime": "2026-05-22T17:01:22.8132594+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ae7a3c81-8993-4bf8-a7ba-8d8e150bdc95.db",
+      "Length": 100429824,
+      "LastWriteTime": "2026-06-03T16:04:32.196796+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\aeba436f-d694-4421-a83a-5be008272b2f.pb",
+      "Length": 1197810,
+      "LastWriteTime": "2026-05-26T03:16:56.220353+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\afd39b3f-bb31-4b14-929d-a6dabbcd897c.db",
+      "Length": 290816,
+      "LastWriteTime": "2026-06-10T00:56:43.7015361+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\aff2bffa-cb5c-4263-b941-6f29fe1b96dd.pb",
+      "Length": 168646,
+      "LastWriteTime": "2026-05-16T00:19:43.6348947+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b1392e99-8327-46c4-825d-56909126c6f0.pb",
+      "Length": 2870632,
+      "LastWriteTime": "2026-05-18T19:51:58.5361785+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b31bc935-5c94-4f76-b41c-be1ea915bd1e.db",
+      "Length": 4780032,
+      "LastWriteTime": "2026-06-01T18:45:52.2157878+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b4fbc7bb-efb6-4590-859d-66ba22ae1096.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-02T20:19:13.7641481+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b5a5e14e-9ff3-4963-a792-245f9770f283.pb",
+      "Length": 12186929,
+      "LastWriteTime": "2026-05-21T00:45:10.8000504+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b5a8f5cf-cbb9-42b7-83a4-48fdae21d7c8.pb",
+      "Length": 1511588,
+      "LastWriteTime": "2026-05-14T16:14:50.2042154+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b6bb413c-3a3a-4757-bcaa-7a4c1d250694.db",
+      "Length": 2179072,
+      "LastWriteTime": "2026-06-03T22:55:03.8868363+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b709e580-13c1-4f09-af6d-77dc89b4d9af.pb",
+      "Length": 2689667,
+      "LastWriteTime": "2026-05-15T23:47:51.8616492+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b769a823-1ad6-4c4f-8a8f-83cc83ee9440.db",
+      "Length": 520192,
+      "LastWriteTime": "2026-07-05T20:23:46.7212417+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b7ddfe4d-b73c-43d4-b427-1e966044ce43.pb",
+      "Length": 580121,
+      "LastWriteTime": "2026-05-21T11:49:26.8685456+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b839392d-967d-4604-acce-f9ae33fafcd5.pb",
+      "Length": 123252,
+      "LastWriteTime": "2026-06-08T01:28:58.5362994+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\b9ac6644-2844-48be-af76-c668493c4df8.pb",
+      "Length": 934732,
+      "LastWriteTime": "2026-05-24T02:15:09.5468208+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\baaa4476-43b0-429b-b915-82c6e42a576a.db",
+      "Length": 376832,
+      "LastWriteTime": "2026-06-16T14:44:41.2697375+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\baed1d3a-73f9-4f87-8bc1-ab82adecb083.pb",
+      "Length": 140152,
+      "LastWriteTime": "2026-05-31T23:05:10.5025071+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\bb9cbf47-3e9e-4b02-a582-36fbe03abefc.pb",
+      "Length": 5209430,
+      "LastWriteTime": "2026-05-16T13:21:12.2060427+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\bbf02ba1-bb6a-4609-89f0-86c807b70d68.pb",
+      "Length": 2998778,
+      "LastWriteTime": "2026-05-16T15:50:30.038379+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\bc5158e8-f587-43f8-9088-2cd3afd2a076.pb",
+      "Length": 127892,
+      "LastWriteTime": "2026-05-15T13:56:07.7368427+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\be9ad143-0c4a-4b2a-bc10-4cff84962ee1.pb",
+      "Length": 302,
+      "LastWriteTime": "2026-05-15T00:04:56.5822802+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\beda3792-38ef-4584-89e6-427c3461d0db.pb",
+      "Length": 426715,
+      "LastWriteTime": "2026-05-22T10:59:35.5952408+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\bf88d153-e255-4062-8e5a-c8ed0cb6ef51.pb",
+      "Length": 2643978,
+      "LastWriteTime": "2026-05-21T01:50:04.1952285+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c07df612-9392-474b-b8b1-78acd1d26137.pb",
+      "Length": 3726090,
+      "LastWriteTime": "2026-05-16T14:03:41.9150599+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c12733a8-b6e5-4c76-b0bf-b67a3f59b5c7.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-16T14:40:07.2576669+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c131ff50-ff75-45d4-b54c-03217822560c.pb",
+      "Length": 6888111,
+      "LastWriteTime": "2026-05-27T22:41:26.1877921+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c13ffbcc-d809-4d54-86fd-17276cd78615.pb",
+      "Length": 3061783,
+      "LastWriteTime": "2026-05-27T15:30:01.2628458+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c1903c0c-7339-43ca-80f6-ae4708eeb9d5.pb",
+      "Length": 389712,
+      "LastWriteTime": "2026-06-08T13:14:54.9961496+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c1deb84f-9862-4258-a06e-c4d2d7cd2ba3.pb",
+      "Length": 503922,
+      "LastWriteTime": "2026-05-16T11:17:03.9155983+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c22a26ac-503b-402e-9a7a-bb312edd1fea.pb",
+      "Length": 1757657,
+      "LastWriteTime": "2026-05-19T22:12:03.7310615+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c2ac9fc6-b553-43a2-bda1-23b8c8ebd172.pb",
+      "Length": 18028722,
+      "LastWriteTime": "2026-05-20T15:14:12.2067079+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c546d1f9-9085-4b11-9613-f90b452e1a1e.pb",
+      "Length": 4710178,
+      "LastWriteTime": "2026-05-19T07:26:25.2712454+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\c5bfe13b-3129-4efb-8244-6fbe952d3272.pb",
+      "Length": 1342615,
+      "LastWriteTime": "2026-05-16T17:02:58.8591325+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\cac03b24-1593-4fe3-9953-42ae5a8bf035.pb",
+      "Length": 164048,
+      "LastWriteTime": "2026-05-22T10:24:27.3690217+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\cbb98047-a7d8-4516-bdcf-c0fd2c71f64e.pb",
+      "Length": 1752911,
+      "LastWriteTime": "2026-05-19T07:49:37.583001+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\cf012592-ad68-4ee9-a3ba-440ee20a2bf4.pb",
+      "Length": 16284616,
+      "LastWriteTime": "2026-05-31T14:21:02.3022115+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d07170e5-4aff-4d0b-ab66-a3765da0e7ab.db",
+      "Length": 200704,
+      "LastWriteTime": "2026-06-03T18:32:34.3563698+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d0b4dd2f-0f51-4e53-aa3c-1a17778fb4ba.pb",
+      "Length": 547029,
+      "LastWriteTime": "2026-05-31T14:12:07.4590954+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d18b0c2e-6420-4439-98be-cf603951c23e.pb",
+      "Length": 343704,
+      "LastWriteTime": "2026-05-26T14:25:51.7206832+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d1c88094-16bf-432d-a90e-7b4983db9006.pb",
+      "Length": 1358811,
+      "LastWriteTime": "2026-05-17T23:26:23.9781401+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d214216f-d36b-477d-98f1-fef3a2f5b77c.pb",
+      "Length": 357,
+      "LastWriteTime": "2026-05-14T23:40:02.8880439+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d337d31e-e692-4844-9e46-59dde90a9583.db",
+      "Length": 10383360,
+      "LastWriteTime": "2026-06-01T21:17:30.7480556+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d56d3114-97d0-48f8-8fa4-08a65bf210a1.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T17:34:53.2778808+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d5ebff80-1f83-401f-9094-117e69805e2b.db",
+      "Length": 3567616,
+      "LastWriteTime": "2026-05-24T02:05:49.8439083+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d7193a4d-eb43-4194-bc3d-f58dbfc8b430.pb",
+      "Length": 1612509,
+      "LastWriteTime": "2026-05-14T23:34:07.8491823+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\d85625a4-dab2-4bff-b56d-c1877c884fc5.db",
+      "Length": 700416,
+      "LastWriteTime": "2026-06-05T00:14:41.8120896+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\da1c1e0c-750a-4f14-ab9c-9663561aa35d.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:37:43.0606227+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\dac9e691-2c54-45a8-9cfa-d03ab7e9fd1e.pb",
+      "Length": 1509765,
+      "LastWriteTime": "2026-05-18T23:56:20.7107034+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\dc877ab1-3022-417a-9f1e-650894835216.pb",
+      "Length": 1074223,
+      "LastWriteTime": "2026-05-19T10:19:01.5611425+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\dcef71a6-7c65-48c3-978b-4bc32314b5a5.pb",
+      "Length": 3771941,
+      "LastWriteTime": "2026-05-18T00:33:52.4103474+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\dd11c991-0419-418f-921d-406a030d4449.pb",
+      "Length": 10107793,
+      "LastWriteTime": "2026-05-20T16:45:01.0692573+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\dd319def-b404-4e85-bb6b-a28f2852410e.db",
+      "Length": 159744,
+      "LastWriteTime": "2026-06-05T19:27:10.9469361+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ddde9743-ab43-4922-ac46-006b167761cc.db",
+      "Length": 1376256,
+      "LastWriteTime": "2026-06-01T16:11:47.6554604+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e04e7383-68ca-4eb7-9422-0544b6a87368.pb",
+      "Length": 6008601,
+      "LastWriteTime": "2026-05-22T13:14:44.6098971+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e149a363-1fd9-4fec-a07b-f2caf9cfd49e.pb",
+      "Length": 178625,
+      "LastWriteTime": "2026-06-08T12:45:30.6439974+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e1a3a346-7cd4-4f57-891c-c6874bad9812.pb",
+      "Length": 111145,
+      "LastWriteTime": "2026-05-24T16:59:04.9220525+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e26fd453-400a-4e60-b682-69f6677302dd.pb",
+      "Length": 1285804,
+      "LastWriteTime": "2026-06-11T13:55:15.9499419+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e2b2a0eb-2729-48d9-9614-f72d1ee77c5e.pb",
+      "Length": 953977,
+      "LastWriteTime": "2026-05-30T07:48:49.0231427+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e4b1a479-7e1e-40a9-b9c5-b053feeaf799.pb",
+      "Length": 461543,
+      "LastWriteTime": "2026-06-02T13:47:50.2430985+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\e7322cb6-c4b5-48df-a828-6a6e6a49ea89.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-08T12:59:01.9994814+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ebde0030-1b2e-4bd0-ba44-87370c2b943e.pb",
+      "Length": 281361,
+      "LastWriteTime": "2026-05-16T02:12:01.5314154+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ec522449-a85c-450b-80e5-cfca895aaed6.pb",
+      "Length": 1379723,
+      "LastWriteTime": "2026-05-30T08:20:35.3857817+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ee82bf88-d092-4970-8635-07d7c2e0e2da.pb",
+      "Length": 193509,
+      "LastWriteTime": "2026-06-02T13:00:47.0014363+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\efec1a86-903a-4ac0-b129-fd499e0013ac.pb",
+      "Length": 531982,
+      "LastWriteTime": "2026-05-15T12:59:59.7655159+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f24cd5e4-16e7-4273-ba17-098d76703535.pb",
+      "Length": 4410480,
+      "LastWriteTime": "2026-05-19T21:48:49.2116746+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f30926e2-5863-4100-8942-ad5be3b6b29b.pb",
+      "Length": 2984206,
+      "LastWriteTime": "2026-05-16T22:55:17.3721563+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f406b34f-fe41-4ee4-bb18-cf34a36b6934.db",
+      "Length": 2506752,
+      "LastWriteTime": "2026-06-01T12:44:49.7350366+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f48633a6-3426-4227-87bb-0d0b643f20c1.pb",
+      "Length": 820233,
+      "LastWriteTime": "2026-05-16T12:45:19.3780115+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f5cb5cf6-48fa-45e5-93e0-3531b03ca469.pb",
+      "Length": 1057321,
+      "LastWriteTime": "2026-05-18T00:43:51.2416961+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f5d91bb8-a22d-497e-9d74-1ff5d512f6ba.pb",
+      "Length": 132521,
+      "LastWriteTime": "2026-05-25T09:26:11.3447435+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f5df9850-4ae5-4e5b-9c9b-c6659829b632.pb",
+      "Length": 435040,
+      "LastWriteTime": "2026-06-08T13:12:57.5847272+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f6b7e077-636d-480c-bf20-75e94ba07b1a.db",
+      "Length": 3207168,
+      "LastWriteTime": "2026-05-23T00:30:45.8004332+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\f9e4e5af-bcbc-4a2e-bbac-e0c8f53198de.pb",
+      "Length": 790541,
+      "LastWriteTime": "2026-05-19T19:31:09.9943878+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fa9bdc19-c553-4ff8-8a2b-cbafe9ca7818.pb",
+      "Length": 189071,
+      "LastWriteTime": "2026-06-09T11:59:22.6045357+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fc144e46-72ac-4c46-af66-1ccf4c98b15a.db",
+      "Length": 1736704,
+      "LastWriteTime": "2026-07-05T01:27:19.5621773+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fc74e316-d6f5-4951-bb35-b200cca3c788.pb",
+      "Length": 167899,
+      "LastWriteTime": "2026-05-20T00:26:31.1177655+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fcd276c4-c415-483b-bd88-f8737fb42f9b.pb",
+      "Length": 4940263,
+      "LastWriteTime": "2026-06-02T16:34:33.6305591+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fe48e4f0-f4e0-4e96-84c4-65c275b768e1.pb",
+      "Length": 692476,
+      "LastWriteTime": "2026-05-15T15:15:09.3448669+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\fe8a3de9-b4f7-4e20-b7b4-c2cc3cb740e6.pb",
+      "Length": 1274661,
+      "LastWriteTime": "2026-05-19T23:52:23.9189207+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ff1e3079-2a05-400d-acdb-21e819379c2c.pb",
+      "Length": 78239,
+      "LastWriteTime": "2026-05-14T17:15:39.0359551+07:00"
+    },
+    {
+      "FullName": "C:\\Users\\thy\\.gemini\\antigravity-ide\\conversations\\ff55ba3e-955b-4653-8fa0-201fd0a100a4.db",
+      "Length": 49152,
+      "LastWriteTime": "2026-06-05T12:06:29.2137515+07:00"
+    }
+  ],
+  "RequestedConversations": 161,
+  "SuccessfulConversations": 161,
+  "TotalStepsRead": 24954,
+  "Results": [
+    {
+      "Id": "021d555a-0287-40b6-98d6-e94ca0c082d5",
+      "CreatedAt": "2026-06-04T17:49:23.162435400Z",
+      "ExpectedSteps": 2,
+      "ReadSteps": 2,
+      "Matches": []
+    },
+    {
+      "Id": "02e9129b-f342-4ebd-a4b6-e22bab66c41c",
+      "CreatedAt": "2026-06-05T05:21:00.640944800Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "0504770c-8a90-49fd-8155-8d4afe65f327",
+      "CreatedAt": "2026-06-08T05:55:15.721918400Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "065e48e8-67aa-4699-b110-761d22ad0050",
+      "CreatedAt": "2026-05-22T08:11:06.023466400Z",
+      "ExpectedSteps": 208,
+      "ReadSteps": 208,
+      "Matches": []
+    },
+    {
+      "Id": "0696b0a7-31d5-475b-9864-0e15090fdafc",
+      "CreatedAt": "2026-05-24T16:41:45.615856800Z",
+      "ExpectedSteps": 324,
+      "ReadSteps": 324,
+      "Matches": []
+    },
+    {
+      "Id": "0744dc2c-6d66-4df3-9340-c70f83db48a4",
+      "CreatedAt": "2026-06-01T14:12:13.058546Z",
+      "ExpectedSteps": 173,
+      "ReadSteps": 173,
+      "Matches": []
+    },
+    {
+      "Id": "09cfdcb3-d592-4b40-8fcd-108f2fe9b8cb",
+      "CreatedAt": "2026-06-05T05:33:13.653239700Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "0b67e759-d8ee-4733-8553-b9e6f57f9f3f",
+      "CreatedAt": "2026-06-09T17:56:54.029290600Z",
+      "ExpectedSteps": 77,
+      "ReadSteps": 77,
+      "Matches": []
+    },
+    {
+      "Id": "0ebeb78e-8e82-4f89-bcec-431c07edfa76",
+      "CreatedAt": "2026-07-01T18:47:01.980565100Z",
+      "ExpectedSteps": 21,
+      "ReadSteps": 21,
+      "Matches": []
+    },
+    {
+      "Id": "0ec18ca1-76b5-4f1b-bc80-472f38641a14",
+      "CreatedAt": "2026-06-02T12:31:05.315152600Z",
+      "ExpectedSteps": 78,
+      "ReadSteps": 78,
+      "Matches": []
+    },
+    {
+      "Id": "0ee42869-e916-4d1a-9bb2-7d45e83aad64",
+      "CreatedAt": "2026-06-02T12:57:15.371091200Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "0f8426aa-b60a-4af3-ae59-4cdfd7d53f8b",
+      "CreatedAt": "2026-06-04T18:04:11.080739Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "115dff3b-a8b1-47ef-982f-2edfb87324d5",
+      "CreatedAt": "2026-06-13T02:42:55.668155300Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "140f81a7-cdd9-41e9-b895-1d1468fec6ce",
+      "CreatedAt": "2026-05-28T16:22:40.986061800Z",
+      "ExpectedSteps": 3837,
+      "ReadSteps": 3837,
+      "Matches": []
+    },
+    {
+      "Id": "157bc84f-25b3-499c-a609-2aa0ead68db8",
+      "CreatedAt": "2026-06-11T11:59:41.189483300Z",
+      "ExpectedSteps": 17,
+      "ReadSteps": 17,
+      "Matches": []
+    },
+    {
+      "Id": "15ee3719-f1af-4ece-9495-095303cd9938",
+      "CreatedAt": "2026-05-26T09:54:03.220512900Z",
+      "ExpectedSteps": 38,
+      "ReadSteps": 38,
+      "Matches": []
+    },
+    {
+      "Id": "18b99d74-e817-4d34-8382-1ecc638ba815",
+      "CreatedAt": "2026-06-08T06:02:07.007587400Z",
+      "ExpectedSteps": 220,
+      "ReadSteps": 220,
+      "Matches": []
+    },
+    {
+      "Id": "1a9baad4-c624-4660-a509-5f55e78040b9",
+      "CreatedAt": "2026-06-05T05:46:03.910726100Z",
+      "ExpectedSteps": 15,
+      "ReadSteps": 15,
+      "Matches": []
+    },
+    {
+      "Id": "1ab5d033-c9cd-4d42-8e02-5e256584be55",
+      "CreatedAt": "2026-05-23T03:54:40.037501400Z",
+      "ExpectedSteps": 169,
+      "ReadSteps": 169,
+      "Matches": []
+    },
+    {
+      "Id": "1b4693a0-d053-41f5-ace2-c06b4f4f6739",
+      "CreatedAt": "2026-06-01T09:20:58.149231500Z",
+      "ExpectedSteps": 298,
+      "ReadSteps": 298,
+      "Matches": []
+    },
+    {
+      "Id": "1e26e113-da14-4ce1-aeb7-43dfe5963025",
+      "CreatedAt": "2026-06-04T03:12:41.967769500Z",
+      "ExpectedSteps": 340,
+      "ReadSteps": 340,
+      "Matches": []
+    },
+    {
+      "Id": "1f443df7-0bdc-4989-af5e-f304e2243603",
+      "CreatedAt": "2026-06-10T17:54:03.467598300Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "20e3eb5e-68f1-43e0-8111-2c93673e4f67",
+      "CreatedAt": "2026-06-08T02:33:37.321074100Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "21024b76-0d19-48e8-a285-67ad161f057b",
+      "CreatedAt": "2026-06-08T06:18:28.906541900Z",
+      "ExpectedSteps": 16,
+      "ReadSteps": 16,
+      "Matches": []
+    },
+    {
+      "Id": "21448dab-129b-4f82-acc2-a747c486c777",
+      "CreatedAt": "2026-06-02T15:48:14.689731800Z",
+      "ExpectedSteps": 557,
+      "ReadSteps": 557,
+      "Matches": []
+    },
+    {
+      "Id": "218f88b9-85fd-4d9f-a2b2-d55dcadc3259",
+      "CreatedAt": "2026-06-01T09:56:16.899967400Z",
+      "ExpectedSteps": 428,
+      "ReadSteps": 428,
+      "Matches": []
+    },
+    {
+      "Id": "23ff8218-bbb5-4834-a8d8-e4217d1c8e4f",
+      "CreatedAt": "2026-06-02T19:05:59.826650900Z",
+      "ExpectedSteps": 151,
+      "ReadSteps": 151,
+      "Matches": []
+    },
+    {
+      "Id": "282d61d9-0f99-4749-b8f2-3c85ef4f4d23",
+      "CreatedAt": "2026-06-02T12:02:55.438622800Z",
+      "ExpectedSteps": 11,
+      "ReadSteps": 11,
+      "Matches": []
+    },
+    {
+      "Id": "2c2f2529-3b23-48e4-ae76-089dd7972d4e",
+      "CreatedAt": "2026-05-22T09:13:04.463714700Z",
+      "ExpectedSteps": 35,
+      "ReadSteps": 35,
+      "Matches": []
+    },
+    {
+      "Id": "2db27fa9-deee-461e-9275-78673b573e54",
+      "CreatedAt": "2026-06-10T17:54:45.174139400Z",
+      "ExpectedSteps": 8,
+      "ReadSteps": 8,
+      "Matches": []
+    },
+    {
+      "Id": "2e5688ae-24b4-4fcb-8040-e8006babad60",
+      "CreatedAt": "2026-05-30T01:25:19.066587600Z",
+      "ExpectedSteps": 1383,
+      "ReadSteps": 1383,
+      "Matches": []
+    },
+    {
+      "Id": "300fd91a-74d0-407e-98d4-639baa5fa85e",
+      "CreatedAt": "2026-06-11T11:44:20.465940200Z",
+      "ExpectedSteps": 112,
+      "ReadSteps": 112,
+      "Matches": []
+    },
+    {
+      "Id": "30d0fddc-1d99-450c-b86d-9e22b59f7e1d",
+      "CreatedAt": "2026-06-04T06:21:54.895370600Z",
+      "ExpectedSteps": 74,
+      "ReadSteps": 74,
+      "Matches": []
+    },
+    {
+      "Id": "30f9c2b4-0f26-4261-811a-68dbabf6e0f5",
+      "CreatedAt": "2026-05-27T11:38:46.524426300Z",
+      "ExpectedSteps": 63,
+      "ReadSteps": 63,
+      "Matches": []
+    },
+    {
+      "Id": "3163ad6e-4527-46c7-ab43-60389b873e9d",
+      "CreatedAt": "2026-06-07T18:29:12.039956800Z",
+      "ExpectedSteps": 5,
+      "ReadSteps": 5,
+      "Matches": []
+    },
+    {
+      "Id": "31a63013-ee46-4cdf-bfb7-e946e01b388d",
+      "CreatedAt": "2026-06-08T06:03:34.322370300Z",
+      "ExpectedSteps": 52,
+      "ReadSteps": 52,
+      "Matches": []
+    },
+    {
+      "Id": "34c2a817-fb1b-4b57-ba00-6e3bdf439a3f",
+      "CreatedAt": "2026-06-08T06:19:02.535094300Z",
+      "ExpectedSteps": 14,
+      "ReadSteps": 14,
+      "Matches": []
+    },
+    {
+      "Id": "35a70df8-d2c7-47fb-9427-46e307c0a596",
+      "CreatedAt": "2026-05-24T06:42:10.978323200Z",
+      "ExpectedSteps": 152,
+      "ReadSteps": 152,
+      "Matches": []
+    },
+    {
+      "Id": "3605ab81-27d2-47a7-91f9-a551a2fb5960",
+      "CreatedAt": "2026-06-05T06:56:42.650567700Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "3663b786-d4fd-427d-a9b8-a1ade1a7b843",
+      "CreatedAt": "2026-05-28T18:55:17.034016900Z",
+      "ExpectedSteps": 334,
+      "ReadSteps": 334,
+      "Matches": []
+    },
+    {
+      "Id": "38f27dbd-e282-423a-aff2-dfa35b86482d",
+      "CreatedAt": "2026-06-05T10:34:12.421972900Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "3b2c7924-a94d-43d9-84eb-6590ee777ea9",
+      "CreatedAt": "2026-06-01T17:22:49.203055700Z",
+      "ExpectedSteps": 63,
+      "ReadSteps": 63,
+      "Matches": []
+    },
+    {
+      "Id": "3f1503d1-3b40-4cb8-a47c-f721bd8b37df",
+      "CreatedAt": "2026-06-03T09:14:26.058078300Z",
+      "ExpectedSteps": 229,
+      "ReadSteps": 229,
+      "Matches": []
+    },
+    {
+      "Id": "4077c95a-7db9-4f63-9379-8d507cfbaf10",
+      "CreatedAt": "2026-06-08T06:30:15.480121900Z",
+      "ExpectedSteps": 48,
+      "ReadSteps": 48,
+      "Matches": []
+    },
+    {
+      "Id": "43a3d627-934b-4a53-ba0e-ca62dfddd380",
+      "CreatedAt": "2026-06-05T05:22:55.809653600Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "48bac735-a188-4a1c-b3c1-c47061717bda",
+      "CreatedAt": "2026-06-16T07:40:44.001069400Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "491bcbbd-b293-4b6c-b82e-696e2aa94ee1",
+      "CreatedAt": "2026-06-03T11:38:14.873532900Z",
+      "ExpectedSteps": 2062,
+      "ReadSteps": 2062,
+      "Matches": []
+    },
+    {
+      "Id": "495a0277-638c-4fed-90f8-cca995bcd91d",
+      "CreatedAt": "2026-06-05T05:16:09.188196100Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "4b7fbf2c-13ff-44ac-95c3-abac7647df08",
+      "CreatedAt": "2026-09-28T15:26:50.881238300Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "4c4fc6fc-0ca3-4f8e-ad3b-5e41aa3cf787",
+      "CreatedAt": "2026-05-25T00:15:22.526166100Z",
+      "ExpectedSteps": 240,
+      "ReadSteps": 240,
+      "Matches": []
+    },
+    {
+      "Id": "4df39afb-3c47-44f6-9e38-fe74f13e3877",
+      "CreatedAt": "2026-06-05T05:32:00.985854700Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "4f04978f-9055-4909-ab4f-86d499e493bd",
+      "CreatedAt": "2026-06-11T11:58:39.363922600Z",
+      "ExpectedSteps": 8,
+      "ReadSteps": 8,
+      "Matches": []
+    },
+    {
+      "Id": "4f162713-f7da-45ee-9d22-e8121408fd0a",
+      "CreatedAt": "2026-05-22T10:47:54.758811500Z",
+      "ExpectedSteps": 389,
+      "ReadSteps": 389,
+      "Matches": []
+    },
+    {
+      "Id": "52633ee9-d5fb-4f4a-9bd8-70c9e37b1c50",
+      "CreatedAt": "2026-06-07T19:15:31.032695Z",
+      "ExpectedSteps": 17,
+      "ReadSteps": 17,
+      "Matches": []
+    },
+    {
+      "Id": "5291f0e5-fe52-4f88-901c-8ae4927de1e5",
+      "CreatedAt": "2026-05-28T04:13:46.564677700Z",
+      "ExpectedSteps": 28,
+      "ReadSteps": 28,
+      "Matches": []
+    },
+    {
+      "Id": "54f59dd6-3aca-47c8-ada1-f015e05ed1b1",
+      "CreatedAt": "2026-06-08T02:30:12.459829100Z",
+      "ExpectedSteps": 186,
+      "ReadSteps": 186,
+      "Matches": []
+    },
+    {
+      "Id": "56184582-0649-4454-9945-3ecc6a03165c",
+      "CreatedAt": "2026-06-01T09:53:53.642816300Z",
+      "ExpectedSteps": 0,
+      "ReadSteps": 0,
+      "Matches": []
+    },
+    {
+      "Id": "5637b353-9e87-4bb0-afed-38d6e99b62ef",
+      "CreatedAt": "2026-06-02T01:48:26.002819700Z",
+      "ExpectedSteps": 96,
+      "ReadSteps": 96,
+      "Matches": []
+    },
+    {
+      "Id": "5662e661-31fa-4982-bec5-8c7ea8d9a94d",
+      "CreatedAt": "2026-05-25T12:01:22.377080400Z",
+      "ExpectedSteps": 51,
+      "ReadSteps": 51,
+      "Matches": []
+    },
+    {
+      "Id": "56ae86bc-c53f-4053-ac82-c9770f301836",
+      "CreatedAt": "2026-06-01T17:18:55.369195200Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "59dfc5af-1efd-41a2-be0e-e815a3e74c95",
+      "CreatedAt": "2026-05-23T12:09:56.864918800Z",
+      "ExpectedSteps": 400,
+      "ReadSteps": 400,
+      "Matches": []
+    },
+    {
+      "Id": "5a9f7a16-a03a-4c0d-9dba-54e0fd46270f",
+      "CreatedAt": "2026-06-04T04:28:51.588188400Z",
+      "ExpectedSteps": 140,
+      "ReadSteps": 140,
+      "Matches": []
+    },
+    {
+      "Id": "5e8d8ed8-f4a5-4aba-a46b-ee56abae71e9",
+      "CreatedAt": "2026-05-25T01:13:33.945925Z",
+      "ExpectedSteps": 105,
+      "ReadSteps": 105,
+      "Matches": []
+    },
+    {
+      "Id": "5f6f3cf6-1364-41d1-92ea-637b359db99e",
+      "CreatedAt": "2026-06-08T05:50:27.446858100Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "6706714c-2e7a-44e8-8599-566ff0f2a538",
+      "CreatedAt": "2026-05-25T12:33:50.967117500Z",
+      "ExpectedSteps": 90,
+      "ReadSteps": 90,
+      "Matches": []
+    },
+    {
+      "Id": "6855f1e9-7f0b-48ab-b0e9-04ad66c5ef3e",
+      "CreatedAt": "2026-05-22T10:04:45.820296900Z",
+      "ExpectedSteps": 356,
+      "ReadSteps": 356,
+      "Matches": []
+    },
+    {
+      "Id": "6b0bccbe-a930-4ddd-b00d-1442b722d22f",
+      "CreatedAt": "2026-06-02T09:39:27.577918100Z",
+      "ExpectedSteps": 411,
+      "ReadSteps": 411,
+      "Matches": []
+    },
+    {
+      "Id": "6b942968-554e-4ca3-99af-9765266a2a9f",
+      "CreatedAt": "2026-05-24T16:00:42.206298500Z",
+      "ExpectedSteps": 213,
+      "ReadSteps": 213,
+      "Matches": []
+    },
+    {
+      "Id": "6c54a2e7-7406-497d-a2ff-a4dc052dfb56",
+      "CreatedAt": "2026-06-08T06:16:41.479415500Z",
+      "ExpectedSteps": 5,
+      "ReadSteps": 5,
+      "Matches": []
+    },
+    {
+      "Id": "6c681eac-9cd1-4ad6-8a66-59c8e0a4c67e",
+      "CreatedAt": "2026-05-27T17:03:05.307831600Z",
+      "ExpectedSteps": 33,
+      "ReadSteps": 33,
+      "Matches": []
+    },
+    {
+      "Id": "6e8956cc-ddd2-4409-b8f1-4c862488bec8",
+      "CreatedAt": "2026-06-05T06:58:43.150099200Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "6f5bf562-28bf-4b60-8753-014911fe160e",
+      "CreatedAt": "2026-05-26T07:43:58.205522700Z",
+      "ExpectedSteps": 77,
+      "ReadSteps": 77,
+      "Matches": []
+    },
+    {
+      "Id": "70258add-3d8c-4111-9d4a-e5232f1e7252",
+      "CreatedAt": "2026-05-27T08:36:39.781407100Z",
+      "ExpectedSteps": 419,
+      "ReadSteps": 419,
+      "Matches": []
+    },
+    {
+      "Id": "702a2d2d-a44f-4ed9-ae5e-1e875dcc2c93",
+      "CreatedAt": "2026-05-25T12:51:51.436455900Z",
+      "ExpectedSteps": 63,
+      "ReadSteps": 63,
+      "Matches": []
+    },
+    {
+      "Id": "70ab5beb-1cdf-4526-a27c-bf0887d2cd94",
+      "CreatedAt": "2026-05-30T18:22:29.219274100Z",
+      "ExpectedSteps": 119,
+      "ReadSteps": 119,
+      "Matches": []
+    },
+    {
+      "Id": "717c0976-f5b6-4b09-9225-dba5fedddfcb",
+      "CreatedAt": "2026-06-09T17:05:49.450981200Z",
+      "ExpectedSteps": 45,
+      "ReadSteps": 45,
+      "Matches": []
+    },
+    {
+      "Id": "72669506-5f6a-432f-9bfc-eed5cebf7299",
+      "CreatedAt": "2026-05-23T19:17:58.703632600Z",
+      "ExpectedSteps": 389,
+      "ReadSteps": 389,
+      "Matches": []
+    },
+    {
+      "Id": "7312bdb1-0426-4664-825d-79d453c2c7ea",
+      "CreatedAt": "2026-06-13T17:56:53.434117900Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "745c508e-f818-408c-ab4f-b7c322f26003",
+      "CreatedAt": "2026-06-01T06:25:07.604499500Z",
+      "ExpectedSteps": 264,
+      "ReadSteps": 264,
+      "Matches": []
+    },
+    {
+      "Id": "74a6b26b-4c79-4ddc-b738-b281d3e32787",
+      "CreatedAt": "2026-06-04T18:21:46.976918700Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "76a6ce10-e3b5-482f-98c6-f853fa235bc7",
+      "CreatedAt": "2026-06-05T05:45:18.397158Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "7756f47b-085a-474b-8dcf-9cb0bd767b34",
+      "CreatedAt": "2026-05-24T14:40:06.307190700Z",
+      "ExpectedSteps": 117,
+      "ReadSteps": 117,
+      "Matches": []
+    },
+    {
+      "Id": "78b6106a-02db-4c3f-aafb-116d8be51633",
+      "CreatedAt": "2026-06-05T06:55:45.749407400Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "79ac92f6-7b3f-4e77-8d25-0ea917919f0d",
+      "CreatedAt": "2026-06-16T07:37:55.883203200Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "7b2acf3e-8d77-4c86-bf88-6d88045e57bf",
+      "CreatedAt": "2026-05-26T10:06:40.449625800Z",
+      "ExpectedSteps": 229,
+      "ReadSteps": 229,
+      "Matches": []
+    },
+    {
+      "Id": "7bc23f7d-74c4-4ae3-bc8c-5eef6c1cb98e",
+      "CreatedAt": "2026-05-23T11:41:37.656530300Z",
+      "ExpectedSteps": 79,
+      "ReadSteps": 79,
+      "Matches": []
+    },
+    {
+      "Id": "7cb6b13e-cd73-41fc-925c-496bd9588fc1",
+      "CreatedAt": "2026-05-31T07:15:43.036149800Z",
+      "ExpectedSteps": 200,
+      "ReadSteps": 200,
+      "Matches": []
+    },
+    {
+      "Id": "7defce2f-7976-4537-bcd6-7269bcbae388",
+      "CreatedAt": "2026-06-08T12:28:48.147837900Z",
+      "ExpectedSteps": 71,
+      "ReadSteps": 71,
+      "Matches": []
+    },
+    {
+      "Id": "808a4c35-1553-46dd-92c9-ad88b3bfdd95",
+      "CreatedAt": "2026-06-02T02:23:02.049471200Z",
+      "ExpectedSteps": 53,
+      "ReadSteps": 53,
+      "Matches": []
+    },
+    {
+      "Id": "81eb5275-90e8-41ce-9f1e-a2817e957187",
+      "CreatedAt": "2026-06-05T08:30:04.752595800Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "82327015-3afc-4c21-aebc-bcc3d5bc8f57",
+      "CreatedAt": "2026-06-02T13:15:54.348924Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "833c0fdf-34f5-4572-b527-98632e095b89",
+      "CreatedAt": "2026-06-07T18:31:11.889267500Z",
+      "ExpectedSteps": 58,
+      "ReadSteps": 58,
+      "Matches": []
+    },
+    {
+      "Id": "83e1e54f-7ef3-414d-87bb-ae4288cafc15",
+      "CreatedAt": "2026-06-11T00:35:12.765362300Z",
+      "ExpectedSteps": 15,
+      "ReadSteps": 15,
+      "Matches": []
+    },
+    {
+      "Id": "8431d049-46ce-43a5-bcb7-3dcf82ea455a",
+      "CreatedAt": "2026-06-02T14:55:20.370782300Z",
+      "ExpectedSteps": 38,
+      "ReadSteps": 38,
+      "Matches": []
+    },
+    {
+      "Id": "89207322-7f96-42bc-85c0-20032e419f9e",
+      "CreatedAt": "2026-06-04T15:28:01.939409500Z",
+      "ExpectedSteps": 37,
+      "ReadSteps": 37,
+      "Matches": []
+    },
+    {
+      "Id": "8a8aa450-225a-4eba-83c1-2a747595f833",
+      "CreatedAt": "2026-06-08T14:51:59.671623100Z",
+      "ExpectedSteps": 25,
+      "ReadSteps": 25,
+      "Matches": []
+    },
+    {
+      "Id": "8a9a5c7a-eea7-4d03-b1c4-e81e768bedd5",
+      "CreatedAt": "2026-05-28T03:31:11.673181300Z",
+      "ExpectedSteps": 64,
+      "ReadSteps": 64,
+      "Matches": []
+    },
+    {
+      "Id": "8b645ddf-7528-4d7c-8078-237f779cf904",
+      "CreatedAt": "2026-06-05T05:25:06.758420100Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "8f24cea6-1943-4107-bf28-82ebfe32feaf",
+      "CreatedAt": "2026-05-28T03:28:25.550573200Z",
+      "ExpectedSteps": 15,
+      "ReadSteps": 15,
+      "Matches": []
+    },
+    {
+      "Id": "937f1e74-47c9-4a69-ae77-b2ef28c3b21f",
+      "CreatedAt": "2026-06-02T15:06:35.572432600Z",
+      "ExpectedSteps": 54,
+      "ReadSteps": 54,
+      "Matches": []
+    },
+    {
+      "Id": "94133ede-8861-4ca4-99db-81ae174ab9c9",
+      "CreatedAt": "2026-06-07T19:19:49.966534100Z",
+      "ExpectedSteps": 22,
+      "ReadSteps": 22,
+      "Matches": []
+    },
+    {
+      "Id": "945f18d8-4ec4-4b1d-83be-e3beac825752",
+      "CreatedAt": "2026-06-08T02:29:54.914243Z",
+      "ExpectedSteps": 214,
+      "ReadSteps": 214,
+      "Matches": []
+    },
+    {
+      "Id": "94f28ff4-1b90-4f0e-9479-a27b4b63aaa2",
+      "CreatedAt": "2026-05-23T18:29:52.819066300Z",
+      "ExpectedSteps": 151,
+      "ReadSteps": 151,
+      "Matches": []
+    },
+    {
+      "Id": "97c50cd6-f804-4f1b-9f28-521563122edf",
+      "CreatedAt": "2026-06-17T13:33:06.801290300Z",
+      "ExpectedSteps": 23,
+      "ReadSteps": 23,
+      "Matches": []
+    },
+    {
+      "Id": "98965385-fa46-4756-b5bf-7068bd0f7d11",
+      "CreatedAt": "2026-06-02T06:33:55.883664100Z",
+      "ExpectedSteps": 35,
+      "ReadSteps": 35,
+      "Matches": []
+    },
+    {
+      "Id": "98a4cf1f-6d64-4d89-bb85-d9f8e726978a",
+      "CreatedAt": "2026-06-05T06:57:18.265771Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "9b6cb669-d792-405b-831b-407e6f695852",
+      "CreatedAt": "2026-05-24T10:03:34.071785400Z",
+      "ExpectedSteps": 150,
+      "ReadSteps": 150,
+      "Matches": []
+    },
+    {
+      "Id": "9cd8bbf1-db07-4ba8-9ca5-ab790b67b5a4",
+      "CreatedAt": "2026-06-04T16:58:59.587578800Z",
+      "ExpectedSteps": 20,
+      "ReadSteps": 20,
+      "Matches": []
+    },
+    {
+      "Id": "9d67f0c5-8bdc-4ed4-9ac1-556ab066c480",
+      "CreatedAt": "2026-06-08T06:00:16.452794400Z",
+      "ExpectedSteps": 263,
+      "ReadSteps": 263,
+      "Matches": []
+    },
+    {
+      "Id": "9f9fe588-2cbb-4cb8-8470-3a48cd7d9ce5",
+      "CreatedAt": "2026-06-05T05:43:03.406053800Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "9ffff7ac-ce19-4d45-9e31-2c1f2faf0456",
+      "CreatedAt": "2026-06-11T11:49:44.678222900Z",
+      "ExpectedSteps": 32,
+      "ReadSteps": 32,
+      "Matches": []
+    },
+    {
+      "Id": "a022a060-cf9e-4514-95e7-02af84dd3609",
+      "CreatedAt": "2026-06-08T08:56:05.974780200Z",
+      "ExpectedSteps": 64,
+      "ReadSteps": 64,
+      "Matches": []
+    },
+    {
+      "Id": "a1fd10a9-9764-428e-9489-3cfe90986228",
+      "CreatedAt": "2026-06-05T05:38:31.429835400Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "a5bfb105-671e-4fc7-bf24-d335432f6a0f",
+      "CreatedAt": "2026-05-24T13:08:28.562337100Z",
+      "ExpectedSteps": 340,
+      "ReadSteps": 340,
+      "Matches": []
+    },
+    {
+      "Id": "a69698d7-4ca6-4c5d-81cb-4c20aef649b2",
+      "CreatedAt": "2026-06-08T06:06:11.405502300Z",
+      "ExpectedSteps": 271,
+      "ReadSteps": 271,
+      "Matches": []
+    },
+    {
+      "Id": "a6a8d86b-464e-429e-b6ae-0c48a079a7f1",
+      "CreatedAt": "2026-05-27T15:33:56.920034700Z",
+      "ExpectedSteps": 182,
+      "ReadSteps": 182,
+      "Matches": []
+    },
+    {
+      "Id": "a7b1ee9f-88f8-4b3e-b299-b762692925c8",
+      "CreatedAt": "2026-05-22T09:51:27.225247300Z",
+      "ExpectedSteps": 194,
+      "ReadSteps": 194,
+      "Matches": []
+    },
+    {
+      "Id": "ae7a3c81-8993-4bf8-a7ba-8d8e150bdc95",
+      "CreatedAt": "2026-06-03T08:53:56.682912500Z",
+      "ExpectedSteps": 83,
+      "ReadSteps": 83,
+      "Matches": []
+    },
+    {
+      "Id": "aeba436f-d694-4421-a83a-5be008272b2f",
+      "CreatedAt": "2026-05-25T17:07:34.627373800Z",
+      "ExpectedSteps": 80,
+      "ReadSteps": 80,
+      "Matches": []
+    },
+    {
+      "Id": "afd39b3f-bb31-4b14-929d-a6dabbcd897c",
+      "CreatedAt": "2026-06-09T17:54:25.298559900Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "b31bc935-5c94-4f76-b41c-be1ea915bd1e",
+      "CreatedAt": "2026-06-01T11:24:36.929216700Z",
+      "ExpectedSteps": 265,
+      "ReadSteps": 265,
+      "Matches": [
+        {
+          "Position": 174,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-06-01T11:41:16.452661500Z",
+          "Text": "b31bc935-5c94-4f76-b41c-be1ea915bd1e/task-173 is executing...\nHere is the command output so far:\n\n\nTask b31bc935-5c94-4f76-b41c-be1ea915bd1e/task-173 finished with exit code 0\nHere is the command output:\n\n68\n58\n92\n85\n110\n114\n101\n97\n108\n80\n114\n111\n106\n101\n99\n116\n115\n92\n77\n121\n68\n101\n99\n105\n115\n105\n111\n110\n84\n114\n101\n101\n92\n67\n111\n110\n116\n101\n110\n116\n92\n77\n121\n68\n84\n77\n97\n112\n46\n117\n109\n97\n112\n\n\n\nLet's convert these character codes:\n68 = D\n58 = :\n92 = \\\n85 = U\n110 = n\n114 = r\n101 = e\n97 = a\n108 = l\n80 = P\n114 = r\n111 = o\n106 = j\n101 = e\n99 = c\n116 = t\n115 = s\n92 = \\\n77 = M\n121 = y\n68 = D\n101 = e\n99 = c\n105 = i\n115 = s\n105 = i\n111 = o\n110 = n\n84 = T\n114 = r\n101 = e\n102 = e\n92 = \\\n67 = C\n111 = o\n110 = n\n116 = t\n101 = e\n110 = n\n116 = t\n92 = \\\n77 = M\n121 = y\n68 = D\n84 = T\n77 = M\n97 = a\n112 = p\n46 = .\n117 = u\n109 = m\n97 = a\n112 = p\n\nThis translates exactly to:\n`D:\\UnrealProjects\\MyDecisionTree\\Content\\MyDTMap.umap`\n\nThere are no hidden characters!\nThen why does `[System.IO.File]::Copy` say: \"The directory name is invalid.\"?\nAh!\nLet's look at the source path: `D:\\UnrealProjects\\MyDecisionTree\\Content\\MyDTMap.umap`\nLet's look at the destination path: `C:\\game\\URDT\\Content\\MyDTMap.umap`\nWait! Is it possible that the drive letter `D:` on the system has some mapping issue?\nWait! The active workspace of the user is:\n`d:\\Hoctap\\KhaiPhaDuLieu\\DoAN`\nWait, she is in `d:` drive!\nWhat if `D:\\UnrealProjects` doesn't exist, but it's actually `d:\\Hoctap\\KhaiPhaDuLieu\\DoAN` and the D: drive we are accessing from the terminal is the same D: drive?\nWait, if it's the same D: drive, why does `Test-Path D:\\UnrealProjects` return `False`, but `Get-ChildItem -Path D:\\ -Filter MyDTMap.umap -Recurse` finds `D:\\UnrealProjects\\MyDecisionTree\\Content\\MyDTMap.umap`?\nAh!\nLet's look at the output of `Get-ChildItem` of `D:\\` root directory.\nDoes `D:\\UnrealProjects` exist? We ran:\n`Get-ChildItem -Path D:\\ -Filter *Unreal*` and it returned nothing!\nWait! If the directory does NOT exist, how could `Get-ChildItem` find a file inside it?\nWait! In Windows, is it possible that `D:\\UnrealProjects` is in a **WSL** (Windows Subsystem for Linux) path or a virtual drive, or is it that we are running in a sandbox?\nWait, look at the workspace information:\n`Active workspace: d:\\Hoctap\\KhaiPhaDuLieu\\DoAN` -> `d:/Hoctap/KhaiPhaDuLieu/DoAN`\nAnd the terminal OS is Windows, Shell is PowerShell.\nWait, let's see. If `Get-ChildItem -Path D:\\` found the file `D:\\UnrealProjects\\MyDecisionTree\\Content\\MyDTMap.umap`, it must exist on the disk!\nWait, let's try to copy it by using PowerShell's stream!\n```powershell\n$file = Get-ChildItem -Path D:\\ -Filter MyDTMap.umap -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1\n$content = [System.IO.File]::ReadAllBytes($file.FullName)\n[System.IO.File]::WriteAllBytes(\"C:\\game\\URDT\\Content\\MyDTMap.umap\", $content)\n```\nLet's run this! This reads the bytes from the file directly and writes them to the destination. If this works, then it means the copy command was failing due to some weird Windows OS lock/directory validation, but direct file stream reading works!"
+        }
+      ]
+    },
+    {
+      "Id": "b4fbc7bb-efb6-4590-859d-66ba22ae1096",
+      "CreatedAt": "2026-06-02T13:19:13.754858200Z",
+      "ExpectedSteps": 12,
+      "ReadSteps": 12,
+      "Matches": []
+    },
+    {
+      "Id": "b6bb413c-3a3a-4757-bcaa-7a4c1d250694",
+      "CreatedAt": "2026-06-03T15:50:54.176701200Z",
+      "ExpectedSteps": 75,
+      "ReadSteps": 75,
+      "Matches": []
+    },
+    {
+      "Id": "b769a823-1ad6-4c4f-8a8f-83cc83ee9440",
+      "CreatedAt": "2026-07-05T13:21:47.893524900Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "b839392d-967d-4604-acce-f9ae33fafcd5",
+      "CreatedAt": "2026-06-07T18:28:58.175240200Z",
+      "ExpectedSteps": 5,
+      "ReadSteps": 5,
+      "Matches": []
+    },
+    {
+      "Id": "b9ac6644-2844-48be-af76-c668493c4df8",
+      "CreatedAt": "2026-05-23T19:11:30.832594600Z",
+      "ExpectedSteps": 125,
+      "ReadSteps": 125,
+      "Matches": []
+    },
+    {
+      "Id": "baaa4476-43b0-429b-b915-82c6e42a576a",
+      "CreatedAt": "2026-06-16T07:41:51.426663200Z",
+      "ExpectedSteps": 11,
+      "ReadSteps": 11,
+      "Matches": []
+    },
+    {
+      "Id": "baed1d3a-73f9-4f87-8bc1-ab82adecb083",
+      "CreatedAt": "2026-05-31T16:05:06.127432600Z",
+      "ExpectedSteps": 7,
+      "ReadSteps": 7,
+      "Matches": []
+    },
+    {
+      "Id": "beda3792-38ef-4584-89e6-427c3461d0db",
+      "CreatedAt": "2026-05-22T03:32:12.620252300Z",
+      "ExpectedSteps": 59,
+      "ReadSteps": 59,
+      "Matches": [
+        {
+          "Position": 9,
+          "Type": "CORTEX_STEP_TYPE_RUN_COMMAND",
+          "CreatedAt": "2026-05-22T03:33:57.496708200Z",
+          "Text": "{\"commandLine\":\"code --list-extensions\",\"proposedCommandLine\":\"code --list-extensions\",\"cwd\":\"C:\\\\Users\\\\thy\\\\.gemini\\\\antigravity-ide\\\\scratch\",\"waitMsBeforeAsync\":\"5000\",\"blocking\":true,\"exitCode\":0,\"combinedOutput\":{\"full\":\"dart-code.dart-code\\ndart-code.flutter\\ngithub.copilot-chat\\nmokkapps.codesnapdev\\nms-python.debugpy\\nms-python.python\\nms-python.vscode-pylance\\nms-python.vscode-python-envs\\nms-vscode-remote.remote-wsl\\npkief.material-icon-theme\\nshinotatwu-ds.file-tree-generator\\nsidthesloth.html5-boilerplate\\n\"}}"
+        }
+      ]
+    },
+    {
+      "Id": "c12733a8-b6e5-4c76-b0bf-b67a3f59b5c7",
+      "CreatedAt": "2026-06-16T07:40:07.242814500Z",
+      "ExpectedSteps": 13,
+      "ReadSteps": 13,
+      "Matches": []
+    },
+    {
+      "Id": "c131ff50-ff75-45d4-b54c-03217822560c",
+      "CreatedAt": "2026-05-27T08:45:05.608438300Z",
+      "ExpectedSteps": 864,
+      "ReadSteps": 864,
+      "Matches": []
+    },
+    {
+      "Id": "c13ffbcc-d809-4d54-86fd-17276cd78615",
+      "CreatedAt": "2026-05-27T06:55:24.990804200Z",
+      "ExpectedSteps": 389,
+      "ReadSteps": 389,
+      "Matches": []
+    },
+    {
+      "Id": "c1903c0c-7339-43ca-80f6-ae4708eeb9d5",
+      "CreatedAt": "2026-06-08T06:13:37.863816300Z",
+      "ExpectedSteps": 20,
+      "ReadSteps": 20,
+      "Matches": []
+    },
+    {
+      "Id": "cf012592-ad68-4ee9-a3ba-440ee20a2bf4",
+      "CreatedAt": "2026-05-28T15:16:26.019271Z",
+      "ExpectedSteps": 1347,
+      "ReadSteps": 1347,
+      "Matches": [
+        {
+          "Position": 1180,
+          "Type": "CORTEX_STEP_TYPE_RUN_COMMAND",
+          "CreatedAt": "2026-05-31T06:35:19.477214700Z",
+          "Text": "{\"commandLine\":\".venv\\\\Scripts\\\\python.exe main.py\",\"proposedCommandLine\":\".venv\\\\Scripts\\\\python.exe main.py\",\"cwd\":\"d:\\\\Hoctap\\\\LapTrinhDiDong\\\\DOAN\\\\scripts\\\\food_recognition_api\",\"waitMsBeforeAsync\":\"5000\",\"exitCode\":-1,\"combinedOutput\":{\"full\":\"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\\nI0000 00:00:1780209322.526831   41360 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.\\nWARNING: All log messages before absl::InitializeLog() is called are written to STDERR\\nI0000 00:00:1780209344.596567   41360 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.\\nI0000 00:00:1780209354.142344   41360 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.\\nTo enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.\\nWARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.\\r\\nINFO:     Started server process [27064]\\r\\nINFO:     Waiting for application startup.\\r\\nINFO:     Application startup complete.\\r\\nINFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)\\r\\n\\r\\n1/1 ==================== 0s 758ms/step\\r\\n1/1 ==================== 1s 769ms/step\\r\\nINFO:     127.0.0.1:58295 - \\\"POST /predict HTTP/1.1\\\" 200 OK\\r\\n\\r\\n1/1 ==================== 0s 29ms/step\\r\\n1/1 ==================== 0s 45ms/step\\r\\nINFO:     127.0.0.1:50101 - \\\"POST /predict HTTP/1.1\\\" 200 OK\\r\\n\\r\\n1/1 ==================== 0s 25ms/step\\r\\n1/1 ==================== 0s 37ms/step\\r\\nINFO:     127.0.0.1:59488 - \\\"POST /predict HTTP/1.1\\\" 200 OK\\r\\n\\r\\n1/1 ==================== 0s 27ms/step\\r\\n1/1 ==================== 0s 41ms/step\\r\\nINFO:     127.0.0.1:50021 - \\\"POST /predict HTTP/1.1\\\" 200 OK\\r\\n\\r\\n1/1 ==================== 0s 26ms/step\\r\\n1/1 ==================== 0s 41ms/step\\r\\nINFO:     127.0.0.1:50021 - \\\"POST /predict HTTP/1.1\\\" 200 OK\\r\\n\"},\"combinedOutputSnapshot\":{\"full\":\"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\\nI0000 00:00:1780209322.526831   41360 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.\\n\"}}"
+        },
+        {
+          "Position": 1204,
+          "Type": "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+          "CreatedAt": "2026-05-31T06:37:11.264268300Z",
+          "Text": "Haha, oan uổng quá Thy ơi! 😂 Máy bạn xịn xò có card đồ họa **NVIDIA GeForce RTX** chiến game hay chạy đồ họa siêu mượt luôn mà!\n\nCái cảnh báo `\"TensorFlow GPU support is not available on native Windows...\"` trong log là do **chính thư viện TensorFlow của Google** nó báo đó. \n\n### 💡 Tại sao nó báo vậy dù máy Thy có GPU RTX xịn?\n1.  **Chính sách của Google từ bản TensorFlow 2.11 trở lên:** Họ đã **ngừng hỗ trợ trực tiếp GPU** trên hệ điều hành Windows gốc (Native Windows). \n2.  **Yêu cầu của họ:** Nếu muốn TensorFlow nhận card NVIDIA trên Windows bây giờ, người dùng bắt buộc phải cài hệ điều hành phụ WSL2 (Linux chạy trong Windows) hoặc cài plugin bổ sung `tensorflow-directml`.\n\n### ⚡ Nhưng Thy đừng lo lắng nha!\nMô hình nhận diện món ăn `MobileNetV2` của tụi mình là một kiến trúc siêu nhẹ (chỉ khoảng 10MB), được thiết kế tối ưu để chạy mượt mà ngay trên cả điện thoại di động chip yếu. \n*   Vì thế, khi chạy trên **CPU Intel/AMD** cực mạnh của máy tính bạn, tốc độ dự đoán chỉ mất **chưa tới 0.1 giây**! \n*   Nên máy chạy bằng CPU vẫn nhanh như chớp, không cần tốn công cài đặt cấu hình GPU CUDA phức tạp làm gì cho nhức đầu đâu nè! 🦾✨\n\nThy test thử tải ảnh lên web xem nó nhận diện ngon lành chưa nha! 😉\n\n---\n\n### 🚀 Lệnh chạy các phân hệ dự án (khi cần chạy lại)\n\n*   **Chạy Backend (FastAPI)**:\n    ```powershell\n    .venv\\Scripts\\python.exe main.py\n    ```\n\n*   **Chạy Ngrok public API**:\n    ```powershell\n    ngrok http 8000 --domain=nonaudible-mesophytic-gisele.ngrok-free.dev\n    ```\n\n*   **Chạy Client App (Flutter Mobile)**:\n    ```powershell\n    flutter run\n    ```\n\n*   **Chạy Admin Web (Flutter Web)**:\n    ```powershell\n    flutter run -d edge\n    ```"
+        }
+      ]
+    },
+    {
+      "Id": "d07170e5-4aff-4d0b-ab66-a3765da0e7ab",
+      "CreatedAt": "2026-06-03T11:32:01.430802900Z",
+      "ExpectedSteps": 15,
+      "ReadSteps": 15,
+      "Matches": []
+    },
+    {
+      "Id": "d0b4dd2f-0f51-4e53-aa3c-1a17778fb4ba",
+      "CreatedAt": "2026-05-31T07:10:46.746036Z",
+      "ExpectedSteps": 23,
+      "ReadSteps": 23,
+      "Matches": []
+    },
+    {
+      "Id": "d18b0c2e-6420-4439-98be-cf603951c23e",
+      "CreatedAt": "2026-05-26T07:20:48.787242100Z",
+      "ExpectedSteps": 18,
+      "ReadSteps": 18,
+      "Matches": []
+    },
+    {
+      "Id": "d337d31e-e692-4844-9e46-59dde90a9583",
+      "CreatedAt": "2026-06-01T11:55:41.188151300Z",
+      "ExpectedSteps": 486,
+      "ReadSteps": 486,
+      "Matches": []
+    },
+    {
+      "Id": "d56d3114-97d0-48f8-8fa4-08a65bf210a1",
+      "CreatedAt": "2026-06-05T10:34:53.251514700Z",
+      "ExpectedSteps": 6,
+      "ReadSteps": 6,
+      "Matches": []
+    },
+    {
+      "Id": "d5ebff80-1f83-401f-9094-117e69805e2b",
+      "CreatedAt": "2026-05-23T00:26:46.392392Z",
+      "ExpectedSteps": 293,
+      "ReadSteps": 293,
+      "Matches": []
+    },
+    {
+      "Id": "d85625a4-dab2-4bff-b56d-c1877c884fc5",
+      "CreatedAt": "2026-06-04T17:11:06.904406400Z",
+      "ExpectedSteps": 17,
+      "ReadSteps": 17,
+      "Matches": []
+    },
+    {
+      "Id": "da1c1e0c-750a-4f14-ab9c-9663561aa35d",
+      "CreatedAt": "2026-06-05T05:37:43.054475900Z",
+      "ExpectedSteps": 8,
+      "ReadSteps": 8,
+      "Matches": []
+    },
+    {
+      "Id": "dd319def-b404-4e85-bb6b-a28f2852410e",
+      "CreatedAt": "2026-06-05T12:19:26.760412700Z",
+      "ExpectedSteps": 4,
+      "ReadSteps": 4,
+      "Matches": []
+    },
+    {
+      "Id": "ddde9743-ab43-4922-ac46-006b167761cc",
+      "CreatedAt": "2026-06-01T08:49:42.458738300Z",
+      "ExpectedSteps": 77,
+      "ReadSteps": 77,
+      "Matches": []
+    },
+    {
+      "Id": "e04e7383-68ca-4eb7-9422-0544b6a87368",
+      "CreatedAt": "2026-05-22T03:59:48.286130500Z",
+      "ExpectedSteps": 701,
+      "ReadSteps": 701,
+      "Matches": []
+    },
+    {
+      "Id": "e149a363-1fd9-4fec-a07b-f2caf9cfd49e",
+      "CreatedAt": "2026-06-08T05:44:30.404384300Z",
+      "ExpectedSteps": 19,
+      "ReadSteps": 19,
+      "Matches": []
+    },
+    {
+      "Id": "e1a3a346-7cd4-4f57-891c-c6874bad9812",
+      "CreatedAt": "2026-05-24T09:58:59.016070600Z",
+      "ExpectedSteps": 5,
+      "ReadSteps": 5,
+      "Matches": []
+    },
+    {
+      "Id": "e26fd453-400a-4e60-b682-69f6677302dd",
+      "CreatedAt": "2026-06-11T05:36:39.316480200Z",
+      "ExpectedSteps": 51,
+      "ReadSteps": 51,
+      "Matches": []
+    },
+    {
+      "Id": "e2b2a0eb-2729-48d9-9614-f72d1ee77c5e",
+      "CreatedAt": "2026-05-30T00:24:34.016829500Z",
+      "ExpectedSteps": 122,
+      "ReadSteps": 122,
+      "Matches": []
+    },
+    {
+      "Id": "e4b1a479-7e1e-40a9-b9c5-b053feeaf799",
+      "CreatedAt": "2026-06-02T06:38:40.102017500Z",
+      "ExpectedSteps": 41,
+      "ReadSteps": 41,
+      "Matches": []
+    },
+    {
+      "Id": "e7322cb6-c4b5-48df-a828-6a6e6a49ea89",
+      "CreatedAt": "2026-06-08T05:59:01.986286100Z",
+      "ExpectedSteps": 7,
+      "ReadSteps": 7,
+      "Matches": []
+    },
+    {
+      "Id": "ec522449-a85c-450b-80e5-cfca895aaed6",
+      "CreatedAt": "2026-05-30T00:53:57.287989200Z",
+      "ExpectedSteps": 99,
+      "ReadSteps": 99,
+      "Matches": []
+    },
+    {
+      "Id": "ee82bf88-d092-4970-8635-07d7c2e0e2da",
+      "CreatedAt": "2026-06-02T05:54:35.99657Z",
+      "ExpectedSteps": 33,
+      "ReadSteps": 33,
+      "Matches": []
+    },
+    {
+      "Id": "f406b34f-fe41-4ee4-bb18-cf34a36b6934",
+      "CreatedAt": "2026-06-01T04:40:20.302795500Z",
+      "ExpectedSteps": 67,
+      "ReadSteps": 67,
+      "Matches": []
+    },
+    {
+      "Id": "f5d91bb8-a22d-497e-9d74-1ff5d512f6ba",
+      "CreatedAt": "2026-05-25T02:25:20.093775Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    },
+    {
+      "Id": "f5df9850-4ae5-4e5b-9c9b-c6659829b632",
+      "CreatedAt": "2026-06-08T06:08:44.934370300Z",
+      "ExpectedSteps": 36,
+      "ReadSteps": 36,
+      "Matches": []
+    },
+    {
+      "Id": "f6b7e077-636d-480c-bf20-75e94ba07b1a",
+      "CreatedAt": "2026-05-22T16:00:04.311864100Z",
+      "ExpectedSteps": 181,
+      "ReadSteps": 181,
+      "Matches": []
+    },
+    {
+      "Id": "fa9bdc19-c553-4ff8-8a2b-cbafe9ca7818",
+      "CreatedAt": "2026-06-09T04:58:32.651731700Z",
+      "ExpectedSteps": 11,
+      "ReadSteps": 11,
+      "Matches": []
+    },
+    {
+      "Id": "fc144e46-72ac-4c46-af66-1ccf4c98b15a",
+      "CreatedAt": "2026-07-04T17:24:42.694063Z",
+      "ExpectedSteps": 39,
+      "ReadSteps": 39,
+      "Matches": []
+    },
+    {
+      "Id": "fcd276c4-c415-483b-bd88-f8737fb42f9b",
+      "CreatedAt": "2026-06-02T06:49:23.858843700Z",
+      "ExpectedSteps": 226,
+      "ReadSteps": 226,
+      "Matches": []
+    },
+    {
+      "Id": "ff55ba3e-955b-4653-8fa0-201fd0a100a4",
+      "CreatedAt": "2026-06-05T05:06:29.182044500Z",
+      "ExpectedSteps": 9,
+      "ReadSteps": 9,
+      "Matches": []
+    }
+  ],
+  "Errors": []
+}
