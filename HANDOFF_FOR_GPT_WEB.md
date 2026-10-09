@@ -2,6 +2,8 @@
 
 ## Trạng thái và phạm vi
 
+Tiếp tục10/10/2026: đọc [review mới](Detaituan8910/.agent/qa/phase4-resume-20261010/review.md), [17 kiểm backend/Linux/hash](Detaituan8910/.agent/qa/phase4-resume-20261010/resume-verification.json) và [4 kiểm Windows](Detaituan8910/.agent/qa/phase4-resume-20261010/windows-verification.json) trước. App/Flink đã khởi động lại;1571file giữ hash. Code/artifact giữ nguyên; gate126/126 dưới đây là snapshot09/10. Nghiệm thu PENDING, I04 DEFERRED.
+
 Checkpoint ứng dụng09/10/2026: **I01/I02/I03 có QA4 mới; I05 qua gate bàn giao; I04 DEFERRED; toàn Phase4 INCOMPLETE**. Repo public được Thy chỉ định; Word vẫn gửi file riêng. Không dùng push GitHub thay cho nghiệm thu của Thy/GPT Web.
 
 ## Bàn giao mới nhất — đọc trước hồ sơ Phase3

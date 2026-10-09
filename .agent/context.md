@@ -6,11 +6,11 @@ CURRENT TASK: I01/I02/I03/I05 VERIFIED hồ sơ ứng dụng; package/publicatio
 SOURCE CHECKPOINT: Detaituan8910/.agent/decisions/20261009-phase4-app-scope.md và QA4/checklist.md; Git base0e442f6.
 ALLOWED SCOPE: QA app/vận hành/hash/package/Git; không Word/Ch2Hậu/PPT/I04/Phase5.
 LOCKED: artifact UCI/Flink/ML/HGB và QA1–3, Testmetric; app source giữ nguyên.
-APPLIED BUT UNVERIFIED: package/publication kiểm riêng; nghiệm thu Thy/GPT Web còn chờ.
+APPLIED BUT UNVERIFIED: chốt phần điều phối/receipt còn staging sau quota; commit/push/read-back kiểm riêng. Không sửa ứng dụng; nghiệm thu Thy/GPT Web còn chờ.
 VERIFIED: 67backend+17lineage/fault+20Linux+4Windows+11browser=119checks; gate cuối126/126,preservation1571/1571;8ảnh đã xem; mới operations/services.py. App8501 và Flink8081 loopback, foreground; no-fit; coldboot chưa kiểm.
-PENDING: gate cuối/ZIP/push, Thy/GPT Web duyệt ứng dụng; I04 và Word/PPT riêng.
-LAST EVIDENCE: Detaituan8910/.agent/qa/phase4-app-20261009/; final.json ưu tiên failed flink-recovered.json; nguồn oldQA nguyênbyte tại snapshot giữa task1571/1571.
-NEXT EXACT ACTION: gate handoff/preservation, commit/push/read-back; dừng chờ app acceptance. Đọc context/PLAN project cho recovery cụ thể.
+PENDING: Thy/GPT Web duyệt ứng dụng; I04 DEFERRED và Word/PPT riêng; coldboot/autostart chưa kiểm/triển khai.
+LAST EVIDENCE: 10/10 Detaituan8910/.agent/qa/phase4-resume-20261010/:17backend/Linux/hash +4Windows;1571file giữ hash. App/Flink đã khởi động lại từ distro Stopped. Gate126/126 và8ảnh09/10 giữ snapshot; không fullrerun/train/Testeval. Receipt remote-readback.json kiểm HEAD sau checkpoint.
+NEXT EXACT ACTION: dừng chờ Thy/GPT Web kiểm app. Đọc context/PLAN project và receipt hiện hành khi quay lại; không tự I04/Word/PPT/Phase5.
 
 ## Lịch sử — GitHub checkpoint / Phase4 được duyệt
 

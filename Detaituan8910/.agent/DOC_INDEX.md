@@ -2,10 +2,14 @@
 
 ## Nguồn hiện hành — Phase4 ứng dụng
 
+Lượt tiếp tục10/10: `qa/phase4-resume-20261010/{checklist.md,review.md,resume-verification.json,windows-verification.json}` là nguồn hiện trạng mới (21 kiểm); ưu tiên các tuyên bố runtime ngày09/10. QA4 cũ giữ snapshot126/126. `scripts/verify_phase4_resume.py` là công cụ kiểm tiếp tục, không thực hiện fit/fulljob/Testmetric.
+
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
 | .agent/decisions/20261009-phase4-app-scope.md | Scope mới I01/I02/I03/I05; I04 tạm hoãn | Hiện hành, ưu tiên approval4 cũ | Đầu phiên; không tự I04/Phase5 |
-| .agent/qa/phase4-app-20261009/checklist.md, review.md | Checklist/handoff ứng dụng, giới hạn | Hiện hành; I05 hồ sơ VERIFIED, publication gate riêng | Duyệt app/tiếp tục task |
+| .agent/qa/phase4-app-20261009/checklist.md, review.md | Checklist/handoff ứng dụng, giới hạn | Hiện hành; I01/I02/I03/I05 VERIFIED kỹ thuật, nghiệm thu user PENDING | Duyệt app/tiếp tục task |
+| .agent/qa/phase4-app-20261009/publication.md, remote-readback-1.json | Git853974c rawread-back9/9 và vị trí sản phẩm | VERIFIED snapshot publication | GPT Web tìm evidence đúng folder |
+| .agent/qa/phase4-app-20261009/remote-readback.json | Receipt HEAD Git sau checkpoint cuối | Local-only; hiện hành khi commit khớp HEAD | Kiểm publication mới; tránh vòng commit tự tham chiếu |
 | .agent/qa/phase4-app-20261009/verification.json, preservation.json, package-verification.json | Gate tổng/bảo toàn/ZIP; chưa có file thì chưa VERIFIED I05 | Hiện hành sau gate | Kiểm handoff cuối |
 | .agent/qa/phase4-app-20261009/technical-verification.json, integration-faults.json, browser-verification.json, screenshots/ | 67backend/17lineage-fault/11browser;8ảnh | VERIFIED riêng các phần đã kiểm | Đối chiếu KPI/inference/UI |
 | .agent/qa/phase4-app-20261009/final.json, windows-runtime.json, flink-off.json, app-off.json | Recovery/ownership/cổng/LANloopback và dữ liệu đọc độc lậpcluster | VERIFIED scope dịch vụ | Vận hành/lỗi môi trường |

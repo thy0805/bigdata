@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "captured_at": "2026-10-09T17:10:03.4504807Z",
+  "method": "PowerShell Invoke-WebRequest and Get-NetTCPConnection, read-only",
+  "checks": [
+    {"name": "windows_http_8501", "passed": true, "status_code": 200, "url": "http://localhost:8501/_stcore/health"},
+    {"name": "windows_loopback_8501", "passed": true, "local_addresses": ["127.0.0.1"]},
+    {"name": "windows_http_8081", "passed": true, "status_code": 200, "url": "http://localhost:8081/overview"},
+    {"name": "windows_loopback_8081", "passed": true, "local_addresses": ["127.0.0.1"]}
+  ],
+  "passed": 4,
+  "total_checks": 4,
+  "limits": "No Windows or WSL reboot, firewall or portproxy changes. Local machine access only."
+}

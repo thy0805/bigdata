@@ -1,6 +1,8 @@
 # Kế hoạch hiện hành
 
-- Hiện hành Phase4 ứng dụng: canonical `Detaituan8910/.agent/qa/phase4-app-20261009/checklist.md`; scope app decision mới ưu tiên I04 DEFERRED. I01/I02/I03/I05 VERIFIED hồ sơ:119functional+7handoff=126/126, preservation1571/1571; package/Git gate riêng. ToànPhase4 INCOMPLETE; chờ Thy/GPT Web, không tự Word/PPT/demo/Phase5. Code app/model/data cũ giữ nguyên, chỉ launcher dịch vụ mới và QA4.
+- Tiếp tục10/10: canonical `Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md`; R01/R02 VERIFIED21checks và1571/1571 hash. R03 chốt điều phối còn staging/commit/push/read-back; không sửa code app/artifact. Sau đó dừng chờ Thy/GPT Web.
+
+- Hiện hành Phase4 ứng dụng: canonical `Detaituan8910/.agent/qa/phase4-app-20261009/checklist.md`; scope app decision mới ưu tiên I04 DEFERRED. I01/I02/I03/I05 VERIFIED:119functional+7handoff=126/126,preservation1571/1571,ZIP46hashes/47entries,publication853974c remote9/9. Checkpoint sau chỉ điều phối/receipt, remote-readback.json kiểm HEAD cuối. ToànPhase4 INCOMPLETE; chờ Thy/GPT Web, không tự Word/PPT/demo/Phase5. Code app/model/data cũ giữ nguyên, chỉ launcher dịch vụ mới và QA4.
 
 - Hiện hành GitHub: `qa/github-publication-20261009/checklist.md` G00–G04 VERIFIED; scope `decisions/20261009-github-publication.md`. Commit đầu31a7703 push/main/read-backPASS5/5;244blob bằng disk/sourcegate21. Repo public do Thy xác nhận; không force/secret/raw/Office. HANDOFF_FOR_GPT_WEB.md là điểm bàn giao. Phase3 đã ACCEPTED, Phase4 I01–I05 được duyệt nhưng TODO trong PLAN của Detaituan8910. Checkpoint GitHub không thay QA4.
 

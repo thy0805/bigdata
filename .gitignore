@@ -18,6 +18,8 @@
 !/Detaituan8910/operations/**
 !/Detaituan8910/.agent/qa/phase4-app-20261009/*.json
 !/Detaituan8910/.agent/qa/phase4-app-20261009/*.md
+!/Detaituan8910/.agent/qa/phase4-resume-20261010/*.json
+!/Detaituan8910/.agent/qa/phase4-resume-20261010/*.md
 !/Detaituan8910/.agent/qa/phase4-app-20261009/screenshots/*.jpg
 /Detaituan8910/.agent/qa/phase4-app-20261009/preflight.json
 /Detaituan8910/.agent/qa/phase4-app-20261009/runtime/**

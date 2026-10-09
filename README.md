@@ -4,6 +4,8 @@ Tên đề tài: **Phân tích dữ liệu tiêu thụ điện năng và dự đ
 
 ## Trạng thái hiện hành
 
+Lượt tiếp tục10/10: [bàn giao mới nhất](Detaituan8910/.agent/qa/phase4-resume-20261010/review.md),21 kiểm mới và1571/1571 file giữ hash. App/Flink đã khởi động lại; không sửa code app hoặc chạy lại pipeline/model.
+
 Phase 0–2B2 đã nghiệm thu. Dashboard Phase 3 đã được Thy và GPT Web nghiệm thu. Phase4 ưu tiên ứng dụng: I01/I02/I03 đã có QA mới; I05 được kiểm qua gate bàn giao riêng. **I04 DEFERRED; toàn Phase4 INCOMPLETE**, chờ Thy/GPT Web kiểm ứng dụng. Không sửa Word/PowerPoint hoặc tự mở Phase5.
 
 Đọc [bàn giao ứng dụng Phase4](Detaituan8910/.agent/qa/phase4-app-20261009/review.md), [QA cuối](Detaituan8910/.agent/qa/phase4-app-20261009/verification.json), [bản đồ evidence cho báo cáo](Detaituan8910/.agent/qa/phase4-app-20261009/REPORT_EVIDENCE_MAP.md) và [vận hành start/status/stop](Detaituan8910/operations/README.md). I01 kiểm tích hợp các artifact đã khóa và inference thật, không chạy lại full Flink hoặc train/Test evaluation. Cold boot WSL/Windows chưa kiểm.

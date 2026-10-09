@@ -6,11 +6,11 @@ CURRENT TASK: bàn giao I01/I02/I03/I05; chờ Thy/GPT Web kiểm app. ToànPhas
 SOURCE CHECKPOINT: .agent/decisions/20261009-phase4-app-scope.md; QA4 .agent/qa/phase4-app-20261009/checklist.md; Git base0e442f6.
 ALLOWED SCOPE: QA ứng dụng/integration artifact/vận hành và GitHub; không Word/Ch2Hậu/PPT/runbook/speech/video/replay/Phase5.
 LOCKED: raw/Flhourly/ML/Test4590/HGB Train22513/11feature/D09 và toànQA1–3; không train/refit/tuning/metricTest mới.
-APPLIED BUT UNVERIFIED: Git publication/ZIP đóng gói được kiểm riêng; chưa nghiệm thu bởi Thy/GPT Web. Kiểm package-verification.json và remote-readback.json trước kết luận phát hành.
+APPLIED BUT UNVERIFIED: phần điều phối/receipt đã staging từ lượt bị ngắt đang chốt commit/push/read-back. Nghiệm thu Thy/GPT Web vẫn PENDING; app không sửa.
 VERIFIED: I01 chain17/17; backend/AppTest67/67; runtime20/20 Linux +4/4 Windows; browser11/11,8ảnh đã đọc. Gate cuối126/126 và preservation1571/1571. App giữ nguyên code. Launcher operations/services.py mới kiểm ownership/start-stop/foreign-port; JavaIPv4Stack+REST127 khắc phục Windows8081 loopback. App có inference/tab khi Flink tắt. I05 hồ sơ qua gate, ZIP/Git có evidence riêng.
-PENDING: I04 DEFERRED; nghiệm thu app Thy/GPT Web; coldboot WSL/Windows NOT_TESTED, autostart chưa triển khai. Không xem được jobfull cũ trong REST do expiry; dùng archivedevidence, không fullrerun mới.
-LAST EVIDENCE: QA4 technical-verification.json/integration-faults.json/browser-verification.json/final.json/windows-runtime.json; failed flink-recovered.json giữ lịch sử, final.json thắng. App holder session19576, Flink holder35141; foreground không daemon/autostart.
-NEXT EXACT ACTION: đọc review/evidence map/verification/package/remote evidence; khi có gói và remote gate đạt thì dừng chờ Thy/GPT Web nghiệm thu ứng dụng, không I04/Word/PPT. Nếu thiếu package/remote evidence, hoàn tất đúng publication còn thiếu, không chạy lại mô hình.
+PENDING: chỉ chờ Thy/GPT Web kiểm ứng dụng; I04 DEFERRED; coldboot WSL/Windows NOT_TESTED, autostart chưa triển khai. Không xem được jobfull cũ trong REST do expiry; dùng archivedevidence, không fullrerun mới.
+LAST EVIDENCE: 10/10 qa/phase4-resume-20261010/resume-verification.json17/17 và windows-verification.json4/4; bảo toàn1571/1571/source21/ZIP khớp. WSL2 ban đầu Stopped, đã mở và khởi động app/Flink bằng launcher hiện hành, holder session9762/80208; foreground không daemon/autostart. QA4 gate126/126/8ảnh là snapshot09/10, không mới chạy lại; publication853974c remote9/9 còn đúng trước commit mới.
+NEXT EXACT ACTION: hoàn tất commit/push/read-back phần checkpoint kỹ thuật; Thy/GPT Web đọc .agent/qa/phase4-resume-20261010/review.md và mở app localhost8501 để duyệt. Không tự I04/Word/PPT/Phase5 hoặc chạy lại mô hình; kiểm dịch vụ/receipt khi quay lại.
 
 Các block sau là lịch sử; decision app scope và checklist QA4 có ưu tiên.
 
