@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "Windows_localhost_dashboard",
+      "details": "ok",
+      "passed": true
+    },
+    {
+      "name": "Windows_localhost_flink",
+      "details": "{\"taskmanagers\":1,\"slots-total\":2,\"slots-available\":2,\"jobs-running\":0,\"jobs-finished\":0,\"jobs-cancelled\":0,\"jobs-failed\":0,\"flink-version\":\"2.3.0\",\"flink-commit\":\"c0f8d1a\"}",
+      "passed": true
+    },
+    {
+      "name": "Windows_loopback_listeners",
+      "details": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 8501
+        },
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 8081
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "WSL2_fresh_invocation",
+      "details": "NAME            STATE           VERSION\r\n\r\n* Ubuntu-24.04    Running         2",
+      "passed": true
+    }
+  ],
+  "physical_volumes": [
+    {
+      "DeviceID": "C:",
+      "FreeSpace": 25022021632,
+      "Size": 510481395712
+    },
+    {
+      "DeviceID": "D:",
+      "FreeSpace": 276541661184,
+      "Size": 1000202784768
+    }
+  ],
+  "passed": 4,
+  "autostart": "NOT_IMPLEMENTED; foreground holders required",
+  "captured_at": "2026-10-09T22:30:17.6957069+07:00",
+  "cold_wsl_boot": "NOT_TESTED; no shutdown or Windows restart",
+  "total_checks": 4,
+  "status": "VERIFIED"
+}

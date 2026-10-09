@@ -1,0 +1,21 @@
+{
+  "step": "app-recovered",
+  "at": "2026-10-09T15:23:08.233543+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "app_health_after_restart",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "app_ownership_after_restart",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 2,
+  "total_checks": 2,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

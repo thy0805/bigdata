@@ -1,0 +1,102 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "laptop:Tổng quan",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      }
+    },
+    {
+      "name": "laptop:Phân tích",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      }
+    },
+    {
+      "name": "laptop:Dự báo",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      }
+    },
+    {
+      "name": "browser_real_hgb_last",
+      "passed": true,
+      "details": "Initial snapshot arrived before rerun completed; final visible tab checked"
+    },
+    {
+      "name": "desktop:Tổng quan",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      }
+    },
+    {
+      "name": "desktop:Phân tích",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      }
+    },
+    {
+      "name": "desktop:Dự báo",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      }
+    },
+    {
+      "name": "browser_baseline_traces",
+      "passed": true
+    },
+    {
+      "name": "browser_first_test_inference",
+      "passed": true,
+      "details": "Dự báo tại mốc lịch sử\n\nMốc phát dự báo / giờ mục tiêu\n\n24/04/2010 17:00\n\nChạy dự báo\n\n0,810kWh\n\nGiờ mục tiêu: 24/04/2010 17:00 – 18:00\n\nMốc phát dự báo: 24/04/2010 17:00\n\nDữ liệu đã biết đến hết khoảng giờ bắt đầu 24/04/2010 16:00\n\nThực tế để đối chiếu sau dự báo: 1,681 kWh\n\nGiá trị thực tế không được truyền vào model.\n\nThực tế và dự báo HGB\n\nHiển thị hai baseline\n\nApr 152010\nApr 17\nApr 19\nApr 21\nApr 23\n0,5\n1\n1,5\n2\n2,5\n3\nThực tế\nHGB\nNaive\nSeasonal Naive24\nkWh\n\nBiểu đồ trong khoảng chọn chỉ gồm mốc đủ điều kiện Test. Khoảng thiếu không nối đường. Đối chiếu sau dự báo; dự báo một bước cuốn chiếu có nhận quan sát thực tế mới.\n\nĐánh giá chính thức trên toàn bộ Test\n\nHGB MAE (kWh)\n\n0,3221\n\nHGB RMSE (kWh)\n\n0,4635\n\nSố mẫu Test\n\n4.590\n\n24/04/2010 17:00 – 26/11/2010 20:00; 4.590 mẫu. Metric không thay đổi theo bộ lọc. Không dùng Test để chỉnh lại model."
+    },
+    {
+      "name": "browser_all_missing_not_zero",
+      "passed": true,
+      "details": "Điện năng ghi nhận (kWh)\n\n—\n\nTrung bình giờ đầy đủ (kWh/giờ)\n\n—\n\nĐiện năng giờ cao nhất (kWh)\n\n—\n\nĐộ phủ phút: 0,00%\n\n0 giờ đầy đủ trong 24 khung giờ\n\nKhông có giờ đầy đủ\n\nĐiện năng theo giờ\n00:00Apr 29, 2007\n03:00\n06:00\n09:00\n12:00\n15:00\n18:00\n21:00\n−1\n0\n1\n2\n3\n4\nkWh\n\nGiữ khoảng trống tại giờ thiếu. Tổng ghi nhận chỉ cộng các phút có phép đo; không coi đó là tổng đầy đủ khi độ phủ dưới 100%.\n\nDự báo gần nhất trong khoảng chọn\n\nKhông có mốc hợp lệ trong Test thuộc khoảng chọn. Chọn ngày từ 24/04 đến 26/11/2010 có đủ feature.\n\nBa nhóm đo phụ\n−1\n0\n1\n2\n3\n4\n5\n6\nKhu vực bếp\nKhu vực giặt giũ\nBình nước nóng và điều hòa\nĐiện năng ghi nhận (kWh)\n\nNhóm đo theo khu vực, không phải ba thiết bị riêng. Tổng kWh là phần ghi nhận của từng nhóm; xem độ phủ riêng trong hover."
+    },
+    {
+      "name": "restored_default_range",
+      "passed": true
+    }
+  ],
+  "passed": 11,
+  "total_checks": 11,
+  "screenshots": [
+    "overview-laptop.jpg",
+    "overview-1920.jpg",
+    "analysis-laptop.jpg",
+    "analysis-1920.jpg",
+    "forecast-laptop.jpg",
+    "forecast-1920.jpg",
+    "first-test-1920.jpg",
+    "all-missing-1920.jpg"
+  ],
+  "viewport_restored": true,
+  "scope": "I03 browser interactions; asynchronous reruns awaited before final assertions; first-test screenshot has filter15/04–24/04/2010, selected17:00"
+}

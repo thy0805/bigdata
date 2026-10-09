@@ -15,6 +15,15 @@
 !/.agent/scripts/verify_github_publication.py
 !/Detaituan8910/context.md
 !/Detaituan8910/dashboard/**
+!/Detaituan8910/operations/**
+!/Detaituan8910/.agent/qa/phase4-app-20261009/*.json
+!/Detaituan8910/.agent/qa/phase4-app-20261009/*.md
+!/Detaituan8910/.agent/qa/phase4-app-20261009/screenshots/*.jpg
+/Detaituan8910/.agent/qa/phase4-app-20261009/preflight.json
+/Detaituan8910/.agent/qa/phase4-app-20261009/runtime/**
+/Detaituan8910/.agent/qa/phase4-app-20261009/fixtures/**
+/Detaituan8910/.agent/qa/phase4-app-20261009/screenshots/overview-attempt-2049.jpg
+/Detaituan8910/.agent/qa/phase4-app-20261009/remote-readback.json
 !/Detaituan8910/forecasting/**
 !/Detaituan8910/pipeline/**
 !/Detaituan8910/docs/**

@@ -1,5 +1,12 @@
 # Bản đồ tài liệu
 
+| Tài liệu mới | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| Detaituan8910/.agent/qa/phase4-app-20261009/review.md, checklist.md | Handoff ứng dụng I01/I02/I03/I05, I04 deferred | Hiện hành | GPT Web kiểm app, ưu tiên handoff3 cũ |
+| Detaituan8910/.agent/decisions/20261009-phase4-app-scope.md | Phạm vi mới và cổng dừng | Hiện hành, ưu tiên approval4 | Trước demo/Word/PPT/Phase5 |
+| Detaituan8910/operations/README.md, services.py | Vận hành guarded foreground | Hiện hành | Start/status/stop/recovery |
+| Detaituan8910/.agent/qa/phase4-app-20261009/REPORT_EVIDENCE_MAP.md | Nguồn báo cáo/kiến trúc/số liệu thực tế | Hiện hành | Sau khi được phép viết Word/slide |
+
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
 | .agent/context.md | Điều phối tương đương root context hiện có | Hiện hành/canonical | Đầu phiên bigdata; không tạo context trùng |

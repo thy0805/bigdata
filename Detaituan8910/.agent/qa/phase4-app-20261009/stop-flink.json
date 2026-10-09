@@ -1,0 +1,20 @@
+{
+  "step": "stop-flink",
+  "at": "2026-10-09T15:23:09.550235+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "graceful_stop_owned:flink",
+      "passed": true,
+      "details": {
+        "returncode": 0,
+        "stdout": "{\"service\": \"flink\", \"stopped_pids\": [7643, 8167]}",
+        "stderr": ""
+      }
+    }
+  ],
+  "passed": 1,
+  "total_checks": 1,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

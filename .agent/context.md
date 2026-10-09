@@ -1,6 +1,18 @@
 # Bối cảnh môn Big Data
 
-## Hiện hành — GitHub checkpoint / Phase4 được duyệt
+## Hiện hành — bàn giao ứng dụng Phase4
+
+CURRENT TASK: I01/I02/I03/I05 VERIFIED hồ sơ ứng dụng; package/publication có gate riêng; I04 DEFERRED, toànPhase4 INCOMPLETE.
+SOURCE CHECKPOINT: Detaituan8910/.agent/decisions/20261009-phase4-app-scope.md và QA4/checklist.md; Git base0e442f6.
+ALLOWED SCOPE: QA app/vận hành/hash/package/Git; không Word/Ch2Hậu/PPT/I04/Phase5.
+LOCKED: artifact UCI/Flink/ML/HGB và QA1–3, Testmetric; app source giữ nguyên.
+APPLIED BUT UNVERIFIED: package/publication kiểm riêng; nghiệm thu Thy/GPT Web còn chờ.
+VERIFIED: 67backend+17lineage/fault+20Linux+4Windows+11browser=119checks; gate cuối126/126,preservation1571/1571;8ảnh đã xem; mới operations/services.py. App8501 và Flink8081 loopback, foreground; no-fit; coldboot chưa kiểm.
+PENDING: gate cuối/ZIP/push, Thy/GPT Web duyệt ứng dụng; I04 và Word/PPT riêng.
+LAST EVIDENCE: Detaituan8910/.agent/qa/phase4-app-20261009/; final.json ưu tiên failed flink-recovered.json; nguồn oldQA nguyênbyte tại snapshot giữa task1571/1571.
+NEXT EXACT ACTION: gate handoff/preservation, commit/push/read-back; dừng chờ app acceptance. Đọc context/PLAN project cho recovery cụ thể.
+
+## Lịch sử — GitHub checkpoint / Phase4 được duyệt
 
 CURRENT TASK: bàn giao GitHub checkpoint code/tài liệu; tiếp tục dự án điện năng Phase4 theo phê duyệt đã nhận.
 SOURCE CHECKPOINT: decisions/20261009-github-publication.md; Detaituan8910/context.md và decisionPhase4.

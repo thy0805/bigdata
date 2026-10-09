@@ -1,5 +1,21 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
+## Nguồn hiện hành — Phase4 ứng dụng
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| .agent/decisions/20261009-phase4-app-scope.md | Scope mới I01/I02/I03/I05; I04 tạm hoãn | Hiện hành, ưu tiên approval4 cũ | Đầu phiên; không tự I04/Phase5 |
+| .agent/qa/phase4-app-20261009/checklist.md, review.md | Checklist/handoff ứng dụng, giới hạn | Hiện hành; I05 hồ sơ VERIFIED, publication gate riêng | Duyệt app/tiếp tục task |
+| .agent/qa/phase4-app-20261009/verification.json, preservation.json, package-verification.json | Gate tổng/bảo toàn/ZIP; chưa có file thì chưa VERIFIED I05 | Hiện hành sau gate | Kiểm handoff cuối |
+| .agent/qa/phase4-app-20261009/technical-verification.json, integration-faults.json, browser-verification.json, screenshots/ | 67backend/17lineage-fault/11browser;8ảnh | VERIFIED riêng các phần đã kiểm | Đối chiếu KPI/inference/UI |
+| .agent/qa/phase4-app-20261009/final.json, windows-runtime.json, flink-off.json, app-off.json | Recovery/ownership/cổng/LANloopback và dữ liệu đọc độc lậpcluster | VERIFIED scope dịch vụ | Vận hành/lỗi môi trường |
+| .agent/qa/phase4-app-20261009/flink-recovered.json | Attempt JavaIPv6/forwarding chưa đạt | Lịch sử FAIL; final.json ưu tiên | Truy vết, không đếm vàoPASS |
+| operations/services.py, operations/README.md | Start/status/stop/guard mới; foreground | VERIFIED runtime/docs qua gate126 | Thao tác từ PowerShell; không dùng cluster.py ghi QA1 |
+| .agent/qa/phase4-app-20261009/REPORT_EVIDENCE_MAP.md | Bản đồ nguồn Ch3–5/đồng bộCh2 và kiến trúc thật | Hiện hành, chưa viết báo cáo | Sau phê duyệt Word/PPT riêng |
+| .agent/qa/phase4-app-20261009/preflight.json, fixtures/, runtime/ | Snapshot đầy đủ/local fault copies/runtime | Nội bộ, không phát hành | Điều tra/bảo toàn; public dùng preflight-public.json |
+
+Các mục dưới là lịch sử trước scope ứng dụng mới. Không thay evidence các phase đã nghiệm thu.
+
 ## Nguồn ưu tiên mới — Phase4 được duyệt / GitHub
 
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |

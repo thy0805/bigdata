@@ -1,0 +1,54 @@
+{
+  "step": "flink-off",
+  "at": "2026-10-09T15:23:25.556486+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "port_released:flink",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "foreign_port_start_refused:flink",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Port 8081 occupied or project process exists; start refused"
+      }
+    },
+    {
+      "name": "foreign_process_stop_refused:flink",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Refusing stop: no verified project process; no unrelated process will be killed"
+      }
+    },
+    {
+      "name": "fixture_socket_released:flink",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "dashboard_health_without_flink",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "locked_inference_without_flink",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_tabs_without_flink",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 7,
+  "total_checks": 7,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

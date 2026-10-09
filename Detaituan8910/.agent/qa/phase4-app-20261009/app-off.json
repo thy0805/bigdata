@@ -1,0 +1,39 @@
+{
+  "step": "app-off",
+  "at": "2026-10-09T15:22:49.536008+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "port_released:app",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "foreign_port_start_refused:app",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Port 8501 occupied or project process exists; start refused"
+      }
+    },
+    {
+      "name": "foreign_process_stop_refused:app",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Refusing stop: no verified project process; no unrelated process will be killed"
+      }
+    },
+    {
+      "name": "fixture_socket_released:app",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 4,
+  "total_checks": 4,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

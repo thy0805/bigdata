@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED",
+  "total": 1571,
+  "matching": 1571,
+  "changed": [],
+  "missing": [],
+  "excluded": [
+    "__pycache__",
+    "flink-logs",
+    "flink-pids",
+    "flink-tmp"
+  ],
+  "mutable_coordinators": [
+    ".agent/DOC_INDEX.md",
+    ".agent/PLAN.md",
+    ".agent/mistake.md",
+    "context.md"
+  ],
+  "scope": "Raw ZIP/TXT, prior project source/artifacts/QA and Office/PDF; runtime cache/log/PID and permitted coordinators excluded"
+}

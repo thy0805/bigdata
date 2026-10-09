@@ -4,7 +4,9 @@ Tên đề tài: **Phân tích dữ liệu tiêu thụ điện năng và dự đ
 
 ## Trạng thái hiện hành
 
-Phase 0–2B2 đã nghiệm thu. Dashboard Phase 3 đã được Thy và GPT Web nghiệm thu qua hồ sơ và ảnh. Phase 4 được phép triển khai nhưng **chưa hoàn tất**. Không coi bằng chứng Phase 3 là kết quả kiểm tích hợp Phase 4.
+Phase 0–2B2 đã nghiệm thu. Dashboard Phase 3 đã được Thy và GPT Web nghiệm thu. Phase4 ưu tiên ứng dụng: I01/I02/I03 đã có QA mới; I05 được kiểm qua gate bàn giao riêng. **I04 DEFERRED; toàn Phase4 INCOMPLETE**, chờ Thy/GPT Web kiểm ứng dụng. Không sửa Word/PowerPoint hoặc tự mở Phase5.
+
+Đọc [bàn giao ứng dụng Phase4](Detaituan8910/.agent/qa/phase4-app-20261009/review.md), [QA cuối](Detaituan8910/.agent/qa/phase4-app-20261009/verification.json), [bản đồ evidence cho báo cáo](Detaituan8910/.agent/qa/phase4-app-20261009/REPORT_EVIDENCE_MAP.md) và [vận hành start/status/stop](Detaituan8910/operations/README.md). I01 kiểm tích hợp các artifact đã khóa và inference thật, không chạy lại full Flink hoặc train/Test evaluation. Cold boot WSL/Windows chưa kiểm.
 
 Checkpoint dự án: [context.md](Detaituan8910/context.md). Kế hoạch và nguồn ưu tiên: [PLAN](Detaituan8910/.agent/PLAN.md), [DOC_INDEX](Detaituan8910/.agent/DOC_INDEX.md).
 

@@ -1,0 +1,1074 @@
+{
+  "status": "VERIFIED",
+  "overall_phase4": "INCOMPLETE",
+  "I04": "DEFERRED",
+  "acceptance": "PENDING Thy/GPT Web",
+  "at": "2026-10-09T15:37:50.858079+00:00",
+  "scope": "I01 artifact integration; I02 service restart only; I03 application; I05 handoff gate; no full pipeline rerun/training/Test evaluation",
+  "passed": 126,
+  "total_checks": 126,
+  "functional_assertions": 119,
+  "checks": [
+    {
+      "name": "syntax/no_fit:app.py",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "syntax/no_fit:charts.py",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "syntax/no_fit:data_service.py",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "syntax/no_fit:serve.py",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "source_gate_21_hashes",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "data_cache_hit",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "content_signature_cache_invalidation",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "wrong_hash_rejected_before_cache",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "hourly_complete_and_missing",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "test_schema_and_mask",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "KPI_decimal_oracle:whole",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "subgroups_decimal_oracle:whole",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "KPI_decimal_oracle:default",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "subgroups_decimal_oracle:default",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "KPI_decimal_oracle:first_day",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "subgroups_decimal_oracle:first_day",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "KPI_decimal_oracle:last_day",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "subgroups_decimal_oracle:last_day",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "KPI_decimal_oracle:reversed",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "subgroups_decimal_oracle:reversed",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "all_missing_not_zero",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "boundary_minutes_81",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "recorded_missing_25979",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "energy_gap_preserved",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "comparison_gap_and_mask",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "monthly_category_axis",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "monthly_decimal_oracle",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "chart_empty_safe:empty",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "chart_empty_safe:missing",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "model_cache_hit",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "real_model_saved_prediction:0",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_target_input_and_order:0",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "target_label_perturbation:0",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "real_model_saved_prediction:2295",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_target_input_and_order:2295",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "target_label_perturbation:2295",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "real_model_saved_prediction:4589",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_target_input_and_order:4589",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "target_label_perturbation:4589",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "missing_features_rejected",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "nonfinite_features_rejected",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_initial",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "exact_three_tabs",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "official_metric_4590",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_real_forecast_last",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "button_real_final_model",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_baselines",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_filter:first_day_no_test",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "fixed_metric_after_filter:first_day_no_test",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_forecast_when_ineligible:first_day_no_test",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_filter:whole",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "fixed_metric_after_filter:whole",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_filter:first_test",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "fixed_metric_after_filter:first_test",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_real_forecast_first",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "button_first_matches",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_filter:last_day",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "fixed_metric_after_filter:last_day",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_filter:reversed",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "fixed_metric_after_filter:reversed",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_forecast_when_ineligible:reversed",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "AppTest_all_missing_day",
+      "passed": true,
+      "details": [],
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "missing_KPI_not_zero",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "bad_hash_visible_error_and_stop",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_fit_runtime",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "no_raw_scan_or_frozen_write",
+      "passed": true,
+      "details": null,
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "frozen_preflight_files_preserved",
+      "passed": true,
+      "details": {
+        "preserved": 1571,
+        "changed": [],
+        "missing": []
+      },
+      "evidence": "technical-verification.json"
+    },
+    {
+      "name": "raw_txt_to_flink",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "zip_integrity",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "flink_to_ml",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "ml_to_final",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "batch_historical_scope",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "archived_verified_flink_job:9307ab8abf4d8286245019045ed694ac",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "fixture_exact_chain",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "physical_missing_source_rejected",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "physical_corrupt_model_rejected_before_load",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "physical_corruption_visible_error_and_stop",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "model_version_mismatch_rejected",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "duplicate_start_refused:app",
+      "passed": true,
+      "details": "Port 8501 occupied or project process exists; start refused",
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "duplicate_start_refused:flink",
+      "passed": true,
+      "details": "Port 8081 occupied or project process exists; start refused",
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "environment:check",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "environment:--version",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "environment:-version",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "environment_package_mismatch_rejected",
+      "passed": true,
+      "details": null,
+      "evidence": "integration-faults.json"
+    },
+    {
+      "name": "graceful_stop_owned:app",
+      "passed": true,
+      "details": {
+        "returncode": 0,
+        "stdout": "{\"service\": \"app\", \"stopped_pids\": [24786]}",
+        "stderr": ""
+      },
+      "evidence": "stop-app.json"
+    },
+    {
+      "name": "port_released:app",
+      "passed": true,
+      "details": null,
+      "evidence": "app-off.json"
+    },
+    {
+      "name": "foreign_port_start_refused:app",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Port 8501 occupied or project process exists; start refused"
+      },
+      "evidence": "app-off.json"
+    },
+    {
+      "name": "foreign_process_stop_refused:app",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Refusing stop: no verified project process; no unrelated process will be killed"
+      },
+      "evidence": "app-off.json"
+    },
+    {
+      "name": "fixture_socket_released:app",
+      "passed": true,
+      "details": null,
+      "evidence": "app-off.json"
+    },
+    {
+      "name": "app_health_after_restart",
+      "passed": true,
+      "details": null,
+      "evidence": "app-recovered.json"
+    },
+    {
+      "name": "app_ownership_after_restart",
+      "passed": true,
+      "details": null,
+      "evidence": "app-recovered.json"
+    },
+    {
+      "name": "graceful_stop_owned:flink",
+      "passed": true,
+      "details": {
+        "returncode": 0,
+        "stdout": "{\"service\": \"flink\", \"stopped_pids\": [7643, 8167]}",
+        "stderr": ""
+      },
+      "evidence": "stop-flink.json"
+    },
+    {
+      "name": "port_released:flink",
+      "passed": true,
+      "details": null,
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "foreign_port_start_refused:flink",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Port 8081 occupied or project process exists; start refused"
+      },
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "foreign_process_stop_refused:flink",
+      "passed": true,
+      "details": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Refusing stop: no verified project process; no unrelated process will be killed"
+      },
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "fixture_socket_released:flink",
+      "passed": true,
+      "details": null,
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "dashboard_health_without_flink",
+      "passed": true,
+      "details": null,
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "locked_inference_without_flink",
+      "passed": true,
+      "details": null,
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "all_tabs_without_flink",
+      "passed": true,
+      "details": null,
+      "evidence": "flink-off.json"
+    },
+    {
+      "name": "flink_recovery_one_tm_two_slots",
+      "passed": true,
+      "details": {
+        "taskmanagers": 1,
+        "slots-total": 2,
+        "slots-available": 2,
+        "jobs-running": 0,
+        "jobs-finished": 0,
+        "jobs-cancelled": 0,
+        "jobs-failed": 0,
+        "flink-version": "2.3.0",
+        "flink-commit": "c0f8d1a"
+      },
+      "evidence": "final.json"
+    },
+    {
+      "name": "flink_owned_two_jvms",
+      "passed": true,
+      "details": null,
+      "evidence": "final.json"
+    },
+    {
+      "name": "rest_and_app_linux_loopback",
+      "passed": true,
+      "details": [
+        "LISTEN 0      4096        127.0.0.1:8081       0.0.0.0:*    users:((\"java\",pid=28493,fd=250))",
+        "LISTEN 0      128         127.0.0.1:8501       0.0.0.0:*    users:((\"python\",pid=25809,fd=6))"
+      ],
+      "evidence": "final.json"
+    },
+    {
+      "name": "app_owned_live",
+      "passed": true,
+      "details": null,
+      "evidence": "final.json"
+    },
+    {
+      "name": "app_final_health",
+      "passed": true,
+      "details": null,
+      "evidence": "final.json"
+    },
+    {
+      "name": "Windows_localhost_dashboard",
+      "details": "ok",
+      "passed": true,
+      "evidence": "windows-runtime.json"
+    },
+    {
+      "name": "Windows_localhost_flink",
+      "details": "{\"taskmanagers\":1,\"slots-total\":2,\"slots-available\":2,\"jobs-running\":0,\"jobs-finished\":0,\"jobs-cancelled\":0,\"jobs-failed\":0,\"flink-version\":\"2.3.0\",\"flink-commit\":\"c0f8d1a\"}",
+      "passed": true,
+      "evidence": "windows-runtime.json"
+    },
+    {
+      "name": "Windows_loopback_listeners",
+      "details": [
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 8501
+        },
+        {
+          "LocalAddress": "127.0.0.1",
+          "LocalPort": 8081
+        }
+      ],
+      "passed": true,
+      "evidence": "windows-runtime.json"
+    },
+    {
+      "name": "WSL2_fresh_invocation",
+      "details": "NAME            STATE           VERSION\r\n\r\n* Ubuntu-24.04    Running         2",
+      "passed": true,
+      "evidence": "windows-runtime.json"
+    },
+    {
+      "name": "laptop:Tổng quan",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "laptop:Phân tích",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "laptop:Dự báo",
+      "passed": true,
+      "details": {
+        "height": 768,
+        "mainScroll": 1358,
+        "mainWidth": 1358,
+        "width": 1366
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "browser_real_hgb_last",
+      "passed": true,
+      "details": "Initial snapshot arrived before rerun completed; final visible tab checked",
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "desktop:Tổng quan",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "desktop:Phân tích",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "desktop:Dự báo",
+      "passed": true,
+      "details": {
+        "height": 1080,
+        "mainScroll": 1911,
+        "mainWidth": 1911,
+        "width": 1920
+      },
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "browser_baseline_traces",
+      "passed": true,
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "browser_first_test_inference",
+      "passed": true,
+      "details": "Dự báo tại mốc lịch sử\n\nMốc phát dự báo / giờ mục tiêu\n\n24/04/2010 17:00\n\nChạy dự báo\n\n0,810kWh\n\nGiờ mục tiêu: 24/04/2010 17:00 – 18:00\n\nMốc phát dự báo: 24/04/2010 17:00\n\nDữ liệu đã biết đến hết khoảng giờ bắt đầu 24/04/2010 16:00\n\nThực tế để đối chiếu sau dự báo: 1,681 kWh\n\nGiá trị thực tế không được truyền vào model.\n\nThực tế và dự báo HGB\n\nHiển thị hai baseline\n\nApr 152010\nApr 17\nApr 19\nApr 21\nApr 23\n0,5\n1\n1,5\n2\n2,5\n3\nThực tế\nHGB\nNaive\nSeasonal Naive24\nkWh\n\nBiểu đồ trong khoảng chọn chỉ gồm mốc đủ điều kiện Test. Khoảng thiếu không nối đường. Đối chiếu sau dự báo; dự báo một bước cuốn chiếu có nhận quan sát thực tế mới.\n\nĐánh giá chính thức trên toàn bộ Test\n\nHGB MAE (kWh)\n\n0,3221\n\nHGB RMSE (kWh)\n\n0,4635\n\nSố mẫu Test\n\n4.590\n\n24/04/2010 17:00 – 26/11/2010 20:00; 4.590 mẫu. Metric không thay đổi theo bộ lọc. Không dùng Test để chỉnh lại model.",
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "browser_all_missing_not_zero",
+      "passed": true,
+      "details": "Điện năng ghi nhận (kWh)\n\n—\n\nTrung bình giờ đầy đủ (kWh/giờ)\n\n—\n\nĐiện năng giờ cao nhất (kWh)\n\n—\n\nĐộ phủ phút: 0,00%\n\n0 giờ đầy đủ trong 24 khung giờ\n\nKhông có giờ đầy đủ\n\nĐiện năng theo giờ\n00:00Apr 29, 2007\n03:00\n06:00\n09:00\n12:00\n15:00\n18:00\n21:00\n−1\n0\n1\n2\n3\n4\nkWh\n\nGiữ khoảng trống tại giờ thiếu. Tổng ghi nhận chỉ cộng các phút có phép đo; không coi đó là tổng đầy đủ khi độ phủ dưới 100%.\n\nDự báo gần nhất trong khoảng chọn\n\nKhông có mốc hợp lệ trong Test thuộc khoảng chọn. Chọn ngày từ 24/04 đến 26/11/2010 có đủ feature.\n\nBa nhóm đo phụ\n−1\n0\n1\n2\n3\n4\n5\n6\nKhu vực bếp\nKhu vực giặt giũ\nBình nước nóng và điều hòa\nĐiện năng ghi nhận (kWh)\n\nNhóm đo theo khu vực, không phải ba thiết bị riêng. Tổng kWh là phần ghi nhận của từng nhóm; xem độ phủ riêng trong hover.",
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "restored_default_range",
+      "passed": true,
+      "evidence": "browser-verification.json"
+    },
+    {
+      "name": "final_1571_frozen_files",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": {
+        "status": "VERIFIED",
+        "total": 1571,
+        "matching": 1571,
+        "changed": [],
+        "missing": [],
+        "excluded": [
+          "__pycache__",
+          "flink-logs",
+          "flink-pids",
+          "flink-tmp"
+        ],
+        "mutable_coordinators": [
+          ".agent/DOC_INDEX.md",
+          ".agent/PLAN.md",
+          ".agent/mistake.md",
+          "context.md"
+        ],
+        "scope": "Raw ZIP/TXT, prior project source/artifacts/QA and Office/PDF; runtime cache/log/PID and permitted coordinators excluded"
+      }
+    },
+    {
+      "name": "eight_screenshots_dimensions_and_visual_readback",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": {
+        "overview-laptop.jpg": {
+          "size": [
+            1366,
+            768
+          ],
+          "sha256": "7e044daaea5885d207d3b712f35e5d75f79b77fb85dcd1877ee81415274bd42f",
+          "expected": [
+            1366,
+            768
+          ]
+        },
+        "overview-1920.jpg": {
+          "size": [
+            1920,
+            1080
+          ],
+          "sha256": "d94d18bdc51d887a37340573b37f507547ff5bde48e73c9f0ebe829ef30fbbab",
+          "expected": [
+            1920,
+            1080
+          ]
+        },
+        "analysis-laptop.jpg": {
+          "size": [
+            1366,
+            768
+          ],
+          "sha256": "754f9e80a4af0836602cc8687ec032f71672453cd606ffb7fdc2c4c6ccf90662",
+          "expected": [
+            1366,
+            768
+          ]
+        },
+        "analysis-1920.jpg": {
+          "size": [
+            1920,
+            1080
+          ],
+          "sha256": "995cbb151715ae258f0d78adbaa7eea13694edd8efa6eca5d3ca3423a8286d19",
+          "expected": [
+            1920,
+            1080
+          ]
+        },
+        "forecast-laptop.jpg": {
+          "size": [
+            1366,
+            768
+          ],
+          "sha256": "cb0363dc019bd3571ff9fc379fd699744ac869b3cb17a92224320d301f0a0eaa",
+          "expected": [
+            1366,
+            768
+          ]
+        },
+        "forecast-1920.jpg": {
+          "size": [
+            1920,
+            1080
+          ],
+          "sha256": "281255393be64df6c6e669f45d2930b6ec01b7863a9bc62d97de5337e1fd9681",
+          "expected": [
+            1920,
+            1080
+          ]
+        },
+        "first-test-1920.jpg": {
+          "size": [
+            1920,
+            1080
+          ],
+          "sha256": "f63410d71bbfc7268d9ff003c7f50ddeee28c9eb07aab29b441057769d047b99",
+          "expected": [
+            1920,
+            1080
+          ]
+        },
+        "all-missing-1920.jpg": {
+          "size": [
+            1920,
+            1080
+          ],
+          "sha256": "5fc5b28ffa506af2f7264eb4581d5d5173e242b3327b738881026bfeab15f706",
+          "expected": [
+            1920,
+            1080
+          ]
+        }
+      }
+    },
+    {
+      "name": "new_handoff_links_resolve",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": []
+    },
+    {
+      "name": "archived_job_and_actual_full_sql",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": {
+        "job": "9307ab8abf4d8286245019045ed694ac",
+        "mode": "BATCH",
+        "sql_sha256": "622707245fe9aaaa697cbfce526c6bb7fa172d06b1fc2409604446501f7a2273"
+      }
+    },
+    {
+      "name": "final_locked_sourcegate_21",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": null
+    },
+    {
+      "name": "new_operations_syntax_no_training",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": null
+    },
+    {
+      "name": "I04_deferred_no_runbook_created",
+      "passed": true,
+      "evidence": "handoff gate",
+      "details": null
+    }
+  ],
+  "selected_evidence": {
+    "technical-verification.json": "e7ef93c8e37a2298d8be88bd30b86f1008b91be00d62fdad3dfb3b494d274889",
+    "integration-faults.json": "1a8e1af74a44549959c11c16eb4584dcd0e7175671ebc07b730223638d82ac6e",
+    "stop-app.json": "a31933236d9c78d7f3e90362bb17308895bf9ab594979782d5a738860066eeb6",
+    "app-off.json": "42a48bc8e8575cf01cbf504dec52370357aac3eb40236a856250332100bc7c1e",
+    "app-recovered.json": "6b7fc143ac176d68d90e5230d4639aaa5911c2a387603a24ce395ff33cadfd8a",
+    "stop-flink.json": "2971bbf261a77c2f13156e85aac4d89f4bd58b55c28d547c8e47e66c2113acbe",
+    "flink-off.json": "0a284bfa43e1c70804911ed9bfc40d30bd9759f5eb82c4f142076c020b894df1",
+    "final.json": "affe7ff27222b72be893d47d80f3e4bd7fbe4bb3627409cc25131e8ae9658313",
+    "windows-runtime.json": "e8c063abf841c4857f5e4188ab12163388477137b9cbd73742b061b82878a429",
+    "browser-verification.json": "4712746059f2869680aca9fe4e1e551253110be135978759b23f6123231baee0"
+  },
+  "screenshots": {
+    "overview-laptop.jpg": {
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7e044daaea5885d207d3b712f35e5d75f79b77fb85dcd1877ee81415274bd42f",
+      "expected": [
+        1366,
+        768
+      ]
+    },
+    "overview-1920.jpg": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d94d18bdc51d887a37340573b37f507547ff5bde48e73c9f0ebe829ef30fbbab",
+      "expected": [
+        1920,
+        1080
+      ]
+    },
+    "analysis-laptop.jpg": {
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "754f9e80a4af0836602cc8687ec032f71672453cd606ffb7fdc2c4c6ccf90662",
+      "expected": [
+        1366,
+        768
+      ]
+    },
+    "analysis-1920.jpg": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "995cbb151715ae258f0d78adbaa7eea13694edd8efa6eca5d3ca3423a8286d19",
+      "expected": [
+        1920,
+        1080
+      ]
+    },
+    "forecast-laptop.jpg": {
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "cb0363dc019bd3571ff9fc379fd699744ac869b3cb17a92224320d301f0a0eaa",
+      "expected": [
+        1366,
+        768
+      ]
+    },
+    "forecast-1920.jpg": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "281255393be64df6c6e669f45d2930b6ec01b7863a9bc62d97de5337e1fd9681",
+      "expected": [
+        1920,
+        1080
+      ]
+    },
+    "first-test-1920.jpg": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "f63410d71bbfc7268d9ff003c7f50ddeee28c9eb07aab29b441057769d047b99",
+      "expected": [
+        1920,
+        1080
+      ]
+    },
+    "all-missing-1920.jpg": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "5fc5b28ffa506af2f7264eb4581d5d5173e242b3327b738881026bfeab15f706",
+      "expected": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "excluded_failed_attempt": "flink-recovered.json retained as history; superseded by final.json and windows-runtime.json",
+  "limits": [
+    "Cold WSL/Windows boot not tested",
+    "No autostart",
+    "Archived Flink job history expired in live REST",
+    "No full end-to-end reexecution this turn",
+    "No streaming/direct meter/Word/PPT/I04"
+  ],
+  "no_fit_witness": {
+    "fit_calls": 0,
+    "forbidden_io": [],
+    "app_runs": 10
+  }
+}

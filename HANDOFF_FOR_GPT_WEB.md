@@ -2,7 +2,16 @@
 
 ## Trạng thái và phạm vi
 
-Checkpoint phát hành ngày09/10/2026: **Phase3 ACCEPTED; Phase4 AUTHORIZED, chưa hoàn tất**. Repo public được Thy chỉ định; code, hồ sơ và dữ liệu dẫn xuất được đưa lên để rà soát trực tiếp. Word vẫn gửi file riêng. Không dùng việc push GitHub làm bằng chứng nghiệm thu tích hợp Phase4.
+Checkpoint ứng dụng09/10/2026: **I01/I02/I03 có QA4 mới; I05 qua gate bàn giao; I04 DEFERRED; toàn Phase4 INCOMPLETE**. Repo public được Thy chỉ định; Word vẫn gửi file riêng. Không dùng push GitHub thay cho nghiệm thu của Thy/GPT Web.
+
+## Bàn giao mới nhất — đọc trước hồ sơ Phase3
+
+1. [Review Phase4 ứng dụng](Detaituan8910/.agent/qa/phase4-app-20261009/review.md), [checklist](Detaituan8910/.agent/qa/phase4-app-20261009/checklist.md), [verification](Detaituan8910/.agent/qa/phase4-app-20261009/verification.json), [preservation](Detaituan8910/.agent/qa/phase4-app-20261009/preservation.json).
+2. [Lineage và fault17/17](Detaituan8910/.agent/qa/phase4-app-20261009/integration-faults.json), [backend/AppTest67/67](Detaituan8910/.agent/qa/phase4-app-20261009/technical-verification.json), [browser11/11](Detaituan8910/.agent/qa/phase4-app-20261009/browser-verification.json), [tám ảnh mới](Detaituan8910/.agent/qa/phase4-app-20261009/screenshots/).
+3. [Runtime cuối](Detaituan8910/.agent/qa/phase4-app-20261009/final.json), [Windows/localhost](Detaituan8910/.agent/qa/phase4-app-20261009/windows-runtime.json), [app khi Flink tắt](Detaituan8910/.agent/qa/phase4-app-20261009/flink-off.json), [launcher và hướng dẫn](Detaituan8910/operations/README.md).
+4. [Bản đồ nguồn Chương3–5/Chương2](Detaituan8910/.agent/qa/phase4-app-20261009/REPORT_EVIDENCE_MAP.md), [gate gói hồ sơ](Detaituan8910/.agent/qa/phase4-app-20261009/package-verification.json).
+
+I01 là tích hợp artifact đã nghiệm thu, không full rerun mới. Lịch sử job cũ trong REST đã hết hạn; hồ sơ FINISHED/BATCH giữ nguyên. `flink-recovered.json` là thử nghiệm thất bại lịch sử; `final.json`/Windows mới là kết quả phục hồi hiện hành. Không cold boot, autostart, streaming replay, train/refit, Word/PPT hay I04 trong lượt này.
 
 Commit phát hành đầu: `31a7703`. [Quyết định phát hành](.agent/decisions/20261009-github-publication.md). [Checklist GitHub](.agent/qa/github-publication-20261009/checklist.md).
 
@@ -36,4 +45,4 @@ Hai ảnh bổ sung: [chất lượng dữ liệu](Detaituan8910/.agent/qa/phase
 
 ## Bước tiếp theo
 
-I01–I05 phải có QA mới và DEMO_RUNBOOK trước nghiệm thu Phase4. Sau đó đưa review/evidence mới lên repo và chỉ rõ phiên bản/đường dẫn. Chưa sửa Word, PPT, tạo video chính thức, replay hoặc mở Phase5.
+Thy/GPT Web kiểm app và hồ sơ I01/I02/I03/I05 mới. I04 giữ DEFERRED đến phê duyệt riêng; không hoàn tất toàn Phase4 khi mục này còn chờ. Word/PPT/video/Phase5 cũng cần yêu cầu riêng.

@@ -1,0 +1,49 @@
+{
+  "step": "final",
+  "at": "2026-10-09T15:25:53.535603+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "flink_recovery_one_tm_two_slots",
+      "passed": true,
+      "details": {
+        "taskmanagers": 1,
+        "slots-total": 2,
+        "slots-available": 2,
+        "jobs-running": 0,
+        "jobs-finished": 0,
+        "jobs-cancelled": 0,
+        "jobs-failed": 0,
+        "flink-version": "2.3.0",
+        "flink-commit": "c0f8d1a"
+      }
+    },
+    {
+      "name": "flink_owned_two_jvms",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "rest_and_app_linux_loopback",
+      "passed": true,
+      "details": [
+        "LISTEN 0      4096        127.0.0.1:8081       0.0.0.0:*    users:((\"java\",pid=28493,fd=250))",
+        "LISTEN 0      128         127.0.0.1:8501       0.0.0.0:*    users:((\"python\",pid=25809,fd=6))"
+      ]
+    },
+    {
+      "name": "app_owned_live",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "app_final_health",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 5,
+  "total_checks": 5,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

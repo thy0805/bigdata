@@ -1,0 +1,20 @@
+{
+  "step": "stop-app",
+  "at": "2026-10-09T15:22:49.171122+00:00",
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "graceful_stop_owned:app",
+      "passed": true,
+      "details": {
+        "returncode": 0,
+        "stdout": "{\"service\": \"app\", \"stopped_pids\": [24786]}",
+        "stderr": ""
+      }
+    }
+  ],
+  "passed": 1,
+  "total_checks": 1,
+  "cold_wsl_boot": "NOT_TESTED",
+  "scope": "Project service restart only; no WSL/Windows reboot; no jobs submitted"
+}

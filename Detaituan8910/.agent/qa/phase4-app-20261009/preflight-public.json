@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-09T15:14:27.012624+00:00",
+  "frozen_count": 1571,
+  "git_commit": "0e442f67a5fe2521c06fd67dfea4fe1dc241f3ab",
+  "flink_before": {
+    "taskmanagers": 1,
+    "slots-total": 2,
+    "slots-available": 2,
+    "jobs-running": 0,
+    "jobs-finished": 25,
+    "jobs-cancelled": 0,
+    "jobs-failed": 4,
+    "flink-version": "2.3.0",
+    "flink-commit": "c0f8d1a"
+  },
+  "excluded": [
+    "__pycache__",
+    "flink-logs",
+    "flink-pids",
+    "flink-tmp"
+  ],
+  "cold_wsl_boot": "NOT_TESTED: no shutdown/reboot authorized",
+  "I04": "DEFERRED",
+  "private_preflight": "Full host process/network inventory retained locally; not included"
+}

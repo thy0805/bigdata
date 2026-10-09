@@ -1,0 +1,141 @@
+{
+  "status": "VERIFIED",
+  "at": "2026-10-09T15:22:04.914442+00:00",
+  "checks": [
+    {
+      "name": "raw_txt_to_flink",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "zip_integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "flink_to_ml",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ml_to_final",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "batch_historical_scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_verified_flink_job:9307ab8abf4d8286245019045ed694ac",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fixture_exact_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "physical_missing_source_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "physical_corrupt_model_rejected_before_load",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "physical_corruption_visible_error_and_stop",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "model_version_mismatch_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "duplicate_start_refused:app",
+      "passed": true,
+      "details": "Port 8501 occupied or project process exists; start refused"
+    },
+    {
+      "name": "duplicate_start_refused:flink",
+      "passed": true,
+      "details": "Port 8081 occupied or project process exists; start refused"
+    },
+    {
+      "name": "environment:check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "environment:--version",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "environment:-version",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "environment_package_mismatch_rejected",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 17,
+  "total_checks": 17,
+  "source_signature": {
+    ".agent/qa/phase2b2-20261009/verification.json": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+    "data/ml/runs/20261009-phase2a-a/eligibility.csv": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+    "data/ml/runs/20261009-phase2a-a/feature-schema.json": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+    "data/ml/runs/20261009-phase2a-a/holdout/seal.json": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+    "data/ml/runs/20261009-phase2a-a/holdout/test.csv": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+    "data/ml/runs/20261009-phase2a-a/manifest.json": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+    "data/ml/runs/20261009-phase2a-a/metrics-validation.json": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+    "data/ml/runs/20261009-phase2a-a/predictions-validation.csv": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+    "data/ml/runs/20261009-phase2a-a/split-summary.json": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+    "data/ml/runs/20261009-phase2a-a/train.csv": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+    "data/ml/runs/20261009-phase2a-a/validation.csv": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884",
+    "data/processed/runs/20261009T102201900234-full/hourly-grid.csv": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+    "data/processed/runs/20261009T102201900234-full/manifest.json": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+    "data/processed/runs/20261009T102201900234-full/verification.json": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+    "models/final/hgb-uci-hourly-v1.0-train-only/manifest.json": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+    "models/final/hgb-uci-hourly-v1.0-train-only/model.joblib": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+    "models/runs/20261009-phase2b2-a/manifest.json": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+    "models/runs/20261009-phase2b2-a/metrics-test.json": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c",
+    "models/runs/20261009-phase2b2-a/predictions-test.csv": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+    "models/runs/20261009-phase2b2-a/runtime-evidence.json": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7",
+    "models/runs/20261009-phase2b2-a/verification.json": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe"
+  },
+  "historical_job_rest": {
+    "9307ab8abf4d8286245019045ed694ac": {
+      "live_history": "EXPIRED_HTTP_404",
+      "archived_state": "FINISHED",
+      "archived_type": "BATCH"
+    }
+  },
+  "environment": {
+    "/home/cute/.local/share/uci-forecast/venv/bin/python -m pip check": {
+      "returncode": 0,
+      "output": "No broken requirements found."
+    },
+    "/home/cute/.local/share/uci-forecast/venv/bin/python --version": {
+      "returncode": 0,
+      "output": "Python 3.12.3"
+    },
+    "/usr/lib/jvm/java-17-openjdk-amd64/bin/java -version": {
+      "returncode": 0,
+      "output": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-24.04-Ubuntu, mixed mode, sharing)"
+    }
+  },
+  "fault_scope": "Only isolated source copies/mocks; real accepted artifacts untouched",
+  "full_flink_rerun": false,
+  "training": false,
+  "official_test_evaluation": false
+}

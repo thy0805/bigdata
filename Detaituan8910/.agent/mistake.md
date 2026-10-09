@@ -1,5 +1,8 @@
 # Lỗi cần tránh
 
+- Flink Java có thể bind `[::ffff:127.0.0.1]:8081` và không được WSL forward tới Windows dù Linux REST đạt. QA4 khắc phục bằng JAVA_TOOL_OPTIONS=-Djava.net.preferIPv4Stack=true riêng cluster và config runtime REST127; kiểm cả Windows HTTP/listener, không sửa Windows/firewall hoặc coi old probe bind0 là yêu cầu vĩnh viễn. Failed attempt giữ trong flink-recovered.json, final.json ưu tiên.
+- REST lịch sử job Flink có thời gian lưu; overview count còn jobfinished nhưng /jobs/ID có thể404. Bảo toàn hồ sơ job/plan/verification và hash từ Phase1; không gọi archived evidence là job đang tồn tại hoặc rerun toàn dataset chỉ để làm đẹp UI. Tách lineage artifact và fullreexecution.
+
 - Streamlit fileWatcherType=none không nạp lại module charts/data_service đã import chỉ bằng browser reload. Biểu đồ tháng giữ code cũ đến khi riêng tiến trình app được restart. Chỉ dừng đúng tiến trình Streamlit do task tạo sau khi đối chiếu cmdline; không restart WSL/Windows hoặc kill dịch vụ khác. Gán type=category cho nhãnYYYY-MM để tránh Plotly vẽ trục microsecond khi chỉ một tháng.
 - Kiểm UI có nhiều tab phải scope locator vào tabpanel đang hiển thị: chữ dự báo trùng với card Tổng quan ẩn làm isVisiblefalse dù kết quả đúng. Giữ lần kiểm sai trong history, dùng locator có scope và screenshot để kiểm lại; không sửa số liệu để chữa lỗi locator.
 

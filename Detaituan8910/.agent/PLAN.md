@@ -1,6 +1,20 @@
 # Kế hoạch đồ án tuần 8–10
 
-## Hiện hành — Phase3 ACCEPTED; Phase4 được duyệt
+## Hiện hành — Phase4 ứng dụng, I04 DEFERRED
+
+Canonical: `qa/phase4-app-20261009/checklist.md` và `decisions/20261009-phase4-app-scope.md`, ưu tiên approval4 cũ về điểm tạm hoãn I04.
+
+| ID | Hạng mục | Nguồn chuẩn | Trạng thái | Evidence | Ghi chú |
+| --- | --- | --- | --- | --- | --- |
+| I01 | Lineage/integration artifact | Manifests + sourcegate | VERIFIED | integration-faults17/17; technical67/67 | Không fullrerun; RESTjob cũ expired |
+| I02 | Dịch vụ/ownership/recovery/faults | operations/services.py + runtime | VERIFIED trong scope |20Linux+4Windows; final.json thắng failed attempt | Coldboot NOT_TESTED/autostart chưa triển khai |
+| I03 | UI/KPI/filters/inference | Code và dữ liệu khóa | VERIFIED |67backend+11browser;8ảnh đã xem | App code không thay |
+| I04 | DEMO_RUNBOOK | Thy tạm hoãn | DEFERRED | Decision app scope | Không kịch bản/video/bài nói |
+| I05 | QA/handoff/preservation/package/Git | Evidence4 + gate publication | VERIFIED hồ sơ; publication kiểm riêng | verification126/126,preservation1571/1571; package/remote gate kèm | Chờ Thy/GPT Web, không tự Phase5 |
+
+Toàn Phase4 INCOMPLETE; nghiệm thu ứng dụng Thy/GPT Web còn chờ. Phần cuối trước dừng: gate QA/doc/hash/ZIP, push và read-back GitHub.
+
+## Lịch sử — Phase3 ACCEPTED; Phase4 được duyệt
 
 Canonical scope: `decisions/20261009-phase4-approval.md`. Chưa có kết quả I01–I05. GitHub checkpoint hiện hành theo `../../.agent/qa/github-publication-20261009/checklist.md`.
 

@@ -1,6 +1,20 @@
 # Đồ án Big Data tuần 8–10
 
-## Hiện hành — Phase3 ACCEPTED; Phase4 được phép triển khai; GitHub checkpoint
+## Hiện hành — Phase4 ứng dụng; I04 tạm hoãn
+
+CURRENT TASK: bàn giao I01/I02/I03/I05; chờ Thy/GPT Web kiểm app. ToànPhase4 INCOMPLETE vì I04 DEFERRED.
+SOURCE CHECKPOINT: .agent/decisions/20261009-phase4-app-scope.md; QA4 .agent/qa/phase4-app-20261009/checklist.md; Git base0e442f6.
+ALLOWED SCOPE: QA ứng dụng/integration artifact/vận hành và GitHub; không Word/Ch2Hậu/PPT/runbook/speech/video/replay/Phase5.
+LOCKED: raw/Flhourly/ML/Test4590/HGB Train22513/11feature/D09 và toànQA1–3; không train/refit/tuning/metricTest mới.
+APPLIED BUT UNVERIFIED: Git publication/ZIP đóng gói được kiểm riêng; chưa nghiệm thu bởi Thy/GPT Web. Kiểm package-verification.json và remote-readback.json trước kết luận phát hành.
+VERIFIED: I01 chain17/17; backend/AppTest67/67; runtime20/20 Linux +4/4 Windows; browser11/11,8ảnh đã đọc. Gate cuối126/126 và preservation1571/1571. App giữ nguyên code. Launcher operations/services.py mới kiểm ownership/start-stop/foreign-port; JavaIPv4Stack+REST127 khắc phục Windows8081 loopback. App có inference/tab khi Flink tắt. I05 hồ sơ qua gate, ZIP/Git có evidence riêng.
+PENDING: I04 DEFERRED; nghiệm thu app Thy/GPT Web; coldboot WSL/Windows NOT_TESTED, autostart chưa triển khai. Không xem được jobfull cũ trong REST do expiry; dùng archivedevidence, không fullrerun mới.
+LAST EVIDENCE: QA4 technical-verification.json/integration-faults.json/browser-verification.json/final.json/windows-runtime.json; failed flink-recovered.json giữ lịch sử, final.json thắng. App holder session19576, Flink holder35141; foreground không daemon/autostart.
+NEXT EXACT ACTION: đọc review/evidence map/verification/package/remote evidence; khi có gói và remote gate đạt thì dừng chờ Thy/GPT Web nghiệm thu ứng dụng, không I04/Word/PPT. Nếu thiếu package/remote evidence, hoàn tất đúng publication còn thiếu, không chạy lại mô hình.
+
+Các block sau là lịch sử; decision app scope và checklist QA4 có ưu tiên.
+
+## Lịch sử — Phase3 ACCEPTED; Phase4 được phép triển khai; GitHub checkpoint
 
 CURRENT TASK: checkpoint code/tài liệu đã phát hành lên repo public thy0805/bigdata; Phase4 I01–I05 là bước tiếp theo đã được duyệt.
 SOURCE CHECKPOINT: .agent/decisions/20261009-phase4-approval.md; nguồn QA3 đã nghiệm thu; ../.agent/decisions/20261009-github-publication.md.
