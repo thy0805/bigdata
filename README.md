@@ -4,6 +4,8 @@ Tên đề tài: **Phân tích dữ liệu tiêu thụ điện năng và dự đ
 
 ## Trạng thái hiện hành
 
+UI mới10/10: [giới thiệu bộ dữ liệu và 11 đặc trưng Anh–Việt](Detaituan8910/.agent/qa/phase4-data-guide-20261010/review.md), [QA75/75](Detaituan8910/.agent/qa/phase4-data-guide-20261010/technical-verification.json), [browser7/7 và4ảnh](Detaituan8910/.agent/qa/phase4-data-guide-20261010/browser-verification.json). Chỉ expander app.py đổi;1570file bảo toàn. Nghiệm thu Thy/GPT Web PENDING; I04 DEFERRED. Các snapshot trước bên dưới giữ lịch sử, không dùng mô tả expander cũ thay giao diện mới.
+
 Lượt tiếp tục10/10: [bàn giao mới nhất](Detaituan8910/.agent/qa/phase4-resume-20261010/review.md),21 kiểm mới và1571/1571 file giữ hash. App/Flink đã khởi động lại; không sửa code app hoặc chạy lại pipeline/model.
 
 Phase 0–2B2 đã nghiệm thu. Dashboard Phase 3 đã được Thy và GPT Web nghiệm thu. Phase4 ưu tiên ứng dụng: I01/I02/I03 đã có QA mới; I05 được kiểm qua gate bàn giao riêng. **I04 DEFERRED; toàn Phase4 INCOMPLETE**, chờ Thy/GPT Web kiểm ứng dụng. Không sửa Word/PowerPoint hoặc tự mở Phase5.

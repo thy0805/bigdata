@@ -1,6 +1,17 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
-## Nguồn hiện hành — Phase4 ứng dụng
+## Nguồn hiện hành — UI giải thích dữ liệu 10/10
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| .agent/qa/phase4-data-guide-20261010/checklist.md, review.md | Scope chỉ expander và điểm dừng | Hiện hành; G01–G04 VERIFIED, G05 chờ publication; user PENDING | Duyệt UI hoặc khôi phục task |
+| .agent/qa/phase4-data-guide-20261010/technical-verification.json, browser-verification.json, screenshots/ | 75 kiểm kỹ thuật, 7 browser, 4 ảnh hai viewport | VERIFIED tại snapshot | Đối chiếu nội dung/bảo toàn/giao diện |
+| .agent/scripts/verify_data_guide.py | Hồi quy75 và guard diff đúng expander | Công cụ đã chạy | Không sửa QA/verifier cũ hoặc refit |
+| .agent/qa/phase4-data-guide-20261010/publication-receipt.json | HEAD/remote và read-back file phát hành | Receipt local sau push; không tracked | Kiểm trạng thái Git thực tế |
+
+UI mới ưu tiên mô tả expander trong ảnh/hồ sơ QA4 cũ; dữ liệu, model, biểu đồ và metric giữ nguồn chuẩn cũ. I04 tiếp tục DEFERRED.
+
+## Lịch sử — Phase4 ứng dụng trước thay UI
 
 Lượt tiếp tục10/10: `qa/phase4-resume-20261010/{checklist.md,review.md,resume-verification.json,windows-verification.json}` là nguồn hiện trạng mới (21 kiểm); ưu tiên các tuyên bố runtime ngày09/10. QA4 cũ giữ snapshot126/126. `scripts/verify_phase4_resume.py` là công cụ kiểm tiếp tục, không thực hiện fit/fulljob/Testmetric.
 

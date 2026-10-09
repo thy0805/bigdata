@@ -1,6 +1,18 @@
 # Bối cảnh môn Big Data
 
-## Hiện hành — bàn giao ứng dụng Phase4
+## Hiện hành — giao diện giải thích dữ liệu 10/10
+
+CURRENT TASK: expander cuối dashboard có giới thiệu dataset và hai bảng Anh–Việt; chờ duyệt giao diện.
+SOURCE CHECKPOINT: Git2da758a; Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md.
+ALLOWED SCOPE: app.py đúng expander, QA/ảnh và điều phối/Git; không Word/PPT/I04 hoặc phase mới.
+LOCKED: dữ liệu/model/11feature/schema/split/D09/Testmetric; backend/chart/KPI/forecast.
+APPLIED BUT UNVERIFIED: publication index/push/read-back; receipt local sau push. User acceptance PENDING.
+VERIFIED:75/75 hồi quy,7/7browser,4ảnh đúng hai viewport;1570/1570file bảo toàn, app.py thay đúng scope.
+PENDING: Thy/GPT Web nghiệm thu; I04 DEFERRED/toànPhase4 INCOMPLETE; coldboot/autostart không mở trong task.
+LAST EVIDENCE: Detaituan8910/.agent/qa/phase4-data-guide-20261010/{review.md,technical-verification.json,browser-verification.json,screenshots/}.
+NEXT EXACT ACTION: kiểm publication và dừng bàn giao; xem context/PLAN/DOC_INDEX của project khi quay lại.
+
+## Lịch sử — bàn giao ứng dụng Phase4 trước thay expander
 
 CURRENT TASK: I01/I02/I03/I05 VERIFIED hồ sơ ứng dụng; package/publication có gate riêng; I04 DEFERRED, toànPhase4 INCOMPLETE.
 SOURCE CHECKPOINT: Detaituan8910/.agent/decisions/20261009-phase4-app-scope.md và QA4/checklist.md; Git base0e442f6.

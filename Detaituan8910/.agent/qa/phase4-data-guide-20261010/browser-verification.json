@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED",
+  "date_local": "2026-10-10",
+  "url": "http://localhost:8501/",
+  "total_checks": 7,
+  "passed": 7,
+  "checks": [
+    {"name": "laptop_features", "passed": true, "css_width": 1366, "css_height": 768, "table_rows_including_header": 12, "horizontal_overflow": false},
+    {"name": "laptop_raw", "passed": true, "css_width": 1366, "css_height": 768, "table_rows_including_header": 10, "horizontal_overflow": false},
+    {"name": "desktop_raw", "passed": true, "css_width": 1920, "css_height": 1080, "table_rows_including_header": 10, "horizontal_overflow": false},
+    {"name": "desktop_features", "passed": true, "css_width": 1920, "css_height": 1080, "table_rows_including_header": 12, "horizontal_overflow": false},
+    {"name": "guide_can_collapse", "passed": true, "details_open": false, "raw_tab_visible": false, "settled_after_animation": true},
+    {"name": "official_source_link", "passed": true, "href": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption"},
+    {"name": "default_collapsed", "passed": true, "evidence": "Observed after app reload before opening expander; source explicitly sets expanded=False."}
+  ],
+  "screenshots": [
+    {"path": "screenshots/raw-laptop.jpg", "width": 1366, "height": 768, "sha256": "4ab10b9c14eeb0d033d97c9fa8683b979cd19743d34481bd2332c6bfcac08557"},
+    {"path": "screenshots/features-laptop.jpg", "width": 1366, "height": 768, "sha256": "05fcc47a9642ae0102707799803bf6b3d93547db067ca9e9322a1f85dcddb0d4"},
+    {"path": "screenshots/raw-desktop.jpg", "width": 1920, "height": 1080, "sha256": "fa9becdf4e33155869dec4c0415d6f802936d685d62bd07cae56d3b5e18403ab"},
+    {"path": "screenshots/features-desktop.jpg", "width": 1920, "height": 1080, "sha256": "d4b35255789064f0c5b3231362791a93d2a0222bf20329d6bf69b875ba8e150d"}
+  ],
+  "visual_review": "All four screenshots inspected: complete tables, Vietnamese text readable, no horizontal clipping. Laptop screenshots focus on the table; dataset introduction is above the scroll position. No theme/layout/chart changes.",
+  "attempts": [
+    {"name": "initial_laptop_size", "passed": false, "css_width": 1242, "css_height": 698, "screenshot_width": 1241, "screenshot_height": 698, "reason": "IAB zoom was 110%; requested viewport was not actual CSS viewport. Retained local raw-laptop-zoom-attempt.jpg, not published."},
+    {"name": "immediate_collapse_visibility", "passed": false, "reason": "Locator queried during closing animation. Subsequent read-only DOM confirmed details.open=false and tab isVisible=false. App code was not changed."}
+  ],
+  "viewport_note": "Measured innerWidth/innerHeight and saved JPEG dimensions. Override 1503x845 yielded 1366x768; 2112x1188 yielded 1920x1080 at existing 110% zoom. Temporary override reset after testing.",
+  "acceptance": "PENDING Thy/GPT Web; technical verification is not user acceptance. I04 DEFERRED."
+}

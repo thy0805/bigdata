@@ -1,0 +1,169 @@
+{
+  "status": "VERIFIED",
+  "at": "2026-10-09T18:23:38.215194+00:00",
+  "checks": [
+    {
+      "name": "technical_75",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "browser_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "protected_snapshot_1570",
+      "passed": true,
+      "details": {
+        "total": 1570,
+        "changed": []
+      }
+    },
+    {
+      "name": "source:.agent/qa/phase2b2-20261009/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/eligibility.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/feature-schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/holdout/seal.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/holdout/test.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/metrics-validation.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/split-summary.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/train.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/validation.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/final/hgb-uci-hourly-v1.0-train-only/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/final/hgb-uci-hourly-v1.0-train-only/model.joblib",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/metrics-test.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/predictions-test.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/runtime-evidence.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/raw-laptop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/features-laptop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/raw-desktop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/features-desktop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expander_only_diff",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readback:checklist.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readback:review.md",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 31,
+  "total_checks": 31,
+  "overall_phase4": "INCOMPLETE",
+  "user_acceptance": "PENDING",
+  "I04": "DEFERRED"
+}

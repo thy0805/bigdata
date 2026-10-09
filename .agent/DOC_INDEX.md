@@ -1,5 +1,7 @@
 # Bản đồ tài liệu
 
+Nguồn hiện hành cho thay UI10/10: `Detaituan8910/.agent/qa/phase4-data-guide-20261010/{checklist.md,review.md,technical-verification.json,browser-verification.json,screenshots/}`; scope chỉ expander, kỹ thuật VERIFIED/user PENDING. Ưu tiên nguồn này cho phần giải thích dữ liệu; QA4 cũ vẫn là lịch sử vận hành/artifact. Receipt Git local mới sau push. `HANDOFF_FOR_GPT_WEB.md` chỉ rõ thứ tự đọc.
+
 | Tài liệu mới | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
 | Detaituan8910/.agent/qa/phase4-app-20261009/review.md, checklist.md | Handoff ứng dụng I01/I02/I03/I05, I04 deferred | Hiện hành | GPT Web kiểm app, ưu tiên handoff3 cũ |

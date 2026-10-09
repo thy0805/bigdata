@@ -160,13 +160,49 @@ with tabs[2]:
                  hide_index=True, width="stretch", column_config={"MAE (kWh)":st.column_config.NumberColumn(format="%.6f"),
                                                                           "RMSE (kWh)":st.column_config.NumberColumn(format="%.6f")})
 
-with st.expander("Nguồn dữ liệu, model và giới hạn"):
-    st.write("Model: "+data["final"]["version"]+". Train-only 22.513 mẫu; D09 = max(0, prediction_raw). Không fit khi mở hoặc đổi tab.")
-    st.caption("SHA-256 model: "+data["final"]["model_sha256"])
-    job = data["flink"]["jobs"][0]
-    st.write("Apache Flink "+data["flink"]["runtime"]["flink-version"]+" · Job "+job["jid"]+" · "+job["state"]+" · "+data["flink"]["mode"])
-    st.caption("Trạng thái job từ hồ sơ đã kiểm; không biểu thị cluster đang chạy. Dashboard đọc artifact giờ Flink, không tổng hợp lại dữ liệu phút.")
-    st.write("Một hộ lịch sử, timestamp theo lịch nguồn chưa xác minh timezone/DST. Không dự báo năm 2026; không dự báo nhiều tháng mà không nhận thêm quan sát; chưa mô hình hóa độ trễ đo/truyền.")
-    st.caption("Feature: "+", ".join(data["final"]["feature_columns"]))
-    st.markdown("[Nguồn UCI](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)")
+with st.expander("Tìm hiểu bộ dữ liệu và cách AI dự báo", expanded=False):
+    st.subheader("Bộ dữ liệu tiêu thụ điện năng UCI")
+    st.caption("UCI Individual Household Electric Power Consumption")
+    st.write("Dữ liệu của một hộ gia đình tại Sceaux, Pháp, từ "+first_day.strftime("%d/%m/%Y")+" đến "+last_day.strftime("%d/%m/%Y")+". Các phép đo ghi lại công suất điện, điện áp, cường độ dòng điện và ba nhóm đo phụ trong gia đình.")
+    a, b, c = st.columns(3)
+    a.metric("Dòng dữ liệu gốc", number(int(hourly["record_count"].sum()), 0))
+    b.metric("Cột dữ liệu gốc", "9")
+    c.metric("Tần suất ghi", "1 phút")
+    complete = int(hourly["is_complete"].sum())
+    st.write("Apache Flink SQL BATCH tổng hợp dữ liệu thành "+number(len(hourly), 0)+" khung giờ: "+number(complete, 0)+" giờ đầy đủ và "+number(len(hourly)-complete, 0)+" giờ không đầy đủ. Giờ thiếu dữ liệu không được coi là mức tiêu thụ bằng 0.")
+    st.markdown("Nguồn: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)")
+    raw_guide, feature_guide = st.tabs(["Dữ liệu gốc", "Đặc trưng dự báo"])
+    with raw_guide:
+        st.table(pd.DataFrame([
+            ("Date", "Ngày đo", "Ngày/tháng/năm"),
+            ("Time", "Thời gian đo", "Giờ:phút:giây"),
+            ("Global_active_power", "Công suất điện tiêu thụ trung bình mỗi phút", "kW"),
+            ("Global_reactive_power", "Công suất phản kháng trung bình mỗi phút", "kW (theo UCI)"),
+            ("Voltage", "Điện áp trung bình mỗi phút", "V"),
+            ("Global_intensity", "Cường độ dòng điện trung bình mỗi phút", "A"),
+            ("Sub_metering_1", "Điện năng nhóm khu vực bếp", "Wh (mỗi phút)"),
+            ("Sub_metering_2", "Điện năng nhóm khu vực giặt giũ", "Wh (mỗi phút)"),
+            ("Sub_metering_3", "Điện năng nhóm bình nước nóng và điều hòa", "Wh (mỗi phút)"),
+        ], columns=["Tên cột gốc", "Ý nghĩa tiếng Việt", "Đơn vị / cách đọc"]).set_index("Tên cột gốc"))
+        st.caption("Ba nhóm đo phụ ghi nhận theo khu vực, không phải ba thiết bị riêng hay ba hộ gia đình. Đơn vị công suất phản kháng được giữ theo mô tả của UCI.")
+    with feature_guide:
+        st.write("AI dùng 11 thông tin được tạo từ điện năng theo giờ và lịch dưới đây. Chúng không phải 11 cột có sẵn trong dữ liệu UCI gốc.")
+        meanings = [
+            "Điện năng 1 giờ trước",
+            "Điện năng 2 giờ trước",
+            "Điện năng 3 giờ trước",
+            "Điện năng cùng giờ hôm trước",
+            "Điện năng cùng giờ tuần trước",
+            "Điện năng trung bình 3 giờ trước",
+            "Điện năng trung bình 24 giờ trước",
+            "Giờ trong ngày cần dự báo",
+            "Thứ trong tuần của giờ cần dự báo",
+            "Tháng trong năm của giờ cần dự báo",
+            "Giờ cần dự báo thuộc cuối tuần hay ngày thường",
+        ]
+        st.table(pd.DataFrame(zip(data["final"]["feature_columns"], meanings),
+                              columns=["Đặc trưng tiếng Anh", "Ý nghĩa tiếng Việt"]).set_index("Đặc trưng tiếng Anh"))
+        st.caption("Các giá trị điện năng trong bảng có đơn vị kWh. Trung bình chỉ dùng các giờ quá khứ có đủ dữ liệu.")
+        st.write("Mục tiêu là điện năng tiêu thụ (kWh) của một giờ kế tiếp, được tính từ các phép đo công suất từng phút. AI kết hợp 11 thông tin trên để dự báo; mô hình học từ tập huấn luyện (Train) và được kiểm chứng trên tập kiểm thử (Test), không học lại từ Test.")
+    st.caption("Đây là dữ liệu lịch sử của một hộ gia đình. Dự báo chỉ áp dụng tại các mốc lịch sử có đủ dữ liệu, không phải hệ thống đo điện trực tiếp hoặc dự báo điện năng hiện tại năm 2026.")
 st.markdown('<div class="footer-note">Dữ liệu lịch sử đã xử lý bằng Apache Flink. Dự báo theo model HGB đã khóa; không kết nối công tơ trực tiếp.</div>', unsafe_allow_html=True)

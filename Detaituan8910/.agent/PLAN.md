@@ -1,6 +1,12 @@
 # Kế hoạch đồ án tuần 8–10
 
-## Hiện hành — Phase4 ứng dụng, I04 DEFERRED
+## Hiện hành — UI giải thích dữ liệu 10/10
+
+Checklist canonical: `qa/phase4-data-guide-20261010/checklist.md`. G01–G04 VERIFIED; G05 APPLIED_UNVERIFIED đến khi kiểm publication. QA75/75, browser7/7,4ảnh;1570file bảo toàn và app.py đổi đúng expander. Chờ Thy/GPT Web nghiệm thu; I04 DEFERRED, Phase4 INCOMPLETE. Không Word/PPT/demo hoặc phase mới.
+
+Nguồn bàn giao: `qa/phase4-data-guide-20261010/review.md`; publication receipt local sau push. Kế hoạch chỉ thay phần giới thiệu, không thay forecast/backend/model/pipeline.
+
+## Lịch sử — Phase4 ứng dụng, I04 DEFERRED
 
 Lượt tiếp tục10/10: checklist `qa/phase4-resume-20261010/checklist.md`. R01/R02 VERIFIED (17Linux/backend/hash +4Windows); R03 VERIFIED publication5b7f620/read-back14/14/index295file0finding. Không sửa app;1571file giữ hash. Gate126/126 bên dưới là snapshot09/10. Dừng chờ Thy/GPT Web; I04 DEFERRED. Receipt local cuối kiểm HEAD sau checkpoint điều phối.
 

@@ -1,5 +1,13 @@
 # Điểm vào bàn giao cho GPT Web
 
+## Mới nhất — phần giới thiệu dữ liệu, 10/10
+
+Đọc [review UI mới](Detaituan8910/.agent/qa/phase4-data-guide-20261010/review.md), [checklist](Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md), [75 kiểm kỹ thuật](Detaituan8910/.agent/qa/phase4-data-guide-20261010/technical-verification.json) và [7 kiểm browser](Detaituan8910/.agent/qa/phase4-data-guide-20261010/browser-verification.json) trước. Hai bảng Anh–Việt tách 9 cột gốc và 11 feature; SHA/Job ID/version/D09 không hiển thị trong expander, backend giữ nguyên. Chỉ app.py thay trong sản phẩm;1570/1570file snapshot được bảo toàn.
+
+Ảnh: [Dữ liệu gốc desktop](Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/raw-desktop.jpg), [Đặc trưng desktop](Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/features-desktop.jpg), [Dữ liệu gốc laptop](Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/raw-laptop.jpg), [Đặc trưng laptop](Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/features-laptop.jpg).
+
+VERIFIED kỹ thuật không phải ACCEPTED: chờ Thy/GPT Web duyệt. I04 DEFERRED; Phase4 INCOMPLETE. Không Word/PPT/demo hoặc phase mới. Hồ sơ bên dưới là các checkpoint trước thay UI; không viết lại QA cũ.
+
 ## Trạng thái và phạm vi
 
 Tiếp tục10/10/2026: đọc [review mới](Detaituan8910/.agent/qa/phase4-resume-20261010/review.md), [17 kiểm backend/Linux/hash](Detaituan8910/.agent/qa/phase4-resume-20261010/resume-verification.json) và [4 kiểm Windows](Detaituan8910/.agent/qa/phase4-resume-20261010/windows-verification.json) trước. App/Flink đã khởi động lại;1571file giữ hash. Code/artifact giữ nguyên; gate126/126 dưới đây là snapshot09/10. Nghiệm thu PENDING, I04 DEFERRED.
