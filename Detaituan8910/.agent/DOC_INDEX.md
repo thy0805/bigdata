@@ -7,6 +7,7 @@
 | .agent/decisions/20261009-phase4-approval.md | Nghiệm thu3 và scope I01–I05 | Hiện hành, LOCKED quyết định | Trước tích hợp; ưu tiên pending3 cũ |
 | .agent/PLAN.md | Checklist I01–I05 | Hiện hành TODO | Tiếp tục4, không suy ra done từ3 |
 | ../README.md | Điểm vào GitHub cho GPT Web | Hiện hành đang verify | Tìm code/evidence/giới hạn |
+| ../HANDOFF_FOR_GPT_WEB.md | Bàn giao có đường dẫn cụ thể | Hiện hành | GPT Web đọc theo thứ tự; QA3 giữ snapshot |
 | ../.agent/decisions/20261009-github-publication.md | Phạm vi repo public do Thy xác nhận | Hiện hành | Trước commit/push |
 | ../.agent/qa/github-publication-20261009/checklist.md | Gate phát hành/select/scan/blob/remote | Hiện hành | Publish và recovery |
 

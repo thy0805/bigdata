@@ -1,6 +1,6 @@
 # Kế hoạch hiện hành
 
-- Hiện hành GitHub: `qa/github-publication-20261009/checklist.md` G00–G04; scope `decisions/20261009-github-publication.md`. Repo public do Thy xác nhận; không force/secret/raw/Office. Phase3 đã ACCEPTED, Phase4 I01–I05 được duyệt nhưng TODO trong PLAN của Detaituan8910. Checkpoint ban đầu không thay QA4.
+- Hiện hành GitHub: `qa/github-publication-20261009/checklist.md` G00–G04 VERIFIED; scope `decisions/20261009-github-publication.md`. Commit đầu31a7703 push/main/read-backPASS5/5;244blob bằng disk/sourcegate21. Repo public do Thy xác nhận; không force/secret/raw/Office. HANDOFF_FOR_GPT_WEB.md là điểm bàn giao. Phase3 đã ACCEPTED, Phase4 I01–I05 được duyệt nhưng TODO trong PLAN của Detaituan8910. Checkpoint GitHub không thay QA4.
 
 - Hiện hành Phase3: canonical `Detaituan8910/.agent/qa/phase3-20261009/checklist.md`, review và decision3; U00–U05 VERIFIED96/96=67+10+19,976/976giữhash. App8501 thật; gói FINAL tại QA3. Không fit/rerun/pipeline; dừng chờ nghiệm thu3. Không Word/replay/Phase4. Các pending3/2B2 cũ bên dưới là lịch sử.
 

@@ -4,6 +4,7 @@
 | --- | --- | --- | --- |
 | .agent/context.md | Điều phối tương đương root context hiện có | Hiện hành/canonical | Đầu phiên bigdata; không tạo context trùng |
 | README.md | Điểm vào repo GitHub/GPT Web | Hiện hành | Tìm code và hồ sơ bàn giao |
+| HANDOFF_FOR_GPT_WEB.md | Thứ tự đọc/đường dẫn sản phẩm/evidence/ảnh cuối | Hiện hành | Gửi GPT Web link này trước |
 | .agent/decisions/20261009-github-publication.md | Scope public push | Hiện hành | Trước Git publication |
 | .agent/qa/github-publication-20261009/checklist.md | Gate phát hành và evidence | Hiện hành | Scan/blob/push/read-back |
 | Detaituan8910/.agent/decisions/20261009-phase4-approval.md | Phase3 accepted / Phase4 scope | Hiện hành | Tiếp tục I01–I05; ưu tiên pending3 cũ |

@@ -1,6 +1,8 @@
 *
 !*/
 !/README.md
+!/HANDOFF_FOR_GPT_WEB.md
+!/.agent/scripts/verify_github_remote.py
 !/.gitignore
 !/.gitattributes
 !/Script_ApacheFlink.md
@@ -8,6 +10,7 @@
 !/.agent/decisions/*.md
 !/.agent/qa/github-publication-20261009/*.json
 !/.agent/qa/github-publication-20261009/*.md
+/.agent/qa/github-publication-20261009/remote-readback-final.json
 !/.agent/scripts/prepare_github_publication.py
 !/.agent/scripts/verify_github_publication.py
 !/Detaituan8910/context.md

@@ -2,15 +2,15 @@
 
 ## Hiện hành — GitHub checkpoint / Phase4 được duyệt
 
-CURRENT TASK: phát hành code/tài liệu chọn lọc lên repo public https://github.com/thy0805/bigdata do Thy chỉ định.
+CURRENT TASK: bàn giao GitHub checkpoint code/tài liệu; tiếp tục dự án điện năng Phase4 theo phê duyệt đã nhận.
 SOURCE CHECKPOINT: decisions/20261009-github-publication.md; Detaituan8910/context.md và decisionPhase4.
 ALLOWED SCOPE: Git/README/policy/QA phát hành và checkpoint điều phối; Phase4 I01–I05 đã được duyệt riêng.
 LOCKED: Phase3 ACCEPTED; model/data/QA đã nghiệm thu giữ byte. Không Word/PPT/video/replay/Phase5.
-APPLIED BUT UNVERIFIED: tài liệu phát hành và Git khởi tạo; chưa push được xác minh.
-VERIFIED: repo public trống, quyền push; máy đang có app/Flink/WSL. Git báo owner SID cũ khác SID hiện hành của Thy.
-PENDING: verify/stage/commit/push; Phase4 chưa triển khai đầy đủ. Không sửa ownership hay cấu hình Git global để vượt lỗi SID.
-LAST EVIDENCE: metadata GitHub và Git dubious ownership/probe runtime09/10.
-NEXT EXACT ACTION: dùng safe.directory chính xác theo từng lệnh Git; kiểm danh sách/secret/blob, push thường và đọc lại remote.
+APPLIED BUT UNVERIFIED: không có code Phase4 mới; bổ sung tài liệu bàn giao được index gate kiểm trước commit tiếp.
+VERIFIED: push commit31a7703 lên origin/main; main remote=HEAD; remote-readback-1.json PASS5/5. verify-index-1.json244blob bằng disk và0findings; app sourcegate21. Git ownership dùng safe.directory theo lệnh, không đổi global/quyền filesystem.
+PENDING: I01–I05 Phase4 TODO; không tuyên bố hoàn tất tích hợp. Runtime không restart/stop/cài lại trong publication.
+LAST EVIDENCE: qa/github-publication-20261009/{inventory.json,verify-index-1.json,remote-readback-1.json}; HANDOFF_FOR_GPT_WEB.md chỉ vị trí từng sản phẩm.
+NEXT EXACT ACTION: tiếp tục I01/I02 trong Detaituan8910 theo decisionPhase4; dùng Git per-command safe.directory, kiểm và push hồ sơ4 chỉ sau QA mới.
 
 `context.md` tại root trước đây chưa tồn tại; `.agent/context.md` là tài liệu điều phối tương đương hiện có, dùng làm canonical thay vì tạo bản trùng. Project điện năng vẫn ưu tiên Detaituan8910/context.md.
 

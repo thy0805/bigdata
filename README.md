@@ -10,6 +10,8 @@ Checkpoint dự án: [context.md](Detaituan8910/context.md). Kế hoạch và ng
 
 ## Đường dẫn dành cho người rà soát
 
+**Bắt đầu tại [HANDOFF_FOR_GPT_WEB.md](HANDOFF_FOR_GPT_WEB.md)**: có thứ tự đọc, đường dẫn bằng chứng và tám ảnh đã nghiệm thu.
+
 | Thành phần | Nguồn |
 | --- | --- |
 | Dashboard 3 tab | [Mã và hướng dẫn](Detaituan8910/dashboard/README.md) |

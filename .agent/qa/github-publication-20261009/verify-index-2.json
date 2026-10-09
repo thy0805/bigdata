@@ -1,0 +1,1518 @@
+{
+  "at": "2026-10-09T14:52:43.524547+00:00",
+  "status": "PASS",
+  "count": 248,
+  "bytes": 19250919,
+  "checks": [
+    {
+      "name": "required_code_and_evidence",
+      "passed": true
+    },
+    {
+      "name": "accepted_screenshots8",
+      "passed": true
+    },
+    {
+      "name": "all_index_blobs_equal_disk",
+      "passed": true
+    },
+    {
+      "name": "scope_size_secret_patterns",
+      "passed": true
+    }
+  ],
+  "findings": [],
+  "files": [
+    {
+      "path": ".agent/DOC_INDEX.md",
+      "sha256": "a183f03d72f55c046c61deebdec494b11eb9e59db940f82b029d713bb77845e9",
+      "bytes": 21845,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/PLAN.md",
+      "sha256": "458ff8a56df914be8563f2e73895bbbc8a19e625f2d573630a53cbc8a7580c78",
+      "bytes": 15533,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/context.md",
+      "sha256": "320970f765140cfd033c4c7d4ade2bf700f44b00ccc5bd43adf3ffae848bc866",
+      "bytes": 47278,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/decisions/20261009-github-publication.md",
+      "sha256": "68badcbaf25fde77abe23792cf6a4ebe36eff86669e9616f68ba5d5dbf70172a",
+      "bytes": 1681,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/mistake.md",
+      "sha256": "db401018a02d63d2c6fa8200a68e19bd368faab51435a486fc5fbf00a53ab974",
+      "bytes": 11362,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/qa/github-publication-20261009/checklist.md",
+      "sha256": "a3add751487107973399d0a27021456e957e94fa1eeed7207ce55cc13ec90465",
+      "bytes": 1573,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/qa/github-publication-20261009/inventory.json",
+      "sha256": "dedbfd19979de70fa8da99e481ae00804cdf1198f7039ef69ba06ceab1217c10",
+      "bytes": 48006,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/qa/github-publication-20261009/remote-readback-1.json",
+      "sha256": "418eec088c7c96b9cf1b0ac5eb443dd24d7ecd8a798bcfd8c269add56dd89862",
+      "bytes": 1180,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/qa/github-publication-20261009/verify-index-1.json",
+      "sha256": "36563ce2cdbbbc70fbca28188926ad1346e88d0784ac3296fad90cc52804b6d6",
+      "bytes": 57091,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/rule.md",
+      "sha256": "3a83582c6c47b7ab97f8e7b486be3c0335bad619a0cb22ad48f9c92f9da5ae0a",
+      "bytes": 6194,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/scripts/prepare_github_publication.py",
+      "sha256": "74cb9de00e5788bd3ad6655d777bdd11866b443203704a73aadad279d3776fd9",
+      "bytes": 2621,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/scripts/verify_github_publication.py",
+      "sha256": "49da54f248778bfc3655bee7a35518c17e765edf70a21d6719f19a9686d52267",
+      "bytes": 3831,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".agent/scripts/verify_github_remote.py",
+      "sha256": "121768ed82673e2049767ac104374c6ac1431884e9bd35841836bb9b71707988",
+      "bytes": 2012,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8,
+      "index_matches_disk": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a85b7ea7a7c9d84fcc3a3dfe3984469e4e19850629e7f995cdf4c4bc0982a3ed",
+      "bytes": 3521,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/DOC_INDEX.md",
+      "sha256": "780dbecf1c4ecbe247bcb04b3fb4eb348afa643dfc74e7bc7612fff23c6c908a",
+      "bytes": 22978,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/PLAN.md",
+      "sha256": "8e9109ea760e77fea0feb0a7e9a010c295f0dc95c6ce0e3dc93e20752d9108b5",
+      "bytes": 17658,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-flink-full-approval.md",
+      "sha256": "472a899d15318edcd6fe56f059c2d0ccb52576cb63f67eda03b67216a5b73b70",
+      "bytes": 2001,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-flink-phase1-approval.md",
+      "sha256": "b5244d75e1f49edfe8e5ca8e838a50f4ff5c5b06915ecb5fd93592c3536686c3",
+      "bytes": 1017,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-phase2a-approval.md",
+      "sha256": "3ff76473efa7c8e653db06a1c1e12e7fbf74de422cf405b46d70eca8d6122ce5",
+      "bytes": 2259,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-phase2b1-approval.md",
+      "sha256": "96670ef60f266a295054b6235cd616cb8b601e67b1b1545142910b15843c4e65",
+      "bytes": 2294,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-phase2b2-approval.md",
+      "sha256": "65c4da6bb0e512aebf559197787e44ca57daad57e6327225b47a019dc5765704",
+      "bytes": 2228,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-phase3-approval.md",
+      "sha256": "5b056196ef18d077ff749151e8f822a18f2a209330e2165a387d024d68d30fc2",
+      "bytes": 1938,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261009-phase4-approval.md",
+      "sha256": "6986579d4e015c4237171fa2446571a04c244a702ca2f41c63d46d0cedb1e402",
+      "bytes": 1633,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/mistake.md",
+      "sha256": "3f6adefecba17061ae51997cc22474ebe8c4f2b8802de9e96e11f1ea9252e27f",
+      "bytes": 10954,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/antigravity-api-ide-extra-20261009.json",
+      "sha256": "013189a9ade454d7dd8e7bf593430955eef448c592df30a52cf7e0dc9bebe48b",
+      "bytes": 98741,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/antigravity-api-legacy-20261009.json",
+      "sha256": "cab1f3e8555345ecb1a208035d7b439bdd0f59c0f95fc949588ed50c1d4f8107",
+      "bytes": 60671,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/antigravity-api-legacy-v2-20261009.json",
+      "sha256": "7d8d6776d1ec36d9d4980834bdf3aca1ebaeea6e4bda09cb1f4eddaeb969fc5d",
+      "bytes": 60671,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/dataset-audit.json",
+      "sha256": "c1ecee3f1c690a9e0203bf86564f708639a6e8fd01e20a9a4bbfc3d3dc49b6ce",
+      "bytes": 14092,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/environment-wsl-20261009.json",
+      "sha256": "33ad8af0a843b69dfe1b9989c1323b21b4376b91266b7ccb941586247b6a9a11",
+      "bytes": 6683,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-20261008/wsl-verification.json",
+      "sha256": "08eee89ff198b72fb249f1fb1fe25411e2afa29b70a1a50482ed8d8315183f67",
+      "bytes": 1539,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/checklist.md",
+      "sha256": "55080b9c06a44d338ab8a9801dd47f647321c754e20085e3e6b135cd8a7b1afb",
+      "bytes": 2987,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/dataset-verification.json",
+      "sha256": "ade59d39f43dcfdeaff3ce60ae8cc897ab1c0bdf3c6d6f1320e36c9075d3407a",
+      "bytes": 3731,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/documents-verification.json",
+      "sha256": "b83759bebd4b236c70025089f0cbb2d41c4b103d1a106bf32e678ea1afc22d95",
+      "bytes": 8575,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/environment-extra.md",
+      "sha256": "b1f7f52203f84fb51f23b8033a3dc912863073266f71de0a000ce6b7fe25be8d",
+      "bytes": 1072,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/environment.json",
+      "sha256": "48f102835792dc7cf76d86b15568df662257d72c49e27b1ce366e4bec8af46e3",
+      "bytes": 4642,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase0-resume-20261009/review.md",
+      "sha256": "911586f0e411204fd0c76330da2848ca34e81936c10abbcab206a8843bd9f55a",
+      "bytes": 2064,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/checklist.md",
+      "sha256": "dbc245e5f10a869a810ce99db4a9db5ab7823c0bb5fb8b110c50c4cc8e131e58",
+      "bytes": 1392,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/date-parser-verification.json",
+      "sha256": "1dfce137da38a3cd3967c1d6bbd72c55e43498e0c925b79f2ed873cf675fce52",
+      "bytes": 5529,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/documents-verification.json",
+      "sha256": "5b4cef1a9302118c3672b1cbda5d9ad1121648fe488178c0361e75664a870f66",
+      "bytes": 10902,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/handoff-verification.json",
+      "sha256": "adb8c4f269c2b5b5359025872c554b0fee858faf3a9ff8cbc819b4658264224d",
+      "bytes": 16336,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/review.md",
+      "sha256": "fef33eff9df09cd687ae31833af7e01cfc729a8335aac8b07d674cadc749e603",
+      "bytes": 9807,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/job-c7490fea73505b5368c1c668c38d1038-config.json",
+      "sha256": "626fe702d03e3fa44c789c754909e1df66792bec3de67be198945003f04c2143",
+      "bytes": 252,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/job-c7490fea73505b5368c1c668c38d1038-details.json",
+      "sha256": "985e590646d2f98c248f8db324c485a75561558832154f41bac6ebbe7a8fa895",
+      "bytes": 95615,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/job-c7490fea73505b5368c1c668c38d1038-exceptions.json",
+      "sha256": "e6c11aaa508fa8dcf6760409bffc9154bfa29ad0c74e76a68f708334644b6ef9",
+      "bytes": 73,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/job-c7490fea73505b5368c1c668c38d1038-plan.json",
+      "sha256": "ae1e372ef8473ea5f14d270f9bbb76926204361e03f3041be6d6de43ec4102c1",
+      "bytes": 37111,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/job.sql",
+      "sha256": "213faf7ab4e218cbd6917fc9fffd206d0028db028f6f5a3f69bc8e058b797058",
+      "bytes": 8059,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101221593425-full/rejected.json",
+      "sha256": "f6271216ca951c1998dfd9f6b02ae9a6eae95219d5472583385aeb2451b2d12e",
+      "bytes": 340,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/job-86e95cecdf5f1abe35607aa85dec1ddf-config.json",
+      "sha256": "a7fb7e83cc3a4f72a49c0eb2f51e1506c47a5b05c8058f34c142ffe7e8d35f8f",
+      "bytes": 253,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/job-86e95cecdf5f1abe35607aa85dec1ddf-details.json",
+      "sha256": "032224625dc587abb11398057e7add8c6a8e0ebfaad505f5964681ea96507570",
+      "bytes": 95617,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/job-86e95cecdf5f1abe35607aa85dec1ddf-exceptions.json",
+      "sha256": "e6c11aaa508fa8dcf6760409bffc9154bfa29ad0c74e76a68f708334644b6ef9",
+      "bytes": 73,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/job-86e95cecdf5f1abe35607aa85dec1ddf-plan.json",
+      "sha256": "58c2f6e190c603e52e876298ba34d6a145ce39b0b98c75a1add84516815c3b50",
+      "bytes": 37112,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/job.sql",
+      "sha256": "5fade0e404c1abae808989d02459f72c0646d1cb879209f748548cfb6e09ba56",
+      "bytes": 8064,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T101440768187-rerun/rejected.json",
+      "sha256": "cdac04c19266551e3e838fc31809b33c8974182888b9f6a86b7bbcfeddb50c43",
+      "bytes": 341,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job-9307ab8abf4d8286245019045ed694ac-config.json",
+      "sha256": "0806ba438b9a783ce36eb5e3e1b6a3d1d7d76705bd8dd1ffdc5bbb188dc3ee99",
+      "bytes": 252,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job-9307ab8abf4d8286245019045ed694ac-details.json",
+      "sha256": "d31377706eafbfd923d2dbb12b10aa21c6e28fea4eae0cc4a8cf6a7fd94f8780",
+      "bytes": 97465,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job-9307ab8abf4d8286245019045ed694ac-exceptions.json",
+      "sha256": "e6c11aaa508fa8dcf6760409bffc9154bfa29ad0c74e76a68f708334644b6ef9",
+      "bytes": 73,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job-9307ab8abf4d8286245019045ed694ac-plan.json",
+      "sha256": "1c28acbd0b329d7a71701582d3f7344f7b019fefe407c9c03aa436e72f4cda05",
+      "bytes": 38026,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/job.sql",
+      "sha256": "622707245fe9aaaa697cbfce526c6bb7fa172d06b1fc2409604446501f7a2273",
+      "bytes": 8103,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/manifest.json",
+      "sha256": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+      "bytes": 5307,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/resource-summary.json",
+      "sha256": "d670c85cd1791ad11825153c6adf21be81b56897f5c17c6f25193a93668f6335",
+      "bytes": 1953,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102201900234-full/verification.json",
+      "sha256": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+      "bytes": 5462,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job-170801766af83f1b80107c86d91cedfd-config.json",
+      "sha256": "4118ab26b8da69713a1a00f604d88c1aa3dd5bc1c7a3428a555018703b0f1051",
+      "bytes": 253,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job-170801766af83f1b80107c86d91cedfd-details.json",
+      "sha256": "6df0ab70e2f19c78a832c841401ab1f0b59bd160b2e948a636e61431cf655b26",
+      "bytes": 97463,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job-170801766af83f1b80107c86d91cedfd-exceptions.json",
+      "sha256": "e6c11aaa508fa8dcf6760409bffc9154bfa29ad0c74e76a68f708334644b6ef9",
+      "bytes": 73,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job-170801766af83f1b80107c86d91cedfd-plan.json",
+      "sha256": "bf811a742d74e1f7b0457ab01f77772faf59bb950a7ab7c434edc5dde6058e4d",
+      "bytes": 38027,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/job.sql",
+      "sha256": "f9b1d7a0f2501a373da4648d9f4bf6b903ff47ce0da448cb6ba07aeba0588d75",
+      "bytes": 8108,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/manifest.json",
+      "sha256": "a863333c438be83af0127c60f9ac0f8e7408cd375598b49484a073c0e1ce20c8",
+      "bytes": 5520,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/resource-summary.json",
+      "sha256": "9783c16eb17d0b80a1d938d782e34ee938b1ffdd9df85f7529e6bb504f032cda",
+      "bytes": 1953,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-full-20261009/runs/20261009T102643175598-rerun/verification.json",
+      "sha256": "b266d29bd20f7f4d414b05e303ca22a210ce80f47121fbf343226cb3e7320a04",
+      "bytes": 5461,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/apt-install.json",
+      "sha256": "718333a6156c88a1ca4aa5e27fb82fbc96eeddeb46aebdbe81e79957ed4cfbc9",
+      "bytes": 875,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/checklist.md",
+      "sha256": "ff8710f8d28b0d24f42b28e945f6ee726b836d6ff330faedc3f192f7b567f346",
+      "bytes": 3304,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/cluster-state.json",
+      "sha256": "5a4fcbedd40918362157211293baeddcbfa623bda9c85af426638c5032a57dcd",
+      "bytes": 2077,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/environment-final.json",
+      "sha256": "6313dc2f0871ee0e27085786092d8b5ee6b0ef49057e411c2bcbf92de79cad20",
+      "bytes": 4903,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/handoff-verification.json",
+      "sha256": "1f92e4ade4d220f41b85b220ca4e8d065cff5b401c13129696d2703344c5a090",
+      "bytes": 8559,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/inputs-manifest.json",
+      "sha256": "f813dc464f52d3e9f6cd202f66b9a8ba3bfc27e67b1b1d11e6603c2228a40ae7",
+      "bytes": 2199,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/review.md",
+      "sha256": "26f31cb4f14ae35fff4b7955e5a4caecaf67b47259b20ab7668e9caccaf22c73",
+      "bytes": 5631,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/runtime-install.json",
+      "sha256": "543dec0f714d669347706ddbb694126b77440feefc61e282e314ff16a2dd5d89",
+      "bytes": 965,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase1-smoke-20261009/smoke-verification.json",
+      "sha256": "7b7df98a3b317dff81b60c1c520feedce7b0f128d895eaed61d489d90276ac19",
+      "bytes": 47996,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/checklist.md",
+      "sha256": "420f024bc359639e5a85e2a523b3823d4dfaf54f557f1bf72c588d88c784f928",
+      "bytes": 1528,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/documents-verification.json",
+      "sha256": "186d1e4d8de2004cc8bbd0edde1074b6002a18835caedbb0fc7dc1309f305199",
+      "bytes": 6616,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/install-report.json",
+      "sha256": "a1417eee167d34bc67870667191717e35ca7789b01894ac66296b3e137cc584d",
+      "bytes": 273133,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/preservation-before.json",
+      "sha256": "56958a98f09c151ed45439510cdeb2fdc0aa52516956658b36425ed5d81641b2",
+      "bytes": 212720,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/review.md",
+      "sha256": "ce843f25d00e3fc302782c01f18504b15ca13056399f9b9abc645ae421efa228",
+      "bytes": 12822,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/verification-20261009-phase2a-a.json",
+      "sha256": "3a7ad0ad97c1dd95a2194b0742729d5285e7be07130d10aad6e30029aeebd9b8",
+      "bytes": 7067,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2a-20261009/verification-20261009-phase2a-b.json",
+      "sha256": "90494a89ff44b8464c8b112f1fc0813d632f3f0d0b547ccb82a85334dbc1710f",
+      "bytes": 7258,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/checklist.md",
+      "sha256": "1bfddde7635af59f7c5d822775fa84b1d7d6afb6587896e27ced598f4dc17eed",
+      "bytes": 1524,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/documents-verification.json",
+      "sha256": "af24ebcc48c495d91635ba31e00fa8906862e714acade1ab9f79898905aeff3a",
+      "bytes": 10692,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/fit-witness.json",
+      "sha256": "4fc6dcbc3e85c7e2b8d6aefa2f2042e490ca46418ea98c40692949d705d67cea",
+      "bytes": 1230,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/preflight-notes.md",
+      "sha256": "606fa23b37a63a96142815e747fbaa69c585e83a191b0425863a482be0803f97",
+      "bytes": 1048,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/preservation-before.json",
+      "sha256": "ee9d518f94495ff4db36e33bc5dc166b6b15cdbf43f6898e3f744900c203d67b",
+      "bytes": 231111,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/review.md",
+      "sha256": "c38389af6f2e4d869445df910a709b1f1bb3084dd0561f826154760caff94e7e",
+      "bytes": 9081,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b1-20261009/verification.json",
+      "sha256": "a5c47c5462b5f3b4da0552e40bd184348ae4f474bbc5cf554d8c7b3280f2c999",
+      "bytes": 11552,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/checklist.md",
+      "sha256": "173a867535440de0585c6182094a23bce1c62196a44e20281930791df42fdd4f",
+      "bytes": 1852,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/documents-precheck.json",
+      "sha256": "7bc27e806b6dc228d09e54b339ae9fdc33cad8191e45f1ac32ff90dd644b8964",
+      "bytes": 10252,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/documents-verification.json",
+      "sha256": "1b22f84900ee52d268262c5c2e1b6c4d81839c515235734ada3e46603f1e6dbf",
+      "bytes": 10239,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/evaluation-completed.json",
+      "sha256": "39cf79607a18dd20082de3587f0b7b9a77b2269b5eee022cd8d0fbd76e10faa8",
+      "bytes": 2684,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/evaluation-started.json",
+      "sha256": "0e8db38314c02374022a53348a7a9a67eb2ba30f291b629c3f2f99d319115ee9",
+      "bytes": 484,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/metric-oracle.json",
+      "sha256": "7640fe7f21bbb526b4984da2b54d7e56c8a58086f5fbe9157a089455b965abab",
+      "bytes": 1165,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/preflight-notes.md",
+      "sha256": "e880b7715d0f2c67b7be66e159c3a7a05749f229659a620ab0b06f9b80bd149f",
+      "bytes": 370,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/preservation-before.json",
+      "sha256": "04ec948c313398fd0e7ef26ed2babc5a09c0e65d1120f52f96339e38f8ff063f",
+      "bytes": 203363,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/pretest-verification.json",
+      "sha256": "f9f416ea7ae188f39c7b797dfb5cc1e561ce060975f0cecc3915d5304b26f2f0",
+      "bytes": 6133,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/reproducibility-candidate.json",
+      "sha256": "0b24b96992d9a2e7d6ae477c2e94174cb54cad9441f8604e491b1f715dabb43b",
+      "bytes": 935,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/reproducibility-final.json",
+      "sha256": "a5db9c4bb70367a4e51092667396631bf08b26b1fc6c9555f8f67a7138c6e11f",
+      "bytes": 935,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/review.md",
+      "sha256": "98cf8e984457ed2335f1b6ed1565e92a97acca937406d3cccb83b0c3d32dabdd",
+      "bytes": 10424,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/selection-lock.json",
+      "sha256": "b4a33059c8897f530f1f08a389e94144d69a17e09f5ca5edc4417e85bd574ddf",
+      "bytes": 7877,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/test-verification.json",
+      "sha256": "275e18c166c8d307b54308ebd8b61239d90ad25672704595d0efa8efad323bb9",
+      "bytes": 13292,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase2b2-20261009/verification.json",
+      "sha256": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+      "bytes": 20087,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/BUNDLE_README.md",
+      "sha256": "66d737b00699f1cd479d98a3c47e3be8f96682f1ca01eef8c128585569dc2437",
+      "bytes": 1184,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/browser-verification.json",
+      "sha256": "b50f036d1f83b083601b60fbe38808966efb46ac95645f09366651d946abda5c",
+      "bytes": 4799,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/bundle-manifest-final.json",
+      "sha256": "f8f41e209e5fea4c99f2a1cb50b628683b68aeeecc33bc1870da9ab257f8949c",
+      "bytes": 7386,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/bundle-manifest.json",
+      "sha256": "dea6e0b6dd44449e3661689bfab7298c37bb46bc90b46f9f052a2dfd07e55d7d",
+      "bytes": 5400,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/checklist.md",
+      "sha256": "26a8b57f122d3989fc6cfd99738ab83ae689b9652f1fd35d33f434ffda0d02bf",
+      "bytes": 1236,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/documents-verification.json",
+      "sha256": "ab03bbb0be52d0b932adfb591a18840ee4824295ddcb622e5e550da7f197f8c5",
+      "bytes": 4121,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/final-package-verification.json",
+      "sha256": "01954bc3365e643da9c02267853ba219b6e23de6c4b7231a9fd40adc199c0584",
+      "bytes": 1177,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/install-lock.txt",
+      "sha256": "38a315163b440d08b356e441cd9346bc37a4b3b3ee522cf3722709965310d802",
+      "bytes": 545,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/install-plan.json",
+      "sha256": "a53aef6cc7a1719fa43ad0ae9fad26a77d564279b7e31053b397a2c65114a1e3",
+      "bytes": 284824,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/install-report.json",
+      "sha256": "f8e602c6628331b277333640eed2e37a6583d7209ce3b0158906b5562092cc00",
+      "bytes": 2701,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/package-verification.json",
+      "sha256": "aaf6090b46bbaa9cc5053085c5c25bc9d42d67eda4f5878d4fae2c3e32265a36",
+      "bytes": 243,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/pip-install-report.json",
+      "sha256": "a53aef6cc7a1719fa43ad0ae9fad26a77d564279b7e31053b397a2c65114a1e3",
+      "bytes": 284824,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/preflight.json",
+      "sha256": "87a5dcd105edead917257ad01df00609e42e97a96e981075a277cc7e5ee72869",
+      "bytes": 207878,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/review.md",
+      "sha256": "7445223558aed4128716ed0add3bc0358b2b0cfd82848a4dd261bba93e817b6b",
+      "bytes": 9209,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/runtime-evidence.json",
+      "sha256": "9d183bfc816dce30365def7383a57472fcd2d02c1c9c66602a32a98fa596d071",
+      "bytes": 474,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/analysis-1920-final-v3.jpg",
+      "sha256": "bbd5774141738a872599dd6af1d888d3c702e6584b0f61b6d05512feca4e7152",
+      "bytes": 99659,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/analysis-laptop-final.jpg",
+      "sha256": "3d35daf2df289e0cdad380907a961a9125107f69865cec55863b642f0b2e0742",
+      "bytes": 69727,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/analysis-quality-1920.jpg",
+      "sha256": "a46461516f84328d2f8b667b2c47d73e01af90fd69236769d4663e2b491987f8",
+      "bytes": 109510,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/first-test-forecast.jpg",
+      "sha256": "59f785764076c3ccff1765fb24b4614b34faccc4903010735dd0bb955f198436",
+      "bytes": 77379,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/forecast-1920-final.jpg",
+      "sha256": "b7e432707bbb6d6f28c49528fe9b089a364db7c6eb5388802224aaf773723cb8",
+      "bytes": 116803,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/forecast-laptop-final.jpg",
+      "sha256": "d3168a936a2b4716b9ca50fe469aac51c5df8fe1a9776f44e92a4fd83cd9f167",
+      "bytes": 79627,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/overview-1920.jpg",
+      "sha256": "a6eaadb8db3658716501b99996788f0fade56fa640ba90fa3b49166900de9691",
+      "bytes": 99464,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/screenshots/overview-laptop-final.jpg",
+      "sha256": "be510f14df51a2816bd6923639bef8f9cc115aa357e3eb987010c66d13065329",
+      "bytes": 68028,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/technical-verification-v2.json",
+      "sha256": "47ac2ead8cbdcf4b492956ec7c55326dce9dc818386c6a7d6176a59e56749365",
+      "bytes": 12566,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/technical-verification-v3.json",
+      "sha256": "d95ca9b677acd532788edc66689daa3d7da2616f43ac5aa18ce3630b240ca6e9",
+      "bytes": 12759,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/technical-verification.json",
+      "sha256": "16257d89da3f83788b3fe823156f94678dc41ce1da6cf26b06cdfa6d3acf9362",
+      "bytes": 12566,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/phase3-20261009/verification.json",
+      "sha256": "b24189354940871914819fcaf885d84835dd579901cf97c3ed421606cd85d426",
+      "bytes": 20444,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/apt_flink_prerequisites.py",
+      "sha256": "8c7b0acf36e974e4ea9c854631d9a0fea07887f670f2337761d361b1ec3d9900",
+      "bytes": 1201,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/audit_phase0_uci.py",
+      "sha256": "f7fbf4593642069b5ac85d19be305c0f771eeb1349a332cc3d1b363375156512",
+      "bytes": 13544,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/audit_wsl_readonly.ps1",
+      "sha256": "fcbbfb90aeebfe3549d1da21ae1ef590626d3a27498fcda0ab89dbfa2f1ad271",
+      "bytes": 7767,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_chapter_outlines.py",
+      "sha256": "286e9953ef46dcbb722f2c84217f6bf163940b38c9a5186fb62e060a4f93a7c5",
+      "bytes": 3421,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_uci_report.py",
+      "sha256": "94c49778c573e5ce6bc6e6db651a318f748f07c6dcab4fe059f8bacf42b78ab4",
+      "bytes": 31090,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_word_skeleton.py",
+      "sha256": "852646cd19b897275d60bda94a91aa5e2050484b809bf9373eeef3eed55d19a5",
+      "bytes": 14420,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/check_phase1_environment.py",
+      "sha256": "fbc1891e328ac818e8d1045db063cb235a9d3af22fc5497e80f3274ad2bb7194",
+      "bytes": 3060,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/check_uci_reference_links.py",
+      "sha256": "eb1984048549ad9f7d9473e624a079c027f5cb2d6ba76de410b59054c936f70e",
+      "bytes": 1199,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/collect_full_handoff.py",
+      "sha256": "6afe48ec75e26fce83a39685d326ba5dca5e36885392c6d41f71f8044cca0da4",
+      "bytes": 6985,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/finalize_phase3.py",
+      "sha256": "991782b0ce598cbd4d2bddf68a0f980738d8455258451989cc88d98de6320a25",
+      "bytes": 3844,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/finalize_uci_caption_math.ps1",
+      "sha256": "8e9e0c8df1c6eaf120e112cd1bfc66687c1ec403e11c835faaac6e07660fec15",
+      "bytes": 1823,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/finalize_word_skeleton.py",
+      "sha256": "8f05944993909d19c8e5ed3bcb534bc9f3bfc8ae39c5a4c962c242cbb4f9ea03",
+      "bytes": 4339,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/finish_uci_word.ps1",
+      "sha256": "741ebbb6bbaff935211ae18edcbbb6694003556da53e21e159a0b340fef0a002",
+      "bytes": 1340,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_skeleton_mssv.py",
+      "sha256": "4d0eca2e2f8ad16179d7922e36d5d64b3e9de45a8682e6bde2b87380d15f9ab3",
+      "bytes": 2955,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_uci_caption_math.py",
+      "sha256": "c24f1be8006f86a2641fd144edcac0ff10b67bf2073be581210cffe177215e53",
+      "bytes": 4202,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_uci_cover_citations.py",
+      "sha256": "7e6be7eb5a92f2d60345a2e2db0db9a7473545d0b2e55571cc0421ef4113a491",
+      "bytes": 7179,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/inspect_intake_20261008.py",
+      "sha256": "b45f1d036ed20352e478b127949c57d8bbc10992542cff0d3bf1ae3ae7f748ba",
+      "bytes": 3415,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/inspect_uci_caption_math.py",
+      "sha256": "0b0240d99c3042a77909c04e62ac2481cf84fb133321d537a9a4510b3ac411b1",
+      "bytes": 1847,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/inspect_uci_cover_citations.py",
+      "sha256": "9096ac0b49a82985a4da314f7666ef25765d5cda447b6c9019cc060751210e73",
+      "bytes": 2320,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/inspect_uci_zip.py",
+      "sha256": "a37168d41e0ec3d2659c3ed854fec5194361a8619637536deb26b5e6efe7ad84",
+      "bytes": 1986,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/inspect_word_skeleton.py",
+      "sha256": "f7fac1ee6c55ef9d2b17dfe7dc2824428151b127f30c115e2032e2fc2d1004f1",
+      "bytes": 2433,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/install_dashboard_dependencies.py",
+      "sha256": "a324de64a31903f493c5396ed562af23fb193ea0a05ce93751b53ab4556bcb14",
+      "bytes": 2465,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/install_flink_runtime.py",
+      "sha256": "d481c90404bebe9e56630be6c051969111c05307d28811aee4111fbb9a949aaf",
+      "bytes": 2404,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/phase3_preflight.py",
+      "sha256": "7740e81ff86863ab87cceb4957f42e26bc56daa5e0bd3bfa38b70e749ce4deae",
+      "bytes": 3198,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/prepare_phase1_inputs.py",
+      "sha256": "57966477943d31dca1a82cf062187286226496f04a2dd4d5e708a6ce1b16ea44",
+      "bytes": 3901,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/probe_linux_phase0_resume.py",
+      "sha256": "e80198149c8f10809f1d4828aca1587201a58f1eaff500475ce6af8d0a37d654",
+      "bytes": 3555,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/probe_uci_captions.ps1",
+      "sha256": "5e8cf7a224f9bfbc8a58b9457aaa92985008cf33b248af0017cfcbf35895f6cc",
+      "bytes": 3835,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/refine_uci_report.py",
+      "sha256": "26a3dd5b3c0388dabf42c76757e93ad62c66a55cd9d0274b83a991fb50fdf864",
+      "bytes": 1401,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/render_skeleton_pdf.py",
+      "sha256": "74aa90e922416538eaffc21cd0f8b37586e3f1f917674348eb20e3a075f99c5f",
+      "bytes": 786,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/render_skeleton_word.ps1",
+      "sha256": "e20d7b52b73c7a672e7d65b719f9f8d9bc67630e3f33aa5bbbafaa9a61316694",
+      "bytes": 2554,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_full_date_parser.py",
+      "sha256": "35c3ed8ce29f3772502e4595f90ec42be6c591f10925e3da9e0c2879ff15324d",
+      "bytes": 2252,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_full_documents.py",
+      "sha256": "65397696fdbc20a03a7c7d6aac8ea93be7a141db61d82bfed0829f146fb11e49",
+      "bytes": 3401,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_full_pipeline.py",
+      "sha256": "8d9dbbcd5435d9eb86a68a7127ebe046c4fdb35d5eda25e5a8357895d6e6d412",
+      "bytes": 13793,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_outline_render.py",
+      "sha256": "8430eb1f084ce7a4a214bc729eb7dbabecfd76c265ce47c454d621063b13c345",
+      "bytes": 1881,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase0_documents.py",
+      "sha256": "a2fbb03f1cf51b5bfe8f9b78bd353c40e671d18068a5fcd5e56c7b4e7f91269b",
+      "bytes": 5961,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase0_resume.py",
+      "sha256": "22499da6e9a9d08b8493e1d38950aa6e7a72f188417cbab68993318b8c404eca",
+      "bytes": 5840,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase1_handoff.py",
+      "sha256": "996fb31fcfe9aadbcc4e5ddd41fa6d0e095e21546693334710fd74d7e47b798b",
+      "bytes": 3981,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase1_smoke.py",
+      "sha256": "2b5e68dd7750a923b438dd265f52028fe5075b91aa0d36c34a352daa87f47710",
+      "bytes": 8696,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2a.py",
+      "sha256": "143d2b7c376810287eb3ff2f0485a1c83dc3a0341a9c2316ea4e7126ea6c6146",
+      "bytes": 16733,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2a_documents.py",
+      "sha256": "ad65705ff3f6e8914e5657a513436c43551c2634f7a496cca800f126f6a7bc6a",
+      "bytes": 6044,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2b1.py",
+      "sha256": "03407dc36f62de47d9af83e844b59b158e171f27851147d56738365030b09b9a",
+      "bytes": 13924,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2b1_documents.py",
+      "sha256": "5cbc11eac2d7fb9232ad485481053ef7d6e3ea3d4cdf0058db087a367db2bf13",
+      "bytes": 7474,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2b2.py",
+      "sha256": "222a5b7c3933806cbfe606b793b1df946b3c25cda5c6ae4ee9539ab83ce88803",
+      "bytes": 22008,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase2b2_documents.py",
+      "sha256": "ec35308d054eb1d9a27b8d61e9fec68b4c43989a676fe21aeaec43948536a0db",
+      "bytes": 9168,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase3.py",
+      "sha256": "fa0c6b9e2c82a8059188548eda53e550fb26c2b3d937aad22f92817d30d814f8",
+      "bytes": 14202,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_phase3_handoff.py",
+      "sha256": "1b248e61623b4ca5a8409d75374bb6a650f547bbf1bcc92f8990ed705d661b7f",
+      "bytes": 9462,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_skeleton_mssv.py",
+      "sha256": "7a8196694178959b0d13487f9b01c72ed6436332b9b4171cff84c8041db4e1d3",
+      "bytes": 2571,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_skeleton_word.ps1",
+      "sha256": "1669f7ccc99ab078620ccc7b7b0b99f6ec15647402c8b2aff60e0a649299d63d",
+      "bytes": 4238,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_uci_caption_math.py",
+      "sha256": "d19f8a799390f71320482571cd1138bd45a08710dcd16b6ffc8cda995e0f4aa4",
+      "bytes": 7718,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_uci_cover_citations.py",
+      "sha256": "f56f37de7a1a62f8c189796439fb61a10f4f9d1eda1badf92d21b258906bbdc2",
+      "bytes": 9383,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_uci_report.py",
+      "sha256": "6f0a5f04c124bb238415d33e92cd6309bd65015a16052de203bf476352aff522",
+      "bytes": 12433,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_word_skeleton.py",
+      "sha256": "2e394091efa7dda5136e49418a120f018e695899f5e8479dda3662a14008b00b",
+      "bytes": 9678,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/context.md",
+      "sha256": "111eaa90bd048346402d2d3257f055b77e8fcc6ea517c428a540b4d63a622d85",
+      "bytes": 51748,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/.streamlit/config.toml",
+      "sha256": "a400bd910505bec4148b5c79d63abbe8f195a29a85f87f013baf79a774436f55",
+      "bytes": 276,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/README.md",
+      "sha256": "471fbe5c6c781470d2f29e874af0b346b8f0bac399c51680918b23b4ad6db191",
+      "bytes": 3489,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/app.py",
+      "sha256": "15cf8dceec99b1fa09b72c6f9b871f57a21113c9ac76ed8cd7df8d67e24b54f6",
+      "bytes": 11759,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/charts.py",
+      "sha256": "0f0a2cca632ebe1887b3f939651fc043fabddfb631253a344fa4f646c40317e2",
+      "bytes": 4185,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/data_service.py",
+      "sha256": "e04cd65e63df854af04ddcdd27ce1e4fd1a698ebef4158940f96ee2a50d5efd4",
+      "bytes": 9331,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/requirements.txt",
+      "sha256": "09b7d281820b71678b778fcd413a6243a24449c10bf38da894c5f4a04b6e1e52",
+      "bytes": 32,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/serve.py",
+      "sha256": "d77fcec2f41a1f28fdbb1e5768610c85e3e267e23c68932d5b6d318c5987af35",
+      "bytes": 812,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/dashboard/style.css",
+      "sha256": "a24fdae0b8a2c4539218f2c94d9311e06dc14ff0bbc5f101f5d80609b72593df",
+      "bytes": 1987,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/eligibility.csv",
+      "sha256": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+      "bytes": 1308748,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/feature-schema.json",
+      "sha256": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+      "bytes": 3161,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/holdout/seal.json",
+      "sha256": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+      "bytes": 361,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/holdout/test.csv",
+      "sha256": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+      "bytes": 1098554,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/manifest.json",
+      "sha256": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+      "bytes": 2488,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/metrics-validation.json",
+      "sha256": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+      "bytes": 376,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+      "sha256": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+      "bytes": 543690,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/split-summary.json",
+      "sha256": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+      "bytes": 2465,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/train.csv",
+      "sha256": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+      "bytes": 5364720,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/validation.csv",
+      "sha256": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884",
+      "bytes": 1121346,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/ml/runs/20261009-phase2a-a/verification.json",
+      "sha256": "3a7ad0ad97c1dd95a2194b0742729d5285e7be07130d10aad6e30029aeebd9b8",
+      "bytes": 7067,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+      "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+      "bytes": 3217812,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/processed/runs/20261009T102201900234-full/manifest.json",
+      "sha256": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+      "bytes": 5307,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/data/processed/runs/20261009T102201900234-full/verification.json",
+      "sha256": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+      "bytes": 5462,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/docs/phase0-20261008/APP_UI_SPEC.md",
+      "sha256": "9050d06dd5fc50732a8e75314ebb9ec71854a08cd64ddb818ee10fcca54b1b9d",
+      "bytes": 6874,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/docs/phase0-20261008/DATA_AUDIT.md",
+      "sha256": "3aa85de5d7c47aeaf7d96140ce8588dddd1ed1fa32481b86462c480b1d9c01c3",
+      "bytes": 10274,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/docs/phase0-20261008/IMPLEMENTATION_PLAN.md",
+      "sha256": "b9805f3814b3ea9475d42263c36c1732672ff039de242b883fddc47caf11930f",
+      "bytes": 11856,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/docs/phase0-20261008/OPEN_DECISIONS.md",
+      "sha256": "eed4750dce06432fb108ecbf02b7f9f63b9a718731d8f19faa5d6a6303e46f61",
+      "bytes": 5777,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/docs/phase0-20261008/TECHNICAL_ARCHITECTURE.md",
+      "sha256": "d750287005cd52480f3e819ee72d8b3eeef5817b71e2237a3c05fae769921998",
+      "bytes": 12488,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/FINAL_EVALUATION.md",
+      "sha256": "82477d03d6592b8d09944c73182e936a0668dae1b423c75bbfb375314209e2a2",
+      "bytes": 3514,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/README.md",
+      "sha256": "539b569e98dfdadb383a28c1e52e4eb85da376445b7f9170cc094e8fd499883e",
+      "bytes": 3630,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/TRAINING.md",
+      "sha256": "532efde3320cdd1051498ecd86491ad89c4a71d4a7d42318a6c98ec432ff16ce",
+      "bytes": 2879,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/evaluate_final.py",
+      "sha256": "d092de678cc4ef9a6247dbe44d5972fac82a2ac57f682df456c509cedd792ad9",
+      "bytes": 17770,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/predictor.py",
+      "sha256": "e745ca640793b91430510d4a85c9da640624224c82a23988b86975dfa0d2b03b",
+      "bytes": 775,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/prepare_baselines.py",
+      "sha256": "1f722d2e69e1bbc09cfb06862a5eb6b58a04de18d426fe279d70c8e836a286c5",
+      "bytes": 14032,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/requirements.txt",
+      "sha256": "bdd8d086ef4a5ecb823e5fd04f7ed001fb3dce24fefe97e6a74fd231c77ab94d",
+      "bytes": 165,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/forecasting/train_hgb.py",
+      "sha256": "a1361799b0649e5609fe88824bd569f3eb010c5fdbc5998b791e54c597f341d4",
+      "bytes": 11906,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/final/hgb-uci-hourly-v1.0-train-only/manifest.json",
+      "sha256": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+      "bytes": 4940,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/final/hgb-uci-hourly-v1.0-train-only/model.joblib",
+      "sha256": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+      "bytes": 154146,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b1-a2/manifest.json",
+      "sha256": "f7847ac74a4f314a96268ba8b08798e32650d6ee44eced30cbb858834ed50406",
+      "bytes": 3189,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b1-a2/metrics-validation.json",
+      "sha256": "272ba45bb370ad1e1f873b54edc0c938ec617330b1bb2146e1f1fb1f67956960",
+      "bytes": 1283,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b1-a2/predictions-validation.csv",
+      "sha256": "dcf5a7203aae14dd0fd68439ad1c01da0ea9593dbc191294651b7bf3cb1fb26c",
+      "bytes": 899604,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b1-a2/verification.json",
+      "sha256": "1a22a60fafbb39339f91a10534640e7e49b0e9a8bac70986751e97de65c3643f",
+      "bytes": 316,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b2-a/manifest.json",
+      "sha256": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+      "bytes": 3262,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b2-a/metrics-test.json",
+      "sha256": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c",
+      "bytes": 1451,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b2-a/predictions-test.csv",
+      "sha256": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+      "bytes": 973334,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b2-a/runtime-evidence.json",
+      "sha256": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7",
+      "bytes": 645,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/models/runs/20261009-phase2b2-a/verification.json",
+      "sha256": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe",
+      "bytes": 418,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/README.md",
+      "sha256": "9b7afa3821b1137b03f8b08052b0bb9ee63739fe4b378efec36d57a18e15d98d",
+      "bytes": 5260,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/cluster.py",
+      "sha256": "62e1cde1dbd09eee88170d2c3f38dc1c9c1186a371c90a891e8da250d83b2707",
+      "bytes": 3080,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/config.yaml",
+      "sha256": "71c261a8f03e7cb29bdb2143b9e5dcaa8ecf2ea9439cc6ab9fde79dea49107b8",
+      "bytes": 506,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/log4j-cli.properties",
+      "sha256": "a6fb1852fb166150c3c0b900cb9a44dc154091dd61d719a3419d73796a4cdca4",
+      "bytes": 3001,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/log4j-console.properties",
+      "sha256": "9263619d1382a5e2ce68893a257516a52334febde6f87e2d254e807e3aa1163d",
+      "bytes": 3268,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/log4j-session.properties",
+      "sha256": "8cfaaa2b6a861de0ad432f3f18c4f6568bc4651e95945eca9b3c4537dd36ece2",
+      "bytes": 2125,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/log4j.properties",
+      "sha256": "eb4a3f0cfd15b840823ee97efba93191e580f5172e098a912ba2b45e36b3aac8",
+      "bytes": 2792,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/flink-conf/workers",
+      "sha256": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16",
+      "bytes": 10,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/hourly.sql",
+      "sha256": "424b084c2c776b1d253ca272527c61734a7e64f6be9df6e2dd2a55f96e3966f3",
+      "bytes": 5085,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/run_full.py",
+      "sha256": "73c81ff2ac3fe4aacedd8932cb112e8efbf7ce59dfe21611ca904220f12bd820",
+      "bytes": 9981,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Detaituan8910/pipeline/run_smoke.py",
+      "sha256": "35713f95b960b876efa7a8a4fc0a90c9ce69ffd7e34330f46e06b00c8f98b4e9",
+      "bytes": 6809,
+      "index_matches_disk": true
+    },
+    {
+      "path": "HANDOFF_FOR_GPT_WEB.md",
+      "sha256": "867f6b289e660805d2232d8b7a837f2f30c0d0cfbf8be8630f113d5843400bf5",
+      "bytes": 4780,
+      "index_matches_disk": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "f5d9ee64447fcf8ec72a03258f4e7982b295f3a6a3d92ac1f7593aa54ccd9262",
+      "bytes": 3829,
+      "index_matches_disk": true
+    },
+    {
+      "path": "Script_ApacheFlink.md",
+      "sha256": "f68967b4771256316f20ba836ddff05530ea2e7c1bfa5e15a6b563c03646abb7",
+      "bytes": 12324,
+      "index_matches_disk": true
+    }
+  ],
+  "source_gate": "Separate live dashboard source_signature PASS21 checked before publication; no train/evaluation executed.",
+  "phase4": "AUTHORIZED_NOT_COMPLETED",
+  "limits": "Pattern scan is not a guarantee against every possible secret. No raw/runtime/Office files are published."
+}

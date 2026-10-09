@@ -2,15 +2,15 @@
 
 ## Hiện hành — Phase3 ACCEPTED; Phase4 được phép triển khai; GitHub checkpoint
 
-CURRENT TASK: phát hành checkpoint code/tài liệu hiện có lên repo public thy0805/bigdata; chuẩn bị I01–I05 theo phê duyệt mới.
+CURRENT TASK: checkpoint code/tài liệu đã phát hành lên repo public thy0805/bigdata; Phase4 I01–I05 là bước tiếp theo đã được duyệt.
 SOURCE CHECKPOINT: .agent/decisions/20261009-phase4-approval.md; nguồn QA3 đã nghiệm thu; ../.agent/decisions/20261009-github-publication.md.
 ALLOWED SCOPE: Phase4 kiểm tích hợp/runbook/launcher/QA mới và GitHub; không thay artifact đã khóa.
 LOCKED: Phase3 đã ACCEPTED qua hồ sơ/8ảnh/54hash và QA96/96; model cuối,11feature,D09,Train-only và metricTest4590 giữ nguyên.
-APPLIED BUT UNVERIFIED: README/.gitignore/.gitattributes và hồ sơ GitHub đang kiểm, chưa khẳng định push thành công.
-VERIFIED: repo đích public/trống/quyền push đã kiểm; WSL2 running, dashboard127.0.0.1:8501, Windowslistener8501loopback; Flink đang có JVM8081, Windowslistener::1. Đây chỉ là probe, chưa phải QA4.
+APPLIED BUT UNVERIFIED: không có code Phase4 mới; tài liệu bổ sung bàn giao được kiểm ở verify-index-2.json trước commit tiếp.
+VERIFIED: push ban đầu commit31a7703; remote main khớp HEAD; đọc lại README/app/review3/metrics trên GitHub PASS5/5. Git244blob bằng disk/0secretpattern; app source_signature PASS21. WSL2 running, dashboard127.0.0.1:8501, Windowslistener8501loopback; Flink có JVM8081, Windowslistener::1. Đây chỉ là probe, chưa phải QA4.
 PENDING: I01–I05 chưa hoàn tất; không Phase5/Word/PPT/video/replay. LinuxFlink8081 wildcard là cấu hình cũ; cần đánh giá khi làm I02, chưa sửa.
-LAST EVIDENCE: GitHub get_repo và probe ss/proc/Windowslistener ngày09/10; hồ sơ QA3 giữ nguyên.
-NEXT EXACT ACTION: verify/stage/commit/push checkpoint chọn lọc, đọc lại remote; sau đó triển khai checklistPhase4, không coi push là nghiệm thu4.
+LAST EVIDENCE: ../.agent/qa/github-publication-20261009/{verify-index-1.json,remote-readback-1.json}; GitHub get_repo/probe ss/proc/Windowslistener09/10; hồ sơ QA3 giữ nguyên. Điểm vào GPT Web: ../HANDOFF_FOR_GPT_WEB.md.
+NEXT EXACT ACTION: thực hiện I01 lineage rồi I02 recovery theo decisionPhase4; tạo QA/checklistPhase4 mới, giữ artifact cũ. Không coi push là nghiệm thu4 hoặc tự sửa Word/Phase5.
 
 Các checkpoint dưới là lịch sử; decisionPhase4 và block này có ưu tiên về phạm vi phê duyệt.
 
