@@ -1,6 +1,19 @@
 # Điểm vào bàn giao cho GPT Web
 
-## Mới nhất — phần giới thiệu dữ liệu, 10/10
+## Mới nhất — W00 khảo sát Word, 10/10/2026
+
+App/UI đã được Thy/GPT Web chấp thuận theo yêu cầu W00 mới. Lượt này chỉ khảo sát và đề xuất, chưa sửa DOCX. I04 DEFERRED; không tuyên bố Phase4 hoàn tất.
+
+Đọc theo thứ tự:
+
+1. [W00_REVIEW.md](Detaituan8910/.agent/qa/word-w00-20261010/W00_REVIEW.md): inventory, rà toàn Word, phương án và scope W01.
+2. [CHAPTER2_REVIEW.md](Detaituan8910/.agent/qa/word-w00-20261010/CHAPTER2_REVIEW.md): 14 mục Hậu, trích đoạn và đối chiếu code/evidence.
+3. [TABLE_FIGURE_PLAN.md](Detaituan8910/.agent/qa/word-w00-20261010/TABLE_FIGURE_PLAN.md), [DRAFTS_FOR_APPROVAL.md](Detaituan8910/.agent/qa/word-w00-20261010/DRAFTS_FOR_APPROVAL.md): bảng/hình PLANNED và mẫu lời cảm ơn, kết luận, 2.14, 3.7; chưa áp dụng.
+4. [SOURCES.md](Detaituan8910/.agent/qa/word-w00-20261010/SOURCES.md), [evidence-map.json](Detaituan8910/.agent/qa/word-w00-20261010/evidence-map.json), [verification.json](Detaituan8910/.agent/qa/word-w00-20261010/verification.json), [checklist](Detaituan8910/.agent/qa/word-w00-20261010/checklist.md): 35/35 kiểm W00, 21 chữ ký nguồn và 1.571/1.571 guard.
+
+Word nguồn vẫn gửi trực tiếp, không có trong repo. Preview/dump giữ local. Cần duyệt phương án và phạm vi W01 trước khi ghép Ch2, viết Ch3–5 hoặc tạo placeholder. W02 hình thật là lượt riêng. Hồ sơ bên dưới là lịch sử.
+
+## Lịch sử — phần giới thiệu dữ liệu, 10/10
 
 Đọc [review UI mới](Detaituan8910/.agent/qa/phase4-data-guide-20261010/review.md), [checklist](Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md), [75 kiểm kỹ thuật](Detaituan8910/.agent/qa/phase4-data-guide-20261010/technical-verification.json) và [7 kiểm browser](Detaituan8910/.agent/qa/phase4-data-guide-20261010/browser-verification.json) trước. Hai bảng Anh–Việt tách 9 cột gốc và 11 feature; SHA/Job ID/version/D09 không hiển thị trong expander, backend giữ nguyên. Chỉ app.py thay trong sản phẩm;1570/1570file snapshot được bảo toàn.
 

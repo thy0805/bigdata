@@ -1,6 +1,20 @@
 # Đồ án Big Data tuần 8–10
 
-## Hiện hành — giải thích dữ liệu trên dashboard, 10/10/2026
+## Hiện hành — W00 khảo sát Word, 10/10/2026
+
+CURRENT TASK: bàn giao hồ sơ khảo sát và phương án hoàn thiện Word; W00 VERIFIED, chưa áp dụng vào DOCX.
+SOURCE CHECKPOINT: Git 0d7aa09; .agent/decisions/20261010-word-w00-scope.md; .agent/qa/word-w00-20261010/checklist.md.
+ALLOWED SCOPE: khảo sát read-only, đề xuất Markdown/JSON, preview tài liệu và điều phối/phát hành hồ sơ. Không sửa Word, app, data, model, PPT hoặc I04.
+LOCKED: ứng dụng/UI được Thy/GPT Web chấp thuận theo yêu cầu W00 mới; artifact/schema11/HGB Train-only/D09/Testmetric và DOCX nguồn giữ nguyên. I04 DEFERRED, toàn Phase4 INCOMPLETE.
+APPLIED BUT UNVERIFIED: không có sửa đổi DOCX; phương án W01 chưa được Thy/GPT Web duyệt. Git publication phải kiểm remote sau commit, không suy ra từ có file.
+VERIFIED: W00 verification 35/35; nguồn DOCX nguyên hash; 21 chữ ký nguồn và 1.571/1.571 guard khớp. Rà 37 trang chính bằng preview cùng hash, 13 trang Hậu bằng native Word read-only; rà đủ 14 mục Ch2. Không chạy Flink/train/predict/Testmetric hoặc sửa ứng dụng.
+PENDING: duyệt mẫu lời cảm ơn/kết luận, phương án Ch2/5.7, bảng+hình và scope W01; chưa ghép Ch2/viết toàn Ch3–5/tạo ảnh đen. W02 chưa được mở.
+LAST EVIDENCE: .agent/qa/word-w00-20261010/{verification.json,evidence-map.json,W00_REVIEW.md,CHAPTER2_REVIEW.md,TABLE_FIGURE_PLAN.md,DRAFTS_FOR_APPROVAL.md,SOURCES.md}; preview/dump local không phát hành.
+NEXT EXACT ACTION: dừng để Thy/GPT Web duyệt W00. Nếu được duyệt W01, đọc decision/checklist/rule, kiểm lại nguồn và chỉ áp dụng scope đã duyệt vào file Word mới.
+
+Các block bên dưới là lịch sử. Những trạng thái UI PENDING cũ được thay bằng quyết định chấp thuận trong W00; không sửa QA cũ.
+
+## Lịch sử — giải thích dữ liệu trên dashboard, 10/10/2026
 
 CURRENT TASK: bàn giao thay đổi riêng expander giới thiệu dữ liệu; chờ Thy/GPT Web duyệt giao diện.
 SOURCE CHECKPOINT: Git2da758a; .agent/qa/phase4-data-guide-20261010/checklist.md; DATA_AUDIT và feature-schema khóa.

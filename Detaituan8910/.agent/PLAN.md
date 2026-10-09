@@ -1,6 +1,12 @@
 # Kế hoạch đồ án tuần 8–10
 
-## Hiện hành — UI giải thích dữ liệu 10/10
+## Hiện hành — W00 khảo sát và đề xuất Word
+
+Canonical: `qa/word-w00-20261010/checklist.md`, scope `decisions/20261010-word-w00-scope.md`. W00-01–05 VERIFIED cho hồ sơ đề xuất: 35/35 kiểm, nguồn DOCX nguyên hash, 21 chữ ký và 1.571/1.571 file bảo toàn. Preview/read-back đã kiểm; chưa sửa DOCX hoặc app.
+
+Thy/GPT Web chấp thuận ứng dụng/UI theo yêu cầu W00 mới. W01 TODO, cần phê duyệt phạm vi và văn bản mẫu; W02 TODO, chưa tạo hình/placeholder. I04 DEFERRED; Phase4 INCOMPLETE. Dừng tại W00, không tự ghép Hậu hoặc viết các chương. Các checkpoint bên dưới là lịch sử.
+
+## Lịch sử — UI giải thích dữ liệu 10/10
 
 Checklist canonical: `qa/phase4-data-guide-20261010/checklist.md`. G01–G05 VERIFIED; publication-initial.json54/54/commitc9db6b8,22file đọc từ GitHub; receipt local cuối kiểm HEAD sau chốt điều phối. QA75/75, browser7/7,4ảnh;1570file bảo toàn và app.py đổi đúng expander. Chờ Thy/GPT Web nghiệm thu; I04 DEFERRED, Phase4 INCOMPLETE. Không Word/PPT/demo hoặc phase mới.
 

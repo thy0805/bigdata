@@ -1,5 +1,7 @@
 # Kế hoạch hiện hành
 
+- W00 Word10/10: canonical `Detaituan8910/.agent/qa/word-w00-20261010/checklist.md`; W00-01–05 VERIFIED hồ sơ đề xuất, 35/35 và guard1.571/1.571, 21 chữ ký. Chưa sửa DOCX; W01/W02 TODO chờ Thy/GPT Web. Scope `Detaituan8910/.agent/decisions/20261010-word-w00-scope.md` ghi nhận app/UI đã được chấp thuận theo yêu cầu mới. I04 DEFERRED, Phase4 INCOMPLETE. Các mục bên dưới là lịch sử, không tự mở lại app hoặc chuyển W01.
+
 - UI giải thích dữ liệu10/10: canonical `Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md`; G01–G05 VERIFIED75/75 kỹ thuật +7/7browser/4ảnh,1570/1570file bảo toàn và một app.py đổi đúng scope. Publication-initial54/54/commitc9db6b8; receipt local cuối kiểm HEAD sau chốt điều phối. Dừng chờ Thy/GPT Web; I04 DEFERRED, không Word/PPT/phase mới. Các checkpoint dưới là lịch sử.
 
 - Tiếp tục10/10: canonical `Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md`; R01/R02 VERIFIED21checks và1571/1571 hash. R03 VERIFIED publication5b7f620 remote14/14,index295file0finding; receipt local cuối kiểm HEAD sau checkpoint. Không sửa code app/artifact; dừng chờ Thy/GPT Web.

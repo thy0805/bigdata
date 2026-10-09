@@ -1,6 +1,20 @@
 # Bối cảnh môn Big Data
 
-## Hiện hành — giao diện giải thích dữ liệu 10/10
+## Hiện hành — W00 khảo sát Word, 10/10/2026
+
+CURRENT TASK: W00 VERIFIED, bàn giao đề xuất Word; chưa áp dụng DOCX.
+SOURCE CHECKPOINT: Git 0d7aa09; Detaituan8910/.agent/decisions/20261010-word-w00-scope.md.
+ALLOWED SCOPE: đề xuất Markdown/JSON, khảo sát read-only/preview và điều phối/Git; không sửa Word/app/model/data/PPT/I04.
+LOCKED: app/UI được Thy/GPT Web chấp thuận theo yêu cầu W00; nguồn và artifact khóa giữ hash. I04 DEFERRED, Phase4 INCOMPLETE.
+APPLIED BUT UNVERIFIED: phương án W01 chưa nghiệm thu; không có DOCX sửa đổi.
+VERIFIED: 35/35 kiểm W00, 21 chữ ký nguồn, 1.571/1.571 guard; rà Word chính 37 trang và Hậu 13 trang/14 mục.
+PENDING: Thy/GPT Web duyệt W01 và văn bản mẫu; W02 chưa mở.
+LAST EVIDENCE: Detaituan8910/.agent/qa/word-w00-20261010/{checklist.md,W00_REVIEW.md,verification.json,evidence-map.json}; HANDOFF_FOR_GPT_WEB.md chỉ rõ hồ sơ.
+NEXT EXACT ACTION: dừng chờ duyệt; đọc context/PLAN/index/rule và source trước W01. Publication receipt local kiểm remote sau push. Không tự tạo báo cáo mới.
+
+Các block bên dưới là lịch sử; quyết định W00 có ưu tiên các ghi chú app/UI PENDING cũ.
+
+## Lịch sử — giao diện giải thích dữ liệu 10/10
 
 CURRENT TASK: expander cuối dashboard có giới thiệu dataset và hai bảng Anh–Việt; chờ duyệt giao diện.
 SOURCE CHECKPOINT: Git2da758a; Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md.

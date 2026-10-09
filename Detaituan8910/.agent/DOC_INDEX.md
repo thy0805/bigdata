@@ -1,6 +1,19 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
-## Nguồn hiện hành — UI giải thích dữ liệu 10/10
+## Nguồn hiện hành — W00 khảo sát Word
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| .agent/decisions/20261010-word-w00-scope.md | Chấp thuận app/UI, scope W00 và điểm dừng | Hiện hành; ưu tiên pending UI cũ | Trước tiếp tục Word |
+| .agent/qa/word-w00-20261010/checklist.md, W00_REVIEW.md | Checklist, rà toàn Word, đề xuất W01 | VERIFIED hồ sơ; phương án chờ duyệt | GPT Web nghiệm thu W00 |
+| .agent/qa/word-w00-20261010/CHAPTER2_REVIEW.md | Rà 14 mục Hậu, trích đoạn/nguồn/đề xuất | VERIFIED khảo sát, chưa ghép | Duyệt thay đổi Ch2 |
+| .agent/qa/word-w00-20261010/TABLE_FIGURE_PLAN.md, DRAFTS_FOR_APPROVAL.md | Bảng/hình và mẫu văn bản | PLANNED/chờ duyệt; chưa chèn DOCX | Quyết định scope W01/W02 |
+| .agent/qa/word-w00-20261010/SOURCES.md, evidence-map.json, verification.json | Nguồn chính thức, dữ kiện và 35 kiểm W00 | VERIFIED snapshot; không phải Test evaluation mới | Kiểm đề xuất và bảo toàn |
+| .agent/scripts/inspect_word_w00.py, preview_word_w00.ps1, contact_word_w00.py, verify_word_w00.py | Công cụ khảo sát/preview/kiểm hồ sơ | Đã chạy; dump/preview giữ local | Truy vết, không tự chỉnh Word |
+
+Word v3/Hậu/mẫu trường trên disk là nguồn nội dung/hình thức; code/artifact đã khóa có quyền ưu tiên kết luận triển khai và metric. Hồ sơ W00 không ghi đè bằng chứng lịch sử. W01/W02 chưa được duyệt.
+
+## Lịch sử — UI giải thích dữ liệu 10/10
 
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |

@@ -1,5 +1,15 @@
 # Bản đồ tài liệu
 
+Nguồn hiện hành W00: `Detaituan8910/.agent/decisions/20261010-word-w00-scope.md` và `Detaituan8910/.agent/qa/word-w00-20261010/`. W00 VERIFIED hồ sơ khảo sát, W01/W02 chưa duyệt; app/UI đã chấp thuận theo yêu cầu mới. Các pending UI trong đoạn dưới là lịch sử.
+
+| Tài liệu W00 | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| Detaituan8910/.agent/qa/word-w00-20261010/W00_REVIEW.md, checklist.md | Rà Word/đề xuất W01 và scope | VERIFIED hồ sơ, chờ duyệt phương án | GPT Web kiểm W00 |
+| Detaituan8910/.agent/qa/word-w00-20261010/CHAPTER2_REVIEW.md | Đối chiếu 14 mục Hậu với triển khai | Khảo sát hiện hành | Trước ghép Ch2 được duyệt |
+| Detaituan8910/.agent/qa/word-w00-20261010/TABLE_FIGURE_PLAN.md, DRAFTS_FOR_APPROVAL.md | Kế hoạch bảng/hình và văn bản mẫu | Chưa áp dụng DOCX | Duyệt W01/W02 |
+| Detaituan8910/.agent/qa/word-w00-20261010/SOURCES.md, evidence-map.json, verification.json | Nguồn và bằng chứng/35 kiểm | VERIFIED snapshot W00 | Kiểm độ tin cậy đề xuất |
+| Detaituan8910/.agent/qa/word-w00-20261010/publication-receipt.local.json | HEAD remote/read-back | Local sau push; không tracked | Xác minh phát hành thực tế |
+
 Nguồn hiện hành cho thay UI10/10: `Detaituan8910/.agent/qa/phase4-data-guide-20261010/{checklist.md,review.md,technical-verification.json,browser-verification.json,screenshots/}`; scope chỉ expander, kỹ thuật VERIFIED/user PENDING. Ưu tiên nguồn này cho phần giải thích dữ liệu; QA4 cũ vẫn là lịch sử vận hành/artifact. Receipt Git local mới sau push. `HANDOFF_FOR_GPT_WEB.md` chỉ rõ thứ tự đọc.
 
 | Tài liệu mới | Vai trò | Trạng thái | Đọc khi |

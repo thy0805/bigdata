@@ -1,0 +1,223 @@
+{
+  "status": "VERIFIED",
+  "captured_at": "2026-10-09T19:24:50.559500+00:00",
+  "total_checks": 35,
+  "passed": 35,
+  "checks": [
+    {
+      "name": "original_unchanged:main",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "package_readback:main",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_unchanged:chapter1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "package_readback:chapter1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_unchanged:chapter2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "package_readback:chapter2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_unchanged:template",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "package_readback:template",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_unchanged:chapter2_outline",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "package_readback:chapter2_outline",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "protected_source:rule.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "protected_source:rule.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "protected_source:app.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "protected_source:services.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "main_render_reuse_same_bytes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "main_counts",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter2_fresh_readonly_preview",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter2_has14_sections",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter2_source_counts",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "body_no_bracket_citations",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "sixteen_end_references",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_sql_batch_grouping_not_watermark",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "split_counts_and_schema",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "test_metrics_match_locked_manifest",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "fit_and_parameters_locked",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audit_hour_counts",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "locked_source_signature",
+      "passed": true,
+      "evidence": {
+        "total": 21,
+        "changed": []
+      }
+    },
+    {
+      "name": "readable_products_and_code_preserved_since_accepted_ui",
+      "passed": true,
+      "evidence": {
+        "total": 1571,
+        "matching": 1571,
+        "changed": [],
+        "missing": [],
+        "unreadable": [],
+        "unreadable_status": "All sources readable and hash matched",
+        "linux_symlink_readback": [
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+        ],
+        "app_expected": "accepted UI at 0d7aa09, not pre-expander snapshot"
+      }
+    },
+    {
+      "name": "proposal_files_nonempty",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "fourteen_review_rows",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "eight_planned_images_not_inserted",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "proposal_exact_metrics_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_semantic_sources_exist",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "contact_sheets_available",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "no_w01_word_created",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "scope": "W00 proposal only; not final DOCX verification or new application QA",
+  "pending": [
+    "Thy/GPT Web approve W01",
+    "W01 Word and black placeholders",
+    "W02 real screenshots",
+    "unconfirmed work schedule/contribution",
+    "all16 old references live/content re-audit"
+  ],
+  "unchanged": [
+    "five DOCX sources",
+    "rules",
+    "application source",
+    "operations source",
+    "locked dataset/hourly/features/splits/model/metrics",
+    "existing QA"
+  ],
+  "not_performed": [
+    "model training/refit",
+    "new Test evaluation",
+    "Flink rerun",
+    "app UI changes/screenshots",
+    "DOCX writes",
+    "W01/W02/I04/PPT"
+  ]
+}
