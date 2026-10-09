@@ -1,6 +1,20 @@
 # Bối cảnh môn Big Data
 
-## Hiện hành — W00 khảo sát Word, 10/10/2026
+## Hiện hành — W01 Word 67 trang, 10/10/2026
+
+CURRENT TASK: W01 VERIFIED kỹ thuật; chờ phát hành hồ sơ và Thy/GPT Web nghiệm thu.
+SOURCE CHECKPOINT: ff0e5d7; Detaituan8910/.agent/decisions/20261010-word-w01-approval.md.
+ALLOWED SCOPE: Word W01 riêng, helper/QA/điều phối/Git hồ sơ. Không app/data/model/PPT/I04/W02.
+LOCKED: nguồn Word/mẫu Mauwword/Hậu/rule và1571 artifact; bìa/khung/logo/nhóm, Ch1 ngoài4 đoạn duyệt. I04 DEFERRED.
+APPLIED BUT UNVERIFIED: publication Git chưa remote read-back; DOCX đã kiểm đủ.
+VERIFIED: 67 trang native render đã xem riêng;69/69 cấu trúc/ngữ nghĩa;9/9 live field probe; font khớp mẫu trường;30 nguồn và1571 artifact nguyên hash. DOCX W01 SHA4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591.
+PENDING: W01 nghiệm thu;7 khung đen chờ W02 riêng; lịch/công việc Phát/tỷ lệ đóng góp giữ trống chưa xác nhận. Phase4 INCOMPLETE.
+LAST EVIDENCE: Detaituan8910/.agent/qa/word-w01-20261010/{review.md,final-verification.json,manifest.json,page-review.md}; publication receipt local sau push.
+NEXT EXACT ACTION: publish selected QA, kiểm remote rồi bàn giao DOCX trực tiếp; dừng chờ duyệt, không tự chuyển việc.
+
+Các block bên dưới là lịch sử.
+
+## Lịch sử — W00 khảo sát Word, 10/10/2026
 
 CURRENT TASK: W00 VERIFIED, bàn giao đề xuất Word; chưa áp dụng DOCX.
 SOURCE CHECKPOINT: Git 0d7aa09; Detaituan8910/.agent/decisions/20261010-word-w00-scope.md.

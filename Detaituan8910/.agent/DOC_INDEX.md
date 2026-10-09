@@ -1,6 +1,21 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
-## Nguồn hiện hành — W00 khảo sát Word
+## Nguồn hiện hành W01
+
+`decisions/20261010-word-w01-approval.md` ưu tiên scope W00 chỉ đọc. `qa/word-w01-20261010/checklist.md` là checklist canonical; `artifact.md` là hợp đồng template/preserve/slots. W01 VERIFIED kỹ thuật67 trang, chờ nghiệm thu; W02 chưa được duyệt. Source v3/Hậu/mẫu nguyên byte. Đọc các nguồn này trước mọi lần tiếp tục sau compact.
+
+| Tài liệu W01 | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx | Sản phẩm67 trang, gửi trực tiếp | VERIFIED kỹ thuật; chờ nghiệm thu,7 khung đen | Duyệt W01 |
+| .agent/qa/word-w01-20261010/review.md, final-verification.json, manifest.json | Điểm vào bàn giao và gate tổng hợp | Hiện hành, ưu tiên gate trung gian | GPT Web rà W01 |
+| .agent/qa/word-w01-20261010/CHAPTER_CHANGES.md, content-changelog.json | Diff Ch1/Ch2/tiêu đề Ch5 | Hiện hành | Rà nội dung sửa |
+| .agent/qa/word-w01-20261010/TABLE_FIGURE_LIST.md, image-registry.json, word-summary.json | Caption/trang/slot W02, media relationship thực | Hiện hành | Duyệt bảng/hình hoặc W02 sau phê duyệt |
+| .agent/qa/word-w01-20261010/font-audit.json, page-review.md, visual-verification.json, field-probe.json | Font mẫu,67 trang và9 live field checks | VERIFIED | Rà định dạng |
+| .agent/qa/word-w01-20261010/REFERENCE_REVIEW.md, reference-audit.json |21 hyperlink và hạn chế3URL | VERIFIED phạm vi ghi rõ | Kiểm tham khảo |
+| .agent/qa/word-w01-20261010/verification-attempt1.json, format-repair.json | Các gate/biện pháp trung gian, không phải final | Lịch sử | Truy vết lỗi; final-verification ưu tiên |
+| .agent/qa/word-w01-20261010/publication-receipt.local.json | Commit/remote read-back hồ sơ | Local sau push, không tracked | Kiểm phát hành |
+
+## Nguồn lịch sử — W00 khảo sát Word đã duyệt
 
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |

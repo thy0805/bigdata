@@ -1,6 +1,20 @@
 # Đồ án Big Data tuần 8–10
 
-## Hiện hành — W00 khảo sát Word, 10/10/2026
+## Hiện hành — W01 hoàn thiện Word, 10/10/2026
+
+CURRENT TASK: W01 VERIFIED kỹ thuật, 67 trang; đang phát hành hồ sơ, chờ Thy/GPT Web nghiệm thu.
+SOURCE CHECKPOINT: ff0e5d7; .agent/decisions/20261010-word-w01-approval.md; .agent/qa/word-w01-20261010/checklist.md.
+ALLOWED SCOPE: Word W01 mới, nội dung đã duyệt/bảng/placeholder đen, QA/render/helper và điều phối. Không sửa nguồn hoặc app/model/data/SQL/PPT/I04/W02.
+LOCKED: hai bìa/nhóm/giảng viên/logo/Ch1 hợp lệ; code/model/schema/metric/artifact và QA cũ; source DOCX/rule nguyên hash.
+APPLIED BUT UNVERIFIED: chỉ publication Git chờ remote read-back; không còn thay đổi DOCX chưa kiểm.
+VERIFIED: BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx SHA4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591; 69/69 cấu trúc/ngữ nghĩa, 9/9 probe field, xem riêng đủ 67 PNG cuối ở độ phân giải gốc; font mẫu Mauwword khớp. 30 guard nguồn và 1571/1571 artifact bảo toàn. Ch2 đủ14 mục; Ch1 chỉ4 đoạn thay;11 bảng mới/7 khung đen;21 hyperlink cuối.
+PENDING: Thy/GPT Web nghiệm thu W01; W02 chưa được phép; lịch tuần/công việc Phát/tỷ lệ đóng góp chưa xác nhận giữ trống. I04 DEFERRED, Phase4 INCOMPLETE.
+LAST EVIDENCE: .agent/qa/word-w01-20261010/{review.md,final-verification.json,page-review.md,font-audit.json,field-probe.json,manifest.json}; verification-attempt1.json66/69 được giữ lịch sử. Publication receipt local sẽ kiểm HEAD sau push.
+NEXT EXACT ACTION: commit/push hồ sơ W01 theo allowlist, kiểm remote; gửi DOCX trực tiếp và link review cho Thy/GPT Web rồi dừng. Không tự W02/Word/PPT/app/demo.
+
+Các block dưới là lịch sử; W01 approval có ưu tiên scope W00 chỉ đọc cũ.
+
+## Lịch sử — W00 khảo sát Word, 10/10/2026
 
 CURRENT TASK: bàn giao hồ sơ khảo sát và phương án hoàn thiện Word; W00 VERIFIED, chưa áp dụng vào DOCX.
 SOURCE CHECKPOINT: Git 0d7aa09; .agent/decisions/20261010-word-w00-scope.md; .agent/qa/word-w00-20261010/checklist.md.

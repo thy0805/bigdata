@@ -1,0 +1,584 @@
+[
+  {
+    "chapter": 1,
+    "block": 226,
+    "before": "Đối với bộ dữ liệu Individual Household Electric Power Consumption được chọn cho đề tài, dữ liệu gốc gồm hơn hai triệu bản ghi theo phút của một hộ gia đình. Quy trình dự kiến là kiểm tra chất lượng bản ghi, tổng hợp công suất tác dụng toàn phần thành điện năng tiêu thụ theo giờ, sau đó sử dụng chuỗi theo giờ để phân tích và dự báo điện năng của giờ tiếp theo. Lưu trữ, xử lý dữ liệu và xây dựng mô hình dự báo là những công việc khác nhau; việc sử dụng công nghệ xử lý phân tán không có nghĩa là mô hình dự báo cũng được huấn luyện theo cách phân tán.",
+    "after": "Đối với bộ dữ liệu Individual Household Electric Power Consumption được chọn cho đề tài, dữ liệu gốc gồm 2.075.259 bản ghi theo phút của một hộ gia đình. Apache Flink SQL BATCH kiểm tra bản ghi và tổng hợp công suất tác dụng thành điện năng theo giờ. Chuỗi kết quả được dùng cho phân tích và dự báo giờ kế tiếp bằng Python. Lưu trữ, xử lý dữ liệu và huấn luyện mô hình là các thành phần riêng; sử dụng bộ máy xử lý phân tán không đồng nghĩa mô hình cũng được huấn luyện phân tán.",
+    "reason": "Đồng bộ dự kiến với thực nghiệm đã kiểm; giữ phần còn lại."
+  },
+  {
+    "chapter": 1,
+    "block": 230,
+    "before": "Trước hết, dữ liệu sẽ được kiểm tra về thời gian ghi nhận, đơn vị đo, giá trị thiếu và bản ghi trùng. Từ công suất tác dụng toàn phần theo phút, đề tài tính điện năng tiêu thụ theo từng giờ, đơn vị kWh. Chỉ những giờ có đủ bản ghi hợp lệ mới được dùng để tính tổng điện năng theo giờ; các giờ không đủ dữ liệu cần được đánh dấu và xử lý riêng. Chuỗi dữ liệu sau bước này là cơ sở cho cả phân tích và dự báo.",
+    "after": "Dữ liệu được kiểm tra về thời gian ghi nhận, đơn vị đo, giá trị thiếu và bản ghi trùng. Từ công suất tác dụng trung bình theo phút, quy trình tính điện năng của từng giờ, đơn vị kWh. Những giờ đủ 60 bản ghi, 60 dấu thời gian phút khác nhau và 60 phép đo công suất hợp lệ được sử dụng làm điện năng giờ đầy đủ. Các giờ còn lại được đánh dấu; tổng điện năng quan sát được giữ riêng, không thay cho điện năng của cả giờ.",
+    "reason": "Đồng bộ dự kiến với thực nghiệm đã kiểm; giữ phần còn lại."
+  },
+  {
+    "chapter": 1,
+    "block": 231,
+    "before": "Ở nhiệm vụ phân tích, đề tài dự kiến mô tả phân bố điện năng tiêu thụ và xem xét sự thay đổi theo giờ trong ngày, ngày trong tuần và các giai đoạn của năm. Ở nhiệm vụ dự báo, biến mục tiêu là điện năng tiêu thụ của giờ tiếp theo. Tại thời điểm đưa ra dự báo, mô hình chỉ được sử dụng dữ liệu đã có đến hết giờ hiện tại, tránh sử dụng thông tin của tương lai.",
+    "after": "Nhiệm vụ phân tích mô tả mức tiêu thụ theo giờ trong ngày, ngày trong tuần, tháng và ba nhóm đo phụ. Nhiệm vụ dự báo sử dụng điện năng của giờ kế tiếp làm biến mục tiêu. Với khoảng giờ bắt đầu tại s, mốc phát dự báo là s và quan sát mới nhất được dùng thuộc khoảng giờ trước đó. Đặc trưng không chứa điện năng của giờ đang cần dự báo.",
+    "reason": "Đồng bộ dự kiến với thực nghiệm đã kiểm; giữ phần còn lại."
+  },
+  {
+    "chapter": 1,
+    "block": 232,
+    "before": "Dữ liệu sẽ được chia theo thứ tự thời gian để xây dựng và đánh giá mô hình. Kết quả dự báo cần được so sánh với một phương pháp dự báo cơ sở và đánh giá trên giai đoạn dữ liệu chưa dùng để xây dựng mô hình, chẳng hạn bằng sai số tuyệt đối trung bình và căn bậc hai sai số bình phương trung bình. Apache Flink được lựa chọn cho lớp tiếp nhận và xử lý dữ liệu; bước huấn luyện và đánh giá mô hình dự báo là một thành phần riêng. Phương pháp dự báo cụ thể sẽ được lựa chọn qua thực nghiệm trên biến mục tiêu điện năng của giờ kế tiếp.",
+    "after": "Dữ liệu được chia theo thứ tự thời gian thành Train, Validation và Test. Mô hình HistGradientBoostingRegressor được huấn luyện trên Train, lựa chọn thông qua Validation và giữ nguyên khi đánh giá Test. Naive và Seasonal Naive 24 giờ là hai phương pháp đối chiếu; MAE và RMSE được tính trên cùng các mốc hợp lệ. Apache Flink đảm nhiệm xử lý dữ liệu lịch sử, còn huấn luyện và suy luận bằng Python là thành phần riêng.",
+    "reason": "Đồng bộ dự kiến với thực nghiệm đã kiểm; giữ phần còn lại."
+  },
+  {
+    "chapter": 5,
+    "section": "5.6",
+    "before": "Phân vùng dữ liệu theo khóa",
+    "after": "Nhóm dữ liệu theo khóa thời gian trong SQL",
+    "reason": "Mô tả đúng GROUP BY/FLOOR trong SQL BATCH."
+  },
+  {
+    "chapter": 5,
+    "section": "5.7",
+    "before": "Xử lý dữ liệu theo Event Time và Watermark",
+    "after": "Xử lý dấu thời gian trong Flink SQL BATCH",
+    "reason": "Mô tả đúng GROUP BY/FLOOR trong SQL BATCH."
+  },
+  {
+    "chapter": 5,
+    "section": "5.8",
+    "before": "Xử lý dữ liệu theo cửa sổ thời gian một giờ",
+    "after": "Tổng hợp dữ liệu theo khung giờ bằng SQL",
+    "reason": "Mô tả đúng GROUP BY/FLOOR trong SQL BATCH."
+  },
+  {
+    "chapter": 2,
+    "section": "2.1",
+    "source_block": 3,
+    "before": "Trong kỷ nguyên công nghệ thông tin và chuyển đổi số, dữ liệu chuỗi thời gian (Time Series Data) đóng vai trò là một trong những dạng dữ liệu phổ biến và quan trọng nhất trong các hệ sinh thái Dữ liệu lớn (Big Data). Dữ liệu chuỗi thời gian là một tập hợp các điểm dữ liệu (quan sát) được ghi nhận và sắp xếp theo một trình tự thời gian liên tục, thường tại các mốc thời gian cách đều nhau (equally spaced intervals) như từng mili-giây, từng giây, phút, giờ, ngày hoặc tháng.",
+    "after": "Dữ liệu chuỗi thời gian (Time Series Data) là tập hợp các quan sát được sắp xếp theo thời điểm ghi nhận. Các mốc có thể cách đều như phút, giờ, ngày hoặc có khoảng cách không đều tùy nguồn. Trong phân tích, thứ tự và khoảng cách thời gian cần được bảo toàn để diễn giải quan hệ giữa các quan sát.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.1",
+    "source_block": 4,
+    "before": "Về mặt hình thức toán học, một chuỗi thời gian được biểu diễn dưới dạng một dãy quan sát tuần tự X = {x_1, x_2, ..., x_t}, trong đó x_t là giá trị đo lường tại thời điểm t. Khác với dữ liệu bảng truyền thống (tabular data) vốn giả định các quan sát độc lập và phân phối đồng nhất (Independent and Identically Distributed - I.I.D), dữ liệu chuỗi thời gian mang tính phụ thuộc chặt chẽ vào thời gian (Temporal Dependency). Giá trị tại thời điểm hiện tại x_t thường chịu ảnh hưởng trực tiếp từ các trạng thái trong quá khứ x_(t-1), x_(t-2),...",
+    "after": "Một chuỗi thời gian có thể biểu diễn bằng dãy giá trị x₁, x₂, …, xₜ, trong đó xₜ là quan sát tại thời điểm t. Nhiều chuỗi có quan hệ phụ thuộc giữa giá trị hiện tại và quá khứ. Dữ liệu dạng bảng không mặc nhiên có các quan sát độc lập; giả định độc lập và cùng phân phối chỉ phù hợp với một số bài toán hoặc phương pháp cụ thể.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.1",
+    "source_block": 5,
+    "before": "Trong bài toán Dữ liệu lớn (Big Data), dữ liệu chuỗi thời gian thường xuất hiện dưới dạng luồng dữ liệu liên tục (Continuous Streaming Data) với đặc trưng 3V rõ nét:",
+    "after": "Trong Big Data, dữ liệu chuỗi thời gian có thể được xử lý từ tệp lịch sử hoặc từ luồng cập nhật. Các đặc trưng về khối lượng, tốc độ và sự đa dạng phụ thuộc vào quy mô nguồn:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.1",
+    "source_block": 6,
+    "before": "Volume (Dung lượng khổng lồ): Được sinh ra liên tục từ hàng ngàn hoặc hàng triệu nguồn thiết bị, cảm biến IoT, hệ thống giám sát server, thị trường tài chính, tạo nên khối lượng dữ liệu khổng lồ theo thời gian.",
+    "after": "Volume (Khối lượng): Các phép đo tích lũy qua thời gian hoặc đến từ nhiều nguồn tạo thành tập dữ liệu lớn cần tổ chức lưu trữ và xử lý.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.1",
+    "source_block": 7,
+    "before": "Velocity (Tốc độ sinh dữ liệu cực cao): Dữ liệu được phát sinh theo từng tích tắc theo thời gian thực (Real-time). Điều này đòi hỏi hệ thống phải có khả năng tiếp nhận, xử lý và trích xuất thông tin với độ trễ tính bằng mili-giây.",
+    "after": "Velocity (Tốc độ): Nguồn có thể phát sinh dữ liệu liên tục; yêu cầu độ trễ xử lý phụ thuộc bài toán. Tệp UCI của đề tài được đọc ở chế độ BATCH, không đặt yêu cầu xử lý từng bản ghi theo thời gian thực.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.2",
+    "source_block": 10,
+    "before": "Phân tích cấu trúc của chuỗi thời gian là bước nền tảng để hiểu rõ bản chất quy luật biến thiên của chuỗi. Theo lý thuyết thống kê cổ điển, một chuỗi thời gian thực tế thường được phân rã (Time Series Decomposition) thành 4 thành phần cơ bản:",
+    "after": "Một chuỗi thời gian có thể được mô tả bằng xu hướng, mùa vụ, chu kỳ và phần dư. Không phải chuỗi nào cũng có đủ các thành phần này; sự tồn tại và hình thức của chúng cần được kiểm tra trên dữ liệu:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.2",
+    "source_block": 16,
+    "before": "Mô hình cộng tính (Additive Model): Y_t = T_t + S_t + C_t + I_t. Áp dụng khi biên độ dao động mùa vụ giữ nguyên không đổi bất chấp xu hướng tăng hay giảm.",
+    "after": "Mô hình cộng tính (Additive Model): Giá trị chuỗi được mô tả bằng tổng các thành phần. Dạng này phù hợp khi biên độ mùa vụ không thay đổi nhiều theo mức của chuỗi.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.2",
+    "source_block": 17,
+    "before": "Mô hình nhân tính (Multiplicative Model): Y_t = T_t * S_t * C_t * I_t. Áp dụng khi biên độ dao động mùa vụ tỉ lệ thuận và khuếch đại theo độ lớn của xu hướng dài hạn.",
+    "after": "Mô hình nhân tính (Multiplicative Model): Các thành phần được kết hợp bằng phép nhân; thường được xem xét với chuỗi dương khi biên độ mùa vụ thay đổi theo mức của chuỗi.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.2",
+    "source_block": 20,
+    "before": "Nếu một chuỗi không dừng (Non-stationary), các mô hình dự báo rất dễ rơi vào hiện tượng hồi quy giả mạo (Spurious Regression) hoặc suy giảm hiệu năng nghiêm trọng.",
+    "after": "Tính không dừng có thể ảnh hưởng tới các phương pháp có giả định dừng và cách diễn giải quan hệ thống kê. Yêu cầu xử lý phụ thuộc mô hình; không phải mọi mô hình dự báo đều cần cùng một phép biến đổi để tạo tính dừng.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.2",
+    "source_block": 22,
+    "before": "Hàm tự tương quan (Autocorrelation Function - ACF) và hàm tự tương quan từng phần (Partial Autocorrelation Function - PACF) đo lường mức độ tương quan tuyến tính giữa giá trị hiện tại của chuỗi với các giá trị trễ trong quá khứ. Việc phân tích biểu đồ ACF và PACF là cơ sở để xác định bậc trễ (Lag order) cho các mô hình dự đoán thống kê và máy học.",
+    "after": "ACF đo tương quan giữa chuỗi và các giá trị trễ; PACF đo tương quan tại một độ trễ sau khi loại ảnh hưởng tuyến tính của các độ trễ trung gian. Các công cụ này hỗ trợ lựa chọn một số mô hình tự hồi quy, nhưng không được sử dụng để quyết định cấu hình HGB trong thực nghiệm của đề tài.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.3",
+    "source_block": 26,
+    "before": "Forecasting Horizon (ký hiệu là h) là độ dài khoảng thời gian trong tương lai mà mô hình cần thực hiện dự đoán. Độ dài của h quyết định trực tiếp đến độ phức tạp của thuật toán và độ chính xác của dự báo:",
+    "after": "Forecasting Horizon là khoảng cách từ mốc dự báo đến thời điểm cần ước lượng. Horizon xác định nhiệm vụ và thông tin có thể sử dụng; sai số còn phụ thuộc dữ liệu, mô hình và phương pháp đánh giá.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.3",
+    "source_block": 27,
+    "before": "Dự báo ngắn hạn (Short-term Horizon): h rất nhỏ (từ vài giây, vài phút đến vài giờ). Trong môi trường Big Data Streaming, đây là bài toán phổ biến nhất (ví dụ: dự báo tải CPU của cụm máy chủ trong 5 phút tới để tự động co giãn tài nguyên Auto-scaling).",
+    "after": "Dự báo một bước (One-step Ahead): Ước lượng giá trị của khoảng tiếp theo từ thông tin quá khứ đã quan sát. Khi đánh giá cuốn chiếu, tại mỗi mốc có thể bổ sung quan sát thực tế mới nhưng không nhất thiết huấn luyện lại mô hình.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.3",
+    "source_block": 29,
+    "before": "Dự báo dài hạn (Long-term Horizon): h kéo dài hàng tháng hoặc hàng năm. Độ bất định và sai số tích lũy của dự báo dài hạn là rất lớn.",
+    "after": "Dự báo nhiều bước (Multi-step Ahead): Ước lượng nhiều khoảng tương lai từ một mốc ban đầu. Sai số và yêu cầu đặc trưng phụ thuộc cách mô hình tạo các bước tiếp theo.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.3",
+    "source_block": 34,
+    "before": "Dự báo đầu ra đồng thời (Joint / Multi-output): Huấn luyện một mô hình duy nhất (thường là Deep Learning) có khả năng sinh ra toàn bộ vector đầu ra [x_(t+1), ..., x_(t+h)] cùng lúc, giúp bảo toàn tương quan giữa các bước thời gian tương lai.",
+    "after": "Dự báo đầu ra đồng thời (Joint/Multi-output): Một mô hình sinh nhiều giá trị tương lai cùng lúc. Phương pháp có thể sử dụng mô hình đa đầu ra hoặc học sâu, không chỉ giới hạn ở mạng nơ-ron.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 36,
+    "before": "Dữ liệu thô thu thập từ môi trường Big Data thường chứa nhiều nhiễu, không đồng nhất và bị gián đoạn. Do đó, tiền xử lý dữ liệu là công đoạn quyết định chất lượng đầu vào của mô hình:",
+    "after": "Tiền xử lý xác định cách diễn giải giá trị thiếu, ngoại lai, tần suất và đơn vị đo trước khi mô hình hóa. Chính sách cần phù hợp với thông tin sẵn có tại mốc dự báo.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 40,
+    "before": "Backward Fill: Lấy giá trị kế tiếp trong tương lai gán ngược lại (chỉ dùng trong phân tích hồi cứu, không dùng trong streaming real-time để tránh rò rỉ dữ liệu).",
+    "after": "Backward Fill: Điền giá trị thiếu bằng quan sát phía sau. Cách này chỉ phù hợp với một số mục đích hồi cứu; khi giá trị tương lai chưa có tại mốc dự báo, dùng nó để tạo đặc trưng gây rò rỉ dữ liệu, kể cả trong thực nghiệm offline.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 41,
+    "before": "Nội suy tuyến tính (Linear Interpolation) và Spline: Nối các điểm dữ liệu bằng hàm số tuyến tính hoặc đa thức bậc ba để ước lượng giá trị trung gian mượt mà.",
+    "after": "Nội suy tuyến tính hoặc spline: Ước lượng điểm thiếu từ các quan sát lân cận. Nếu sử dụng điểm phía tương lai, phép nội suy không còn là biến đổi chỉ dựa trên quá khứ tại mốc dự báo.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 44,
+    "before": "Các giá trị bất thường cực đoan có thể làm lệch phương sai và trọng số mô hình. Phương pháp phát hiện bao gồm Z-Score (với ngưỡng chuẩn > 3), khoảng tứ phân vị IQR, hoặc thống kê cửa sổ trượt (Rolling Mean +/- 3*STD). Sau khi phát hiện, ngoại lai có thể được cắt tỉa (Winsorization) hoặc thay thế bằng giá trị nội suy hợp lý.",
+    "after": "Z-score, khoảng tứ phân vị và thống kê cửa sổ có thể hỗ trợ phát hiện các giá trị khác biệt. Một giá trị điện năng lớn không mặc nhiên là lỗi đo. Việc xóa, cắt ngưỡng hoặc thay thế cần có căn cứ nghiệp vụ và đánh giá tác động, không chỉ dựa vào một ngưỡng thống kê.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 46,
+    "before": "Đưa chuỗi thời gian về một tần suất cố định (Fixed Frequency). Downsampling (giảm tần số, ví dụ gộp dữ liệu từ giây thành phút thông qua hàm mean/sum) giúp giảm đáng kể kích thước dữ liệu Big Data và triệt tiêu nhiễu tần số cao. Ngược lại, Upsampling (tăng tần số) đòi hỏi phải kết hợp các phương pháp nội suy.",
+    "after": "Lấy mẫu lại (Resampling) đưa dữ liệu về tần suất phù hợp bằng tổng hợp hoặc tái lập trục thời gian. Hàm tổng hợp phải tuân theo đơn vị: công suất trung bình từng phút được nhân với thời lượng để tính điện năng, không được cộng kW rồi đổi tên thành kWh. Tăng tần suất không tự tạo thêm thông tin đo thực tế.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 48,
+    "before": "Các mô hình mạng nơ-ron hoặc hồi quy rất nhạy cảm với độ lớn của biến. Min-Max Scaling đưa dữ liệu về đoạn [0, 1], trong khi Standard Scaler đưa về phân phối chuẩn có kỳ vọng 0 và phương sai 1. Cần lưu ý nguyên tắc: Tham số chuẩn hóa chỉ được tính toán trên tập Train, sau đó áp dụng biến đổi lên tập Validation/Test để ngăn chặn rò rỉ thông tin.",
+    "after": "Min-Max Scaling thay đổi thang giá trị; StandardScaler chuẩn hóa theo trung bình và độ lệch chuẩn của tập học, không bảo đảm dữ liệu trở thành phân phối Gaussian. Nếu áp dụng, các tham số biến đổi phải được học từ Train rồi dùng cho Validation/Test. Mô hình cây không nhất thiết cần bước chuẩn hóa này.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.4",
+    "source_block": 50,
+    "before": "Nếu chuỗi có xu hướng hoặc phương sai thay đổi, kỹ thuật lấy logarit giúp ổn định phương sai, và kỹ thuật lấy sai phân bậc nhất (First Differencing: Delta y_t = y_t - y_(t-1)) giúp loại bỏ xu hướng, đưa chuỗi về trạng thái dừng.",
+    "after": "Logarit có thể giảm chênh lệch về mức và phương sai với giá trị dương; sai phân mô tả thay đổi giữa các thời điểm. Các phép biến đổi không tự bảo đảm tính dừng và cần kiểm tra sau khi áp dụng. Pipeline hiện tại không dùng logarit, sai phân hoặc nội suy để tạo biến mục tiêu.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.5",
+    "source_block": 52,
+    "before": "Đối với các mô hình máy học (Machine Learning như XGBoost, LightGBM, Random Forest), việc trích xuất và biến đổi đặc trưng (Feature Engineering) từ dữ liệu chuỗi thời gian đóng vai trò quyết định đến độ chính xác dự báo. Các nhóm đặc trưng chính bao gồm:",
+    "after": "Đặc trưng giúp mô hình hồi quy sử dụng lịch sử và thông tin lịch. Chất lượng dự báo cần được đánh giá trên giai đoạn chưa dùng để lựa chọn mô hình. Các nhóm đặc trưng thường gặp gồm:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.5",
+    "source_block": 57,
+    "before": "Cyclical Encoding (Mã hóa chu kỳ thời gian): Vì giờ 23 và giờ 0 thực chất rất gần nhau trong thực tế nhưng lại cách xa nhau về mặt số học, kỹ thuật mã hóa hình sin và cosin (Sine/Cosine Transformation) được sử dụng để bảo toàn tính chu kỳ tuần hoàn: sin(2*pi*t / T) và cos(2*pi*t / T).",
+    "after": "Cyclical Encoding (Mã hóa chu kỳ): Biến đổi giờ hoặc tháng bằng các thành phần sin và cos để biểu diễn tính vòng. Đây là một lựa chọn thiết kế; bộ 11 đặc trưng đã khóa của đề tài sử dụng giá trị lịch trực tiếp, không dùng mã hóa sin/cos.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.5",
+    "source_block": 58,
+    "before": "Domain-specific Features (Đặc trưng nghiệp vụ): Các chỉ số kết hợp đa biến, chẳng hạn như tỷ lệ biến thiên giữa công suất tiêu thụ và nhiệt độ môi trường, độ chênh lệch giữa hai cảm biến lân cận.",
+    "after": "Đặc trưng nghiệp vụ có thể gồm thông tin thời tiết hoặc biến đo khác nếu thực sự có và biết tại thời điểm suy luận. Dataset và mô hình hiện tại không bổ sung nhiệt độ, ngày lễ hoặc dữ liệu từ hộ khác.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.6",
+    "source_block": 60,
+    "before": "Một trong những sai lầm nghiêm trọng nhất khi làm việc với chuỗi thời gian là sử dụng phương pháp chia dữ liệu ngẫu nhiên (Random K-Fold Cross Validation với shuffle=True). Việc xáo trộn ngẫu nhiên sẽ dẫn đến hiện tượng Rò rỉ dữ liệu (Data Leakage / Look-ahead Bias) - tức mô hình sử dụng dữ liệu tương lai để học cách dự đoán quá khứ, khiến kết quả đánh giá trên giấy tờ cực kỳ cao nhưng hoàn toàn vô dụng trong thực tế.",
+    "after": "Chia ngẫu nhiên có thể đưa quan sát tương lai vào Train khi mục tiêu là dự báo giai đoạn phía sau. Đánh giá theo thời gian giữ thứ tự giữa tập học, tập lựa chọn và tập kiểm thử, tránh mô phỏng sai thông tin sẵn có tại mốc dự báo.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.6",
+    "source_block": 63,
+    "before": "Dữ liệu được sắp xếp theo thời gian và chia thành các đoạn liên tiếp: Đoạn đầu làm tập Huấn luyện (Train set - thường chiếm 70%), đoạn tiếp theo làm tập Xác thực (Validation set - 15%), và đoạn cuối cùng đại diện cho tương lai làm tập Kiểm thử (Test set - 15%). Mọi quá trình tiền xử lý, tính toán scaler đều chỉ được học từ tập Train.",
+    "after": "Time-based Split chia trục thời gian thành các đoạn liên tiếp. Trong đề tài, tỷ lệ 70%/15%/15% áp dụng trên toàn bộ trục giờ trước khi loại mẫu không hợp lệ. Train dùng để fit; Validation dùng để lựa chọn mô hình; Test đánh giá mô hình đã khóa. Số mẫu hợp lệ không nhất thiết giữ nguyên tỷ lệ của trục giờ.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.6",
+    "source_block": 65,
+    "before": "Đây là tiêu chuẩn vàng trong kiểm định chuỗi thời gian. Mô hình được đánh giá qua nhiều vòng (folds) liên tiếp:",
+    "after": "Walk-forward Validation đánh giá qua nhiều mốc hoặc nhiều đoạn nối tiếp. Cần phân biệt việc cập nhật quan sát đầu vào với việc fit lại mô hình tại mỗi vòng:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 69,
+    "before": "Hệ thống các phương pháp dự báo chuỗi thời gian phát triển từ thống kê cổ điển đến các kiến trúc học sâu tiên tiến:",
+    "after": "Các phương pháp dự báo gồm mô hình thống kê, mô hình học máy và mạng nơ-ron. Những nhóm dưới đây là cơ sở tham khảo, không phải toàn bộ các mô hình đã được chạy trong đề tài:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 76,
+    "before": "Random Forest Regressor: Tập hợp nhiều cây quyết định độc lập (Bagging), giảm thiểu hiện tượng quá khớp (Overfitting), xử lý tốt các quan hệ phi tuyến tính phức tạp.",
+    "after": "Random Forest Regressor kết hợp nhiều cây quyết định được huấn luyện trên các mẫu lấy lại và tập đặc trưng ngẫu nhiên. Cách kết hợp có thể giảm phương sai của một cây; mức sai số và hiện tượng quá khớp vẫn cần được đánh giá trên dữ liệu cụ thể.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 77,
+    "before": "XGBoost và LightGBM (Gradient Boosting Decision Trees): Huấn luyện tuần tự các cây quyết định để sửa lỗi cho các cây trước đó. LightGBM nổi bật với tốc độ huấn luyện cực nhanh nhờ kỹ thuật Histogram-based và phát triển cây theo chiều sâu (leaf-wise), rất phù hợp với dữ liệu lớn Big Data có hàng triệu bản ghi.",
+    "after": "XGBoost và LightGBM là các thư viện cây tăng cường gradient. Các cây được bổ sung theo từng bước để cải thiện hàm mất mát. Chi phí huấn luyện phụ thuộc dữ liệu, cấu hình và môi trường; đề tài không triển khai hai thư viện này.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 79,
+    "before": "LSTM (Long Short-Term Memory): Kiến trúc mạng nơ-ron hồi quy đặc biệt được thiết kế với 3 cổng điều khiển: Cổng quên (Forget Gate), Cổng nhập (Input Gate), và Cổng xuất (Output Gate) kết hợp với đường truyền trạng thái ô nhớ (Cell State). LSTM giải quyết triệt để vấn đề triệt tiêu đạo hàm (Vanishing Gradient), cho phép ghi nhớ các phụ thuộc thời gian dài hạn.",
+    "after": "LSTM sử dụng trạng thái ô nhớ và các cổng điều khiển để mô hình hóa quan hệ theo thời gian. Kiến trúc hỗ trợ học phụ thuộc dài hạn nhưng không bảo đảm loại bỏ mọi khó khăn tối ưu hoặc đạt sai số thấp hơn mô hình khác trên mọi dataset.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 80,
+    "before": "GRU (Gated Recurrent Unit): Phiên bản rút gọn tinh giản của LSTM, gộp cell state và hidden state thành một, chỉ sử dụng 2 cổng (Reset Gate và Update Gate). GRU có số lượng tham số ít hơn, huấn luyện nhanh hơn mà vẫn đạt hiệu năng tương đương LSTM.",
+    "after": "GRU sử dụng các cổng reset và update để cập nhật trạng thái ẩn. Khác biệt về số tham số, thời gian huấn luyện và sai số so với LSTM phụ thuộc cấu hình và bài toán.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.7",
+    "source_block": 81,
+    "before": "Temporal Fusion Transformer (TFT): Kiến trúc Transformer chuyên biệt cho chuỗi thời gian đa biến, kết hợp cơ chế Self-Attention đa đầu để tự động học mối quan hệ tương tác giữa các biến và tầm quan trọng của các mốc thời gian quá khứ, cung cấp khả năng diễn giải mô hình vượt trội.",
+    "after": "Temporal Fusion Transformer kết hợp cơ chế attention với các thành phần xử lý thông tin chuỗi thời gian. Đây là hướng tham khảo về mô hình, chưa được huấn luyện hoặc so sánh trong thực nghiệm hiện tại.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 83,
+    "before": "Để định lượng mức độ chính xác và so sánh hiệu quả giữa các mô hình dự báo, các chỉ số đo lường sai số tiêu chuẩn được áp dụng:",
+    "after": "Sai số dự báo được xác định bằng cách so sánh giá trị ước lượng và giá trị thực tế trên cùng các mốc hợp lệ. Trong các công thức dưới đây, n là số mẫu, yᵢ là điện năng thực tế và ŷᵢ là điện năng dự báo:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 84,
+    "before": "MAE (Mean Absolute Error - Sai số tuyệt đối trung bình): MAE = (1/n) * sum(|y_i - y_hat_i|). Đo lường độ lệch trung bình giữa giá trị thực tế và giá trị dự báo. MAE có cùng đơn vị đo với dữ liệu, trực quan, dễ hiểu và không quá nhạy cảm với các điểm ngoại lai cá biệt.",
+    "after": "MAE (Mean Absolute Error) là trung bình độ lớn của sai số tuyệt đối. Đơn vị của MAE trùng với biến mục tiêu; trong đề tài là kWh.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 85,
+    "before": "MSE (Mean Squared Error - Sai số bình phương trung bình): MSE = (1/n) * sum((y_i - y_hat_i)^2). Bình phương các sai số giúp triệt tiêu dấu âm và phạt rất nặng các lỗi dự báo lớn. Nhược điểm là đơn vị đo bị bình phương so với biến gốc.",
+    "after": "MSE (Mean Squared Error) là trung bình bình phương sai số, có đơn vị bình phương của biến mục tiêu. Giá trị sai số lớn được nhấn mạnh hơn so với MAE.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 86,
+    "before": "RMSE (Root Mean Squared Error - Căn bậc hai sai số bình phương trung bình): RMSE = sqrt(MSE). Giữ nguyên ưu điểm phạt nặng các sai số lớn của MSE nhưng quy đổi về cùng đơn vị đo với biến mục tiêu. Đây là một trong những chỉ số phổ biến nhất trong các bài toán kỹ thuật.",
+    "after": "RMSE (Root Mean Squared Error) là căn bậc hai của MSE, đưa kết quả về cùng đơn vị với biến mục tiêu.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 87,
+    "before": "MAPE (Mean Absolute Percentage Error - Sai số phần trăm tuyệt đối trung bình): MAPE = (100%/n) * sum(|(y_i - y_hat_i) / y_i|). Biểu diễn sai số dưới dạng tỷ lệ phần trăm (%), cho phép so sánh chất lượng mô hình trên các tập dữ liệu có quy mô và đơn vị đo khác nhau. Nhược điểm: Không xác định khi giá trị thực tế y_i = 0.",
+    "after": "MAPE biểu diễn sai số theo tỷ lệ so với giá trị thực tế, nhưng không xác định khi giá trị thực tế bằng 0 và có thể nhạy với các giá trị gần 0. Đây không phải chỉ số được báo cáo cho mô hình hiện tại.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 88,
+    "before": "sMAPE (Symmetric MAPE): Phiên bản đối xứng khắc phục nhược điểm mất cân đối giữa sai số dự báo thiếu và dự báo thừa của MAPE: sMAPE = (100%/n) * sum( 2*|y_i - y_hat_i| / (|y_i| + |y_hat_i|) ).",
+    "after": "sMAPE sử dụng cả độ lớn của dự báo và thực tế trong mẫu số; cần quy định trường hợp mẫu số bằng 0. Chỉ số này không được sử dụng để lựa chọn mô hình của đề tài.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.8",
+    "source_block": 89,
+    "before": "R^2 Score (Hệ số xác định - Coefficient of Determination): R^2 = 1 - (sum((y_i - y_hat_i)^2) / sum((y_i - y_mean)^2)). Đo lường tỷ lệ phần trăm biến thiên của dữ liệu thực tế được mô hình giải thích. R^2 tiến gần tới 1 chứng tỏ mô hình dự báo rất khớp với xu hướng dữ liệu.",
+    "after": "R² so sánh sai số bình phương với dự báo bằng trung bình của tập đánh giá; giá trị có thể âm và không phải phần trăm độ chính xác. Kết quả thực nghiệm sử dụng MAE và RMSE trên cùng tập mốc thời gian.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 91,
+    "before": "Apache Flink là một nền tảng mã nguồn mở và công cụ tính toán phân tán (Distributed Stream Processing Engine) hàng đầu hiện nay, được thiết kế chuyên biệt để xử lý các luồng dữ liệu liên tục không giới hạn (Unbounded Data Streams) cũng như dữ liệu có giới hạn (Bounded Data Streams) với tốc độ cao và độ trễ cực thấp.",
+    "after": "Apache Flink là framework và bộ máy xử lý phân tán cho phép tính có trạng thái trên dữ liệu bounded và unbounded. Bounded có điểm kết thúc xác định; unbounded không có điểm kết thúc xác định trước. Yêu cầu độ trễ và khả năng mở rộng cần được đánh giá theo ứng dụng cụ thể.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 93,
+    "before": "Khác biệt cốt lõi giữa Apache Flink và các hệ thống khác (như Apache Spark ban đầu): Trong khi Spark tiếp cận theo hướng Micro-batching (chia nhỏ luồng dữ liệu thành các lô nhỏ để xử lý từng đợt), Flink tiếp cận theo triết lý Native Streaming (Stream-First). Trong Flink, luồng dữ liệu thời gian thực là đối tượng xử lý căn bản nhất, và xử lý theo lô (Batch Processing) chỉ đơn thuần là một trường hợp đặc biệt của xử lý luồng khi luồng dữ liệu đó có điểm bắt đầu và điểm kết thúc rõ ràng.",
+    "after": "Batch Processing xử lý dữ liệu hữu hạn. Streaming Processing có thể xử lý dữ liệu hữu hạn hoặc không hữu hạn. Loại đầu vào và chế độ thực thi là hai khái niệm riêng; đề tài chọn SQL BATCH cho tệp UCI lịch sử.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 94,
+    "before": "Các ưu điểm vượt trội của Apache Flink trong Big Data",
+    "after": "Một số khả năng của Flink",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 95,
+    "before": "Độ trễ cực thấp (Sub-second / Millisecond Latency): Xử lý từng bản ghi ngay khi nó xuất hiện (Record-by-record processing), đáp ứng các yêu cầu khắt khe về thời gian thực của bài toán dự báo chuỗi thời gian.",
+    "after": "Xử lý phân tán: Các tác vụ có thể được thực thi song song trên TaskManager. Đề tài chạy cục bộ với parallelism bằng 1, chưa đo hiệu năng cụm nhiều máy.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 96,
+    "before": "Thông lượng cao (High Throughput): Có khả năng tiếp nhận và xử lý hàng triệu sự kiện mỗi giây trên một cụm phân tán mà không làm nghẽn hệ thống.",
+    "after": "Event Time và Watermark: Hỗ trợ xử lý theo dấu thời gian sự kiện trong các ứng dụng streaming được cấu hình tương ứng.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 97,
+    "before": "Xử lý có trạng thái mạnh mẽ (Stateful Stream Processing): Cung cấp cơ chế quản lý trạng thái phân tán hiệu quả, cho phép ứng dụng lưu lại thông tin cửa sổ lịch sử phục vụ việc tính toán các đặc trưng trễ (Lag features).",
+    "after": "Managed State: Cung cấp cơ chế quản lý trạng thái cho các phép tính liên tục. Trong hệ thống hiện tại, đặc trưng trễ và rolling được tạo bằng Python từ CSV theo giờ, không bằng DataStream State.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.9",
+    "source_block": 98,
+    "before": "Cam kết Exactly-Once Semantics: Đảm bảo mỗi bản ghi chỉ được phản ánh chính xác một lần vào kết quả tính toán ngay cả khi xảy ra sự cố phần cứng.",
+    "after": "Khôi phục trạng thái: Khi checkpoint được bật và các thành phần phù hợp, Flink có thể phục hồi trạng thái sau lỗi. Exactly-once của trạng thái không có nghĩa đoạn mã chỉ thực thi một lần; bảo đảm đầu-cuối còn phụ thuộc source và sink.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.10",
+    "source_block": 102,
+    "before": "TaskManager (Workers): Các nút thực thi thực tế (Worker Nodes). Mỗi TaskManager cung cấp một hoặc nhiều Task Slots. Mỗi Task Slot đại diện cho một phần tài nguyên cố định (CPU, RAM) để chạy song song các tiểu tác vụ (Subtasks).",
+    "after": "TaskManager trực tiếp thực thi các subtask và trao đổi dữ liệu. Task Slot là đơn vị phân bổ tài nguyên logic bên trong TaskManager, không phải một máy hoặc một lõi CPU riêng. JobManager điều phối công việc; dữ liệu không cần đi qua JobManager để tính toán.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.10",
+    "source_block": 105,
+    "before": "1. Source (Nguồn dữ liệu): Cổng tiếp nhận dữ liệu đầu vào. Flink tích hợp sẵn các connector mạnh mẽ để kết nối với Apache Kafka, AWS Kinesis, RabbitMQ, File Systems (HDFS, S3), hoặc Network Sockets.",
+    "after": "Source tiếp nhận dữ liệu từ tệp hoặc hệ thống ngoài thông qua connector phù hợp. Connector có thể cần cài đặt và cấu hình riêng. Nguồn của đề tài là tệp TXT hữu hạn qua filesystem/CSV, không phải Kafka hoặc công tơ trực tiếp.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.10",
+    "source_block": 106,
+    "before": "2. Transformations (Toán tử biến đổi): Các hàm biến đổi luồng dữ liệu: map() biến đổi 1-1, filter() lọc dữ liệu theo điều kiện, flatMap() biến đổi 1-nhiều, keyBy() gom nhóm theo khóa, window() phân đoạn thời gian, và process() cho phép can thiệp sâu vào từng sự kiện và trạng thái hệ thống.",
+    "after": "Transformation thực hiện lọc, biến đổi hoặc tổng hợp. Trong DataStream API, map, filter và flatMap xử lý bản ghi; keyBy phân vùng logic theo khóa nhưng chưa thực hiện tổng hợp. Pipeline của đề tài sử dụng các biểu thức và phép GROUP BY trong Flink SQL.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.10",
+    "source_block": 107,
+    "before": "3. Sink (Đích dữ liệu): Nơi xuất kết quả sau khi đã qua xử lý và suy luận mô hình. Flink hỗ trợ ghi dữ liệu ra Apache Kafka, các hệ thống cơ sở dữ liệu chuỗi thời gian (InfluxDB, TimescaleDB), Elasticsearch, HDFS hoặc Relational Databases.",
+    "after": "Sink xuất kết quả xử lý đến tệp hoặc hệ thống ngoài. Hệ thống hiện tại xuất CSV theo giờ; huấn luyện và suy luận HGB được thực hiện riêng bằng Python, không nằm trong Flink job.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.11",
+    "source_block": 112,
+    "before": "Event Time (Thời gian sự kiện): Thời gian thực tế mà sự kiện được sinh ra tại thiết bị gốc (như dấu thời gian Timestamp được gắn trên cảm biến IoT hoặc bản ghi giao dịch). Đối với bài toán chuỗi thời gian, Event Time là ngữ nghĩa thời gian quan trọng và chính xác nhất.",
+    "after": "Event Time là dấu thời gian sự kiện theo dữ liệu nguồn, khác đồng hồ tại lúc xử lý. Khái niệm này phù hợp khi cần kết quả theo thời điểm phát sinh; tính đúng đắn vẫn phụ thuộc chất lượng timestamp và cấu hình xử lý.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.11",
+    "source_block": 115,
+    "before": "Watermark là một bản ghi điều khiển đặc biệt được chèn vào luồng dữ liệu mang theo một dấu thời gian t_w. Khi một toán tử nhận được Watermark(t_w), nó ngầm hiểu rằng: 'Từ nay về sau, hệ thống giả định sẽ không còn sự kiện nào có Event Time nhỏ hơn hoặc bằng t_w xuất hiện nữa'. Do đó, toàn bộ các cửa sổ có thời gian kết thúc <= t_w sẽ được chốt và kích hoạt hàm tính toán.",
+    "after": "Watermark biểu diễn tiến độ Event Time dựa trên chiến lược của ứng dụng. Dấu mốc này hỗ trợ trigger quyết định thời điểm phát kết quả, không bảo đảm tuyệt đối mọi sự kiện cũ hơn đã đến. Bản ghi đến sau watermark vẫn có thể là dữ liệu trễ.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.11",
+    "source_block": 117,
+    "before": "Bounded-out-of-orderness Watermark: Cho phép dữ liệu được trễ tối đa một khoảng thời gian delta_t cố định: Watermark = max(EventTime) - delta_t.",
+    "after": "Bounded-out-of-orderness Watermark ước lượng tiến độ từ timestamp đã quan sát và độ trễ cho phép. Đây là giả định của chiến lược, không phải giới hạn vật lý bảo đảm mọi bản ghi đều đến đúng hạn.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.11",
+    "source_block": 118,
+    "before": "Allowed Lateness: Cho phép cửa sổ tiếp tục nhận thêm dữ liệu đến muộn trong một khoảng thời gian gia hạn và cập nhật lại kết quả.",
+    "after": "Allowed Lateness cho phép một cửa sổ Event Time đã cấu hình tiếp nhận thêm bản ghi trễ trong khoảng gia hạn; việc phát lại kết quả phụ thuộc trigger và phép tính.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.11",
+    "source_block": 119,
+    "before": "Side Output: Chuyển các bản ghi đến quá muộn (sau khi cửa sổ đã bị xóa hoàn toàn) ra một luồng phụ riêng biệt để lưu trữ hoặc xử lý ngoại lệ mà không làm tắc nghẽn luồng chính.",
+    "after": "Side Output có thể tách các bản ghi quá trễ khỏi kết quả cửa sổ nếu ứng dụng cấu hình luồng phụ. Job SQL BATCH của đề tài không khai báo watermark, allowed lateness hoặc side output.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.12",
+    "source_block": 122,
+    "before": "Toán tử keyBy() thực hiện phân chia một luồng dữ liệu (DataStream) thành nhiều luồng con phân vùng logic (KeyedStream) dựa trên một hoặc nhiều trường khóa (Key). Tất cả các bản ghi có cùng giá trị khóa sẽ được đảm bảo định tuyến về cùng một Task Slot để xử lý song song và độc lập. Trong bài toán IoT, khóa thường là device_id hoặc sensor_id, cho phép hệ thống tính toán đồng thời các chỉ số chuỗi thời gian cho hàng chục ngàn cảm biến khác nhau mà không bị xung đột.",
+    "after": "keyBy phân vùng logic DataStream theo khóa để các bản ghi cùng khóa được xử lý tại cùng instance song song phụ trách khóa đó. Không đồng nhất khóa với một Task Slot cố định hoặc xem keyBy là phép GROUP BY kèm tổng hợp.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.12",
+    "source_block": 126,
+    "before": "Sliding Window (Cửa sổ trượt): Có kích thước cửa sổ cố định W và trượt về phía trước theo chu kỳ S (với S < W). Các cửa sổ có sự chồng lấn dữ liệu. Đây chính là nền tảng để tính toán các đặc trưng trượt (Rolling Features) trong Machine Learning trên luồng dữ liệu. Ví dụ: Cửa sổ 10 phút, trượt mỗi 1 phút một lần.",
+    "after": "Sliding Window có kích thước W và bước trượt S. Các cửa sổ chồng lấn khi S nhỏ hơn W, nên một sự kiện có thể thuộc nhiều cửa sổ. Thống kê rolling của đề tài được tính trong Python, không triển khai qua DataStream Window.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.12",
+    "source_block": 127,
+    "before": "Session Window (Cửa sổ phiên): Nhóm các sự kiện xuất hiện liên tiếp nhau dựa trên một khoảng lặng không hoạt động (Inactivity Gap). Nếu không có sự kiện mới phát sinh vượt quá khoảng thời gian gap, cửa sổ hiện tại sẽ đóng lại.",
+    "after": "Session Window nhóm sự kiện theo khoảng không hoạt động; các phiên có thể được hợp nhất khi dữ liệu bổ sung nối chúng lại. Thời điểm phát kết quả phụ thuộc ngữ nghĩa thời gian và trigger, không chỉ đồng hồ thực tế.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.12",
+    "source_block": 131,
+    "before": "ReduceFunction / AggregateFunction: Thực hiện tính toán cộng dồn tăng dần (Incremental Aggregation) ngay khi từng bản ghi rơi vào window, giúp tiết kiệm bộ nhớ tối đa.",
+    "after": "ReduceFunction và AggregateFunction hỗ trợ tổng hợp tăng dần, có thể giảm nhu cầu giữ toàn bộ bản ghi so với phép xử lý cửa sổ chỉ dùng ProcessWindowFunction.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.12",
+    "source_block": 132,
+    "before": "ProcessWindowFunction: Giữ lại toàn bộ các bản ghi trong window và chỉ duyệt qua khi window kết thúc, cho phép truy xuất thông tin ngữ cảnh thời gian chi tiết của window.",
+    "after": "ProcessWindowFunction truy cập các phần tử của cửa sổ khi trigger kích hoạt và cung cấp ngữ cảnh cửa sổ. Nó có thể kết hợp với tổng hợp tăng dần; không mặc nhiên chỉ chạy đúng một lần khi cửa sổ kết thúc.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.13",
+    "source_block": 134,
+    "before": "Khả năng xử lý có trạng thái (Stateful Stream Processing) và khả năng chịu lỗi (Fault Tolerance) là hai yếu tố làm nên vị thế thống trị của Flink trong Big Data:",
+    "after": "Stateful Processing và cơ chế chịu lỗi là các khả năng của Flink cần được cấu hình phù hợp với ứng dụng:",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.13",
+    "source_block": 141,
+    "before": "HashMapStateBackend: Lưu trạng thái trực tiếp trên bộ nhớ Heap RAM của máy ảo Java (JVM). Tốc độ đọc ghi cực nhanh (nanoseconds), phù hợp với các ứng dụng có dung lượng state vừa phải và yêu cầu độ trễ tối thiểu.",
+    "after": "HashMapStateBackend giữ trạng thái làm việc trong heap của JVM. Dung lượng và hiệu năng chịu ảnh hưởng của bộ nhớ khả dụng, kích thước state và cấu hình.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.13",
+    "source_block": 142,
+    "before": "EmbeddedRocksDBStateBackend: Lưu trạng thái trên cơ sở dữ liệu nhúng RocksDB nằm ngoài Heap (Out-of-Core) ghi xuống đĩa cục bộ. Cho phép quản lý dung lượng trạng thái cực lớn (hàng Terabytes), vượt xa giới hạn bộ nhớ RAM vật lý của hệ thống.",
+    "after": "EmbeddedRocksDBStateBackend lưu trạng thái làm việc trong cơ sở dữ liệu nhúng trên đĩa cục bộ và sử dụng bộ nhớ cho bộ đệm. Lựa chọn backend tạo đánh đổi về truy cập lưu trữ và tài nguyên, không loại bỏ nhu cầu RAM.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.13",
+    "source_block": 144,
+    "before": "Checkpoint: Tiến trình tự động chụp ảnh nhanh (Snapshot) toàn bộ trạng thái của ứng dụng phân tán định kỳ theo chu kỳ thiết lập. Flink ứng dụng thuật toán Asynchronous Barrier Snapshotting (biến thể tối ưu từ thuật toán kinh điển Chandy-Lamport). Các rào cản Checkpoint Barrier được chèn vào luồng dữ liệu song song mà không làm gián đoạn luồng xử lý. Khi xảy ra sự cố sập nút mạng, Flink sẽ tự động khôi phục toàn bộ luồng về trạng thái của Checkpoint thành công gần nhất, đảm bảo tính toán chính xác Exactly-Once.",
+    "after": "Checkpoint tạo snapshot nhất quán của trạng thái và vị trí đọc phù hợp khi được bật. Phục hồi còn phụ thuộc checkpoint thành công, nguồn có khả năng đọc lại và chính sách restart. Bảo đảm đầu-cuối cần sink tương thích; checkpoint có thể tạo thêm chi phí truyền, lưu và chờ đồng bộ.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.13",
+    "source_block": 145,
+    "before": "Savepoint: Là một bản snapshot trạng thái được tạo ra thủ công theo lệnh của người dùng hoặc quản trị viên. Savepoint cho phép tạm dừng ứng dụng, nâng cấp phiên bản code mô hình, thay đổi mức độ song song (rescaling) hoặc chuyển cụm máy chủ mà không làm mất trạng thái dữ liệu.",
+    "after": "Savepoint thường được người dùng chủ động tạo cho thao tác có kế hoạch như dừng, nâng cấp hoặc rescaling. Khả năng phục hồi phụ thuộc tương thích trạng thái, định danh operator và cấu hình; không bảo đảm mọi thay đổi chương trình đều giữ được state.",
+    "reason": "Sửa có chọn lọc theo CHAPTER2_REVIEW và hiện thực đã khóa."
+  },
+  {
+    "chapter": 2,
+    "section": "2.14",
+    "reason": "Thay mô tả stack Kafka/Grafana chưa triển khai bằng Flink SQL BATCH/Python/Streamlit/Plotly theo mẫu đã duyệt."
+  }
+]

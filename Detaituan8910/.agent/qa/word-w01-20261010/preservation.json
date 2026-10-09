@@ -1,0 +1,13 @@
+{
+  "total": 1571,
+  "matching": 1571,
+  "changed": [],
+  "missing": [],
+  "unreadable": [],
+  "linux_hash_readback": [
+    "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+    "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+    "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+  ],
+  "app_expected": "accepted data-guide UI snapshot"
+}

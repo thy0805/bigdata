@@ -1,0 +1,391 @@
+{
+  "scope": "Read existing hourly and saved predictions only; no new inference, fit, Flink run or official Test metric computation",
+  "captured_at": "2026-10-09T19:32:53.101703+00:00",
+  "hourly_sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+  "predictions_sha256": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+  "hourly_columns": [
+    "hour_start",
+    "record_count",
+    "distinct_minute_count",
+    "valid_power_count",
+    "observed_energy_kwh",
+    "is_complete",
+    "energy_kwh",
+    "sub1_valid_count",
+    "sub2_valid_count",
+    "sub3_valid_count",
+    "sub1_observed_kwh",
+    "sub2_observed_kwh",
+    "sub3_observed_kwh",
+    "negative_residual_count"
+  ],
+  "full_dataset": {
+    "hours": 34589,
+    "complete_hours": 34085,
+    "incomplete_hours": 504,
+    "observed_kwh": 37283.7477,
+    "complete_kwh": 37164.965033333334,
+    "mean_kwh": 1.0903613036037358,
+    "min_kwh": 0.12400000000000001,
+    "min_hour": "2008-08-23 21:00:00",
+    "max_kwh": 6.560533333333334,
+    "max_hour": "2008-11-23 18:00:00",
+    "coverage": 0.9874430213844478,
+    "subgroups_kwh": [
+      2299.135,
+      2661.031,
+      13235.167
+    ]
+  },
+  "example_period_20101120_26": {
+    "hours": 166,
+    "complete_hours": 165,
+    "incomplete_hours": 1,
+    "observed_kwh": 190.54173333333333,
+    "complete_kwh": 190.495,
+    "mean_kwh": 1.1545151515151515,
+    "min_kwh": 0.2653,
+    "min_hour": "2010-11-24 01:00:00",
+    "max_kwh": 5.626833333333334,
+    "max_hour": "2010-11-20 18:00:00",
+    "coverage": 0.994277108433735,
+    "subgroups_kwh": [
+      14.345,
+      9.68,
+      61.243
+    ]
+  },
+  "hour_profile": [
+    {
+      "value": 0,
+      "complete_hours": 1424,
+      "mean_kwh": 0.6593952715355805
+    },
+    {
+      "value": 1,
+      "complete_hours": 1424,
+      "mean_kwh": 0.5393251638576779
+    },
+    {
+      "value": 2,
+      "complete_hours": 1423,
+      "mean_kwh": 0.4807449754040759
+    },
+    {
+      "value": 3,
+      "complete_hours": 1422,
+      "mean_kwh": 0.44504446788560714
+    },
+    {
+      "value": 4,
+      "complete_hours": 1421,
+      "mean_kwh": 0.44389976542341075
+    },
+    {
+      "value": 5,
+      "complete_hours": 1421,
+      "mean_kwh": 0.4536735397607319
+    },
+    {
+      "value": 6,
+      "complete_hours": 1420,
+      "mean_kwh": 0.791246690140845
+    },
+    {
+      "value": 7,
+      "complete_hours": 1420,
+      "mean_kwh": 1.5014306572769953
+    },
+    {
+      "value": 8,
+      "complete_hours": 1419,
+      "mean_kwh": 1.4605898285177354
+    },
+    {
+      "value": 9,
+      "complete_hours": 1419,
+      "mean_kwh": 1.3319581865163261
+    },
+    {
+      "value": 10,
+      "complete_hours": 1417,
+      "mean_kwh": 1.2581047518231006
+    },
+    {
+      "value": 11,
+      "complete_hours": 1418,
+      "mean_kwh": 1.2465894922425953
+    },
+    {
+      "value": 12,
+      "complete_hours": 1420,
+      "mean_kwh": 1.2077552347417841
+    },
+    {
+      "value": 13,
+      "complete_hours": 1421,
+      "mean_kwh": 1.14420218156228
+    },
+    {
+      "value": 14,
+      "complete_hours": 1419,
+      "mean_kwh": 1.080897862344374
+    },
+    {
+      "value": 15,
+      "complete_hours": 1421,
+      "mean_kwh": 0.988094018296974
+    },
+    {
+      "value": 16,
+      "complete_hours": 1418,
+      "mean_kwh": 0.9481512223789375
+    },
+    {
+      "value": 17,
+      "complete_hours": 1414,
+      "mean_kwh": 1.0519032060348892
+    },
+    {
+      "value": 18,
+      "complete_hours": 1413,
+      "mean_kwh": 1.3220692144373674
+    },
+    {
+      "value": 19,
+      "complete_hours": 1420,
+      "mean_kwh": 1.7326691079812206
+    },
+    {
+      "value": 20,
+      "complete_hours": 1424,
+      "mean_kwh": 1.8984119382022473
+    },
+    {
+      "value": 21,
+      "complete_hours": 1418,
+      "mean_kwh": 1.8758064645039962
+    },
+    {
+      "value": 22,
+      "complete_hours": 1423,
+      "mean_kwh": 1.411192785195596
+    },
+    {
+      "value": 23,
+      "complete_hours": 1426,
+      "mean_kwh": 0.902141608228144
+    }
+  ],
+  "weekday_profile": [
+    {
+      "value": 0,
+      "complete_hours": 4890,
+      "mean_kwh": 0.9982725494205862
+    },
+    {
+      "value": 1,
+      "complete_hours": 4906,
+      "mean_kwh": 1.0694249422475879
+    },
+    {
+      "value": 2,
+      "complete_hours": 4886,
+      "mean_kwh": 1.0808325828898895
+    },
+    {
+      "value": 3,
+      "complete_hours": 4879,
+      "mean_kwh": 0.9806361891097902
+    },
+    {
+      "value": 4,
+      "complete_hours": 4911,
+      "mean_kwh": 1.0433250186655807
+    },
+    {
+      "value": 5,
+      "complete_hours": 4798,
+      "mean_kwh": 1.2465375017368348
+    },
+    {
+      "value": 6,
+      "complete_hours": 4815,
+      "mean_kwh": 1.2184185739010038
+    }
+  ],
+  "month_profile": [
+    {
+      "value": 1,
+      "complete_hours": 2916,
+      "mean_kwh": 1.4578264517604025
+    },
+    {
+      "value": 2,
+      "complete_hours": 2703,
+      "mean_kwh": 1.2990859045504994
+    },
+    {
+      "value": 3,
+      "complete_hours": 2937,
+      "mean_kwh": 1.230264226535013
+    },
+    {
+      "value": 4,
+      "complete_hours": 2815,
+      "mean_kwh": 1.0474406749555951
+    },
+    {
+      "value": 5,
+      "complete_hours": 2972,
+      "mean_kwh": 1.0290768618214445
+    },
+    {
+      "value": 6,
+      "complete_hours": 2813,
+      "mean_kwh": 0.9087359995260101
+    },
+    {
+      "value": 7,
+      "complete_hours": 2968,
+      "mean_kwh": 0.6998629267744834
+    },
+    {
+      "value": 8,
+      "complete_hours": 2836,
+      "mean_kwh": 0.5715473084156089
+    },
+    {
+      "value": 9,
+      "complete_hours": 2788,
+      "mean_kwh": 0.9748084528933525
+    },
+    {
+      "value": 10,
+      "complete_hours": 2971,
+      "mean_kwh": 1.1365391114102996
+    },
+    {
+      "value": 11,
+      "complete_hours": 2775,
+      "mean_kwh": 1.2896864024024024
+    },
+    {
+      "value": 12,
+      "complete_hours": 2591,
+      "mean_kwh": 1.4876830567348514
+    }
+  ],
+  "prediction_columns": [
+    "target_hour",
+    "prediction_origin",
+    "target_end",
+    "latest_observed_hour",
+    "target_energy_kwh",
+    "hgb_raw_kwh",
+    "hgb_final_kwh",
+    "naive_raw_kwh",
+    "naive_final_kwh",
+    "seasonal_naive_24_raw_kwh",
+    "seasonal_naive_24_final_kwh"
+  ],
+  "first_five_predictions": [
+    {
+      "target_hour": "2010-04-24 17:00:00",
+      "prediction_origin": "2010-04-24 17:00:00",
+      "target_end": "2010-04-24 18:00:00",
+      "latest_observed_hour": "2010-04-24 16:00:00",
+      "target_energy_kwh": "1.6808333333333332",
+      "hgb_raw_kwh": "0.80986259218280143",
+      "hgb_final_kwh": "0.80986259218280143",
+      "naive_raw_kwh": "0.69879999999999998",
+      "naive_final_kwh": "0.69879999999999998",
+      "seasonal_naive_24_raw_kwh": "0.40643333333333331",
+      "seasonal_naive_24_final_kwh": "0.40643333333333331"
+    },
+    {
+      "target_hour": "2010-04-24 18:00:00",
+      "prediction_origin": "2010-04-24 18:00:00",
+      "target_end": "2010-04-24 19:00:00",
+      "latest_observed_hour": "2010-04-24 17:00:00",
+      "target_energy_kwh": "2.4453",
+      "hgb_raw_kwh": "1.6349369094600592",
+      "hgb_final_kwh": "1.6349369094600592",
+      "naive_raw_kwh": "1.6808333333333332",
+      "naive_final_kwh": "1.6808333333333332",
+      "seasonal_naive_24_raw_kwh": "0.35116666666666668",
+      "seasonal_naive_24_final_kwh": "0.35116666666666668"
+    },
+    {
+      "target_hour": "2010-04-24 19:00:00",
+      "prediction_origin": "2010-04-24 19:00:00",
+      "target_end": "2010-04-24 20:00:00",
+      "latest_observed_hour": "2010-04-24 18:00:00",
+      "target_energy_kwh": "2.4780666666666664",
+      "hgb_raw_kwh": "2.4642286336388723",
+      "hgb_final_kwh": "2.4642286336388723",
+      "naive_raw_kwh": "2.4453",
+      "naive_final_kwh": "2.4453",
+      "seasonal_naive_24_raw_kwh": "0.86419999999999997",
+      "seasonal_naive_24_final_kwh": "0.86419999999999997"
+    },
+    {
+      "target_hour": "2010-04-24 20:00:00",
+      "prediction_origin": "2010-04-24 20:00:00",
+      "target_end": "2010-04-24 21:00:00",
+      "latest_observed_hour": "2010-04-24 19:00:00",
+      "target_energy_kwh": "2.0275000000000003",
+      "hgb_raw_kwh": "2.4023130301387234",
+      "hgb_final_kwh": "2.4023130301387234",
+      "naive_raw_kwh": "2.4780666666666664",
+      "naive_final_kwh": "2.4780666666666664",
+      "seasonal_naive_24_raw_kwh": "0.6341",
+      "seasonal_naive_24_final_kwh": "0.6341"
+    },
+    {
+      "target_hour": "2010-04-24 21:00:00",
+      "prediction_origin": "2010-04-24 21:00:00",
+      "target_end": "2010-04-24 22:00:00",
+      "latest_observed_hour": "2010-04-24 20:00:00",
+      "target_energy_kwh": "3.1433333333333331",
+      "hgb_raw_kwh": "2.0923542811217484",
+      "hgb_final_kwh": "2.0923542811217484",
+      "naive_raw_kwh": "2.0275000000000003",
+      "naive_final_kwh": "2.0275000000000003",
+      "seasonal_naive_24_raw_kwh": "0.41160000000000002",
+      "seasonal_naive_24_final_kwh": "0.41160000000000002"
+    }
+  ],
+  "verified_inputs": {
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan Tong Quan Bai Toan Chuong 1.docx": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15",
+    "C:\\Users\\thy\\Downloads\\HAULYVUNHAN_Chuong2_CoSoLyThuyet_HoanChinh.docx": "0902902041a6426555b3ce852e188ef3948c61a39e7cb0bf087c5aa85638065d",
+    "D:\\Hoctap\\bigdata\\Mauwword\\Mau bao cao_Do an_Khoa luan_2025.docx": "25ce340ffa6c1931cfe59e2be22ae689b8eaf76ac5068b1b25fe7913d79fec35",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c",
+    "D:\\Hoctap\\bigdata\\.agent\\rule.md": "f7ab6d5a18a4f8f2ea56360e7190476d65300399c519122adfc37866bdd848c3",
+    "C:\\Users\\thy\\Downloads\\rule.md": "3a83582c6c47b7ab97f8e7b486be3c0335bad619a0cb22ad48f9c92f9da5ae0a",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\dashboard\\app.py": "284c8d97b768886bd9f5a0160e1ceacf3a9a5d465b26594824b14cb68971b176",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\operations\\services.py": "7accec43ea3204e993df591bda75b603b0856965c85370f39d68ffac158e2dfb",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\phase2b2-20261009\\verification.json": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\eligibility.csv": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\feature-schema.json": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\holdout\\seal.json": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\holdout\\test.csv": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\manifest.json": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\metrics-validation.json": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\predictions-validation.csv": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\split-summary.json": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\train.csv": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\validation.csv": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\hourly-grid.csv": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\manifest.json": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\verification.json": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\final\\hgb-uci-hourly-v1.0-train-only\\manifest.json": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\final\\hgb-uci-hourly-v1.0-train-only\\model.joblib": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\manifest.json": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\metrics-test.json": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\predictions-test.csv": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\runtime-evidence.json": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7",
+    "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\verification.json": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe"
+  }
+}

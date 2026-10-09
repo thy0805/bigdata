@@ -1,0 +1,42 @@
+{
+  "status": "APPLIED_UNVERIFIED",
+  "reason": "Width selector unintentionally chained source abbreviation table; restore source keepNext only, preserving new terms.",
+  "restored": [
+    {
+      "table": 1,
+      "source_paragraphs": 55,
+      "current_paragraphs": 55
+    },
+    {
+      "table": 2,
+      "source_paragraphs": 20,
+      "current_paragraphs": 20
+    },
+    {
+      "table": 3,
+      "source_paragraphs": 57,
+      "current_paragraphs": 57
+    },
+    {
+      "table": 4,
+      "source_paragraphs": 12,
+      "current_paragraphs": 12
+    },
+    {
+      "table": 5,
+      "source_paragraphs": 15,
+      "current_paragraphs": 15
+    },
+    {
+      "table": 6,
+      "source_paragraphs": 18,
+      "current_paragraphs": 18
+    },
+    {
+      "table": 7,
+      "source_paragraphs": 15,
+      "current_paragraphs": 15
+    }
+  ],
+  "source_modified": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "VERIFIED",
+  "acceptance": "PENDING_THY_GPT_WEB",
+  "output_sha256": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591",
+  "structural_semantic": {
+    "status": "PASS",
+    "passed": 69,
+    "evidence": "verification.json"
+  },
+  "live_fields": {
+    "status": "PASS",
+    "passed": 9,
+    "evidence": "field-probe.json"
+  },
+  "visual": {
+    "status": "PASS",
+    "pages": 67,
+    "evidence": "visual-verification.json; page-review.md"
+  },
+  "font": {
+    "status": "PASS",
+    "evidence": "font-audit.json"
+  },
+  "preservation": {
+    "total": 1571,
+    "matching": 1571,
+    "changed": [],
+    "missing": [],
+    "unreadable": [],
+    "linux_hash_readback": [
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+    ],
+    "app_expected": "accepted data-guide UI snapshot"
+  },
+  "references": {
+    "hyperlinks": 21,
+    "reachable": 18,
+    "restricted_or_unverified": [
+      9,
+      10,
+      12
+    ],
+    "evidence": "reference-audit.json; REFERENCE_REVIEW.md"
+  },
+  "limitations": [
+    "Seven black slots intentionally await separately approved W02.",
+    "Unconfirmed assignment/history/contribution fields intentionally blank."
+  ],
+  "history": "verification-attempt1.json records 66/69. Original verification.json is an intermediate gate; this aggregate records completed field and visual gates. No historic failure was rewritten."
+}

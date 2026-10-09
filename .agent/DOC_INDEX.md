@@ -1,6 +1,13 @@
 # Bản đồ tài liệu
 
-Nguồn hiện hành W00: `Detaituan8910/.agent/decisions/20261010-word-w00-scope.md` và `Detaituan8910/.agent/qa/word-w00-20261010/`. W00 VERIFIED hồ sơ khảo sát, W01/W02 chưa duyệt; app/UI đã chấp thuận theo yêu cầu mới. Các pending UI trong đoạn dưới là lịch sử.
+Nguồn hiện hành W01: `Detaituan8910/.agent/decisions/20261010-word-w01-approval.md`, checklist và review trong `Detaituan8910/.agent/qa/word-w01-20261010/`. W01 VERIFIED kỹ thuật67 trang/font khớp Mauwword; chờ Thy/GPT Web nghiệm thu. W02 chưa duyệt. W00 và các pending cũ bên dưới là lịch sử.
+
+| Tài liệu W01 | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| Detaituan8910/.agent/qa/word-w01-20261010/review.md, final-verification.json, manifest.json | Bàn giao Word/nguồn/hash/gate cuối | Hiện hành | Thy/GPT Web duyệt W01 |
+| Detaituan8910/.agent/qa/word-w01-20261010/CHAPTER_CHANGES.md, TABLE_FIGURE_LIST.md, REFERENCE_REVIEW.md | Diff/bảng-hình/tham khảo | Hiện hành | Kiểm nội dung |
+| Detaituan8910/.agent/qa/word-w01-20261010/page-review.md, font-audit.json, field-probe.json | Rà67 trang/font/numbering | VERIFIED | Kiểm hình thức |
+| Detaituan8910/BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx | Word gửi trực tiếp, không GitHub | VERIFIED, chưa ACCEPTED;7 khung đen | Duyệt artifact |
 
 | Tài liệu W00 | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |

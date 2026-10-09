@@ -1,0 +1,268 @@
+{
+  "captured_at": "2026-10-09T19:54:30.760093+00:00",
+  "scope": "URL reachability and DOI metadata only; not proof of full-text access",
+  "references": [
+    {
+      "reference": 1,
+      "title": "[1] U.S. Energy Information Administration (2011). Electricity demand changes in predictable patterns.",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=4190",
+      "http_status": 200,
+      "final_url": "https://www.eia.gov/todayinenergy/detail.php?id=4190",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 2,
+      "title": "[2] U.S. Department of Energy (2016). Advanced Metering Infrastructure and Customer Systems: Results from the Smart Grid Investment Grant Program.",
+      "url": "https://www.energy.gov/sites/prod/files/2016/12/f34/AMI%20Summary%20Report_09-26-16.pdf",
+      "http_status": 200,
+      "final_url": "https://www.energy.gov/sites/prod/files/2016/12/f34/AMI%20Summary%20Report_09-26-16.pdf",
+      "content_type": "application/pdf",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 3,
+      "title": "[3] U.S. Energy Information Administration (n.d.). Measuring electricity. Energy Explained.",
+      "url": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "http_status": 200,
+      "final_url": "https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 4,
+      "title": "[4] G. Hebrail và A. Berard (2006). Individual Household Electric Power Consumption. Bộ dữ liệu, UCI Machine Learning Repository. DOI: 10.24432/C58K54.",
+      "url": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "http_status": 200,
+      "final_url": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 5,
+      "title": "[5] R. J. Hyndman và G. Athanasopoulos (2021). Forecasting: Principles and Practice. Ấn bản thứ 3, OTexts.",
+      "url": "https://otexts.com/fpp3/",
+      "http_status": 200,
+      "final_url": "https://otexts.com/fpp3/",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 6,
+      "title": "[6] U.S. Energy Information Administration (2020). Hourly electricity consumption varies throughout the day and across seasons.",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=42915",
+      "http_status": 200,
+      "final_url": "https://www.eia.gov/todayinenergy/detail.php?id=42915",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 7,
+      "title": "[7] National Institute of Standards and Technology (2014). Guidelines for Smart Grid Cybersecurity. NISTIR 7628, Revision 1. DOI: 10.6028/NIST.IR.7628r1.",
+      "url": "https://csrc.nist.gov/pubs/ir/7628/r1/final",
+      "http_status": 200,
+      "final_url": "https://csrc.nist.gov/pubs/ir/7628/r1/final",
+      "content_type": "text/html; charset=utf-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 8,
+      "title": "[8] L. Breiman (2001). Random Forests. Machine Learning, 45, tr. 5–32. DOI: 10.1023/A:1010933404324.",
+      "url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "http_status": 200,
+      "final_url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "content_type": "application/pdf",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 9,
+      "title": "[9] S. Hochreiter và J. Schmidhuber (1997). Long Short-Term Memory. Neural Computation, 9(8), tr. 1735–1780. DOI: 10.1162/neco.1997.9.8.1735.",
+      "url": "https://www.bioinf.jku.at/publications/older/2604.pdf",
+      "status": "NETWORK_UNVERIFIED",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "reference": 10,
+      "title": "[10] S. Haben, C. Singleton và P. Grindrod (2016). Analysis and Clustering of Residential Customers Energy Behavioral Demand Using Smart Meter Data. IEEE Transactions on Smart Grid, 7(1), tr. 136–144. DOI: 10.1109/TSG.2015.2409786.",
+      "url": "https://doi.org/10.1109/TSG.2015.2409786",
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/7063233/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_RESTRICTED_OR_ERROR",
+      "doi_metadata": {
+        "title": [
+          "Analysis and Clustering of Residential Customers Energy Behavioral Demand Using Smart Meter Data"
+        ],
+        "year": [
+          [
+            2016,
+            1
+          ]
+        ],
+        "container": [
+          "IEEE Transactions on Smart Grid"
+        ],
+        "page": "136-144",
+        "URL": "https://doi.org/10.1109/tsg.2015.2409786",
+        "DOI": "10.1109/tsg.2015.2409786"
+      },
+      "doi_status": "REGISTERED_METADATA_VERIFIED"
+    },
+    {
+      "reference": 11,
+      "title": "[11] P. Lusis, K. R. Khalilpour, L. Andrew và A. Liebman (2017). Short-term residential load forecasting: Impact of calendar effects and forecast granularity. Applied Energy, 205, tr. 654–669. DOI: 10.1016/j.apenergy.2017.07.114.",
+      "url": "https://doi.org/10.1016/j.apenergy.2017.07.114",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0306261917309881",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "LINK_REACHABLE",
+      "doi_metadata": {
+        "title": [
+          "Short-term residential load forecasting: Impact of calendar effects and forecast granularity"
+        ],
+        "year": [
+          [
+            2017,
+            11
+          ]
+        ],
+        "container": [
+          "Applied Energy"
+        ],
+        "page": "654-669",
+        "URL": "https://doi.org/10.1016/j.apenergy.2017.07.114",
+        "DOI": "10.1016/j.apenergy.2017.07.114"
+      },
+      "doi_status": "REGISTERED_METADATA_VERIFIED"
+    },
+    {
+      "reference": 12,
+      "title": "[12] A. Gasparin, S. Lukovic và C. Alippi (2022). Deep learning for time series forecasting: The electric load case. CAAI Transactions on Intelligence Technology, 7(1), tr. 1–25. DOI: 10.1049/cit2.12060.",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12060",
+      "status": "ACCESS_RESTRICTED_OR_ERROR",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "reference": 13,
+      "title": "[13] T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli và R. J. Hyndman (2016). Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond. International Journal of Forecasting, 32(3), tr. 896–913. DOI: 10.1016/j.ijforecast.2016.02.001.",
+      "url": "https://doi.org/10.1016/j.ijforecast.2016.02.001",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207016000133",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "LINK_REACHABLE",
+      "doi_metadata": {
+        "title": [
+          "Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond"
+        ],
+        "year": [
+          [
+            2016,
+            7
+          ]
+        ],
+        "container": [
+          "International Journal of Forecasting"
+        ],
+        "page": "896-913",
+        "URL": "https://doi.org/10.1016/j.ijforecast.2016.02.001",
+        "DOI": "10.1016/j.ijforecast.2016.02.001"
+      },
+      "doi_status": "REGISTERED_METADATA_VERIFIED"
+    },
+    {
+      "reference": 14,
+      "title": "[14] W. L. Chang và N. Grady (2019). NIST Big Data Interoperability Framework: Volume 1, Definitions. NIST SP 1500-1r2. DOI: 10.6028/NIST.SP.1500-1r2.",
+      "url": "https://doi.org/10.6028/NIST.SP.1500-1r2",
+      "http_status": 200,
+      "final_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-1r2.pdf",
+      "content_type": "application/pdf",
+      "status": "LINK_REACHABLE",
+      "doi_metadata": {
+        "title": [
+          "NIST Big Data Interoperability Framework:"
+        ],
+        "year": [
+          [
+            2019,
+            10
+          ]
+        ],
+        "container": [],
+        "page": null,
+        "URL": "https://doi.org/10.6028/nist.sp.1500-1r2",
+        "DOI": "10.6028/nist.sp.1500-1r2"
+      },
+      "doi_status": "REGISTERED_METADATA_VERIFIED"
+    },
+    {
+      "reference": 15,
+      "title": "[15] Apache Software Foundation (n.d.). HDFS Architecture. Tài liệu Apache Hadoop.",
+      "url": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "http_status": 200,
+      "final_url": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 16,
+      "title": "[16] Apache Software Foundation (n.d.). What is Apache Flink? — Architecture. Tài liệu Apache Flink.",
+      "url": "https://flink.apache.org/what-is-flink/flink-architecture/",
+      "http_status": 200,
+      "final_url": "https://flink.apache.org/what-is-flink/flink-architecture/",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 17,
+      "title": "scikit-learn developers (n.d.). HistGradientBoostingRegressor. scikit-learn 1.6.1 documentation.",
+      "url": "https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "http_status": 200,
+      "final_url": "https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 18,
+      "title": "scikit-learn developers (n.d.). Lagged features for time series forecasting. scikit-learn 1.6.1 examples.",
+      "url": "https://scikit-learn.org/1.6/auto_examples/applications/plot_time_series_lagged_features.html",
+      "http_status": 200,
+      "final_url": "https://scikit-learn.org/1.6/auto_examples/applications/plot_time_series_lagged_features.html",
+      "content_type": "text/html; charset=utf-8",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 19,
+      "title": "Apache Software Foundation (n.d.). Execution Mode (Batch/Streaming). Apache Flink 2.3 documentation.",
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/",
+      "http_status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 20,
+      "title": "Apache Software Foundation (n.d.). Group Aggregation. Apache Flink 2.3 SQL documentation.",
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/sql/reference/queries/group-agg/",
+      "http_status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/sql/reference/queries/group-agg/",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    },
+    {
+      "reference": 21,
+      "title": "Apache Software Foundation (n.d.). Windows. Apache Flink 2.3 DataStream documentation.",
+      "url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/operators/windows/",
+      "http_status": 200,
+      "final_url": "https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/operators/windows/",
+      "content_type": "text/html",
+      "status": "LINK_REACHABLE"
+    }
+  ],
+  "reachable": 18,
+  "restricted_or_unverified": [
+    9,
+    10,
+    12
+  ]
+}

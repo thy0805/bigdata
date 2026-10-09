@@ -1,6 +1,10 @@
 # Kế hoạch đồ án tuần 8–10
 
-## Hiện hành — W00 khảo sát và đề xuất Word
+## Hiện hành — W01 VERIFIED, chờ nghiệm thu
+
+Canonical `qa/word-w01-20261010/checklist.md`, scope `decisions/20261010-word-w01-approval.md`. W01-01–05 VERIFIED: 67 trang đã xem riêng, 69/69 cấu trúc/ngữ nghĩa, 9/9 field probe, font khớp mẫu Mauwword. W01-06 IN_PROGRESS cho publication, preservation1571/1571 đạt. W00 LOCKED, nguồn không đổi. Bản W01 mới có11 bảng bổ sung/7 khung đen/21 hyperlink cuối. Bước tiếp theo commit/push/read-back hồ sơ rồi bàn giao DOCX trực tiếp; W01 acceptance PENDING, W02 chưa mở, I04 DEFERRED. Không tự Word vòng mới/PPT/app/demo.
+
+## Lịch sử — W00 khảo sát và đề xuất Word
 
 Canonical: `qa/word-w00-20261010/checklist.md`, scope `decisions/20261010-word-w00-scope.md`. W00-01–05 VERIFIED cho hồ sơ đề xuất: 35/35 kiểm, nguồn DOCX nguyên hash, 21 chữ ký và 1.571/1.571 file bảo toàn. Preview/read-back đã kiểm; chưa sửa DOCX hoặc app.
 

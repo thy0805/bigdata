@@ -1,0 +1,399 @@
+{
+  "status": "FAIL",
+  "artifact_status": "APPLIED_UNVERIFIED_UNTIL_VISUAL_AND_FIELD_PROBE",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx",
+  "sha256": "632f15bbfe3198a8a70669fbfb00a5a3ade5b3811f36ee981f2457660b3e949f",
+  "pages": 67,
+  "checks": [
+    {
+      "id": "source_guards",
+      "status": "PASS",
+      "evidence": {
+        "count": 30,
+        "changed": []
+      }
+    },
+    {
+      "id": "native_counts",
+      "status": "PASS",
+      "evidence": {
+        "pages": 67,
+        "tables": 18,
+        "inline_shapes": 10,
+        "equations": 5,
+        "toc": 3
+      }
+    },
+    {
+      "id": "two_cover_text_unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_1_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_2_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_4_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_5_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_6_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_table_7_cell_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "old_terms_preserved_four_new",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "original_media_bytes",
+      "status": "PASS",
+      "evidence": {
+        "original": 2,
+        "current": 5
+      }
+    },
+    {
+      "id": "seven_pure_black_placeholders",
+      "status": "FAIL",
+      "evidence": null
+    },
+    {
+      "id": "original_three_math_structures",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "native_mae_delimiters",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "ch1_only_four_prose_replacements",
+      "status": "PASS",
+      "evidence": {
+        "source_paragraphs": 79,
+        "output_paragraphs": 79,
+        "replaced_source_blocks": [
+          226,
+          230,
+          231,
+          232
+        ]
+      }
+    },
+    {
+      "id": "five_native_chapter_numbers",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "sixty_nine_native_section_numbers",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "opening_and_conclusion_subheadings",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T31_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T31_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T31_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T32_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T32_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T32_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T33_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T33_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T33_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T34_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T34_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T34_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T41_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T41_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T41_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T42_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T42_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T42_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T43_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T43_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T43_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T44_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T44_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T44_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T51_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T51_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T51_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T52_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T52_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T52_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T53_exact_values",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T53_caption_above",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "table_T53_header_and_auto_height",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "native_caption_restart_per_chapter",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "references_resolve_bookmarks",
+      "status": "PASS",
+      "evidence": {
+        "refs": 17,
+        "missing": []
+      }
+    },
+    {
+      "id": "all_new_tables_figures_cited",
+      "status": "FAIL",
+      "evidence": null
+    },
+    {
+      "id": "no_field_error",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "toc_and_two_lists_native",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "toc_contains_all_sections",
+      "status": "FAIL",
+      "evidence": null
+    },
+    {
+      "id": "no_bracket_citations_in_body",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "twenty_one_ordered_references",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "twenty_one_live_hyperlink_relationships",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "fonts_match_school_template",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "render_all_pages_exist",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "no_unintended_empty_pages",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "acknowledgment_eight_nine_lines",
+      "status": "PASS",
+      "evidence": {
+        "actual_word_lines": 9
+      }
+    },
+    {
+      "id": "section_57_actual_batch_title",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "feature_table_locked_order",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "test_metrics_read_saved_not_recomputed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "source_sql_is_batch_floor_groupby",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_prior_products_preserved",
+      "status": "PASS",
+      "evidence": {
+        "total": 1571,
+        "matching": 1571,
+        "changed": [],
+        "missing": [],
+        "unreadable": [],
+        "linux_hash_readback": [
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+        ],
+        "app_expected": "accepted data-guide UI snapshot"
+      }
+    }
+  ],
+  "passed": 66,
+  "total": 69,
+  "limits": [
+    "No training, model inference, Test re-evaluation or Flink rerun",
+    "W02 placeholders remain",
+    "Native Word/PDFium render; bundled LibreOffice unavailable"
+  ]
+}

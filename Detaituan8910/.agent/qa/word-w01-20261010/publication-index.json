@@ -1,0 +1,255 @@
+{
+  "status": "PASS",
+  "at": "2026-10-09T20:23:53.150773+00:00",
+  "scope": "Only staged W01 additions/coordination; pre-existing dirty root rule excluded.",
+  "files": [
+    {
+      "path": ".agent/DOC_INDEX.md",
+      "bytes": 25145,
+      "sha256": "1c0e8778759ae45df6941b6769fa0f21c25e7776eba25e11e6083bac69c4044a"
+    },
+    {
+      "path": ".agent/PLAN.md",
+      "bytes": 17751,
+      "sha256": "eeb077493e452c6c62ffdc2debc91bdbbb38cef171d2d5a0638ff840d9c70fa3"
+    },
+    {
+      "path": ".agent/context.md",
+      "bytes": 52668,
+      "sha256": "1ea4bdf2e71ee38c6a945e850b9600246fb2fd04f37a1d2d730e2a6d5b48a966"
+    },
+    {
+      "path": "Detaituan8910/.agent/DOC_INDEX.md",
+      "bytes": 31079,
+      "sha256": "d66b56a2e9345ab4426cf0724e03d3e4da37b7125979a833e87912dc2356a3d0"
+    },
+    {
+      "path": "Detaituan8910/.agent/PLAN.md",
+      "bytes": 21433,
+      "sha256": "d27f5b3bd5b25f9e9a9c9a394281cf7bcceb2906abf43d0ec5f3c3141312ea4f"
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261010-word-w01-approval.md",
+      "bytes": 2211,
+      "sha256": "0565ef4ca4b0a4846619462ae9736fc7fcabf278c7e4929c46e2a3563eca1de8"
+    },
+    {
+      "path": "Detaituan8910/.agent/mistake.md",
+      "bytes": 12737,
+      "sha256": "01ed7807ae7b63fd52b25c88990268b7517a924aafa30e83b9c4eaa66e2e0fef"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/CHAPTER_CHANGES.md",
+      "bytes": 53496,
+      "sha256": "46c2f64ef0c0472dd42fe07540bec7c2b3e509270b0be853c22bc7f0cff25a7c"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/REFERENCE_REVIEW.md",
+      "bytes": 5925,
+      "sha256": "40d881a31045aa317eb21a28f76cd94ef6e80724c6e49c1a4a76537186ada307"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/TABLE_FIGURE_LIST.md",
+      "bytes": 2682,
+      "sha256": "5ef1e4e7666626d04410eb9bc727df2c4d2ab3b482778298dd99bc3503e756d2"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/artifact.md",
+      "bytes": 3109,
+      "sha256": "e60807ee3c645bbadadbc0131fb37a05486d0dbea39f15630113d2499059b878"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/checklist.md",
+      "bytes": 1436,
+      "sha256": "b27156993230459baaac2ff0000687713aa4be553b5109a0f6284df06381a0c5"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/content-changelog.json",
+      "bytes": 58444,
+      "sha256": "bf1f915883445680f283c52b9e166fcd4399a9bc13c36515f6590d1efeb3a1b3"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/field-probe.json",
+      "bytes": 1500,
+      "sha256": "769d295dd67a7f068c9c37982786befd816ab7cb9252eb3d83a25d4361f5c86c"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/final-verification.json",
+      "bytes": 1687,
+      "sha256": "67a32809bc042d37fc99542f374c770872e0bb2a4b98b6a38d3a0bf701a1b4bd"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/font-audit.json",
+      "bytes": 10867,
+      "sha256": "85829ad322ce11973542ca702a4918355639c75139fa525e909219f7528c0f87"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/format-final.md",
+      "bytes": 1595,
+      "sha256": "d6ef17baad1cbe9535d4e919618551b9f43faf594518fca3784c952b19f4612e"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/image-registry.json",
+      "bytes": 5528,
+      "sha256": "05b1ede28c699a86d9ce6361b6e204fd201e345f747ab5fd46574b3ab135b21b"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/manifest.json",
+      "bytes": 5723,
+      "sha256": "baaef92e77cb27202dc2ec47a7b65032a98d19563bbab3d5b1733687573ffbbf"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/page-review.md",
+      "bytes": 2187,
+      "sha256": "34d30bc58b8dc4d1208093658991beb832f14f8b40a3fd9cada5dee6527c5e83"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/preflight.json",
+      "bytes": 4909,
+      "sha256": "642e32d4af56211648e0a2154a67a6a48bd89447c50001dd61a19c400aa8a9a8"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/preservation.json",
+      "bytes": 485,
+      "sha256": "d2d3f867227b056887c7e4c9c3793079ede28bc685241f728095b311de3ce897"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/reference-audit.json",
+      "bytes": 12276,
+      "sha256": "88d4171834974ec35bdca68f6d20266a6bcfc6e49ecf5d595a1e4add7607be59"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/report-facts.json",
+      "bytes": 14149,
+      "sha256": "db3c874e9087b7ad9621c8bd744f0799adaeafc8bfe36e3e2de29e0de5348e52"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/review.md",
+      "bytes": 3331,
+      "sha256": "9ec775be998a4acbd3da4779163e9114ade933e10cd0b9a4f9a97bee578b6d47"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/table-flow-repair.json",
+      "bytes": 909,
+      "sha256": "64a3072a421bd97cb0a310eca52d4ca50c7290505435c4ab69003fe439dc41c8"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/verification-attempt1.json",
+      "bytes": 8974,
+      "sha256": "45be97da831af874f6b77a84b8fab38d2d7a5a97a7cca4dcf290e68c3af176c4"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/verification.json",
+      "bytes": 9086,
+      "sha256": "daf57e79aa3b876dc52be8b452a62aea806789c015eeb888e3161c077bd4e15e"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/visual-verification.json",
+      "bytes": 1146,
+      "sha256": "c06d7020443859a9d1d69419d2e9f71142f96c0adbb50915caac547355791e99"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w01-20261010/word-summary.json",
+      "bytes": 4236,
+      "sha256": "3ed48833b1bddb94e399c3834096a00302e14a3a6d8279e2347e45a148dd9e30"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/audit_word_w01_fonts.py",
+      "bytes": 3830,
+      "sha256": "cd41cc6b14da3be4d4ef793edd6db75054d20bb654ebec6221e5d53049360ffb"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/audit_word_w01_links.py",
+      "bytes": 3422,
+      "sha256": "e71b2bf18fed2529ebb592d624738f82ec8b7769c3896e35f73196f3d2cc4bed"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_word_w01.py",
+      "bytes": 15059,
+      "sha256": "ce83dadb613facdc41dd1b4283b788f057c808ee5d98a75dfec337f42b9255df"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/finalize_word_w01.ps1",
+      "bytes": 3054,
+      "sha256": "53ffd0e2f5ff69532e2a2facacf7efca3eebe9a25eae2b8577c415cc09935296"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_word_w01_chapter_numbering.py",
+      "bytes": 1917,
+      "sha256": "898a2380c7e0e35a7baaf222cbf31506f73e556c63ee575976e2713f5fa50825"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_word_w01_references.py",
+      "bytes": 1553,
+      "sha256": "c67e11c93cc335c2c09c646dd62a3c41103e1cc958884d094c155a525278f72c"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/fix_word_w01_table_reference.py",
+      "bytes": 1872,
+      "sha256": "5c1d4e1434fb78848badeca7843946d7112283a75775e7ec4bce8eb801093b50"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/handoff_word_w01.py",
+      "bytes": 16317,
+      "sha256": "e83764509e3dc2ac639b30f83ee157199360aeae7986c38f2c878c8a473e2119"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/polish_word_w01_flow.py",
+      "bytes": 2248,
+      "sha256": "c2f106f499c9f8d1fc9059b51c1455652990e097689ab60025d463bf594f65cf"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/probe_word_w01_fields.ps1",
+      "bytes": 5211,
+      "sha256": "48d00e6991aad4b83d879a07f83249b6c46ec07345613c9fa3e347b5f480169d"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/publish_word_w01.py",
+      "bytes": 6591,
+      "sha256": "4f38e4b514f05e6ffdb02afb66a8e5ef69a3dc29e31932a5dff1354673c5e21c"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/render_word_w01.py",
+      "bytes": 1717,
+      "sha256": "15b211d10369eed817addd5dbfc204119cfadf0b161ae908f7c44f4978a88ff9"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/repair_word_w01.py",
+      "bytes": 4261,
+      "sha256": "9bc242da37e6aef15cfb603fcfd0c63b172c04138d145acab8a9f4a2039184d2"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/restore_word_w01_table_flow.py",
+      "bytes": 2085,
+      "sha256": "54745a5dc15d119abcf63d2ef40af6138d4d55be5cd4a24548606447d29e1ba6"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_word_w01.py",
+      "bytes": 12599,
+      "sha256": "0b295f841de8e685eaa7f6cf11669b3794f31afefe2a4e659ef6e0d243796316"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/word_w01_content.py",
+      "bytes": 74992,
+      "sha256": "7ef7347cd63599e3f3818808483645e7af9969d0745db028103cee2bd60dda71"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/word_w01_facts.py",
+      "bytes": 4216,
+      "sha256": "c6f67cf35da721ace81d4c2050dc342a65562b1eb4913846b4f6b5d5667e7df0"
+    },
+    {
+      "path": "Detaituan8910/context.md",
+      "bytes": 59612,
+      "sha256": "0545f905ea7787de993f0ad44b48de470d85ed29b6b09f99318d81ad4118ec1f"
+    },
+    {
+      "path": "HANDOFF_FOR_GPT_WEB.md",
+      "bytes": 10564,
+      "sha256": "7156c9c517b6ba66c1e5a180b9a6b3df415af107c521c74fe92de6f0c82acdf5"
+    }
+  ],
+  "count": 49,
+  "findings": [],
+  "limits": "Pattern scan is not a guarantee of absence of every secret. Office/render/full-text dumps not published."
+}

@@ -1,6 +1,12 @@
 # Điểm vào bàn giao cho GPT Web
 
-## Mới nhất — W00 khảo sát Word, 10/10/2026
+## Mới nhất — W01 Word 67 trang, 10/10/2026
+
+Đọc [review W01](Detaituan8910/.agent/qa/word-w01-20261010/review.md), [final-verification](Detaituan8910/.agent/qa/word-w01-20261010/final-verification.json), [thay đổi chương](Detaituan8910/.agent/qa/word-w01-20261010/CHAPTER_CHANGES.md), [danh sách bảng/hình](Detaituan8910/.agent/qa/word-w01-20261010/TABLE_FIGURE_LIST.md) và [rà đủ67 trang](Detaituan8910/.agent/qa/word-w01-20261010/page-review.md).
+
+Font đã đối chiếu mẫu trường Mauwword;69/69 cấu trúc/ngữ nghĩa,9/9 probe field và1571/1571 bảo toàn. Word `BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx` phải gửi trực tiếp, không nằm trong repo. VERIFIED kỹ thuật, chờ nghiệm thu W01;7 khung đen có chủ ý chờ W02 riêng. I04 DEFERRED, Phase4 INCOMPLETE. Hồ sơ W00 và các mục sau là lịch sử, không ghi đè scope W01 đã duyệt.
+
+## Lịch sử — W00 khảo sát Word, 10/10/2026
 
 App/UI đã được Thy/GPT Web chấp thuận theo yêu cầu W00 mới. Lượt này chỉ khảo sát và đề xuất, chưa sửa DOCX. I04 DEFERRED; không tuyên bố Phase4 hoàn tất.
 

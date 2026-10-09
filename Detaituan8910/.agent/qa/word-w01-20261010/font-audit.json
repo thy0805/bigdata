@@ -1,0 +1,258 @@
+{
+  "template": {
+    "path": "D:\\Hoctap\\bigdata\\Mauwword\\Mau bao cao_Do an_Khoa luan_2025.docx",
+    "styles": {
+      "Normal": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "noidung": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      }
+    },
+    "distribution": [
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 13.0,
+        "runs": 219
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 16.0,
+        "runs": 17
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 20.0,
+        "runs": 6
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 26
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "runs": 33
+      },
+      {
+        "style": "noidung",
+        "font": "Times New Roman",
+        "pt": 13.0,
+        "runs": 63
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 12.0,
+        "runs": 6
+      },
+      {
+        "style": "Normal",
+        "font": "Symbol",
+        "pt": 13.0,
+        "runs": 1
+      }
+    ],
+    "font_exceptions": [],
+    "default_rPr": "<w:rPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\"><w:rFonts w:ascii=\"Times New Roman\" w:eastAsiaTheme=\"minorHAnsi\" w:hAnsi=\"Times New Roman\" w:cstheme=\"minorBidi\"/><w:kern w:val=\"2\"/><w:sz w:val=\"26\"/><w:szCs w:val=\"22\"/><w:lang w:val=\"en-US\" w:eastAsia=\"en-US\" w:bidi=\"ar-SA\"/><w14:ligatures w14:val=\"standardContextual\"/></w:rPr>",
+    "default_pPr": "<w:pPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\"><w:spacing w:after=\"160\" w:line=\"259\" w:lineRule=\"auto\"/></w:pPr>",
+    "template_instructions": [
+      "Tất cả nội dung đều sử dụng font Times New Roman.",
+      "Cấp chương: cỡ chữ 18, in hoa, canh giữa, tô đậm.",
+      "Đề mục số cấp 1.1: cỡ chữ 14, in hoa, tô đậm.",
+      "Đề mục số cấp 1.1.1. và cấp 1.1.1.1 (nếu có): Cỡ chữ 13, in thường, tô đậm.",
+      "Đề mục bảng: Tương tự như đề mục hình nhưng đặt phía trên bảng, canh giữa. Nội dung trong bảng có cỡ chữ 12, Line spacing Multiple at 1.3, Before 0pt, After 0pt. Lặp lại tiêu đề bảng nếu một phần bảng sang trang mới.",
+      "Nội dung: Viết dạng đoạn văn, thục vào đầu dòng mỗi đoạn. Cỡ chữ 13, Line spacing Multiple at 1.3, Before 6pt, After 6pt, canh đều 2 bên. Mô tả, diễn giải vấn đề rõ ràng, mạch lạc theo văn phong khoa học. ",
+      "Bullet cấp 1 sử dụng dấu gạch “-”; Line spacing Multiple at 1.3, Before 6pt, After 6pt, canh đều 2 bên; Position 0.3 cm, Text indent 0.8 cm."
+    ]
+  },
+  "output": {
+    "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx",
+    "styles": {
+      "Normal": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "ReportBody": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "FrontTitle": {
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "bold": true
+      },
+      "FrontTitleNoTOC": {
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "bold": true
+      },
+      "TOC1": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "TOC2": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "Heading11": {
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "bold": true
+      },
+      "IntroSectionTitle": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "bold": true
+      },
+      "Heading1": {
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "bold": true
+      },
+      "Heading21": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "bold": true
+      },
+      "TableCaption": {
+        "font": "Times New Roman",
+        "pt": 12.0
+      },
+      "FigureCaption": {
+        "font": "Times New Roman",
+        "pt": 12.0
+      },
+      "ReportBullet": {
+        "font": "Times New Roman",
+        "pt": 13.0
+      },
+      "ReportSubhead": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "bold": true
+      },
+      "ConclusionSectionTitle": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "bold": true
+      }
+    },
+    "distribution": [
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 25
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 16.0,
+        "runs": 10
+      },
+      {
+        "style": "Normal",
+        "font": "Times New Roman",
+        "pt": 20.0,
+        "runs": 6
+      },
+      {
+        "style": "FrontTitle",
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "runs": 6
+      },
+      {
+        "style": "ReportBody",
+        "font": "Times New Roman",
+        "pt": 12.0,
+        "runs": 394
+      },
+      {
+        "style": "ReportBody",
+        "font": "Times New Roman",
+        "pt": 13.0,
+        "runs": 352
+      },
+      {
+        "style": "FrontTitleNoTOC",
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "runs": 1
+      },
+      {
+        "style": "Heading11",
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "runs": 3
+      },
+      {
+        "style": "IntroSectionTitle",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 5
+      },
+      {
+        "style": "Heading1",
+        "font": "Times New Roman",
+        "pt": 18.0,
+        "runs": 5
+      },
+      {
+        "style": "Heading21",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 70
+      },
+      {
+        "style": "TableCaption",
+        "font": "Times New Roman",
+        "pt": 12.0,
+        "runs": 45
+      },
+      {
+        "style": "FigureCaption",
+        "font": "Times New Roman",
+        "pt": 12.0,
+        "runs": 24
+      },
+      {
+        "style": "ReportBullet",
+        "font": "Times New Roman",
+        "pt": 13.0,
+        "runs": 71
+      },
+      {
+        "style": "ReportSubhead",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 30
+      },
+      {
+        "style": "ReportBody",
+        "font": "Times New Roman",
+        "pt": 11.0,
+        "runs": 11
+      },
+      {
+        "style": "ConclusionSectionTitle",
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "runs": 3
+      }
+    ],
+    "font_exceptions": [],
+    "default_rPr": "<w:rPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\"><w:rFonts w:ascii=\"Times New Roman\" w:eastAsiaTheme=\"minorHAnsi\" w:hAnsi=\"Times New Roman\" w:cstheme=\"minorBidi\"/><w:kern w:val=\"2\"/><w:sz w:val=\"26\"/><w:szCs w:val=\"22\"/><w:lang w:val=\"en-US\" w:eastAsia=\"en-US\" w:bidi=\"ar-SA\"/><w14:ligatures w14:val=\"standardContextual\"/></w:rPr>",
+    "default_pPr": "<w:pPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\"><w:spacing w:after=\"160\" w:line=\"259\" w:lineRule=\"auto\"/></w:pPr>",
+    "template_instructions": []
+  }
+}
