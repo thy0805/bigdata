@@ -2,15 +2,15 @@
 
 ## Hiện hành — W01 Word 67 trang, 10/10/2026
 
-CURRENT TASK: W01 VERIFIED kỹ thuật; chờ phát hành hồ sơ và Thy/GPT Web nghiệm thu.
+CURRENT TASK: W01 VERIFIED kỹ thuật; hồ sơ đã phát hành, chờ Thy/GPT Web nghiệm thu.
 SOURCE CHECKPOINT: ff0e5d7; Detaituan8910/.agent/decisions/20261010-word-w01-approval.md.
 ALLOWED SCOPE: Word W01 riêng, helper/QA/điều phối/Git hồ sơ. Không app/data/model/PPT/I04/W02.
 LOCKED: nguồn Word/mẫu Mauwword/Hậu/rule và1571 artifact; bìa/khung/logo/nhóm, Ch1 ngoài4 đoạn duyệt. I04 DEFERRED.
-APPLIED BUT UNVERIFIED: publication Git chưa remote read-back; DOCX đã kiểm đủ.
+APPLIED BUT UNVERIFIED: không còn trong scope W01; nghiệm thu của Thy/GPT Web vẫn PENDING.
 VERIFIED: 67 trang native render đã xem riêng;69/69 cấu trúc/ngữ nghĩa;9/9 live field probe; font khớp mẫu trường;30 nguồn và1571 artifact nguyên hash. DOCX W01 SHA4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591.
 PENDING: W01 nghiệm thu;7 khung đen chờ W02 riêng; lịch/công việc Phát/tỷ lệ đóng góp giữ trống chưa xác nhận. Phase4 INCOMPLETE.
-LAST EVIDENCE: Detaituan8910/.agent/qa/word-w01-20261010/{review.md,final-verification.json,manifest.json,page-review.md}; publication receipt local sau push.
-NEXT EXACT ACTION: publish selected QA, kiểm remote rồi bàn giao DOCX trực tiếp; dừng chờ duyệt, không tự chuyển việc.
+LAST EVIDENCE: Detaituan8910/.agent/qa/word-w01-20261010/{review.md,final-verification.json,manifest.json,page-review.md}; publication486e8b3 remote50/50 khớp; receipt local kiểm HEAD cuối.
+NEXT EXACT ACTION: dừng; Thy gửi DOCX riêng và link review W01 cho GPT Web duyệt. Không tự chuyển W02/Word/PPT/app/demo.
 
 Các block bên dưới là lịch sử.
 

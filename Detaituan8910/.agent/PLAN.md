@@ -2,7 +2,7 @@
 
 ## Hiện hành — W01 VERIFIED, chờ nghiệm thu
 
-Canonical `qa/word-w01-20261010/checklist.md`, scope `decisions/20261010-word-w01-approval.md`. W01-01–05 VERIFIED: 67 trang đã xem riêng, 69/69 cấu trúc/ngữ nghĩa, 9/9 field probe, font khớp mẫu Mauwword. W01-06 IN_PROGRESS cho publication, preservation1571/1571 đạt. W00 LOCKED, nguồn không đổi. Bản W01 mới có11 bảng bổ sung/7 khung đen/21 hyperlink cuối. Bước tiếp theo commit/push/read-back hồ sơ rồi bàn giao DOCX trực tiếp; W01 acceptance PENDING, W02 chưa mở, I04 DEFERRED. Không tự Word vòng mới/PPT/app/demo.
+Canonical `qa/word-w01-20261010/checklist.md`, scope `decisions/20261010-word-w01-approval.md`. W01-01–06 VERIFIED: 67 trang đã xem riêng, 69/69 cấu trúc/ngữ nghĩa, 9/9 field probe, font khớp mẫu Mauwword; preservation1571/1571; publication486e8b3 remote50/50 khớp. Receipt local kiểm HEAD sau chốt trạng thái. W00 LOCKED, nguồn không đổi. Bản W01 có11 bảng bổ sung/7 khung đen/21 hyperlink cuối. Dừng để Thy gửi DOCX và link review cho GPT Web duyệt; W01 acceptance PENDING, W02 chưa mở, I04 DEFERRED. Không tự Word vòng mới/PPT/app/demo.
 
 ## Lịch sử — W00 khảo sát và đề xuất Word
 

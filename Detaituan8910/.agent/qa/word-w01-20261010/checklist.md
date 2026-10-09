@@ -9,4 +9,4 @@ Scope: ../../decisions/20261010-word-w01-approval.md. Checkpoint W00 ff0e5d7. Ng
 | W01-03 | Bảng/Equation/placeholder/caption/REF | SQL/schema/predictions + registry | VERIFIED | verification.json69/69; image-registry.json | 11 bảng mới,7 khung đen;5 native Equation |
 | W01-04 | Style/numbering/TOC/list/section/footer | Word v3 và mẫu | VERIFIED | field-probe.json9/9; font-audit.json | Hai bìa nguyên; insert/delete numbering đúng |
 | W01-05 | Render và rà mọi trang | DOCX đầu ra | VERIFIED | page-review.md; visual-verification.json67 trang | Lời cảm ơn9 dòng thực |
-| W01-06 | Preservation/handoff/Git/stop | Source guard và final artifact | IN_PROGRESS | preservation.json1571/1571; final-verification.json; review.md | Publication chờ remote; acceptance PENDING/W02 chưa mở |
+| W01-06 | Preservation/handoff/Git/stop | Source guard và final artifact | VERIFIED | preservation.json1571/1571; final-verification.json; review.md; publication486e8b3 remote50/50 | Receipt local kiểm HEAD cuối; acceptance PENDING/W02 chưa mở |
