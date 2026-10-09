@@ -1,0 +1,95 @@
+{
+  "status": "VERIFIED",
+  "commit": "5b7f62013debc2407d941985112434a55a281478",
+  "remote": "5b7f62013debc2407d941985112434a55a281478",
+  "captured_at": "2026-10-09T17:13:43.412657+00:00",
+  "checks": [
+    {
+      "name": "remote_main_matches_HEAD",
+      "passed": true,
+      "commit": "5b7f62013debc2407d941985112434a55a281478"
+    },
+    {
+      "name": "raw_remote_readback:README.md",
+      "passed": true,
+      "sha256": "b207e9cf8c0cbbc72f084b528b4249089ef242c2e27c37948e612eaa017b2d92",
+      "bytes": 4676
+    },
+    {
+      "name": "raw_remote_readback:HANDOFF_FOR_GPT_WEB.md",
+      "passed": true,
+      "sha256": "a9cf5566d10b0296d85551b5ee763291b076089296d0688b619b14e4542c9e68",
+      "bytes": 6816
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-app-20261009/review.md",
+      "passed": true,
+      "sha256": "929829f34ec7c72b8f7d569176bf1d3b8df9154a4d8dec5054a53daf4b1654c6",
+      "bytes": 8851
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-app-20261009/verification.json",
+      "passed": true,
+      "sha256": "3ce86bcad5ffe876ef12395eb231af543dfdf4d14751c742854ab06198b1284f",
+      "bytes": 29641
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-app-20261009/preservation.json",
+      "passed": true,
+      "sha256": "4debbd0cf5616da12b89c99181b40441eaa2bf2093363ed9600e461c2de04966",
+      "bytes": 448
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-app-20261009/package-verification.json",
+      "passed": true,
+      "sha256": "2d4ce1fbd63577a6f5441296d042592c0a32de558da6ae77d262fab7505a871b",
+      "bytes": 5720
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/operations/services.py",
+      "passed": true,
+      "sha256": "7accec43ea3204e993df591bda75b603b0856965c85370f39d68ffac158e2dfb",
+      "bytes": 5677
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-app-20261009/screenshots/forecast-1920.jpg",
+      "passed": true,
+      "sha256": "281255393be64df6c6e669f45d2930b6ec01b7863a9bc62d97de5337e1fd9681",
+      "bytes": 116353
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/context.md",
+      "passed": true,
+      "sha256": "4a5a3ebcdf7a6cd96aa75f91dec2d37f50ffed063275db4e2b1c4d31f4e3a0ee",
+      "bytes": 53964
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-resume-20261010/review.md",
+      "passed": true,
+      "sha256": "b24dcb050bdeea715dbfb68dcedd8a0113c9ae8d323657cc458c7ee041860a9b",
+      "bytes": 3268
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md",
+      "passed": true,
+      "sha256": "08b985ff96387ffe9d60200d162677a65728c82f46b4adc4bfc712b8fd95d6ee",
+      "bytes": 1760
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-resume-20261010/resume-verification.json",
+      "passed": true,
+      "sha256": "c56046ac6dab84abda6eb9b950537f3dbfbeab548ff184314c4fcb6244cf67e0",
+      "bytes": 7697
+    },
+    {
+      "name": "raw_remote_readback:Detaituan8910/.agent/qa/phase4-resume-20261010/windows-verification.json",
+      "passed": true,
+      "sha256": "ba1add8df31e117539da08c9938ea48d975594c9eafe169c481507e70a46aed5",
+      "bytes": 717
+    }
+  ],
+  "passed": 14,
+  "total_checks": 14,
+  "overall_phase4": "INCOMPLETE",
+  "I04": "DEFERRED"
+}

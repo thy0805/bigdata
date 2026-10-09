@@ -2,7 +2,7 @@
 
 ## Hiện hành — Phase4 ứng dụng, I04 DEFERRED
 
-Lượt tiếp tục10/10: checklist `qa/phase4-resume-20261010/checklist.md`. R01/R02 VERIFIED (17Linux/backend/hash +4Windows); R03 đang chốt checkpoint còn staging sau quota/push/read-back. Không sửa app; 1571file giữ hash. Các kiểm126/126 bên dưới là snapshot09/10, không chạy lại toàn bộ. Sau R03 dừng chờ Thy/GPT Web, I04 DEFERRED.
+Lượt tiếp tục10/10: checklist `qa/phase4-resume-20261010/checklist.md`. R01/R02 VERIFIED (17Linux/backend/hash +4Windows); R03 VERIFIED publication5b7f620/read-back14/14/index295file0finding. Không sửa app;1571file giữ hash. Gate126/126 bên dưới là snapshot09/10. Dừng chờ Thy/GPT Web; I04 DEFERRED. Receipt local cuối kiểm HEAD sau checkpoint điều phối.
 
 Canonical: `qa/phase4-app-20261009/checklist.md` và `decisions/20261009-phase4-app-scope.md`, ưu tiên approval4 cũ về điểm tạm hoãn I04.
 

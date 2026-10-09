@@ -6,11 +6,11 @@ CURRENT TASK: bàn giao I01/I02/I03/I05; chờ Thy/GPT Web kiểm app. ToànPhas
 SOURCE CHECKPOINT: .agent/decisions/20261009-phase4-app-scope.md; QA4 .agent/qa/phase4-app-20261009/checklist.md; Git base0e442f6.
 ALLOWED SCOPE: QA ứng dụng/integration artifact/vận hành và GitHub; không Word/Ch2Hậu/PPT/runbook/speech/video/replay/Phase5.
 LOCKED: raw/Flhourly/ML/Test4590/HGB Train22513/11feature/D09 và toànQA1–3; không train/refit/tuning/metricTest mới.
-APPLIED BUT UNVERIFIED: phần điều phối/receipt đã staging từ lượt bị ngắt đang chốt commit/push/read-back. Nghiệm thu Thy/GPT Web vẫn PENDING; app không sửa.
+APPLIED BUT UNVERIFIED: không có thay đổi code/artifact chưa kiểm. Hồ sơ tiếp tục đã push5b7f620/read-back14/14; receipt local cuối kiểm HEAD sau chốt điều phối. Nghiệm thu Thy/GPT Web vẫn PENDING.
 VERIFIED: I01 chain17/17; backend/AppTest67/67; runtime20/20 Linux +4/4 Windows; browser11/11,8ảnh đã đọc. Gate cuối126/126 và preservation1571/1571. App giữ nguyên code. Launcher operations/services.py mới kiểm ownership/start-stop/foreign-port; JavaIPv4Stack+REST127 khắc phục Windows8081 loopback. App có inference/tab khi Flink tắt. I05 hồ sơ qua gate, ZIP/Git có evidence riêng.
 PENDING: chỉ chờ Thy/GPT Web kiểm ứng dụng; I04 DEFERRED; coldboot WSL/Windows NOT_TESTED, autostart chưa triển khai. Không xem được jobfull cũ trong REST do expiry; dùng archivedevidence, không fullrerun mới.
-LAST EVIDENCE: 10/10 qa/phase4-resume-20261010/resume-verification.json17/17 và windows-verification.json4/4; bảo toàn1571/1571/source21/ZIP khớp. WSL2 ban đầu Stopped, đã mở và khởi động app/Flink bằng launcher hiện hành, holder session9762/80208; foreground không daemon/autostart. QA4 gate126/126/8ảnh là snapshot09/10, không mới chạy lại; publication853974c remote9/9 còn đúng trước commit mới.
-NEXT EXACT ACTION: hoàn tất commit/push/read-back phần checkpoint kỹ thuật; Thy/GPT Web đọc .agent/qa/phase4-resume-20261010/review.md và mở app localhost8501 để duyệt. Không tự I04/Word/PPT/Phase5 hoặc chạy lại mô hình; kiểm dịch vụ/receipt khi quay lại.
+LAST EVIDENCE: 10/10 qa/phase4-resume-20261010/resume-verification.json17/17/windows-verification.json4/4;1571/1571/source21/ZIP khớp. QA4/resume-publication-1.json:5b7f620 remote14/14; index295file0finding. WSL2 ban đầu Stopped, đã mở và khởi động app/Flink bằng launcher, holder session9762/80208; foreground. QA4 gate126/126/8ảnh là snapshot09/10, không chạy lại. Receipt local QA4/remote-readback.json kiểm HEAD sau checkpoint cuối.
+NEXT EXACT ACTION: dừng; Thy/GPT Web đọc .agent/qa/phase4-resume-20261010/review.md và mở app localhost8501 để duyệt. Không tự I04/Word/PPT/Phase5 hoặc chạy lại mô hình; kiểm dịch vụ/receipt khi quay lại.
 
 Các block sau là lịch sử; decision app scope và checklist QA4 có ưu tiên.
 

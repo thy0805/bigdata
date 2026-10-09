@@ -15,6 +15,8 @@ Gate126/126 trong [hồ sơ ngày09/10](../phase4-app-20261009/review.md) là sn
 
 ## Phát hành và giới hạn
 
+Phát hành evidence lượt tiếp tục: `5b7f62013debc2407d941985112434a55a281478`, local/remote main khớp. [Receipt GitHub](../phase4-app-20261009/resume-publication-1.json) **14/14**, gồm remote HEAD và13 nguồn raw GitHub giống Git blob. Index gate trước commit:295file khớp disk,0finding theo pattern đã kiểm. Checkpoint sau chỉ chốt trạng thái điều phối; receipt local cuối kiểm HEAD sau push.
+
 File mới gồm checklist/receipt/review lượt tiếp tục và verifier hỗ trợ; file điều phối cập nhật điểm khôi phục. Commit mới hoàn tất phần bàn giao kỹ thuật đang dang dở, không thay thuật toán hoặc giao diện. Remote receipt cuối lưu local tại `../phase4-app-20261009/remote-readback.json`, chứa HEAD thực tế sau push và13 raw read-back (tám nguồn cũ, context và bốn hồ sơ tiếp tục).
 
 Gói local ngày09/10 giữ nguyên: `../phase4-app-20261009/Phase4_App_QA_20261009.zip`, SHA256 `c16745be8ec6229b4d69792f1a4cb295c2d470b192569ac0d566be647a5e5924`. Đây là hồ sơ QA trước lượt tiếp tục; evidence mới nằm trong folder này trên GitHub, không ghi đè ZIP cũ.

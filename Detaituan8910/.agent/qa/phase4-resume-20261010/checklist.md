@@ -14,5 +14,5 @@ ACCEPTANCE: kiểm cấu trúc hồ sơ, hash nguồn và suy luận mẫu, app/
 | --- | --- | --- | --- | --- | --- |
 | R01 | Khôi phục Git/QA/môi trường | Context, QA4, Git, WSL | VERIFIED | HEAD/remote853974c; Ubuntu-24.04 WSL2, Python3.12.3/Java17/Flink có trên đĩa | Hai dịch vụ ban đầu tắt |
 | R02 | Kiểm runtime/nguồn/inference và bảo toàn | App, model khóa, preflight QA4 | VERIFIED | resume-verification.json17/17; windows-verification.json4/4;1571/1571 hash | Không fullQA/fullpipeline/fit |
-| R03 | Hoàn tất checkpoint và phát hành | Diff, index gate, remote receipt | IN_PROGRESS | Publication receipt sau push | Không ghi đè ZIP/QA cũ |
+| R03 | Hoàn tất checkpoint và phát hành | Diff, index gate, remote receipt | VERIFIED | Commit5b7f620; ../phase4-app-20261009/resume-publication-1.json14/14; index295file/0finding | Receipt cuối local kiểm HEAD sau chốt điều phối; ZIP/QA cũ giữ |
 | R04 | Nghiệm thu ứng dụng | Thy/GPT Web | TODO | Chưa có quyết định nghiệm thu mới | I04 DEFERRED; Phase4 INCOMPLETE |

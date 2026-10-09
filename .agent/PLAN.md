@@ -1,6 +1,6 @@
 # Kế hoạch hiện hành
 
-- Tiếp tục10/10: canonical `Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md`; R01/R02 VERIFIED21checks và1571/1571 hash. R03 chốt điều phối còn staging/commit/push/read-back; không sửa code app/artifact. Sau đó dừng chờ Thy/GPT Web.
+- Tiếp tục10/10: canonical `Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md`; R01/R02 VERIFIED21checks và1571/1571 hash. R03 VERIFIED publication5b7f620 remote14/14,index295file0finding; receipt local cuối kiểm HEAD sau checkpoint. Không sửa code app/artifact; dừng chờ Thy/GPT Web.
 
 - Hiện hành Phase4 ứng dụng: canonical `Detaituan8910/.agent/qa/phase4-app-20261009/checklist.md`; scope app decision mới ưu tiên I04 DEFERRED. I01/I02/I03/I05 VERIFIED:119functional+7handoff=126/126,preservation1571/1571,ZIP46hashes/47entries,publication853974c remote9/9. Checkpoint sau chỉ điều phối/receipt, remote-readback.json kiểm HEAD cuối. ToànPhase4 INCOMPLETE; chờ Thy/GPT Web, không tự Word/PPT/demo/Phase5. Code app/model/data cũ giữ nguyên, chỉ launcher dịch vụ mới và QA4.
 

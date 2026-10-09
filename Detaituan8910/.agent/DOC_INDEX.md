@@ -4,6 +4,8 @@
 
 Lượt tiếp tục10/10: `qa/phase4-resume-20261010/{checklist.md,review.md,resume-verification.json,windows-verification.json}` là nguồn hiện trạng mới (21 kiểm); ưu tiên các tuyên bố runtime ngày09/10. QA4 cũ giữ snapshot126/126. `scripts/verify_phase4_resume.py` là công cụ kiểm tiếp tục, không thực hiện fit/fulljob/Testmetric.
 
+`qa/phase4-app-20261009/resume-publication-1.json`: VERIFIED snapshot commit5b7f620,14/14 đọc GitHub; đọc khi đối chiếu hồ sơ lượt tiếp tục. `qa/phase4-app-20261009/remote-readback.json` là receipt local HEAD cuối, không tự suy ra nó đã tồn tại hoặc khớp nếu chưa mở.
+
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
 | .agent/decisions/20261009-phase4-app-scope.md | Scope mới I01/I02/I03/I05; I04 tạm hoãn | Hiện hành, ưu tiên approval4 cũ | Đầu phiên; không tự I04/Phase5 |
