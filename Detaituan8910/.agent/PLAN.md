@@ -2,7 +2,7 @@
 
 ## Hiện hành — UI giải thích dữ liệu 10/10
 
-Checklist canonical: `qa/phase4-data-guide-20261010/checklist.md`. G01–G04 VERIFIED; G05 APPLIED_UNVERIFIED đến khi kiểm publication. QA75/75, browser7/7,4ảnh;1570file bảo toàn và app.py đổi đúng expander. Chờ Thy/GPT Web nghiệm thu; I04 DEFERRED, Phase4 INCOMPLETE. Không Word/PPT/demo hoặc phase mới.
+Checklist canonical: `qa/phase4-data-guide-20261010/checklist.md`. G01–G05 VERIFIED; publication-initial.json54/54/commitc9db6b8,22file đọc từ GitHub; receipt local cuối kiểm HEAD sau chốt điều phối. QA75/75, browser7/7,4ảnh;1570file bảo toàn và app.py đổi đúng expander. Chờ Thy/GPT Web nghiệm thu; I04 DEFERRED, Phase4 INCOMPLETE. Không Word/PPT/demo hoặc phase mới.
 
 Nguồn bàn giao: `qa/phase4-data-guide-20261010/review.md`; publication receipt local sau push. Kế hoạch chỉ thay phần giới thiệu, không thay forecast/backend/model/pipeline.
 

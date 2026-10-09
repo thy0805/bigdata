@@ -1,5 +1,7 @@
 # Lỗi cần tránh
 
+- Viewport IAB được đặt1366×768 nhưng CSS thực1242×698 do zoom110%; screenshot cũng sai kích thước. Đã bù override theo zoom và đo innerWidth/innerHeight + kích thước JPEG thực để đạt1366×768/1920×1080; reset sau kiểm. Không suy ra viewport thực từ tham số set. Expander visibility phải kiểm sau animation kết thúc và đối chiếu details.open; không sửa app để chữa lỗi locator.
+
 - Flink Java có thể bind `[::ffff:127.0.0.1]:8081` và không được WSL forward tới Windows dù Linux REST đạt. QA4 khắc phục bằng JAVA_TOOL_OPTIONS=-Djava.net.preferIPv4Stack=true riêng cluster và config runtime REST127; kiểm cả Windows HTTP/listener, không sửa Windows/firewall hoặc coi old probe bind0 là yêu cầu vĩnh viễn. Failed attempt giữ trong flink-recovered.json, final.json ưu tiên.
 - REST lịch sử job Flink có thời gian lưu; overview count còn jobfinished nhưng /jobs/ID có thể404. Bảo toàn hồ sơ job/plan/verification và hash từ Phase1; không gọi archived evidence là job đang tồn tại hoặc rerun toàn dataset chỉ để làm đẹp UI. Tách lineage artifact và fullreexecution.
 

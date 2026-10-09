@@ -32,6 +32,6 @@ Hai lần kiểm ban đầu chưa đạt được giữ trong browser-verificati
 
 Không đổi theme, chart, KPI, forecast, backend, model, schema, split, metric Test, pipeline hoặc dữ liệu; không sửa Word/PPT/I04/video. Không chạy lại các phase cũ hoặc cold boot. App đã được khởi động lại riêng để tải mã UI mới; Flink không bị dừng.
 
-Git publication được kiểm riêng bằng receipt sau push; receipt local `publication-receipt.json` ghi commit thực tế và read-back, không đưa vào commit để tránh vòng tự tham chiếu. Đọc HEAD/remote thực tế khi tiếp tục, không suy ra publication từ việc có mã.
+Git publication [receipt ban đầu](publication-initial.json) đạt **54/54** tại commit `c9db6b8`: remote main khớp HEAD, đọc lại toàn bộ 22 file thay đổi từ GitHub và kiểm 31 invariant bàn giao. Receipt local `publication-receipt.json` kiểm HEAD sau khi chốt điều phối, không đưa vào commit để tránh vòng tự tham chiếu. Đọc HEAD/remote thực tế khi tiếp tục, không dùng receipt snapshot cũ để khẳng định trạng thái hiện tại.
 
 **Điểm dừng:** Thy/GPT Web mở khung cuối trang để duyệt nội dung và hình thức. Không tự chuyển sang báo cáo, slide hoặc demo.

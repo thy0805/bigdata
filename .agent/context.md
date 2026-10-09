@@ -6,11 +6,11 @@ CURRENT TASK: expander cuối dashboard có giới thiệu dataset và hai bản
 SOURCE CHECKPOINT: Git2da758a; Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md.
 ALLOWED SCOPE: app.py đúng expander, QA/ảnh và điều phối/Git; không Word/PPT/I04 hoặc phase mới.
 LOCKED: dữ liệu/model/11feature/schema/split/D09/Testmetric; backend/chart/KPI/forecast.
-APPLIED BUT UNVERIFIED: publication index/push/read-back; receipt local sau push. User acceptance PENDING.
+APPLIED BUT UNVERIFIED: không còn thay đổi ứng dụng chưa kiểm. User acceptance PENDING; receipt local cuối kiểm HEAD sau chốt điều phối.
 VERIFIED:75/75 hồi quy,7/7browser,4ảnh đúng hai viewport;1570/1570file bảo toàn, app.py thay đúng scope.
 PENDING: Thy/GPT Web nghiệm thu; I04 DEFERRED/toànPhase4 INCOMPLETE; coldboot/autostart không mở trong task.
-LAST EVIDENCE: Detaituan8910/.agent/qa/phase4-data-guide-20261010/{review.md,technical-verification.json,browser-verification.json,screenshots/}.
-NEXT EXACT ACTION: kiểm publication và dừng bàn giao; xem context/PLAN/DOC_INDEX của project khi quay lại.
+LAST EVIDENCE: QA75/75,browser7/7,handoff31/31;publication-initial.json54/54/commitc9db6b8;22file đọc GitHub,index308file0finding. Receipt local cuối kiểm HEAD sau chốt điều phối.
+NEXT EXACT ACTION: dừng bàn giao, chờ Thy/GPT Web duyệt UI; xem context/PLAN/DOC_INDEX và receipt HEAD của project khi quay lại.
 
 ## Lịch sử — bàn giao ứng dụng Phase4 trước thay expander
 

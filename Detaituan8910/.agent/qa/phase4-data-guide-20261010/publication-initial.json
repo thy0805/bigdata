@@ -1,0 +1,352 @@
+{
+  "status": "VERIFIED",
+  "at": "2026-10-09T18:25:05.510990+00:00",
+  "checks": [
+    {
+      "name": "technical_75",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "browser_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "protected_snapshot_1570",
+      "passed": true,
+      "details": {
+        "total": 1570,
+        "changed": []
+      }
+    },
+    {
+      "name": "source:.agent/qa/phase2b2-20261009/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/eligibility.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/feature-schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/holdout/seal.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/holdout/test.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/metrics-validation.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/predictions-validation.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/split-summary.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/train.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/ml/runs/20261009-phase2a-a/validation.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/hourly-grid.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:data/processed/runs/20261009T102201900234-full/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/final/hgb-uci-hourly-v1.0-train-only/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/final/hgb-uci-hourly-v1.0-train-only/model.joblib",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/metrics-test.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/predictions-test.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/runtime-evidence.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source:models/runs/20261009-phase2b2-a/verification.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/raw-laptop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/features-laptop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/raw-desktop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "screenshot:screenshots/features-desktop.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expander_only_diff",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readback:checklist.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readback:review.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "remote_main_matches_HEAD",
+      "passed": true,
+      "details": "c9db6b8cbf17cc44a434d7c46e09188498caa904"
+    },
+    {
+      "name": "remote_readback:.agent/DOC_INDEX.md",
+      "passed": true,
+      "details": {
+        "sha256": "cd291fadaefc2aead6974ba9c86e4dc6c88432a58d1b3b5b8622a58a6e695c3a",
+        "bytes": 23047
+      }
+    },
+    {
+      "name": "remote_readback:.agent/PLAN.md",
+      "passed": true,
+      "details": {
+        "sha256": "f048e09b2e35d5668d17b6645b499116bddb9ef57926e59685cbbddfe4b6b443",
+        "bytes": 16757
+      }
+    },
+    {
+      "name": "remote_readback:.agent/context.md",
+      "passed": true,
+      "details": {
+        "sha256": "b1e0e916fb02d2048c49e252824c05084d72be6819e0d1a6a0f231936232ee93",
+        "bytes": 49979
+      }
+    },
+    {
+      "name": "remote_readback:.gitignore",
+      "passed": true,
+      "details": {
+        "sha256": "dcf2e55a59efc01a6e0f757ef72a0656226b734f940c3e136c9ce4f355b8dca4",
+        "bytes": 4495
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/DOC_INDEX.md",
+      "passed": true,
+      "details": {
+        "sha256": "0006ac6a3e1fbbe2d2b3a66268066591e7768af4e31b0406b74aa55f001cb409",
+        "bytes": 27342
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/PLAN.md",
+      "passed": true,
+      "details": {
+        "sha256": "509d3293d3915cdfb48df89be531ccb745b7e988b6dc876bb51dda9656ce3045",
+        "bytes": 20051
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/browser-verification.json",
+      "passed": true,
+      "details": {
+        "sha256": "875a872fe67744b12804b9570c5aa0341102f29133367320c6dde25d225eebde",
+        "bytes": 2914
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md",
+      "passed": true,
+      "details": {
+        "sha256": "db1ffbd6d6d87ab688baa9935755cd3549d2524f383d4006c9b4eb2f82a69277",
+        "bytes": 2025
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/handoff-verification.json",
+      "passed": true,
+      "details": {
+        "sha256": "36ace92d2351a5ed940377bc10956199167579691bb3b4a7d7080efdd6621207",
+        "bytes": 4078
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/index-verification.json",
+      "passed": true,
+      "details": {
+        "sha256": "b38034f0367831be127eec8782e76047b5471fd6571cb57185a36470515c983f",
+        "bytes": 71838
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/review.md",
+      "passed": true,
+      "details": {
+        "sha256": "53dadcf66f5e5b4b4d6bbd0ce63af6d94eb05e3efcca064fa8c7781a895b0c4e",
+        "bytes": 4468
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/features-desktop.jpg",
+      "passed": true,
+      "details": {
+        "sha256": "d4b35255789064f0c5b3231362791a93d2a0222bf20329d6bf69b875ba8e150d",
+        "bytes": 91319
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/features-laptop.jpg",
+      "passed": true,
+      "details": {
+        "sha256": "05fcc47a9642ae0102707799803bf6b3d93547db067ca9e9322a1f85dcddb0d4",
+        "bytes": 71543
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/raw-desktop.jpg",
+      "passed": true,
+      "details": {
+        "sha256": "fa9becdf4e33155869dec4c0415d6f802936d685d62bd07cae56d3b5e18403ab",
+        "bytes": 86356
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/screenshots/raw-laptop.jpg",
+      "passed": true,
+      "details": {
+        "sha256": "4ab10b9c14eeb0d033d97c9fa8683b979cd19743d34481bd2332c6bfcac08557",
+        "bytes": 69164
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/qa/phase4-data-guide-20261010/technical-verification.json",
+      "passed": true,
+      "details": {
+        "sha256": "f2d2ac72d553ea05b71435e28cea1b0d0e82510399f40edb6f3c072c216392a6",
+        "bytes": 13563
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/scripts/verify_data_guide.py",
+      "passed": true,
+      "details": {
+        "sha256": "10f9ad369ea6b3544d3b369c8d7b4f0db1e8d4059282dbd54ba99026a66d8d88",
+        "bytes": 4037
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/.agent/scripts/verify_data_guide_handoff.py",
+      "passed": true,
+      "details": {
+        "sha256": "4cda4725db8cd0cef5588c2351ad7e17d2e6f015cf04fe649b65d0504eaf0427",
+        "bytes": 3929
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/context.md",
+      "passed": true,
+      "details": {
+        "sha256": "3b16a2a7ea9926fe6a3374fe2037c95948aa8f34b50242406862498b21b324e3",
+        "bytes": 55689
+      }
+    },
+    {
+      "name": "remote_readback:Detaituan8910/dashboard/app.py",
+      "passed": true,
+      "details": {
+        "sha256": "284c8d97b768886bd9f5a0160e1ceacf3a9a5d465b26594824b14cb68971b176",
+        "bytes": 15016
+      }
+    },
+    {
+      "name": "remote_readback:HANDOFF_FOR_GPT_WEB.md",
+      "passed": true,
+      "details": {
+        "sha256": "806d2a8ff1e0386d750fc78d98d01d068caa4939cde2a9bf1211d4e5b8f32485",
+        "bytes": 8163
+      }
+    },
+    {
+      "name": "remote_readback:README.md",
+      "passed": true,
+      "details": {
+        "sha256": "550ab76c3dba5d658d31e9e2e41e433cfca8e0af7953869489f4b772668a9dc0",
+        "bytes": 5229
+      }
+    }
+  ],
+  "passed": 54,
+  "total_checks": 54,
+  "overall_phase4": "INCOMPLETE",
+  "user_acceptance": "PENDING",
+  "I04": "DEFERRED",
+  "commit": "c9db6b8cbf17cc44a434d7c46e09188498caa904",
+  "remote": "c9db6b8cbf17cc44a434d7c46e09188498caa904"
+}

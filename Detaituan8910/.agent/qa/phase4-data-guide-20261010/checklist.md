@@ -16,4 +16,4 @@ ACCEPTANCE: diff chỉ expander; hai bảng đối chiếu nguồn/schema; hồi
 | G02 | Expander và hai bảng | app.py, nguồn đã khóa | VERIFIED | Exact prefix/footer diff với Git2da758a; hai bảng đọc lại | Chỉ một file UI |
 | G03 | Nội dung/hồi quy/bảo toàn | Schema, oldQA/test backend | VERIFIED | technical-verification.json75/75;1570/1570 bảo toàn | Một file app được phép đổi; không sửa history QA |
 | G04 | Browser hai viewport/ảnh | App đang chạy | VERIFIED | browser-verification.json7/7;4JPEG đã kiểm | Hai attempt giữ lịch sử; viewport đã reset |
-| G05 | Handoff/Git | QA/diff/index/remote | APPLIED_UNVERIFIED | review.md;publication-receipt.json sau push | Chờ kiểm index/push/read-back; nghiệm thu user riêng |
+| G05 | Handoff/Git | QA/diff/index/remote | VERIFIED | handoff31/31;index308file0finding;publication-initial.json54/54/commitc9db6b8 | Receipt local cuối kiểm HEAD sau chốt điều phối; nghiệm thu user PENDING |

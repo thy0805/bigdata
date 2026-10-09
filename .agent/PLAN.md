@@ -1,6 +1,6 @@
 # Kế hoạch hiện hành
 
-- UI giải thích dữ liệu10/10: canonical `Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md`; G01–G04 VERIFIED75/75 kỹ thuật +7/7browser/4ảnh,1570/1570file bảo toàn và một app.py đổi đúng scope. G05 publication chưa kiểm cuối. Dừng chờ Thy/GPT Web; I04 DEFERRED, không Word/PPT/phase mới. Các checkpoint dưới là lịch sử.
+- UI giải thích dữ liệu10/10: canonical `Detaituan8910/.agent/qa/phase4-data-guide-20261010/checklist.md`; G01–G05 VERIFIED75/75 kỹ thuật +7/7browser/4ảnh,1570/1570file bảo toàn và một app.py đổi đúng scope. Publication-initial54/54/commitc9db6b8; receipt local cuối kiểm HEAD sau chốt điều phối. Dừng chờ Thy/GPT Web; I04 DEFERRED, không Word/PPT/phase mới. Các checkpoint dưới là lịch sử.
 
 - Tiếp tục10/10: canonical `Detaituan8910/.agent/qa/phase4-resume-20261010/checklist.md`; R01/R02 VERIFIED21checks và1571/1571 hash. R03 VERIFIED publication5b7f620 remote14/14,index295file0finding; receipt local cuối kiểm HEAD sau checkpoint. Không sửa code app/artifact; dừng chờ Thy/GPT Web.
 

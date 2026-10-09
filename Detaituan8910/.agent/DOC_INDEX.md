@@ -4,10 +4,11 @@
 
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
-| .agent/qa/phase4-data-guide-20261010/checklist.md, review.md | Scope chỉ expander và điểm dừng | Hiện hành; G01–G04 VERIFIED, G05 chờ publication; user PENDING | Duyệt UI hoặc khôi phục task |
+| .agent/qa/phase4-data-guide-20261010/checklist.md, review.md | Scope chỉ expander và điểm dừng | Hiện hành; G01–G05 VERIFIED; user PENDING | Duyệt UI hoặc khôi phục task |
 | .agent/qa/phase4-data-guide-20261010/technical-verification.json, browser-verification.json, screenshots/ | 75 kiểm kỹ thuật, 7 browser, 4 ảnh hai viewport | VERIFIED tại snapshot | Đối chiếu nội dung/bảo toàn/giao diện |
 | .agent/scripts/verify_data_guide.py | Hồi quy75 và guard diff đúng expander | Công cụ đã chạy | Không sửa QA/verifier cũ hoặc refit |
 | .agent/qa/phase4-data-guide-20261010/publication-receipt.json | HEAD/remote và read-back file phát hành | Receipt local sau push; không tracked | Kiểm trạng thái Git thực tế |
+| .agent/qa/phase4-data-guide-20261010/publication-initial.json, handoff-verification.json, index-verification.json | Snapshot publication54/54/commitc9db6b8;gate31/31;index308file0finding | VERIFIED tại snapshot | Truy vết bàn giao; receipt local cuối ưu tiên HEAD mới |
 
 UI mới ưu tiên mô tả expander trong ảnh/hồ sơ QA4 cũ; dữ liệu, model, biểu đồ và metric giữ nguồn chuẩn cũ. I04 tiếp tục DEFERRED.
 

@@ -6,11 +6,11 @@ CURRENT TASK: bàn giao thay đổi riêng expander giới thiệu dữ liệu; 
 SOURCE CHECKPOINT: Git2da758a; .agent/qa/phase4-data-guide-20261010/checklist.md; DATA_AUDIT và feature-schema khóa.
 ALLOWED SCOPE: expander cuối dashboard/app.py, QA/ảnh mới và điều phối/GitHub. Không Word/PPT/I04/video/replay.
 LOCKED: raw/Flink hourly/ML/schema11/split/HGB Train22513/D09/Test4590/metric; backend và charts/KPI/forecast không đổi.
-APPLIED BUT UNVERIFIED: publication đang chờ kiểm index/push/read-back; receipt riêng sau push. Nghiệm thu Thy/GPT Web PENDING.
+APPLIED BUT UNVERIFIED: không còn thay đổi ứng dụng chưa kiểm. Nghiệm thu Thy/GPT Web PENDING; receipt local cuối kiểm HEAD sau chốt điều phối.
 VERIFIED: QA75/75; browser7/7 và4ảnh ở1366×768/1920×1080, không tràn;1570/1570 file được bảo vệ khớp snapshot QA4, chỉ app.py được phép đổi. Hai bảng9cột gốc/11feature, source link, không metadata kỹ thuật trên UI; checksum backend giữ nguyên. Prefix/footer app nguyên văn so Git2da758a.
 PENDING: nghiệm thu giao diện; I04 DEFERRED, toànPhase4 INCOMPLETE. Coldboot/autostart chưa kiểm/triển khai như trước.
-LAST EVIDENCE: .agent/qa/phase4-data-guide-20261010/{technical-verification.json,browser-verification.json,review.md,screenshots/}; hai browser attempt giữ lịch sử, viewport reset. App restart riêng, không dừng Flink hoặc fit/rerun/Testeval.
-NEXT EXACT ACTION: hoàn tất publication gate rồi dừng để Thy/GPT Web mở expander cuối localhost8501; đọc review mới, không tự mở phase khác.
+LAST EVIDENCE: QA75/75,browser7/7,handoff31/31;publication-initial.json54/54/commitc9db6b8,22file đọc từ GitHub; index308file0finding. Hai browser attempt giữ lịch sử, viewport reset. App2901/Flink1177+1701 được launcher xác nhận, Windowsapp health200; foreground, không autostart. Receipt local cuối kiểm HEAD sau chốt điều phối.
+NEXT EXACT ACTION: dừng để Thy/GPT Web mở expander cuối localhost8501; đọc review mới và đối chiếu receipt Git HEAD khi quay lại. Không tự mở phase khác.
 
 Các block phía dưới là lịch sử; scope UI mới chỉ cho phép thay expander, không mở lại artifact đã khóa.
 
