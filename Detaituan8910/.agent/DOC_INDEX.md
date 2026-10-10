@@ -1,6 +1,25 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
-## Nguồn hiện hành W01.1
+## Nguồn hiện hành W02 → W02.1
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| .agent/decisions/20261010-word-w02-w021-scope.md | Hai lượt được Thy giao liên tiếp + Phát phân công; source mismatch | Hiện hành | Trước authoring |
+| .agent/qa/word-w02-20261010/checklist.md | Gate riêng W02 rồi W02.1; đủ các kiểm và hồ sơ | Hiện hành VERIFIED kỹ thuật | Đầu lượt/compact |
+| .agent/qa/word-w02-20261010/review.md; final-verification.json; CHANGES.md; image-registry-final.json | Bàn giao W02, 14 diff và 7 hình thật | Hiện hành VERIFIED; acceptance pending | GPT Web rà nguồn ảnh và thay đổi |
+| .agent/qa/word-w021-20261010/review.md; final-verification.json; manifest.json; page-review.md | Bàn giao cuối W02.1, 69 trang, lịch/tham khảo | Nguồn ưu tiên gate trung gian; VERIFIED | Thy/GPT Web nghiệm thu |
+| .agent/qa/word-w021-20261010/changes.json; verification.json; page-diff.json; renderer-diagnostic.md | Exact lịch/21 ngày, 48 kiểm và 4 trang đổi | Hiện hành; trạng thái authoring là lịch sử | Đối chiếu diff, giới hạn kiểm |
+| BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_v1_20261010.docx; BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_1_v1_20261010.docx | Hai sản phẩm riêng, gửi DOCX trực tiếp | VERIFIED kỹ thuật; không GitHub | Duyệt Word, không ghi đè |
+| .agent/qa/word-w021-20261010/publication-index.json; publication-receipt.local.json | Scope staged/hash/scan và remote read-back | Index public; receipt local sau push | Xác minh phát hành, không thay nghiệm thu |
+| .agent/qa/word-w02-20261010/preflight.json | Source hash/cấu trúc/14 câu ứng viên/ảnh media thực | VERIFIED read-only; chưa output | Kiểm bảo toàn/mapping |
+| .agent/qa/word-w02-20261010/source-images/ | Ảnh embedded trích đúng bytes, không ảnh mới | Local QA, không phát hành | Xem nguồn user đã chèn |
+| .agent/scripts/preflight_word_w02.py | Audit read-only nguồn và trích ảnh vào QA | Đã chạy một lần; không rerun ghi đè evidence | Truy preflight |
+
+Source Word W01.1 Thy chỉnh SHA876945c3...9cb5b34 giữ nguyên. W02 dùng sáu ảnh thật có sẵn, crop đúng chart Tổng quan cho H3.2 và bảng ảnh từ CSV thật cho H3.1. Mapping cuối dùng image-registry-final.json sau native Word save, không dùng relationship authoring làm nguồn cuối. Nguồn W01.1 phía dưới là lịch sử bàn giao; không khôi phục đè thay đổi Thy.
+
+Runtime hiện tại: `.agent/logs/app-recovery-20261010.md` ghi triệu chứng HTTP200 nhưng scriptErrno19, sửa mountDrvFS và restart app/PID5344/session15638,kiểm3tab. Đọc khi app trắng/lỗi nguồn;không thay quyết định phạm vi Word.
+
+## Lịch sử — nguồn W01.1
 
 Scope `decisions/20261010-word-w011-scope.md` ưu tiên W01 đã được duyệt có điều kiện. Checklist `qa/word-w011-20261010/checklist.md` hiện hành;artifact.md hợp đồng giữ format. Các tài liệu W01 bên dưới là lịch sử tại d66a3c9.
 

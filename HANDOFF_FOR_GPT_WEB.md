@@ -1,6 +1,23 @@
 # Điểm vào bàn giao cho GPT Web
 
-## Mới nhất — W01.1 sửa nhỏ, 10/10/2026
+## Mới nhất — W02 và W02.1, 10/10/2026
+
+Thy giao hai lượt làm liên tiếp và yêu cầu tiếp tục chốt từ checkpoint, không tạo lại Word. Hai bản VERIFIED kỹ thuật, **chờ Thy/GPT Web nghiệm thu W02.1**.
+
+Đọc [review W02.1](Detaituan8910/.agent/qa/word-w021-20261010/review.md), [gate cuối](Detaituan8910/.agent/qa/word-w021-20261010/final-verification.json), [lịch và 21 diff tham khảo](Detaituan8910/.agent/qa/word-w021-20261010/changes.json), [rà 69 trang](Detaituan8910/.agent/qa/word-w021-20261010/page-review.md), [manifest](Detaituan8910/.agent/qa/word-w021-20261010/manifest.json).
+
+Nguồn W02: [review](Detaituan8910/.agent/qa/word-w02-20261010/review.md), [14 diff câu dẫn/phân công](Detaituan8910/.agent/qa/word-w02-20261010/CHANGES.md), [7 hình/nguồn/hash cuối](Detaituan8910/.agent/qa/word-w02-20261010/image-registry-final.json), [checklist hai lượt](Detaituan8910/.agent/qa/word-w02-20261010/checklist.md).
+
+Hai DOCX phải gửi trực tiếp, không public:
+
+- `BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_v1_20261010.docx`:69trang,SHA `507b242603573c6bce5849c1c84c32963bef94b03cdca32c7ee21cd53b20ba96`.
+- `BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_1_v1_20261010.docx`:69trang,SHA `db0cf6ef43ae2887e76ebf10711c3bd425961b00b940f99f0963e16df2223788`.
+
+W02 53/53, W02.1 48/48; mỗi bản69PNG đã xem riêng,37guardnguồn/sản phẩm/mẫu khớp. Hai bìa/18bảng/5Equation/21nguồn/link giữ;7hìnhthật;PhátCh3–5/code/Word/Excel,%trống. W02.1 lịch4cột3tuần/bỏ21ngày,65/69tranggiốngW02,chỉ3/67/68/69đổi. Native Word cập nhật field/TOC/danh mục; PNG/PDF/fulltext chỉ local.
+
+Giới hạn: lịch3tuần tổ chức đầu việc, không chứng minh ba tuần lịch sử; hyperlink được bảo toàn trong DOCX, không freshHTTP-audit21website. Trang10 tên dài ngắt từ cũ ngoài scope; bundledrenderer thiếusoffice,nativeWord/PDFiumđãkiểm. Git receipt local xác minh commit/remote, không thay nghiệm thu. Dừng,không PPT/demo/app/model hoặc Word mới.
+
+## Lịch sử — W01.1 sửa nhỏ, 10/10/2026
 
 Đọc [review W01.1](Detaituan8910/.agent/qa/word-w011-20261010/review.md), [diff18điểm](Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md), [gate cuối](Detaituan8910/.agent/qa/word-w011-20261010/final-verification.json), [67trang](Detaituan8910/.agent/qa/word-w011-20261010/page-review.md) và [manifest](Detaituan8910/.agent/qa/word-w011-20261010/manifest.json).
 

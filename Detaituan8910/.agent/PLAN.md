@@ -1,5 +1,11 @@
 # Kế hoạch đồ án tuần 8–10
 
+## Hiện hành — W02 → W02.1
+
+Canonical checklist `qa/word-w02-20261010/checklist.md`; scope `decisions/20261010-word-w02-w021-scope.md`. W02-00–05 và W021-00–04 VERIFIED kỹ thuật/hồ sơ: W02 53/53, W02.1 48/48, mỗi bản native/render69 trang đã xem riêng,37/37 guard nguồn/sản phẩm/mẫu khớp. W02.1 đổi4trang/65giốngpixel; lịch4cột3tuần,21cụm ngày truy cập bỏ,21nguồn/link giữ. Gate hiện hành final-verification.json mỗi QA; raw trạng thái trước thị giác giữ lịch sử. Git hồ sơ kiểm qua publication-index.json và receipt local sau push, không Office/PNG/PDF/dữ liệu lớn. Dừng chờ Thy/GPT Web nghiệm thu; không rerun authoring, PPT/demo/app. Lịch không xác nhận ba tuần lịch sử. Block W01.1 dưới đây là lịch sử.
+
+Runtime10/10 VERIFIED trong phạm vi yêu cầu chạy app: phục hồi mountDrvFS/khởi động app/3tab/1inference. Evidence `logs/app-recovery-20261010.md`;không QA toànPhase4,không đổi code/model/Word. Giữ appforeground session15638;không tự sửa thêm hoặc mởW02.
+
 ## Hiện hành — W01.1
 
 Canonical `qa/word-w011-20261010/checklist.md`;scope `decisions/20261010-word-w011-scope.md`. S01–S05 VERIFIED trong phạm vi Word/bàn giao:37/37,9/9 field,67 trang xem riêng,37 guard nguồn;18 điểm sửa;publication59b68e3 remote34/34. Snapshot ngoài Word INCOMPLETE1568/1571,3 link runtime không đọc được,0 changed/missing. Receipt local kiểm HEAD cuối sau checkpoint. Acceptance PENDING;W02 chưa duyệt. Dừng,không sửa thêm DOCX hoặc tự giai đoạn mới. Các mục dưới là lịch sử.

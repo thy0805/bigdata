@@ -1,5 +1,7 @@
 # Kế hoạch hiện hành
 
+- W02 → W02.1: checklist `Detaituan8910/.agent/qa/word-w02-20261010/checklist.md`, tất cả hạng mục VERIFIED kỹ thuật/hồ sơ, mỗi bản69trang đã xem;53/53 và48/48,37guardkhớp. Hai DOCX riêng, nguồn không đổi. Git chỉ hồ sơ/helper/điều phối; kiểm publication-receipt.local.json sau push. Dừng chờ Thy/GPT Web nghiệm thu W02.1, không Word mới/PPT/demo/app. Các mục W01.1 dưới là lịch sử.
+
 - W01.1 hiện hành: checklist `Detaituan8910/.agent/qa/word-w011-20261010/checklist.md`;S01–S05 VERIFIED37/37Word,9/9field,67trang;publication59b68e3 remote34/34. Snapshot ngoài Word INCOMPLETE1568/1571,3link runtime unreadable,không sửa môi trường. Receipt local kiểm HEAD cuối;chờ nghiệm thu;W02 chưa duyệt. Dừng,không tự giai đoạn mới. Các mục bên dưới là lịch sử.
 
 - W01 Word10/10: canonical `Detaituan8910/.agent/qa/word-w01-20261010/checklist.md`. W01-01–06 VERIFIED:69/69,9/9 field probe,67 trang xem riêng,font khớp Mauwword,30 guard nguồn/1571 artifact nguyên hash; publication486e8b3 remote50/50. Receipt local kiểm HEAD cuối. 7 khung đen chờ W02 riêng; nghiệm thu W01 PENDING; dừng bàn giao DOCX trực tiếp và link review, không Word vòng mới/app/PPT/I04/demo. Các checkpoint dưới là lịch sử.

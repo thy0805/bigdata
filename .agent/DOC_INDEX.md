@@ -1,6 +1,17 @@
 # Bản đồ tài liệu
 
-## Nguồn hiện hành W01.1
+## Nguồn hiện hành W02 và W02.1
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| Detaituan8910/context.md; .agent/PLAN.md trong project | Recovery và kế hoạch hiện hành | VERIFIED kỹ thuật; chờ nghiệm thu | Đầu phiên |
+| Detaituan8910/.agent/qa/word-w02-20261010/checklist.md; review.md; CHANGES.md; image-registry-final.json | W02, 7 ảnh và 14 diff | VERIFIED,69 trang | Kiểm thay ảnh/câu dẫn |
+| Detaituan8910/.agent/qa/word-w021-20261010/review.md; final-verification.json; manifest.json; page-review.md | Bàn giao Word cuối W02.1 | Nguồn ưu tiên raw gate trung gian | Thy/GPT Web nghiệm thu |
+| Detaituan8910/.agent/qa/word-w021-20261010/publication-index.json; publication-receipt.local.json | Phạm vi public và remote read-back | Index public,receipt local sau push | Kiểm GitHub |
+
+DOCX W02/W02.1 gửi trực tiếp, không public cùng PDF/PNG/dữ liệu lớn. Hai bản đều69 trang; source Thy chỉnh giữ nguyên. Lịch3tuần là tổ chức đầu việc, không nhật ký lịch sử đã xác minh. Các nguồn W01.1 dưới là lịch sử.
+
+## Lịch sử — nguồn W01.1
 
 W01 nội dung/bố cục chính đã được Thy/GPT Web duyệt có điều kiện sửa nhỏ;decision W01.1 có ưu tiên về phạm vi lượt này. Không tự W02.
 

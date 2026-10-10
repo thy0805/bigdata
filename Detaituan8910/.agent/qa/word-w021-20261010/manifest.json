@@ -1,0 +1,32 @@
+{
+  "version": "W02_1",
+  "status": "VERIFIED_TECHNICAL_ACCEPTANCE_PENDING",
+  "artifact": {
+    "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_1_v1_20261010.docx",
+    "sha256": "db0cf6ef43ae2887e76ebf10711c3bd425961b00b940f99f0963e16df2223788",
+    "pages": 69,
+    "delivery": "Direct DOCX only, not public GitHub"
+  },
+  "evidence": [
+    {
+      "path": "verification.json",
+      "sha256": "628908e2e4bdd08ed881cce21c5bddc533bda20fb7bd0318b109b8c372d48efb"
+    },
+    {
+      "path": "final-verification.json",
+      "sha256": "8f6abbb1405286612ee242ef434d6f6bee965c3ce6d7ab898b4a43228f508124"
+    },
+    {
+      "path": "changes.json",
+      "sha256": "b9e82238b2167ed399cee33cacdbaa119f08d67a6e15f8189e72253036a22111"
+    },
+    {
+      "path": "page-review.md",
+      "sha256": "a73d73aff1068658a45392ad1809c7f8e9b8f93dd77e7dd048f5271d9a8c1ae2"
+    },
+    {
+      "path": "image-registry-final.json",
+      "sha256": "d39986eb3123bffe6b38e1dc963efa58141e72d004ad530811da6ac5d0c9fbbd"
+    }
+  ]
+}

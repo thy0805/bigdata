@@ -1,0 +1,225 @@
+{
+  "status": "VERIFIED",
+  "technical_result": "PASS",
+  "acceptance": "PENDING_THY_GPT_WEB",
+  "at": "2026-10-10T04:12:23.589092+00:00",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_v1_20261010.docx",
+  "sha256": "507b242603573c6bce5849c1c84c32963bef94b03cdca32c7ee21cd53b20ba96",
+  "source_sha256": "876945c3b6913b1f495fe89900eff4d70a07823db8aff3ce7ca7d979f9cb5b34",
+  "pages": 69,
+  "structural_semantic_checks": {
+    "passed": 53,
+    "total": 53,
+    "evidence": "verification.json"
+  },
+  "artifact_verification": {
+    "native_Word_field_update": true,
+    "tables": 18,
+    "inline_images": 10,
+    "equations": 5,
+    "toc_lists": 3,
+    "render_pages": 69,
+    "individual_PNG_review_pages": 69,
+    "evidence": [
+      "word-readback.json (local only)",
+      "render-pages.json (local only)",
+      "page-review.md"
+    ]
+  },
+  "preservation": [
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_QA_v3_20261008.docx",
+      "expected": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1",
+      "actual": "efc3acdfec05bc264eb3320f2df363241cab29818830a7159cc88aabdb77bdd1"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\KhoiTuan Tong Quan Bai Toan Chuong 1.docx",
+      "expected": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15",
+      "actual": "d7d62c5be2e6c0fc08dee6913afb83db58b9e5f338211777bed40a0b8cef3b15"
+    },
+    {
+      "path": "C:\\Users\\thy\\Downloads\\HAULYVUNHAN_Chuong2_CoSoLyThuyet_HoanChinh.docx",
+      "expected": "0902902041a6426555b3ce852e188ef3948c61a39e7cb0bf087c5aa85638065d",
+      "actual": "0902902041a6426555b3ce852e188ef3948c61a39e7cb0bf087c5aa85638065d"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Mauwword\\Mau bao cao_Do an_Khoa luan_2025.docx",
+      "expected": "25ce340ffa6c1931cfe59e2be22ae689b8eaf76ac5068b1b25fe7913d79fec35",
+      "actual": "25ce340ffa6c1931cfe59e2be22ae689b8eaf76ac5068b1b25fe7913d79fec35"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\HAULYVUNHAN_Chuong2_CoSoLyThuyet.docx",
+      "expected": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c",
+      "actual": "f5f3aae9cd00e97c51a82a8a2992a6ad9062a6a89d3e00144b7d2fff3d77f33c"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\.agent\\rule.md",
+      "expected": "f7ab6d5a18a4f8f2ea56360e7190476d65300399c519122adfc37866bdd848c3",
+      "actual": "f7ab6d5a18a4f8f2ea56360e7190476d65300399c519122adfc37866bdd848c3"
+    },
+    {
+      "path": "C:\\Users\\thy\\Downloads\\rule.md",
+      "expected": "3a83582c6c47b7ab97f8e7b486be3c0335bad619a0cb22ad48f9c92f9da5ae0a",
+      "actual": "3a83582c6c47b7ab97f8e7b486be3c0335bad619a0cb22ad48f9c92f9da5ae0a"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\dashboard\\app.py",
+      "expected": "284c8d97b768886bd9f5a0160e1ceacf3a9a5d465b26594824b14cb68971b176",
+      "actual": "284c8d97b768886bd9f5a0160e1ceacf3a9a5d465b26594824b14cb68971b176"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\operations\\services.py",
+      "expected": "7accec43ea3204e993df591bda75b603b0856965c85370f39d68ffac158e2dfb",
+      "actual": "7accec43ea3204e993df591bda75b603b0856965c85370f39d68ffac158e2dfb"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\phase2b2-20261009\\verification.json",
+      "expected": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471",
+      "actual": "a36c08ce241d51b1bcf1c88e6e3085598f6563957ad876b2b27dcb0105851471"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\eligibility.csv",
+      "expected": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9",
+      "actual": "fdf2269a0d7ef658af6b7c135fa84e34257c249050f2424d4c8e3faa9b7671b9"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\feature-schema.json",
+      "expected": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116",
+      "actual": "df9dbcd6e5be0c8c7515c1418829e7d584fb79a6fb7145e0321442ec4f60f116"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\holdout\\seal.json",
+      "expected": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2",
+      "actual": "70a57d943243f56182a5d9246ce83f1383413da70babffebd28014fc92ebb9c2"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\holdout\\test.csv",
+      "expected": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574",
+      "actual": "f9785b91f46c43bbb22c08c98294cd32739f75e5df0218e355baa53d5fbd3574"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\manifest.json",
+      "expected": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc",
+      "actual": "5dcb28841635e3b525bed1998c70b669a295a630d61c8ea3e63c9af7b06375fc"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\metrics-validation.json",
+      "expected": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892",
+      "actual": "324b3e9a424dbfdbefd1b00ea3e850078759be7a26168d451da2466ee0fc3892"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\predictions-validation.csv",
+      "expected": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b",
+      "actual": "832b93c1ce1f941228914e3fd7edd3335570d6efad604c861145fa1a05a2a44b"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\split-summary.json",
+      "expected": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117",
+      "actual": "47b8b9ca43611f042e0be973f78bd3b00f9f0649df23469ab879bc242edd1117"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\train.csv",
+      "expected": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1",
+      "actual": "bd450d765a3df55ebc2278b5d671a8c17c6d4d6c0f78c1152912aa114fe12cf1"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\ml\\runs\\20261009-phase2a-a\\validation.csv",
+      "expected": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884",
+      "actual": "f1978e9e220b1af133b4fc31beb50ac97a468a27a31d98c256332e2632664884"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\hourly-grid.csv",
+      "expected": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+      "actual": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\manifest.json",
+      "expected": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312",
+      "actual": "86b46e302978ef698e900eac4cca2f76bd97da28039cd4e380e48bf063073312"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\verification.json",
+      "expected": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6",
+      "actual": "ea3b46e3fe00d56af7f3c106ef3abceca09da7a6d3521d83ffca3e1da6a14ff6"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\final\\hgb-uci-hourly-v1.0-train-only\\manifest.json",
+      "expected": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc",
+      "actual": "9cbae28361398f0c0168b9dc149ac54c2adc1db2d4e9bf20065d7e81464f12bc"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\final\\hgb-uci-hourly-v1.0-train-only\\model.joblib",
+      "expected": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c",
+      "actual": "f4c33c54b026a3c81312dff9c9623c7dad33a3f9df4986ecd8693b7267d8749c"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\manifest.json",
+      "expected": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307",
+      "actual": "096ac1c70dd0573799db3fcd1d04c237a16a7dd1758e5ed22b0e8a7296022307"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\metrics-test.json",
+      "expected": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c",
+      "actual": "5dafb35b8e7e88e106b7b3fd8e31420f48e7c602df8d53c5a9a268afe58fc66c"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\predictions-test.csv",
+      "expected": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97",
+      "actual": "2c17145df375bfdfd9312fcebf89c97d7dbb0df2032804d9348f63b6ce01fa97"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\runtime-evidence.json",
+      "expected": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7",
+      "actual": "7edfebdb63b9c30237b89da553e11c447a45edf65f8eb8ba954fa38e2e356ce7"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\models\\runs\\20261009-phase2b2-a\\verification.json",
+      "expected": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe",
+      "actual": "2893dad96cf5e3559a4c961d71704b97475adeaadbe07bf989cbe8b4ed017afe"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx",
+      "expected": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591",
+      "actual": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\verification.json",
+      "expected": "daf57e79aa3b876dc52be8b452a62aea806789c015eeb888e3161c077bd4e15e",
+      "actual": "daf57e79aa3b876dc52be8b452a62aea806789c015eeb888e3161c077bd4e15e"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\final-verification.json",
+      "expected": "67a32809bc042d37fc99542f374c770872e0bb2a4b98b6a38d3a0bf701a1b4bd",
+      "actual": "67a32809bc042d37fc99542f374c770872e0bb2a4b98b6a38d3a0bf701a1b4bd"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\field-probe.json",
+      "expected": "769d295dd67a7f068c9c37982786befd816ab7cb9252eb3d83a25d4361f5c86c",
+      "actual": "769d295dd67a7f068c9c37982786befd816ab7cb9252eb3d83a25d4361f5c86c"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\font-audit.json",
+      "expected": "85829ad322ce11973542ca702a4918355639c75139fa525e909219f7528c0f87",
+      "actual": "85829ad322ce11973542ca702a4918355639c75139fa525e909219f7528c0f87"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\manifest.json",
+      "expected": "baaef92e77cb27202dc2ec47a7b65032a98d19563bbab3d5b1733687573ffbbf",
+      "actual": "baaef92e77cb27202dc2ec47a7b65032a98d19563bbab3d5b1733687573ffbbf"
+    },
+    {
+      "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w01-20261010\\image-registry.json",
+      "expected": "05b1ede28c699a86d9ce6361b6e204fd201e345f747ab5fd46574b3ab135b21b",
+      "actual": "05b1ede28c699a86d9ce6361b6e204fd201e345f747ab5fd46574b3ab135b21b"
+    }
+  ],
+  "limits": [
+    "37 explicit source/product/template guards, not renewed whole-runtime audit",
+    "21 DOCX external links preserved; no fresh HTTP availability audit",
+    "Native Word/PDFium rendering; bundled LibreOffice renderer unavailable",
+    "Existing glossary long-name wrap on physical page 10 retained outside scope",
+    "Three-week schedule organizes work; elapsed calendar weeks not independently established"
+  ],
+  "forbidden_actions_performed": [],
+  "next_action": "STOP for Thy/GPT Web acceptance; no PowerPoint, app, model, demo or video"
+}

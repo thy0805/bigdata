@@ -1,0 +1,292 @@
+{
+  "status": "APPLIED_UNVERIFIED",
+  "source": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_v1_20261010.docx",
+  "source_sha256": "507b242603573c6bce5849c1c84c32963bef94b03cdca32c7ee21cd53b20ba96",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W02_1_v1_20261010.docx",
+  "output_pre_field_sha256": "44101408e07ac29196cbe6028504f0183f0fcba48a49add2ccd42d9806df5fa1",
+  "schedule_before": [
+    [
+      "Tuần",
+      "Nội dung công việc",
+      "Thành viên",
+      "Minh chứng",
+      "Trạng thái"
+    ],
+    [
+      "1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "3",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "4",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "6",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "7",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "8",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "9",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "10",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "schedule_after": [
+    [
+      "Tuần",
+      "Nội dung công việc",
+      "Thành viên",
+      "Trạng thái"
+    ],
+    [
+      "Tuần 1",
+      "Tiếp nhận đề tài, thống nhất phạm vi, phân công nhiệm vụ và khảo sát bộ dữ liệu UCI.",
+      "Cả nhóm",
+      "Đã thực hiện"
+    ],
+    [
+      "Tuần 2",
+      "Xử lý, tổng hợp dữ liệu bằng Apache Flink; xây dựng đặc trưng, huấn luyện và đánh giá mô hình dự báo.",
+      "Nguyễn Đức Thành Phát",
+      "Đã thực hiện"
+    ],
+    [
+      "Tuần 3",
+      "Xây dựng giao diện phân tích và dự báo, kiểm tra kết quả, rà soát báo cáo và chuẩn bị trình bày.",
+      "Cả nhóm",
+      "Đang thực hiện"
+    ]
+  ],
+  "column_widths_twips": [
+    1000,
+    4000,
+    2000,
+    1504
+  ],
+  "access_date_changes": [
+    {
+      "index": 597,
+      "before": "[1] U.S. Energy Information Administration (2011). Electricity demand changes in predictable patterns. Truy cập ngày 08/10/2026. https://www.eia.gov/todayinenergy/detail.php?id=4190",
+      "after": "[1] U.S. Energy Information Administration (2011). Electricity demand changes in predictable patterns. https://www.eia.gov/todayinenergy/detail.php?id=4190",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 598,
+      "before": "[2] U.S. Department of Energy (2016). Advanced Metering Infrastructure and Customer Systems: Results from the Smart Grid Investment Grant Program. Truy cập ngày 08/10/2026. https://www.energy.gov/sites/prod/files/2016/12/f34/AMI%20Summary%20Report_09-26-16.pdf",
+      "after": "[2] U.S. Department of Energy (2016). Advanced Metering Infrastructure and Customer Systems: Results from the Smart Grid Investment Grant Program. https://www.energy.gov/sites/prod/files/2016/12/f34/AMI%20Summary%20Report_09-26-16.pdf",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 599,
+      "before": "[3] U.S. Energy Information Administration (n.d.). Measuring electricity. Energy Explained. Truy cập ngày 08/10/2026. https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "after": "[3] U.S. Energy Information Administration (n.d.). Measuring electricity. Energy Explained. https://www.eia.gov/energyexplained/electricity/measuring-electricity.php",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 600,
+      "before": "[4] G. Hebrail và A. Berard (2006). Individual Household Electric Power Consumption. Bộ dữ liệu, UCI Machine Learning Repository. DOI: 10.24432/C58K54. Truy cập ngày 08/10/2026. https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "after": "[4] G. Hebrail và A. Berard (2006). Individual Household Electric Power Consumption. Bộ dữ liệu, UCI Machine Learning Repository. DOI: 10.24432/C58K54. https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 601,
+      "before": "[5] R. J. Hyndman và G. Athanasopoulos (2021). Forecasting: Principles and Practice. Ấn bản thứ 3, OTexts. Truy cập ngày 08/10/2026. https://otexts.com/fpp3/",
+      "after": "[5] R. J. Hyndman và G. Athanasopoulos (2021). Forecasting: Principles and Practice. Ấn bản thứ 3, OTexts. https://otexts.com/fpp3/",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 602,
+      "before": "[6] U.S. Energy Information Administration (2020). Hourly electricity consumption varies throughout the day and across seasons. Truy cập ngày 08/10/2026. https://www.eia.gov/todayinenergy/detail.php?id=42915",
+      "after": "[6] U.S. Energy Information Administration (2020). Hourly electricity consumption varies throughout the day and across seasons. https://www.eia.gov/todayinenergy/detail.php?id=42915",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 603,
+      "before": "[7] National Institute of Standards and Technology (2014). Guidelines for Smart Grid Cybersecurity. NISTIR 7628, Revision 1. DOI: 10.6028/NIST.IR.7628r1. Truy cập ngày 08/10/2026. https://csrc.nist.gov/pubs/ir/7628/r1/final",
+      "after": "[7] National Institute of Standards and Technology (2014). Guidelines for Smart Grid Cybersecurity. NISTIR 7628, Revision 1. DOI: 10.6028/NIST.IR.7628r1. https://csrc.nist.gov/pubs/ir/7628/r1/final",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 604,
+      "before": "[8] L. Breiman (2001). Random Forests. Machine Learning, 45, tr. 5–32. DOI: 10.1023/A:1010933404324. Truy cập ngày 08/10/2026. https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "after": "[8] L. Breiman (2001). Random Forests. Machine Learning, 45, tr. 5–32. DOI: 10.1023/A:1010933404324. https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 605,
+      "before": "[9] S. Hochreiter và J. Schmidhuber (1997). Long Short-Term Memory. Neural Computation, 9(8), tr. 1735–1780. DOI: 10.1162/neco.1997.9.8.1735. Truy cập ngày 08/10/2026. https://www.bioinf.jku.at/publications/older/2604.pdf",
+      "after": "[9] S. Hochreiter và J. Schmidhuber (1997). Long Short-Term Memory. Neural Computation, 9(8), tr. 1735–1780. DOI: 10.1162/neco.1997.9.8.1735. https://www.bioinf.jku.at/publications/older/2604.pdf",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 606,
+      "before": "[10] S. Haben, C. Singleton và P. Grindrod (2016). Analysis and Clustering of Residential Customers Energy Behavioral Demand Using Smart Meter Data. IEEE Transactions on Smart Grid, 7(1), tr. 136–144. DOI: 10.1109/TSG.2015.2409786. Truy cập ngày 08/10/2026. https://doi.org/10.1109/TSG.2015.2409786",
+      "after": "[10] S. Haben, C. Singleton và P. Grindrod (2016). Analysis and Clustering of Residential Customers Energy Behavioral Demand Using Smart Meter Data. IEEE Transactions on Smart Grid, 7(1), tr. 136–144. DOI: 10.1109/TSG.2015.2409786. https://doi.org/10.1109/TSG.2015.2409786",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 607,
+      "before": "[11] P. Lusis, K. R. Khalilpour, L. Andrew và A. Liebman (2017). Short-term residential load forecasting: Impact of calendar effects and forecast granularity. Applied Energy, 205, tr. 654–669. DOI: 10.1016/j.apenergy.2017.07.114. Truy cập ngày 08/10/2026. https://doi.org/10.1016/j.apenergy.2017.07.114",
+      "after": "[11] P. Lusis, K. R. Khalilpour, L. Andrew và A. Liebman (2017). Short-term residential load forecasting: Impact of calendar effects and forecast granularity. Applied Energy, 205, tr. 654–669. DOI: 10.1016/j.apenergy.2017.07.114. https://doi.org/10.1016/j.apenergy.2017.07.114",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 608,
+      "before": "[12] A. Gasparin, S. Lukovic và C. Alippi (2022). Deep learning for time series forecasting: The electric load case. CAAI Transactions on Intelligence Technology, 7(1), tr. 1–25. DOI: 10.1049/cit2.12060. Truy cập ngày 08/10/2026. https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12060",
+      "after": "[12] A. Gasparin, S. Lukovic và C. Alippi (2022). Deep learning for time series forecasting: The electric load case. CAAI Transactions on Intelligence Technology, 7(1), tr. 1–25. DOI: 10.1049/cit2.12060. https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12060",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 609,
+      "before": "[13] T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli và R. J. Hyndman (2016). Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond. International Journal of Forecasting, 32(3), tr. 896–913. DOI: 10.1016/j.ijforecast.2016.02.001. Truy cập ngày 08/10/2026. https://doi.org/10.1016/j.ijforecast.2016.02.001",
+      "after": "[13] T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli và R. J. Hyndman (2016). Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond. International Journal of Forecasting, 32(3), tr. 896–913. DOI: 10.1016/j.ijforecast.2016.02.001. https://doi.org/10.1016/j.ijforecast.2016.02.001",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 610,
+      "before": "[14] W. L. Chang và N. Grady (2019). NIST Big Data Interoperability Framework: Volume 1, Definitions. NIST SP 1500-1r2. DOI: 10.6028/NIST.SP.1500-1r2. Truy cập ngày 08/10/2026. https://doi.org/10.6028/NIST.SP.1500-1r2",
+      "after": "[14] W. L. Chang và N. Grady (2019). NIST Big Data Interoperability Framework: Volume 1, Definitions. NIST SP 1500-1r2. DOI: 10.6028/NIST.SP.1500-1r2. https://doi.org/10.6028/NIST.SP.1500-1r2",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 611,
+      "before": "[15] Apache Software Foundation (n.d.). HDFS Architecture. Tài liệu Apache Hadoop. Truy cập ngày 08/10/2026. https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "after": "[15] Apache Software Foundation (n.d.). HDFS Architecture. Tài liệu Apache Hadoop. https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 612,
+      "before": "[16] Apache Software Foundation (n.d.). What is Apache Flink? — Architecture. Tài liệu Apache Flink. Truy cập ngày 08/10/2026. https://flink.apache.org/what-is-flink/flink-architecture/",
+      "after": "[16] Apache Software Foundation (n.d.). What is Apache Flink? — Architecture. Tài liệu Apache Flink. https://flink.apache.org/what-is-flink/flink-architecture/",
+      "removed": [
+        " Truy cập ngày 08/10/2026."
+      ]
+    },
+    {
+      "index": 613,
+      "before": "[17] scikit-learn developers (n.d.). HistGradientBoostingRegressor. scikit-learn 1.6.1 documentation. Truy cập ngày 10/10/2026. https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "after": "[17] scikit-learn developers (n.d.). HistGradientBoostingRegressor. scikit-learn 1.6.1 documentation. https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "removed": [
+        " Truy cập ngày 10/10/2026."
+      ]
+    },
+    {
+      "index": 614,
+      "before": "[18] scikit-learn developers (n.d.). Lagged features for time series forecasting. scikit-learn 1.6.1 examples. Truy cập ngày 10/10/2026. https://scikit-learn.org/1.6/auto_examples/applications/plot_time_series_lagged_features.html",
+      "after": "[18] scikit-learn developers (n.d.). Lagged features for time series forecasting. scikit-learn 1.6.1 examples. https://scikit-learn.org/1.6/auto_examples/applications/plot_time_series_lagged_features.html",
+      "removed": [
+        " Truy cập ngày 10/10/2026."
+      ]
+    },
+    {
+      "index": 615,
+      "before": "[19] Apache Software Foundation (n.d.). Execution Mode (Batch/Streaming). Apache Flink 2.3 documentation. Truy cập ngày 10/10/2026. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/",
+      "after": "[19] Apache Software Foundation (n.d.). Execution Mode (Batch/Streaming). Apache Flink 2.3 documentation. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/execution_mode/",
+      "removed": [
+        " Truy cập ngày 10/10/2026."
+      ]
+    },
+    {
+      "index": 616,
+      "before": "[20] Apache Software Foundation (n.d.). Group Aggregation. Apache Flink 2.3 SQL documentation. Truy cập ngày 10/10/2026. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/sql/reference/queries/group-agg/",
+      "after": "[20] Apache Software Foundation (n.d.). Group Aggregation. Apache Flink 2.3 SQL documentation. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/sql/reference/queries/group-agg/",
+      "removed": [
+        " Truy cập ngày 10/10/2026."
+      ]
+    },
+    {
+      "index": 617,
+      "before": "[21] Apache Software Foundation (n.d.). Windows. Apache Flink 2.3 DataStream documentation. Truy cập ngày 10/10/2026. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/operators/windows/",
+      "after": "[21] Apache Software Foundation (n.d.). Windows. Apache Flink 2.3 DataStream documentation. https://nightlies.apache.org/flink/flink-docs-release-2.3/docs/dev/datastream/operators/windows/",
+      "removed": [
+        " Truy cập ngày 10/10/2026."
+      ]
+    }
+  ],
+  "removed_access_dates": 21,
+  "schedule_basis": "Three-week work organization proposed by Thy, not verified elapsed historical weeks; no dates assigned. Week 2 Phat from explicit assignment. Coordination weeks 1 and 3: whole group; week 3 still in progress.",
+  "school_rule": "Mau bao cao_Do an_Khoa luan_2025.docx paragraph235 contains one illustrative accessed-date source; no mandatory accessed-date rule found in source template. Thy requests removal.",
+  "retained": "21 numbered sources and live hyperlink relationships, publication years, DOI, all images and chapters"
+}

@@ -1,0 +1,162 @@
+{
+  "csv": "D:\\Hoctap\\bigdata\\Detaituan8910\\data\\processed\\runs\\20261009T102201900234-full\\hourly-grid.csv",
+  "sha256": "8b03f1e3c82a5344c071a19f756cb7ec87fce18cc9a612cd63c4dcf4a8b5b2bc",
+  "source_records": [
+    {
+      "hour_start": "2006-12-16 17:00:00",
+      "record_count": "36",
+      "distinct_minute_count": "36",
+      "valid_power_count": "36",
+      "observed_energy_kwh": "2.533733333333333",
+      "is_complete": "false",
+      "energy_kwh": "NULL",
+      "sub1_valid_count": "36",
+      "sub2_valid_count": "36",
+      "sub3_valid_count": "36",
+      "sub1_observed_kwh": "0.0",
+      "sub2_observed_kwh": "0.019",
+      "sub3_observed_kwh": "0.607",
+      "negative_residual_count": "0"
+    },
+    {
+      "hour_start": "2006-12-16 18:00:00",
+      "record_count": "60",
+      "distinct_minute_count": "60",
+      "valid_power_count": "60",
+      "observed_energy_kwh": "3.6321999999999997",
+      "is_complete": "true",
+      "energy_kwh": "3.6321999999999997",
+      "sub1_valid_count": "60",
+      "sub2_valid_count": "60",
+      "sub3_valid_count": "60",
+      "sub1_observed_kwh": "0.0",
+      "sub2_observed_kwh": "0.403",
+      "sub3_observed_kwh": "1.012",
+      "negative_residual_count": "0"
+    },
+    {
+      "hour_start": "2006-12-16 19:00:00",
+      "record_count": "60",
+      "distinct_minute_count": "60",
+      "valid_power_count": "60",
+      "observed_energy_kwh": "3.4002333333333334",
+      "is_complete": "true",
+      "energy_kwh": "3.4002333333333334",
+      "sub1_valid_count": "60",
+      "sub2_valid_count": "60",
+      "sub3_valid_count": "60",
+      "sub1_observed_kwh": "0.0",
+      "sub2_observed_kwh": "0.086",
+      "sub3_observed_kwh": "1.001",
+      "negative_residual_count": "0"
+    },
+    {
+      "hour_start": "2006-12-21 11:00:00",
+      "record_count": "60",
+      "distinct_minute_count": "60",
+      "valid_power_count": "58",
+      "observed_energy_kwh": "0.5168333333333334",
+      "is_complete": "false",
+      "energy_kwh": "NULL",
+      "sub1_valid_count": "58",
+      "sub2_valid_count": "58",
+      "sub3_valid_count": "58",
+      "sub1_observed_kwh": "0.0",
+      "sub2_observed_kwh": "0.0",
+      "sub3_observed_kwh": "0.0",
+      "negative_residual_count": "0"
+    },
+    {
+      "hour_start": "2007-04-28 01:00:00",
+      "record_count": "60",
+      "distinct_minute_count": "60",
+      "valid_power_count": "0",
+      "observed_energy_kwh": "NULL",
+      "is_complete": "false",
+      "energy_kwh": "NULL",
+      "sub1_valid_count": "0",
+      "sub2_valid_count": "0",
+      "sub3_valid_count": "0",
+      "sub1_observed_kwh": "NULL",
+      "sub2_observed_kwh": "NULL",
+      "sub3_observed_kwh": "NULL",
+      "negative_residual_count": "0"
+    },
+    {
+      "hour_start": "2010-11-26 21:00:00",
+      "record_count": "3",
+      "distinct_minute_count": "3",
+      "valid_power_count": "3",
+      "observed_energy_kwh": "0.04673333333333333",
+      "is_complete": "false",
+      "energy_kwh": "NULL",
+      "sub1_valid_count": "3",
+      "sub2_valid_count": "3",
+      "sub3_valid_count": "3",
+      "sub1_observed_kwh": "0.0",
+      "sub2_observed_kwh": "0.0",
+      "sub3_observed_kwh": "0.0",
+      "negative_residual_count": "0"
+    }
+  ],
+  "display_rows": [
+    [
+      "2006-12-16\n17:00",
+      "36",
+      "36",
+      "2.533733",
+      "Không",
+      "NULL"
+    ],
+    [
+      "2006-12-16\n18:00",
+      "60",
+      "60",
+      "3.632200",
+      "Có",
+      "3.632200"
+    ],
+    [
+      "2006-12-16\n19:00",
+      "60",
+      "60",
+      "3.400233",
+      "Có",
+      "3.400233"
+    ],
+    [
+      "2006-12-21\n11:00",
+      "60",
+      "58",
+      "0.516833",
+      "Không",
+      "NULL"
+    ],
+    [
+      "2007-04-28\n01:00",
+      "60",
+      "0",
+      "NULL",
+      "Không",
+      "NULL"
+    ],
+    [
+      "2010-11-26\n21:00",
+      "3",
+      "3",
+      "0.046733",
+      "Không",
+      "NULL"
+    ]
+  ],
+  "display_precision": "6 decimal places, source unchanged",
+  "columns": [
+    "Giờ bắt đầu",
+    "Số bản\nghi",
+    "Phép đo\nhợp lệ",
+    "Ghi nhận\n(kWh)",
+    "Đầy đủ",
+    "Điện năng\n(kWh)"
+  ],
+  "note": "Subset of real output columns and six real hours; NULL remains NULL."
+}

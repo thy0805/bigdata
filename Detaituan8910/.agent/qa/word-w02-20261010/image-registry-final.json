@@ -1,0 +1,157 @@
+[
+  {
+    "key": "F31",
+    "paragraph_index": 440,
+    "caption": "Hình 3.1. Đầu ra điện năng và chất lượng dữ liệu theo giờ",
+    "relationship_id": "rId11",
+    "source_dimensions": [
+      1742,
+      792
+    ],
+    "word_crop_pixels": null,
+    "display_width_cm": 14.5,
+    "display_height_cm": 6.592422222222222,
+    "description": "Ảnh bảng từ sáu bản ghi thật của hourly-grid.csv",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rIdW02HourlyTable",
+    "part": "word/media/image3.png",
+    "sha256": "3ba9d0059c3b9fad42ed11618b3936595f3b556cdbc3c4e7253dcd02cfad33fd",
+    "source": "hourly-table.png; sáu bản ghi thật trong hourly-table-records.json",
+    "physical_page": 46
+  },
+  {
+    "key": "F32",
+    "paragraph_index": 456,
+    "caption": "Hình 3.2. Điện năng tiêu thụ theo giờ trong khoảng thời gian lựa chọn",
+    "relationship_id": "rId12",
+    "source_dimensions": [
+      2489,
+      1190
+    ],
+    "word_crop_pixels": [
+      550,
+      463,
+      1500,
+      900
+    ],
+    "display_width_cm": 14.5,
+    "display_height_cm": 6.67,
+    "description": "Biểu đồ điện năng theo giờ trong ảnh Tổng quan Thy đã chèn",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId14",
+    "part": "word/media/image4.png",
+    "sha256": "f760a3faaf02c75f4636e81f9b303bc0100c60dc162d41476524f4851d122014",
+    "source": "source-images/image6.png, crop biểu đồ Tổng quan",
+    "physical_page": 48
+  },
+  {
+    "key": "F41",
+    "paragraph_index": 508,
+    "caption": "Hình 4.1. Đối chiếu điện năng thực tế và dự báo HGB trên tập Test",
+    "relationship_id": "rId13",
+    "source_dimensions": [
+      2409,
+      1194
+    ],
+    "word_crop_pixels": [
+      1000,
+      220,
+      2385,
+      1185
+    ],
+    "display_width_cm": 14.5,
+    "display_height_cm": 10.10288888888889,
+    "description": "Biểu đồ Thực tế và HGB trong ảnh Dự báo Thy đã chèn",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId13",
+    "part": "word/media/image5.png",
+    "sha256": "7865ee65e375e41c43d1f64098d7b075e90f2be341fbc88a12bf492e89686ba1",
+    "source": "source-images/image5.png, crop biểu đồ Thực tế/HGB",
+    "physical_page": 53
+  },
+  {
+    "key": "F51",
+    "paragraph_index": 552,
+    "caption": "Hình 5.1. Giao diện Tổng quan của ứng dụng",
+    "relationship_id": "rId12",
+    "source_dimensions": [
+      2489,
+      1190
+    ],
+    "word_crop_pixels": [
+      550,
+      0,
+      1910,
+      1190
+    ],
+    "display_width_cm": 14.5,
+    "display_height_cm": 12.6875,
+    "description": "Ảnh Tổng quan Thy đã chèn, bỏ lề trống trái và phải",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId14",
+    "part": "word/media/image4.png",
+    "sha256": "f760a3faaf02c75f4636e81f9b303bc0100c60dc162d41476524f4851d122014",
+    "source": "source-images/image6.png, Tổng quan",
+    "physical_page": 59
+  },
+  {
+    "key": "F52",
+    "paragraph_index": 555,
+    "caption": "Hình 5.2. Phần giới thiệu bộ dữ liệu và đặc trưng dự báo",
+    "relationship_id": "rId14",
+    "source_dimensions": [
+      1422,
+      1102
+    ],
+    "word_crop_pixels": null,
+    "display_width_cm": 14.5,
+    "display_height_cm": 11.236988888888888,
+    "description": "Ảnh phần giới thiệu dataset và 11 đặc trưng Thy đã chèn",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId15",
+    "part": "word/media/image6.png",
+    "sha256": "ce011684a47dba019538fe013e0cc3f4329328e2bdb2d591d9351a8239b8e03f",
+    "source": "source-images/image7.png, dataset UCI và 11 đặc trưng",
+    "physical_page": 60
+  },
+  {
+    "key": "F53",
+    "paragraph_index": 563,
+    "caption": "Hình 5.3. Giao diện Phân tích dữ liệu tiêu thụ điện năng",
+    "relationship_id": "rId15",
+    "source_dimensions": [
+      1067,
+      987
+    ],
+    "word_crop_pixels": null,
+    "display_width_cm": 14.5,
+    "display_height_cm": 13.412838888888889,
+    "description": "Ảnh tab Phân tích Thy đã chèn",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId16",
+    "part": "word/media/image7.png",
+    "sha256": "2f397fea2e6c2f4aa8bbdca05c4a846a7f94d53c61ffcef354d070bdf9588ff8",
+    "source": "source-images/image8.png, Phân tích",
+    "physical_page": 62
+  },
+  {
+    "key": "F54",
+    "paragraph_index": 568,
+    "caption": "Hình 5.4. Giao diện Dự báo điện năng của giờ kế tiếp",
+    "relationship_id": "rId16",
+    "source_dimensions": [
+      1405,
+      1193
+    ],
+    "word_crop_pixels": null,
+    "display_width_cm": 14.5,
+    "display_height_cm": 12.3121,
+    "description": "Ảnh tab Dự báo Thy đã chèn",
+    "status": "VERIFIED",
+    "authoring_relationship_id": "rId17",
+    "part": "word/media/image8.png",
+    "sha256": "24ef0de21694c33e3bb549fda623437924ed9fc63d02affd7c204230efc505bc",
+    "source": "source-images/image9.png, Dự báo",
+    "physical_page": 63
+  }
+]

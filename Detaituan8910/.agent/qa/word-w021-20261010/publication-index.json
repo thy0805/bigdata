@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "at": "2026-10-10T04:15:40.724944+00:00",
+  "scope": "W02/W02.1 evidence, helpers and coordination only; excludes dirty root rule/project mistake, Office, renders, full-text, source datasets and model",
+  "files": [
+    {
+      "path": ".agent/DOC_INDEX.md",
+      "bytes": 27521,
+      "sha256": "7c77d5e41bae388e6c4087fc261d9623f57fddef5c79d7fa346cd581cdbd9b73"
+    },
+    {
+      "path": ".agent/PLAN.md",
+      "bytes": 18637,
+      "sha256": "e60c5776c474f36440d3a113c4a9a85b87e677cb71179f7ecb3c7c06f334f889"
+    },
+    {
+      "path": ".agent/context.md",
+      "bytes": 56181,
+      "sha256": "163834a2fb586b2511a30baaf8c6dc3e28ffba8b4e3415ee8e5d7bc4ba24c9fa"
+    },
+    {
+      "path": "Detaituan8910/.agent/DOC_INDEX.md",
+      "bytes": 35485,
+      "sha256": "c56dc93677a195de335137678db4952f5bcce61fe59e1c1ba53617f37d1dbc65"
+    },
+    {
+      "path": "Detaituan8910/.agent/PLAN.md",
+      "bytes": 23127,
+      "sha256": "d077afdc7cfd935f1a4e9f09c2e42299dc2e7d7645860a848c7b28302f0d4597"
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261010-word-w02-w021-scope.md",
+      "bytes": 5254,
+      "sha256": "8abbb3caae6a2fd8ed2c0e6d8fe7dbee01ec4552f39db3db64ccc16347a77cad"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/CHANGES.md",
+      "bytes": 8425,
+      "sha256": "ef024fa674baffd62cc089865fd913a8f9509eeb72a6586a812fa66eae385494"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/attempt-history.md",
+      "bytes": 981,
+      "sha256": "be0fd89f273d9c15cdf4d3d09eeee41c889a5b7dd4dd23ac90f6f49829913192"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/changes.json",
+      "bytes": 10150,
+      "sha256": "635ea89b2d054d82208eeab3d3498f19c6fc79b16d34de4417401747eae9f92d"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/checklist.md",
+      "bytes": 4991,
+      "sha256": "ff00bce7e6c15c55a0e31b441d4f72686330d235af2e89ca304d02fe22d6a6c0"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/final-verification.json",
+      "bytes": 12176,
+      "sha256": "913c30178fb1f23c7193c6142cb9c4c35bbaf2e9dd0f568c4c3c2bc816791d54"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/hourly-table-records.json",
+      "bytes": 4387,
+      "sha256": "761e03072ed060c685e402023b975968cfa259480a78699807cc54dc1f1130a6"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/image-registry-final.json",
+      "bytes": 5203,
+      "sha256": "d39986eb3123bffe6b38e1dc963efa58141e72d004ad530811da6ac5d0c9fbbd"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/image-registry.json",
+      "bytes": 3456,
+      "sha256": "975934285b5ce8556ab6aaf7ebf4b1f9fdfe17cf2f11de01f67cfed6bf8e41c7"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/manifest.json",
+      "bytes": 1071,
+      "sha256": "0ba4b97d15faea8fbd05ac789bd1c76b76398d23c9a88449a3d5ef67407c5ef3"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/page-review.md",
+      "bytes": 1476,
+      "sha256": "f08f4386aa0e1bee1191c803a94b1b32e0a5b7842c1d050b47647426e09f3d5e"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/review.md",
+      "bytes": 4544,
+      "sha256": "5d7ab51f8bf0e364ff87cfbdc817263a27ec7eceb901cc734a87a9c50b939faa"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/verification-attempt1.json",
+      "bytes": 21832,
+      "sha256": "fca88ba57befd3859543f0501e1cb2f588f64ba0d3eed6059fcae5519cd70809"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w02-20261010/verification.json",
+      "bytes": 21990,
+      "sha256": "d46e90dad1959cce89ca604042d26b7102e847d10ea864b3d72efac010eb7337"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/changes.json",
+      "bytes": 15186,
+      "sha256": "b9e82238b2167ed399cee33cacdbaa119f08d67a6e15f8189e72253036a22111"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/final-verification.json",
+      "bytes": 13941,
+      "sha256": "8f6abbb1405286612ee242ef434d6f6bee965c3ce6d7ab898b4a43228f508124"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/image-registry-final.json",
+      "bytes": 5203,
+      "sha256": "d39986eb3123bffe6b38e1dc963efa58141e72d004ad530811da6ac5d0c9fbbd"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/manifest.json",
+      "bytes": 1075,
+      "sha256": "53fc5cb9961515c85febf2b809f770d14d74094439cf35fb2c302af5c98214d6"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/page-diff.json",
+      "bytes": 705,
+      "sha256": "35e16a3e9ed0af959fd814beb3d53ea5e3cbfa712884513aa84134e974155fd6"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/page-review.md",
+      "bytes": 2341,
+      "sha256": "a73d73aff1068658a45392ad1809c7f8e9b8f93dd77e7dd048f5271d9a8c1ae2"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/renderer-diagnostic.md",
+      "bytes": 1182,
+      "sha256": "7c93408e4310d0ffde462d844469d11c8ddcc21b26d8e7444d894fc0c5ef84c9"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/review.md",
+      "bytes": 4711,
+      "sha256": "8a65e9a4570da8254786481e308bf3089f574f4c5e6942683d229fbf0d58eb44"
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w021-20261010/verification.json",
+      "bytes": 18744,
+      "sha256": "628908e2e4bdd08ed881cce21c5bddc533bda20fb7bd0318b109b8c372d48efb"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_word_w02.py",
+      "bytes": 11003,
+      "sha256": "6354edcdf9cf92a637590851039bc08bee8dbca4b14c4f7f375eecffd8f4eda4"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/build_word_w021.py",
+      "bytes": 5866,
+      "sha256": "70f8437e65f6a328c63d02632158c32f440df32577519fef3ffce356e7526ebf"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/handoff_word_w02.py",
+      "bytes": 10441,
+      "sha256": "ab0e0ff5d8ee6d525127ff6c12b45263daa7a6a637f7af7357c6870b41121c55"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/preflight_word_w02.py",
+      "bytes": 4668,
+      "sha256": "8fe78b5d1a201f9d96b2f5de1cca4b5ec84bd1802fea1db444cb136776b9944c"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/publish_word_w02.py",
+      "bytes": 5906,
+      "sha256": "fbccee9d3dc4ad7b70bbc13f57c4c46f6fe54cde04041c38d96184b31ddbb24c"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/render_word_w02.py",
+      "bytes": 884,
+      "sha256": "3a32854d63e9ae85fdd5df6e134b70859c6183f3468a4f86dca7914736186792"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_word_w02.py",
+      "bytes": 10741,
+      "sha256": "98f326dd43f846f190c72efb0c50a26b848035eddb88af971c0dd98b4d67a99c"
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_word_w021.py",
+      "bytes": 10160,
+      "sha256": "a88a3c324c8d42db38530b6dd52d2cddfa12b5238161edd9a768533df5678c6d"
+    },
+    {
+      "path": "Detaituan8910/context.md",
+      "bytes": 64797,
+      "sha256": "b719cb961f287a1068a9a9b73cd2fa91c705c97a7001ae1e34672299803799ee"
+    },
+    {
+      "path": "HANDOFF_FOR_GPT_WEB.md",
+      "bytes": 14257,
+      "sha256": "5c93e37bd8b6b62d5aba7f51eed0563469f1185f51ffaa659098b0031b1e8d7a"
+    }
+  ],
+  "count": 38,
+  "findings": [],
+  "limits": "Pattern scan is not a proof against all secrets; staged allowlist and bytes checked"
+}
