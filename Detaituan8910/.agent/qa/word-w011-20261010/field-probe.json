@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "scope": "Only QA copy opened and edited; final artifact byte hash unchanged",
+  "checks": [
+    {
+      "id": "Table-insert-increments-next-caption",
+      "status": "PASS",
+      "evidence": "Bảng 3.3"
+    },
+    {
+      "id": "Table-delete-restores-caption",
+      "status": "PASS",
+      "evidence": "Bảng 3.2"
+    },
+    {
+      "id": "Figure-insert-increments-next-caption",
+      "status": "PASS",
+      "evidence": "Hình 3.3"
+    },
+    {
+      "id": "Figure-delete-restores-caption",
+      "status": "PASS",
+      "evidence": "Hình 3.2"
+    },
+    {
+      "id": "heading-insert-stable-numbering",
+      "status": "PASS",
+      "evidence": {
+        "existing": "3.2.",
+        "inserted": "3.1."
+      }
+    },
+    {
+      "id": "heading-delete-restores-numbering",
+      "status": "PASS",
+      "evidence": "3.1."
+    },
+    {
+      "id": "all-caption-results-restored",
+      "status": "PASS",
+      "evidence": {
+        "count": 23
+      }
+    },
+    {
+      "id": "toc-lists-and-refs-no-errors-after-probe",
+      "status": "PASS",
+      "evidence": {
+        "toc": 3,
+        "errors": 0
+      }
+    },
+    {
+      "id": "final-artifact-unchanged-by-probe",
+      "status": "PASS",
+      "evidence": {
+        "before": "FAFE4D7485601BA667A468990C1C80E188BF0E7126DD3EDAF51059DFCA3E2006",
+        "after": "FAFE4D7485601BA667A468990C1C80E188BF0E7126DD3EDAF51059DFCA3E2006"
+      }
+    }
+  ]
+}

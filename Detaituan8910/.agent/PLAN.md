@@ -1,6 +1,10 @@
 # Kế hoạch đồ án tuần 8–10
 
-## Hiện hành — W01 VERIFIED, chờ nghiệm thu
+## Hiện hành — W01.1
+
+Canonical `qa/word-w011-20261010/checklist.md`;scope `decisions/20261010-word-w011-scope.md`. S01–S04 VERIFIED trong phạm vi Word:37/37,9/9 field,67 trang xem riêng,37 guard nguồn;18 điểm sửa. Snapshot ngoài Word INCOMPLETE1568/1571,3 link runtime không đọc được,0 changed/missing. S05 IN_PROGRESS phát hành Git. Acceptance PENDING;W02 chưa duyệt. Không sửa thêm DOCX;đẩy hồ sơ/kiểm remote rồi dừng. Các mục dưới là lịch sử.
+
+## Lịch sử — W01 VERIFIED, chờ nghiệm thu
 
 Canonical `qa/word-w01-20261010/checklist.md`, scope `decisions/20261010-word-w01-approval.md`. W01-01–06 VERIFIED: 67 trang đã xem riêng, 69/69 cấu trúc/ngữ nghĩa, 9/9 field probe, font khớp mẫu Mauwword; preservation1571/1571; publication486e8b3 remote50/50 khớp. Receipt local kiểm HEAD sau chốt trạng thái. W00 LOCKED, nguồn không đổi. Bản W01 có11 bảng bổ sung/7 khung đen/21 hyperlink cuối. Dừng để Thy gửi DOCX và link review cho GPT Web duyệt; W01 acceptance PENDING, W02 chưa mở, I04 DEFERRED. Không tự Word vòng mới/PPT/app/demo.
 

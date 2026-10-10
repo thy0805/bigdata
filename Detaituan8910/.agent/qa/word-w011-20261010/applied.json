@@ -1,0 +1,9 @@
+{
+  "status": "APPLIED_UNVERIFIED",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx",
+  "sha256_before_field_update": "d3d0db9e85d06d7709094e7ea2372e4d2ec7efc364557aaf74bc93c3af0a74c1",
+  "changed_package_parts": [
+    "word/document.xml"
+  ],
+  "change_count": 18
+}

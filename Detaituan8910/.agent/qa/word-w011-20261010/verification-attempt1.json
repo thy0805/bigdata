@@ -1,0 +1,268 @@
+{
+  "status": "FAIL",
+  "artifact_status": "APPLIED_UNVERIFIED_UNTIL_VISUAL_REVIEW",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx",
+  "sha256": "fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006",
+  "source_sha256": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591",
+  "checks": [
+    {
+      "id": "source_guards_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "count": 37,
+        "changed": []
+      }
+    },
+    {
+      "id": "only_document_part_changed_at_authoring",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "same_package_part_inventory",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "same_18_tables_and_paragraph_structure",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "prose_diff_exact_whitelist",
+      "status": "PASS",
+      "evidence": {
+        "actual_indices": [
+          418,
+          426,
+          445,
+          554,
+          561,
+          574,
+          575,
+          576,
+          578,
+          580,
+          581
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "id": "all_body_paragraph_styles_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "cell_diff_exact_whitelist",
+      "status": "PASS",
+      "evidence": {
+        "changed_cells": [
+          [
+            7,
+            2,
+            2
+          ],
+          [
+            15,
+            5,
+            2
+          ],
+          [
+            17,
+            0,
+            0
+          ],
+          [
+            17,
+            1,
+            0
+          ],
+          [
+            17,
+            5,
+            2
+          ],
+          [
+            17,
+            6,
+            0
+          ],
+          [
+            17,
+            6,
+            2
+          ]
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "id": "time_unit_and_model_name_unchanged_except_break",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_table_numeric_values_unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_table_geometry_and_format_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_image_parts_byte_identical",
+      "status": "PASS",
+      "evidence": {
+        "parts": [
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/image5.png"
+        ]
+      }
+    },
+    {
+      "id": "all_drawings_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "seven_black_placeholders_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "five_native_equations_identical",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "styles_numbering_theme_identical",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "sections_geometry_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "headers_footers_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "relationships_including_21_hyperlinks_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "bookmarks_preserved",
+      "status": "FAIL",
+      "evidence": null
+    },
+    {
+      "id": "all_field_instructions_preserved",
+      "status": "FAIL",
+      "evidence": null
+    },
+    {
+      "id": "two_covers_preserved_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "native_counts_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "pages": 67,
+        "tables": 18,
+        "inline_shapes": 10,
+        "equations": 5,
+        "toc": 3
+      }
+    },
+    {
+      "id": "69_heading_numbers_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "fields_have_no_error_results",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_23_caption_numbers_preserved_only_T53_title_changed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "new_T53_caption_in_automatic_list",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "no_internal_QA_coordination_tokens_in_chapters345",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "no_bracket_citations_before_references",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "21_reference_entries_unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "119_functional_and_7_document_checks_kept_distinct",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "model_metrics_feature_tables_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "1571_locked_artifacts_preserved",
+      "status": "FAIL",
+      "evidence": {
+        "total": 1571,
+        "matching": 1568,
+        "changed": [],
+        "missing": [],
+        "unreadable": [
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+        ]
+      }
+    },
+    {
+      "id": "67_pages_rendered_no_empty_page",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "passed": 30,
+  "total": 33,
+  "changed_pages": [
+    12,
+    43,
+    44,
+    46,
+    56,
+    59,
+    60,
+    62,
+    63
+  ]
+}

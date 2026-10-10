@@ -1,0 +1,420 @@
+{
+  "status": "INCOMPLETE",
+  "artifact_status": "APPLIED_UNVERIFIED_UNTIL_VISUAL_REVIEW",
+  "output": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx",
+  "sha256": "fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006",
+  "source_sha256": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591",
+  "checks": [
+    {
+      "id": "source_guards_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "count": 37,
+        "changed": []
+      }
+    },
+    {
+      "id": "only_document_part_changed_at_authoring",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "same_package_part_inventory",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "same_18_tables_and_paragraph_structure",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "prose_diff_exact_whitelist",
+      "status": "PASS",
+      "evidence": {
+        "actual_indices": [
+          418,
+          426,
+          445,
+          554,
+          561,
+          574,
+          575,
+          576,
+          578,
+          580,
+          581
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "id": "all_body_paragraph_styles_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "cell_diff_exact_whitelist",
+      "status": "PASS",
+      "evidence": {
+        "changed_cells": [
+          [
+            7,
+            2,
+            2
+          ],
+          [
+            15,
+            5,
+            2
+          ],
+          [
+            17,
+            0,
+            0
+          ],
+          [
+            17,
+            1,
+            0
+          ],
+          [
+            17,
+            5,
+            2
+          ],
+          [
+            17,
+            6,
+            0
+          ],
+          [
+            17,
+            6,
+            2
+          ]
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "id": "time_unit_and_model_name_unchanged_except_break",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_table_numeric_values_unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_table_geometry_and_format_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_image_parts_byte_identical",
+      "status": "PASS",
+      "evidence": {
+        "parts": [
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/image5.png"
+        ]
+      }
+    },
+    {
+      "id": "all_drawings_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "seven_black_placeholders_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "five_native_equations_identical",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "styles_numbering_theme_identical",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "sections_geometry_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "headers_footers_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "relationships_including_21_hyperlinks_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "stable_bookmarks_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "generated_TOC_bookmarks_rebuilt_one_to_one",
+      "status": "PASS",
+      "evidence": {
+        "count": 114,
+        "mapping": {
+          "_Toc242494177": "_Toc242515681",
+          "_Toc242494178": "_Toc242515682",
+          "_Toc242494179": "_Toc242515683",
+          "_Toc242494180": "_Toc242515684",
+          "_Toc242494181": "_Toc242515685",
+          "_Toc242494182": "_Toc242515686",
+          "_Toc242494183": "_Toc242515687",
+          "_Toc242494184": "_Toc242515688",
+          "_Toc242494185": "_Toc242515689",
+          "_Toc242494186": "_Toc242515690",
+          "_Toc242494187": "_Toc242515691",
+          "_Toc242494188": "_Toc242515692",
+          "_Toc242494189": "_Toc242515693",
+          "_Toc242494190": "_Toc242515694",
+          "_Toc242494191": "_Toc242515695",
+          "_Toc242494276": "_Toc242515780",
+          "_Toc242494192": "_Toc242515696",
+          "_Toc242494193": "_Toc242515697",
+          "_Toc242494194": "_Toc242515698",
+          "_Toc242494195": "_Toc242515699",
+          "_Toc242494277": "_Toc242515781",
+          "_Toc242494196": "_Toc242515700",
+          "_Toc242494197": "_Toc242515701",
+          "_Toc242494278": "_Toc242515782",
+          "_Toc242494198": "_Toc242515702",
+          "_Toc242494199": "_Toc242515703",
+          "_Toc242494279": "_Toc242515783",
+          "_Toc242494200": "_Toc242515704",
+          "_Toc242494268": "_Toc242515772",
+          "_Toc242494201": "_Toc242515705",
+          "_Toc242494202": "_Toc242515706",
+          "_Toc242494203": "_Toc242515707",
+          "_Toc242494204": "_Toc242515708",
+          "_Toc242494205": "_Toc242515709",
+          "_Toc242494206": "_Toc242515710",
+          "_Toc242494207": "_Toc242515711",
+          "_Toc242494208": "_Toc242515712",
+          "_Toc242494209": "_Toc242515713",
+          "_Toc242494210": "_Toc242515714",
+          "_Toc242494211": "_Toc242515715",
+          "_Toc242494212": "_Toc242515716",
+          "_Toc242494213": "_Toc242515717",
+          "_Toc242494214": "_Toc242515718",
+          "_Toc242494215": "_Toc242515719",
+          "_Toc242494216": "_Toc242515720",
+          "_Toc242494217": "_Toc242515721",
+          "_Toc242494218": "_Toc242515722",
+          "_Toc242494280": "_Toc242515784",
+          "_Toc242494219": "_Toc242515723",
+          "_Toc242494220": "_Toc242515724",
+          "_Toc242494281": "_Toc242515785",
+          "_Toc242494221": "_Toc242515725",
+          "_Toc242494222": "_Toc242515726",
+          "_Toc242494223": "_Toc242515727",
+          "_Toc242494282": "_Toc242515786",
+          "_Toc242494269": "_Toc242515773",
+          "_Toc242494224": "_Toc242515728",
+          "_Toc242494283": "_Toc242515787",
+          "_Toc242494225": "_Toc242515729",
+          "_Toc242494226": "_Toc242515730",
+          "_Toc242494227": "_Toc242515731",
+          "_Toc242494270": "_Toc242515774",
+          "_Toc242494228": "_Toc242515732",
+          "_Toc242494229": "_Toc242515733",
+          "_Toc242494230": "_Toc242515734",
+          "_Toc242494231": "_Toc242515735",
+          "_Toc242494232": "_Toc242515736",
+          "_Toc242494233": "_Toc242515737",
+          "_Toc242494234": "_Toc242515738",
+          "_Toc242494284": "_Toc242515788",
+          "_Toc242494235": "_Toc242515739",
+          "_Toc242494285": "_Toc242515789",
+          "_Toc242494236": "_Toc242515740",
+          "_Toc242494237": "_Toc242515741",
+          "_Toc242494238": "_Toc242515742",
+          "_Toc242494239": "_Toc242515743",
+          "_Toc242494286": "_Toc242515790",
+          "_Toc242494240": "_Toc242515744",
+          "_Toc242494287": "_Toc242515791",
+          "_Toc242494241": "_Toc242515745",
+          "_Toc242494242": "_Toc242515746",
+          "_Toc242494271": "_Toc242515775",
+          "_Toc242494243": "_Toc242515747",
+          "_Toc242494244": "_Toc242515748",
+          "_Toc242494245": "_Toc242515749",
+          "_Toc242494246": "_Toc242515750",
+          "_Toc242494247": "_Toc242515751",
+          "_Toc242494288": "_Toc242515792",
+          "_Toc242494248": "_Toc242515752",
+          "_Toc242494249": "_Toc242515753",
+          "_Toc242494250": "_Toc242515754",
+          "_Toc242494251": "_Toc242515755",
+          "_Toc242494252": "_Toc242515756",
+          "_Toc242494253": "_Toc242515757",
+          "_Toc242494254": "_Toc242515758",
+          "_Toc242494255": "_Toc242515759",
+          "_Toc242494256": "_Toc242515760",
+          "_Toc242494272": "_Toc242515776",
+          "_Toc242494273": "_Toc242515777",
+          "_Toc242494257": "_Toc242515761",
+          "_Toc242494289": "_Toc242515793",
+          "_Toc242494274": "_Toc242515778",
+          "_Toc242494258": "_Toc242515762",
+          "_Toc242494275": "_Toc242515779",
+          "_Toc242494259": "_Toc242515763",
+          "_Toc242494260": "_Toc242515764",
+          "_Toc242494290": "_Toc242515794",
+          "_Toc242494261": "_Toc242515765",
+          "_Toc242494262": "_Toc242515766",
+          "_Toc242494263": "_Toc242515767",
+          "_Toc242494264": "_Toc242515768",
+          "_Toc242494265": "_Toc242515769",
+          "_Toc242494266": "_Toc242515770",
+          "_Toc242494267": "_Toc242515771"
+        }
+      }
+    },
+    {
+      "id": "all_field_instructions_preserved_with_exact_TOC_id_mapping",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_generated_PAGEREF_targets_exist",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "generated_TOC_bookmark_positions_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "two_covers_preserved_text",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "native_counts_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "pages": 67,
+        "tables": 18,
+        "inline_shapes": 10,
+        "equations": 5,
+        "toc": 3
+      }
+    },
+    {
+      "id": "69_heading_numbers_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "fields_have_no_error_results",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "all_23_caption_numbers_preserved_only_T53_title_changed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "new_T53_caption_in_automatic_list",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "no_internal_QA_coordination_tokens_in_chapters345",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "no_bracket_citations_before_references",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "21_reference_entries_unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "119_functional_and_7_document_checks_kept_distinct",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "model_metrics_feature_tables_preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "1571_locked_artifact_snapshot",
+      "status": "INCOMPLETE",
+      "evidence": {
+        "total": 1571,
+        "matching": 1568,
+        "changed": [],
+        "missing": [],
+        "unreadable": [
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+        ],
+        "status": "INCOMPLETE",
+        "limits": "Three pre-existing DrvFS venv runtime reparse links are unreadable through Windows and WSL (No such device); no environment repair attempted. Do not claim 1571/1571 in this run."
+      }
+    },
+    {
+      "id": "all_accessible_locked_artifacts_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "matching": 1568,
+        "unreadable_runtime_links": [
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+          "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+        ]
+      }
+    },
+    {
+      "id": "font_roles_match_W01_and_school_template",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "id": "67_pages_rendered_no_empty_page",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "passed": 37,
+  "total": 38,
+  "changed_pages": [
+    12,
+    43,
+    44,
+    46,
+    56,
+    59,
+    60,
+    62,
+    63
+  ]
+}

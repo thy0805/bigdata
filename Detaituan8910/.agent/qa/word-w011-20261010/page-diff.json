@@ -1,0 +1,590 @@
+{
+  "page_count": 67,
+  "changed_pages": [
+    12,
+    43,
+    44,
+    46,
+    56,
+    59,
+    60,
+    62,
+    63
+  ],
+  "identical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    45,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    57,
+    58,
+    61,
+    64,
+    65,
+    66,
+    67
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-001.png",
+      "text_chars": 391
+    },
+    {
+      "page": 2,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-002.png",
+      "text_chars": 433
+    },
+    {
+      "page": 3,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-003.png",
+      "text_chars": 120
+    },
+    {
+      "page": 4,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-004.png",
+      "text_chars": 274
+    },
+    {
+      "page": 5,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-005.png",
+      "text_chars": 611
+    },
+    {
+      "page": 6,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-006.png",
+      "text_chars": 3385
+    },
+    {
+      "page": 7,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-007.png",
+      "text_chars": 3566
+    },
+    {
+      "page": 8,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-008.png",
+      "text_chars": 2755
+    },
+    {
+      "page": 9,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-009.png",
+      "text_chars": 1187
+    },
+    {
+      "page": 10,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-010.png",
+      "text_chars": 519
+    },
+    {
+      "page": 11,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-011.png",
+      "text_chars": 903
+    },
+    {
+      "page": 12,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        496,
+        803,
+        1017,
+        833
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-012.png",
+      "text_chars": 1535
+    },
+    {
+      "page": 13,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-013.png",
+      "text_chars": 2106
+    },
+    {
+      "page": 14,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-014.png",
+      "text_chars": 1288
+    },
+    {
+      "page": 15,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-015.png",
+      "text_chars": 2169
+    },
+    {
+      "page": 16,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-016.png",
+      "text_chars": 1913
+    },
+    {
+      "page": 17,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-017.png",
+      "text_chars": 2291
+    },
+    {
+      "page": 18,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-018.png",
+      "text_chars": 2334
+    },
+    {
+      "page": 19,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-019.png",
+      "text_chars": 2545
+    },
+    {
+      "page": 20,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-020.png",
+      "text_chars": 2086
+    },
+    {
+      "page": 21,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-021.png",
+      "text_chars": 1969
+    },
+    {
+      "page": 22,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-022.png",
+      "text_chars": 2524
+    },
+    {
+      "page": 23,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-023.png",
+      "text_chars": 1874
+    },
+    {
+      "page": 24,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-024.png",
+      "text_chars": 2613
+    },
+    {
+      "page": 25,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-025.png",
+      "text_chars": 2037
+    },
+    {
+      "page": 26,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-026.png",
+      "text_chars": 2214
+    },
+    {
+      "page": 27,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-027.png",
+      "text_chars": 44
+    },
+    {
+      "page": 28,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-028.png",
+      "text_chars": 1995
+    },
+    {
+      "page": 29,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-029.png",
+      "text_chars": 2084
+    },
+    {
+      "page": 30,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-030.png",
+      "text_chars": 2090
+    },
+    {
+      "page": 31,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-031.png",
+      "text_chars": 1963
+    },
+    {
+      "page": 32,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-032.png",
+      "text_chars": 2082
+    },
+    {
+      "page": 33,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-033.png",
+      "text_chars": 2007
+    },
+    {
+      "page": 34,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-034.png",
+      "text_chars": 2020
+    },
+    {
+      "page": 35,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-035.png",
+      "text_chars": 1748
+    },
+    {
+      "page": 36,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-036.png",
+      "text_chars": 1685
+    },
+    {
+      "page": 37,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-037.png",
+      "text_chars": 2016
+    },
+    {
+      "page": 38,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-038.png",
+      "text_chars": 2003
+    },
+    {
+      "page": 39,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-039.png",
+      "text_chars": 1860
+    },
+    {
+      "page": 40,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-040.png",
+      "text_chars": 1845
+    },
+    {
+      "page": 41,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-041.png",
+      "text_chars": 1590
+    },
+    {
+      "page": 42,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-042.png",
+      "text_chars": 1143
+    },
+    {
+      "page": 43,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        590,
+        301,
+        1040,
+        795
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-043.png",
+      "text_chars": 1747
+    },
+    {
+      "page": 44,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        270,
+        787,
+        857,
+        812
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-044.png",
+      "text_chars": 1801
+    },
+    {
+      "page": 45,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-045.png",
+      "text_chars": 1777
+    },
+    {
+      "page": 46,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        350,
+        1330,
+        820,
+        1351
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-046.png",
+      "text_chars": 1328
+    },
+    {
+      "page": 47,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-047.png",
+      "text_chars": 1884
+    },
+    {
+      "page": 48,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-048.png",
+      "text_chars": 1305
+    },
+    {
+      "page": 49,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-049.png",
+      "text_chars": 1954
+    },
+    {
+      "page": 50,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-050.png",
+      "text_chars": 1339
+    },
+    {
+      "page": 51,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-051.png",
+      "text_chars": 1839
+    },
+    {
+      "page": 52,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-052.png",
+      "text_chars": 1617
+    },
+    {
+      "page": 53,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-053.png",
+      "text_chars": 1389
+    },
+    {
+      "page": 54,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-054.png",
+      "text_chars": 1286
+    },
+    {
+      "page": 55,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-055.png",
+      "text_chars": 1370
+    },
+    {
+      "page": 56,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        741,
+        557,
+        1039,
+        616
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-056.png",
+      "text_chars": 1813
+    },
+    {
+      "page": 57,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-057.png",
+      "text_chars": 2044
+    },
+    {
+      "page": 58,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-058.png",
+      "text_chars": 1726
+    },
+    {
+      "page": 59,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        293,
+        793,
+        987,
+        823
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-059.png",
+      "text_chars": 610
+    },
+    {
+      "page": 60,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        723,
+        813,
+        1016,
+        838
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-060.png",
+      "text_chars": 1247
+    },
+    {
+      "page": 61,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-061.png",
+      "text_chars": 694
+    },
+    {
+      "page": 62,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        197,
+        585,
+        1051,
+        1513
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-062.png",
+      "text_chars": 1850
+    },
+    {
+      "page": 63,
+      "pixel_identical_to_W01": false,
+      "changed_bbox": [
+        197,
+        142,
+        1050,
+        1105
+      ],
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-063.png",
+      "text_chars": 1497
+    },
+    {
+      "page": 64,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-064.png",
+      "text_chars": 1975
+    },
+    {
+      "page": 65,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-065.png",
+      "text_chars": 1750
+    },
+    {
+      "page": 66,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-066.png",
+      "text_chars": 2130
+    },
+    {
+      "page": 67,
+      "pixel_identical_to_W01": true,
+      "changed_bbox": null,
+      "image": "D:\\Hoctap\\bigdata\\Detaituan8910\\.agent\\qa\\word-w011-20261010\\render\\page-067.png",
+      "text_chars": 1135
+    }
+  ]
+}

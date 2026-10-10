@@ -1,0 +1,72 @@
+{
+  "word_status": "VERIFIED",
+  "user_acceptance": "PENDING_THY_GPT_WEB",
+  "scope": "W01.1 only; no W02, app, data, model, PPT or demo changes.",
+  "structural_semantic": {
+    "passed": 37,
+    "applicable_word_checks": 37,
+    "source": "verification.json"
+  },
+  "raw_verification_status": "INCOMPLETE",
+  "raw_verification_checks": {
+    "pass": 37,
+    "incomplete": 1,
+    "fail": 0,
+    "total": 38
+  },
+  "live_field_probe": {
+    "passed": 9,
+    "total": 9,
+    "artifact_unchanged": true
+  },
+  "visual": {
+    "pages_reviewed": 67,
+    "changed_pages": [
+      12,
+      43,
+      44,
+      46,
+      56,
+      59,
+      60,
+      62,
+      63
+    ],
+    "identical_pages": 58,
+    "new_defects": 0,
+    "existing_out_of_scope_note": "Page 10 glossary HGB wrapping; unchanged W01."
+  },
+  "source_guards": {
+    "matching": 37,
+    "total": 37
+  },
+  "historical_snapshot_preservation": {
+    "total": 1571,
+    "matching": 1568,
+    "changed": [],
+    "missing": [],
+    "unreadable": [
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python",
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3",
+      "/mnt/d/Hoctap/bigdata/Detaituan8910/.agent/qa/phase1-smoke-20261009/venv-probe/bin/python3.12"
+    ],
+    "status": "INCOMPLETE",
+    "limits": "Three pre-existing DrvFS venv runtime reparse links are unreadable through Windows and WSL (No such device); no environment repair attempted. Do not claim 1571/1571 in this run."
+  },
+  "summary": {
+    "pages": 67,
+    "tables": 18,
+    "inline_shapes": 10,
+    "equations": 5,
+    "toc_and_lists": 3,
+    "covers": 2,
+    "black_placeholders": 7,
+    "references": 21,
+    "caption_count": 23,
+    "source_sha256": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591",
+    "output_sha256": "fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006",
+    "headings_and_captions_preserved": true,
+    "fulltext_published": false
+  },
+  "stop": "Await Thy/GPT Web approval. W02 not authorized."
+}

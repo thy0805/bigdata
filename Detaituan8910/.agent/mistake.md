@@ -1,5 +1,8 @@
 # Lỗi cần tránh
 
+- W01.1: cập nhật TOC trong Word sinh lại114 tên _Toc, không đồng nghĩa bookmark/field hỏng. So bookmark ổn định, mapping ID tự sinh một-một, vị trí và field code sau mapping; kiểm mọi PAGEREF có đích. Giữ failed attempt trong QA, không sửa DOCX chỉ để ép ID cache cũ.
+- Kiểm snapshot gặp reparse links venv-probe không đọc được phải báo INCOMPLETE1568/1571, không suy ra1571/1571 từ lịch sử W01. Phân biệt gate Word và snapshot môi trường ngoài scope; không tiện tay sửa venv hoặc cài lại runtime trong task tài liệu.
+
 - W01 dùng style chương tùy biến dù outline cấp1 có thể khiến SEQ reset không đúng khi native Word cập nhật. Final chuyển chương sang Heading 1 built-in, clone nguyên hình thức18pt và gắn multilevel numbering; STYLEREF lấy số và SEQ reset theo cấp1. Phải thử thêm/xóa heading, bảng và hình trên QA copy, kiểm số tiếp theo/TOC/REF và hash DOCX chính; không tin cache caption. Word còn deduplicate/đổi tên ảnh đen, registry phải resolve drawing relationship thực thay vì tên media lúc authoring.
 
 - Viewport IAB được đặt1366×768 nhưng CSS thực1242×698 do zoom110%; screenshot cũng sai kích thước. Đã bù override theo zoom và đo innerWidth/innerHeight + kích thước JPEG thực để đạt1366×768/1920×1080; reset sau kiểm. Không suy ra viewport thực từ tham số set. Expander visibility phải kiểm sau animation kết thúc và đối chiếu details.open; không sửa app để chữa lỗi locator.

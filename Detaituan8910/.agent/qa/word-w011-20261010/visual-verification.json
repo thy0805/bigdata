@@ -1,0 +1,629 @@
+{
+  "status": "PASS_WITH_EXISTING_OUT_OF_SCOPE_COSMETIC_NOTE",
+  "method": "Native Word PDF export; PDFium scale 2; all 67 final PNGs individually viewed at original resolution.",
+  "pages_reviewed": 67,
+  "changed_pages": [
+    12,
+    43,
+    44,
+    46,
+    56,
+    59,
+    60,
+    62,
+    63
+  ],
+  "pixel_identical_pages": 58,
+  "new_defects": [],
+  "existing_out_of_scope": [
+    {
+      "page": 10,
+      "note": "Danh mục thuật ngữ nguyên W01; tên HGB vẫn ngắt trước “or” do cột hẹp. Điểm thẩm mỹ có sẵn, ngoài phạm vi sửa Bảng 5.1; không tự sửa trang đầu."
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "6ec25f6d9a933fa58124d7227e9ea52104d814c395cb2415de98b85d71836888",
+      "note": "Bìa ngoài: khung, logo, danh sách và bố cục nguyên ảnh nguồn."
+    },
+    {
+      "page": 2,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "f3e7982f2aff18f0dfa6f0d13891b2d1634d565f2437f46a47d0795d399c9534",
+      "note": "Bìa trong: khung, logo, giảng viên và danh sách nguyên ảnh nguồn."
+    },
+    {
+      "page": 3,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "5b89ccdcd09649369f8c65cde2ba649fc5dcf2bbe8cf40651a159e31f375ffad",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 4,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "c2f24a960f727d36e580bb699e53ecf81071fbcff9c8c5c156371ce09721351b",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 5,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "5da6537159e65390446e79567c6b0a12171c2d1671db8472cf70db58606b4338",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 6,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "d0628a8730bf661628e1c950bc733d72c6a4a000d54416ac2ffaa033bfcb71a1",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 7,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "e198bdc8d694d5205c417a4446b78a7ee74626cbb736a41938415fe9db748a76",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 8,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "bf4d11fc741af30753ce658bf3e35a2bf85bfd6ffb3fab706980e76364321b0d",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 9,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "62f6eb101d8358cc8049c68a39d632568a3027e3229f57f5fe2d1adc46951f0c",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 10,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "69bff0ea2f8d900dc696146ac9d9a45964f93c095e187cb1d8c67857bf625eca",
+      "note": "Danh mục thuật ngữ nguyên W01; tên HGB vẫn ngắt trước “or” do cột hẹp. Điểm thẩm mỹ có sẵn, ngoài phạm vi sửa Bảng 5.1; không tự sửa trang đầu."
+    },
+    {
+      "page": 11,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "8556bf0a5b7ff9146983179fff96fe9bf8a10f74d4c69c7ab7397208d4afff90",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 12,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "0970af89c674b67459239e9784be9879f2ec0e7fbe10575fafa6ddb6eec9c492",
+      "note": "Danh mục bảng nhận caption Bảng 5.3 mới và số trang đúng."
+    },
+    {
+      "page": 13,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "a9c4543e1ef96c49ffbd039beeec3a63c4ff03735193e235ca94c59e55f9cbc7",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 14,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "6e646b0febbe02877322b941eb6667d0be0ab49a5f6deb30fb8a4a660097a217",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 15,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "b2471a8001e72af74f3fa74a1140229732c2418697678c47ac4328e4f7fb7c08",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 16,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "3b1cfa109f15669d7f84af0bf35907cedb5bbf1bc57df8ae38d02aba757a72f5",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 17,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "e72852cd0093cbe996a2091338b86783f6269f445ae667d68a967587ccfb7bee",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 18,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "3758d38650cc8d814c4dde0723946933bf52d42769c6aa2a7302d4de6137d18c",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 19,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "59e43160a13038b7127c5e000b08c11704bb3ddd50814fc508445de912f62768",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 20,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "36eb208540a7be6e9cd55d507dbba6ae242f133d7e0defb3bbd4432c22553481",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 21,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "dca06054595ed09aa6e8fee3ea571cd486d5da8021e501744ca2aabe3f6bf43d",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 22,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "3a22b403e2a26ff3dc8ef6f434123b9ab1a71439a07a73dfd6326b4d4302a0ab",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 23,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "ca8e960868350e5ca654f89101382968481280eb1511ee6d4f253650604013d3",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 24,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "ca48519ca8bb438cea3e8a714bc9199dd20f332a62623596712e0113ad496424",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 25,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "edc8c999abf1a83789ea0d1392a751949d9652cb90efa8266b1f495d36521b65",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 26,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "602a1264650db58483fafaeb7d7e89fb6dd6e56936871efeeaf9c9d79772f4da",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 27,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "bfab6a23503d02e25f9bd46a653d923ef20f0769b2a555c1cc1be268bfe19f7b",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 28,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "36ce95590e808180acbb6d0cdea13341bb7a6fe8c3e2b66fcd990f186254eb6a",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 29,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "cdea8cd19edb79b1a8e0680de4f71388ea892f57bff16c4cadc65cec2307bd9f",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 30,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "e9dffd6f59ac26d5ec61f2cbfd9d1b27563794ebee449a4454d76bfd2faac54d",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 31,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "49529f3e0c6fcd6af0e3f0ba7ca6c97bfff725e760c05a16b654dcbd72b133ce",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 32,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "a8103e96910e2bd012f2358ab5b1c3f484c7b6747b4ff63876692dd92e87bc03",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 33,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "9de34ee25489c5b0d70405a890c36770a1ecc2899572fa633f471a6a5afd6e63",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 34,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "c504b4b83d80dbb0439d942dea0e78d437a57b896f2034cac83c7f4bc199e85a",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 35,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "6a0f56a33fb3909b27cd6d503a1d9f83fd2452a71560b59a76390a8d3398abc9",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 36,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "13436c6ca7f11199d94915d4c04da119bb0b7ecd2f4f6d6db60b760315ef00d8",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 37,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "e9bc112510b73411a1b1e0d4368d5c8107c54e7a441aa02e32b7fcb0a8969b68",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 38,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "c20b4e818808825ebef6169a20264501b756bc8a6836cd67406ebd49e52bc06f",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 39,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "6293873119f7777da42fe7ac81931e95decd9d41d04d7a4322ef27dcff8eb44b",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 40,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "20b3479f3e01b36af0eac38f21dacb32bf9ac6a014e649f4c3a57f319aae0f5f",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 41,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "8415c9d939e2781519d00a2971e8db90b4313b760905279122bb170e066cb852",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 42,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "3142ad3ef49cc81d739891122e7283f13423e548fc7feec93cca7ae9703c0edb",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 43,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "3ae0cddc2d6b3eaae5db7969f3c247cb3aa711b6c1c840c89e21dba386c7f055",
+      "note": "Bảng 3.1: Giờ:phút: / giây xuống dòng theo cụm, không đổi đơn vị hay cỡ chữ."
+    },
+    {
+      "page": 44,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "7c14fb7fdfb6c34ba2c994b40463b739f375eccfb61ec0e07de3d4ffd8de48e5",
+      "note": "Chú nguồn Bảng 3.2 văn phong báo cáo; đường bảng và số liệu đủ."
+    },
+    {
+      "page": 45,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "f11cce8d3505071adc7f228aed82de5589a4e72d31d5dc05fed100a8fe6b2afd",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 46,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "f9f473874b1243133097555e2ed1ba9b373837db4241cd2e3c262ca1f0981d55",
+      "note": "Chú nguồn Bảng 3.4 làm sạch; khung Hình 3.1 vẫn đen."
+    },
+    {
+      "page": 47,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "f39365f0cd7986aa04c18842067976f75fd0477db8f8a268391100a6df2f1a08",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 48,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "f0b232e23ce3fe0d22100066315d81a58265c8643b4a2a690bcddaabd76454ea",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 49,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "6a83c473f9ca011a5d91335cc238ffe575083dbcaa72614d219477d30d310b34",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 50,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "545d6bc42008e7aeaa06eb0c2894fac161299639a38ede7ed302f8bcc784235b",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 51,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "ba9e0d05098be22c414c1cba1c550d78a62e119918c3d3cb4e2ba4eed994c1fc",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 52,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "751f2719a80041f4625854f9911ab06052786978bc7c099c02162b6472a53c46",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 53,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "a8cf0bcb99f5a50cabfabcedba60644b4d1af2d56fed0686492ed741b649f7af",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 54,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "b94dd8051fd1ed098cfcbdfba466460fcfde5d687802dd68c63bdb2e84dbb271",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 55,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "50e92bffe168d9b0ceca75470e769cc72fe6a530b163aa6a72cd0e4a85043af5",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 56,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "2fb1d4863f0a990ad059ca6691a4cada8d95cd4375c6dc4ab096fbfc15b24bb6",
+      "note": "Bảng 5.1: HistGradient / BoostingRegressor tách camel-case, không cắt giữa từ."
+    },
+    {
+      "page": 57,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "3430dc3850ca5c97b3385b0e3e4083028ea70315c6a8ac8d31c3fa1b2654ac46",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 58,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "7d75461ce8358637b61b7912bfbf514b50fc53f7fefc3c50d8edefd246e48184",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 59,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "2829d8679691d1bd8b741747ff31ccae0deae77622c167e3495df510bc08d379",
+      "note": "Lời dẫn Hình 5.2 gọn; hai khung đen nguyên kích thước."
+    },
+    {
+      "page": 60,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "f139f67f8fb48bcbff3a29862000d77bbe6a12c1bf126ce66f035a5303dddc37",
+      "note": "Chú nguồn Bảng 5.2 thay QA bằng kiểm thử trình duyệt; bảng nguyên số liệu."
+    },
+    {
+      "page": 61,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "e2f5b552fc96c6aced70988e396181aa263f170b73e07084a376f4ffa99867d8",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 62,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "ea402d5d3e9ebf6095b26ad57a443598ab69a65f373a9cce6a8a1b5f5ece6f15",
+      "note": "5.15 và Bảng 5.3: 119 chức năng/vận hành + 7 hồ sơ riêng; caption, dòng bảng, trang không tràn."
+    },
+    {
+      "page": 63,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": true,
+      "sha256": "e73db48882e6050372c6a448a362df036e819c1ce68ad92ef222c210ed80021b",
+      "note": "5.16 dùng văn phong học thuật; giữ giới hạn chưa coldboot, chưa autostart và chưa kịch bản trình diễn."
+    },
+    {
+      "page": 64,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "8444fe469f82bbcfb402189ac79fa2262e093649faf9ce971b8720932096faf9",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 65,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "ff02b2f93d02c21acbbc55ce403a6034f8f478d246af4aa22e3bf4103d5463b5",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 66,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "837332a1673576b9228f340b5086190c15de5686b237c592711984e033bec930",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    },
+    {
+      "page": 67,
+      "review": "PASS_NO_NEW_VISUAL_DEFECT",
+      "reviewed_individually": true,
+      "detail": "original",
+      "changed_from_w01": false,
+      "sha256": "f265af45ad995c6707766e989a139dda56044de7878f15b4dc2e62f1323ddbee",
+      "note": "Đã xem riêng: không thấy lỗi thị giác mới; đối chiếu page-diff."
+    }
+  ]
+}

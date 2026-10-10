@@ -1,6 +1,14 @@
 # Điểm vào bàn giao cho GPT Web
 
-## Mới nhất — W01 Word 67 trang, 10/10/2026
+## Mới nhất — W01.1 sửa nhỏ, 10/10/2026
+
+Đọc [review W01.1](Detaituan8910/.agent/qa/word-w011-20261010/review.md), [diff18điểm](Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md), [gate cuối](Detaituan8910/.agent/qa/word-w011-20261010/final-verification.json), [67trang](Detaituan8910/.agent/qa/word-w011-20261010/page-review.md) và [manifest](Detaituan8910/.agent/qa/word-w011-20261010/manifest.json).
+
+W01.1 VERIFIED Word37/37,field9/9,67trang;hai bìa/styles/7khung đen/số liệu nguyên. Word mới phải gửi trực tiếp, SHA `fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006`, tên `BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx`. Không xuất Office/PNG/PDF/fulltext lênGit.
+
+Ngoại lệ rõ: snapshot1568/1571 khớp,3link runtime venv-probe không đọc được,0changed/missing;rawverification INCOMPLETE37PASS+1INCOMPLETE, không giả định1571/1571. Trang10glossary HGB ngắt chữ chưa đẹp có sẵn giốngpixelW01,ngoài scope sửa. Không thay đổi mô hình/dữ liệu/app. AcceptancePENDING,W02 chưa được phép;I04DEFERRED. Dừng chờ duyệt.
+
+## Lịch sử — W01 Word 67 trang, 10/10/2026
 
 Đọc [review W01](Detaituan8910/.agent/qa/word-w01-20261010/review.md), [final-verification](Detaituan8910/.agent/qa/word-w01-20261010/final-verification.json), [thay đổi chương](Detaituan8910/.agent/qa/word-w01-20261010/CHAPTER_CHANGES.md), [danh sách bảng/hình](Detaituan8910/.agent/qa/word-w01-20261010/TABLE_FIGURE_LIST.md) và [rà đủ67 trang](Detaituan8910/.agent/qa/word-w01-20261010/page-review.md).
 

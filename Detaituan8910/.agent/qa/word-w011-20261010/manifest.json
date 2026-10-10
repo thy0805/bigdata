@@ -1,0 +1,89 @@
+{
+  "source_checkpoint": "d66a3c9cf7b3ec09e3a97faef2ac6df8e2c80559",
+  "source": {
+    "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_v1_20261010.docx",
+    "sha256": "4a47523a0bfe9c2a035df66c9fedff2e33a776dcb8c2ec01b50be8dd0d33f591"
+  },
+  "output": {
+    "path": "D:\\Hoctap\\bigdata\\Detaituan8910\\BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx",
+    "sha256": "fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006"
+  },
+  "word_status": "VERIFIED",
+  "snapshot_status": "INCOMPLETE",
+  "evidence": [
+    {
+      "file": "artifact.md",
+      "sha256": "9d560d1fac8e8854f0aca085d09a63e58b6b808ae60314abc12793ba5a70a4ce"
+    },
+    {
+      "file": "changes.json",
+      "sha256": "1b09333f4315ea337f10b312deed29cb4c6aaffdae72a94528c5008bc613f62b"
+    },
+    {
+      "file": "CHANGES.md",
+      "sha256": "8005a5966b1a20a3a720359e2837499bb5f4b216d6a61c470cbec4bc6be5a8e5"
+    },
+    {
+      "file": "preflight.json",
+      "sha256": "2c4a47f954e22da42cb64cf62f36f6bddaa1e923d3c661d05c853b4fc23d1e0c"
+    },
+    {
+      "file": "applied.json",
+      "sha256": "f71016761466fe4437cbd24b1b857a91e4e9dc2c6e39b30a789d7a25cd1526d8"
+    },
+    {
+      "file": "verification.json",
+      "sha256": "55efcdc4ba49a7141ac20c29b264eb22eb3150a469ffe6deee74d86355c98ccd"
+    },
+    {
+      "file": "preservation.json",
+      "sha256": "5205d83447d04c9edace90d50317c0a513fa66c04e39b2180d93903742062a67"
+    },
+    {
+      "file": "field-probe.json",
+      "sha256": "1004c641120b9cc28c444928735df7a1ab347ac6cf064467a04e7a74c1611f66"
+    },
+    {
+      "file": "font-audit.json",
+      "sha256": "58c4a1283e2b5d261e8506e3dceab8bd327875d61463e82f8cd509480774d015"
+    },
+    {
+      "file": "page-diff.json",
+      "sha256": "4c88a65889e7d0a911050d25bd8051ee0025a49c460e50cb58963b6a6f236a68"
+    },
+    {
+      "file": "page-review.md",
+      "sha256": "a5d6201cd6a50efbde16330d10fa7ce60c12ff3bbada9818d246d9aa45ce0bb9"
+    },
+    {
+      "file": "visual-verification.json",
+      "sha256": "3a4ca3a776d1220a5d8947d580d161fc5b93a5423164884833fcd7e111e14990"
+    },
+    {
+      "file": "word-summary.json",
+      "sha256": "f70bb888fb13f071e675faa7e19510882dd6b5ffb3181b61830f1ce99c252d58"
+    },
+    {
+      "file": "final-verification.json",
+      "sha256": "67ed6fa0bf6d16e34ff724d8fe54ada612a68c8610251b8288e173f9f53577c1"
+    },
+    {
+      "file": "review.md",
+      "sha256": "193ed9d6dfa22c7bdc264a51b282b178bb2ddcf493c7033e2feec670347442b7"
+    },
+    {
+      "file": "verification-attempt1.json",
+      "sha256": "542234014ab69c9753c979f799c4f078fda4198014b995e5152a042e3c7d613a"
+    },
+    {
+      "file": "preservation-attempt1.json",
+      "sha256": "a8bbc6318bd564a7b603e3d1d259e82ff8024a3978cbc97b3bffbb926666d59d"
+    }
+  ],
+  "private_local": [
+    "W01-native.pdf",
+    "render/",
+    "word-readback.json",
+    "W01-field-probe.docx"
+  ]
+}

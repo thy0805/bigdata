@@ -1,0 +1,144 @@
+[
+  {
+    "kind": "paragraph",
+    "index": 418,
+    "location": "3.2 chú nguồn Bảng 3.1",
+    "before": "Nguồn: UCI Machine Learning Repository; đối chiếu DATA_AUDIT của tệp gốc.",
+    "after": "Nguồn: UCI Machine Learning Repository; kết quả khảo sát tệp dữ liệu gốc."
+  },
+  {
+    "kind": "paragraph",
+    "index": 426,
+    "location": "3.4 chú nguồn Bảng 3.2",
+    "before": "Nguồn: audit toàn tệp và verification của lượt Flink toàn bộ dữ liệu.",
+    "after": "Nguồn: kết quả kiểm tra toàn bộ tệp gốc và đối chiếu đầu ra Apache Flink."
+  },
+  {
+    "kind": "paragraph",
+    "index": 445,
+    "location": "3.8 chú nguồn Bảng 3.4",
+    "before": "Nguồn: thống kê đọc từ hourly-grid.csv đã khóa; không chạy lại Flink.",
+    "after": "Nguồn: thống kê từ tệp điện năng theo giờ do Apache Flink tạo."
+  },
+  {
+    "kind": "paragraph",
+    "index": 554,
+    "location": "5.11 bỏ lời điều phối số hiệu hình",
+    "before": " dành cho nội dung này; số hiệu được đặt trước các ảnh chức năng ở những mục tiếp theo.",
+    "after": " dành cho nội dung này."
+  },
+  {
+    "kind": "paragraph",
+    "index": 561,
+    "location": "5.12 chú nguồn Bảng 5.2",
+    "before": "Nguồn: dashboard/app.py, data_service.py, predictor.py và QA trình duyệt đã kiểm.",
+    "after": "Nguồn: dashboard/app.py, data_service.py, predictor.py và kết quả kiểm thử trên trình duyệt."
+  },
+  {
+    "kind": "paragraph",
+    "index": 574,
+    "location": "5.15 phân biệt119 chức năng/vận hành và7 hồ sơ",
+    "before": " gồm chuỗi UCI → dữ liệu giờ Flink → feature → model → dashboard. Hồ sơ ứng dụng ghi nhận 126/126 kiểm đạt trong phạm vi I01, I02, I03 và I05; nhóm kiểm chức năng/vận hành có 119 kiểm, còn bảy kiểm liên quan gate bàn giao. Các kiểm này là bằng chứng tại thời điểm thực hiện, không bảo đảm runtime luôn hoạt động về sau.",
+    "after": " gồm chuỗi UCI → dữ liệu giờ Flink → feature → model → dashboard. Kết quả ghi nhận 119/119 phép kiểm chức năng và vận hành đạt, cùng 7/7 phép kiểm hồ sơ và bảo toàn sản phẩm đạt, tổng cộng 126/126. Nhóm kiểm hồ sơ không được tính là kiểm thử chức năng. Kết quả phản ánh trạng thái hệ thống tại thời điểm kiểm tra."
+  },
+  {
+    "kind": "paragraph",
+    "index": 575,
+    "location": "Caption Bảng 5.3",
+    "before": ". Phạm vi kiểm thử ứng dụng trong hồ sơ Phase 4",
+    "after": ". Phạm vi kiểm thử và đối chiếu hồ sơ hệ thống"
+  },
+  {
+    "kind": "paragraph",
+    "index": 576,
+    "location": "5.15 chú nguồn Bảng 5.3",
+    "before": "Nguồn: checklist/review/verification Phase4-app; snapshot kiểm, không bao gồm I04 hoặc coldboot.",
+    "after": "Nguồn: kết quả kiểm thử ứng dụng và đối chiếu hồ sơ; chưa kiểm tra khởi động lại toàn bộ Windows/WSL."
+  },
+  {
+    "kind": "paragraph",
+    "index": 578,
+    "location": "5.15 kết quả kiểm riêng phần giới thiệu dữ liệu",
+    "before": "Lượt chỉnh phần giới thiệu dữ liệu có hồ sơ riêng 75 kiểm kỹ thuật và bảy kiểm trình duyệt ở 1366 × 768/1920 × 1080. Không cộng các lượt QA này thành số trường hợp độc lập không trùng.",
+    "after": "Phần giới thiệu dữ liệu được kiểm tra riêng bằng 75 phép kiểm kỹ thuật và 7 phép kiểm trên trình duyệt ở 1366 × 768/1920 × 1080. Các số lượt kiểm này được báo cáo riêng, không cộng với đợt kiểm trước để tránh đếm trùng."
+  },
+  {
+    "kind": "paragraph",
+    "index": 580,
+    "location": "5.16 giữ phạm vi và giới hạn vận hành",
+    "before": "Kiểm thử đã xác nhận các tab, bộ lọc, chỉ số, biểu đồ và suy luận trong phạm vi dữ liệu khóa. Các phép thử nguồn/model/cổng kiểm khả năng báo lỗi và tránh dừng tiến trình không thuộc hệ thống. Khởi động, dừng và phục hồi dịch vụ đã được kiểm ở môi trường cục bộ; coldboot Windows/WSL và autostart chưa được kiểm chứng hoặc triển khai.",
+    "after": "Kiểm thử đã xác nhận các tab, bộ lọc, chỉ số, biểu đồ và suy luận trong phạm vi dữ liệu đã xác minh. Các phép thử lỗi nguồn dữ liệu, mô hình và cổng kiểm tra khả năng báo lỗi và tránh dừng tiến trình không thuộc hệ thống. Khởi động, dừng và phục hồi dịch vụ đã được kiểm trong môi trường cục bộ; việc khởi động lại toàn bộ Windows/WSL chưa được kiểm thử và tự khởi động dịch vụ chưa được triển khai."
+  },
+  {
+    "kind": "paragraph",
+    "index": 581,
+    "location": "5.16 bỏ I04/Phase4/VERIFIED, giữ giới hạn",
+    "before": "I04 về kịch bản demo vẫn tạm hoãn, nên không kết luận toàn bộ Phase 4 đã hoàn tất. Kết quả kỹ thuật VERIFIED và việc người dùng nghiệm thu là hai trạng thái khác nhau. Báo cáo không có phép đo benchmark nhiều máy, kiểm tải production hoặc cam kết độ sẵn sàng dịch vụ.",
+    "after": "Kịch bản trình diễn chưa được chuẩn bị trong phạm vi thực hiện. Kết quả kiểm thử kỹ thuật không thay thế việc nghiệm thu của người dùng. Hệ thống chưa được đo hiệu năng trên nhiều máy, kiểm thử tải trong môi trường vận hành thực tế hoặc đánh giá độ sẵn sàng dịch vụ."
+  },
+  {
+    "kind": "cell",
+    "table": 17,
+    "row": 0,
+    "col": 0,
+    "location": "Bảng 5.3 ô0,0",
+    "before": "Nhóm kiểm",
+    "after": "Nhóm kiểm tra"
+  },
+  {
+    "kind": "cell",
+    "table": 17,
+    "row": 1,
+    "col": 0,
+    "location": "Bảng 5.3 ô1,0",
+    "before": "Lineage / integration",
+    "after": "Đối chiếu nguồn / tích hợp"
+  },
+  {
+    "kind": "cell",
+    "table": 17,
+    "row": 5,
+    "col": 2,
+    "location": "Bảng 5.3 ô5,2",
+    "before": "Ba tab, các tương tác và ảnh QA",
+    "after": "Ba tab, tương tác và đối chiếu ảnh giao diện"
+  },
+  {
+    "kind": "cell",
+    "table": 17,
+    "row": 6,
+    "col": 0,
+    "location": "Bảng 5.3 ô6,0",
+    "before": "Gate bàn giao",
+    "after": "Đối chiếu hồ sơ"
+  },
+  {
+    "kind": "cell",
+    "table": 17,
+    "row": 6,
+    "col": 2,
+    "location": "Bảng 5.3 ô6,2",
+    "before": "Hồ sơ và kiểm bảo toàn trong lượt bàn giao",
+    "after": "Kiểm tính đầy đủ hồ sơ và bảo toàn sản phẩm"
+  },
+  {
+    "kind": "linebreak",
+    "table": 7,
+    "row": 2,
+    "col": 2,
+    "location": "Bảng 3.1 đơn vị Time",
+    "before": "Giờ:phút:giây",
+    "after": "Giờ:phút:\ngiây",
+    "normalized_identical": true
+  },
+  {
+    "kind": "linebreak",
+    "table": 15,
+    "row": 5,
+    "col": 2,
+    "location": "Bảng 5.1 tên mô hình HGB",
+    "before": "HistGradientBoostingRegressor",
+    "after": "HistGradient\nBoostingRegressor",
+    "normalized_identical": true
+  }
+]

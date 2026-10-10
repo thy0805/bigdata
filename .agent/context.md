@@ -1,6 +1,20 @@
 # Bối cảnh môn Big Data
 
-## Hiện hành — W01 Word 67 trang, 10/10/2026
+## Hiện hành — W01.1 sửa nhỏ, 10/10/2026
+
+CURRENT TASK: W01.1 VERIFIED kỹ thuật trong phạm vi Word;chờ Thy/GPT Web nghiệm thu.
+SOURCE CHECKPOINT: d66a3c9;Detaituan8910/.agent/decisions/20261010-word-w011-scope.md.
+ALLOWED SCOPE: DOCX mới/lời báo cáo và2linebreak/QA/helper/điều phối/Git. Không W02/PPT/app/model/data/demo.
+LOCKED: W01 nguồn,bìa/styles/field/5Equation/7khung đen,số liệu và mẫu Mauwword;root rule dirty có sẵn không commit.
+APPLIED BUT UNVERIFIED: S05 phát hành GitHub IN_PROGRESS;3 link runtime snapshot ngoài Word INCOMPLETE.
+VERIFIED:37/37 Word checks,9/9 fieldprobe,67trang xem riêng,18sửa whitelist;9trang đổi/58pixel-identical,37guard nguồn khớp. DOCXSHAfafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006.
+PENDING: nghiệm thu W01.1/W02 chưa duyệt;I04DEFERRED. Snapshot1568/1571,0changed/missing,3venv reparse links unreadable. Trang10glossary ngắt HGB có sẵn giữ ngoài scope.
+LAST EVIDENCE: Detaituan8910/.agent/qa/word-w011-20261010/{review.md,final-verification.json,page-review.md,manifest.json};raw37PASS+1INCOMPLETE.
+NEXT EXACT ACTION: push hồ sơ/kiểm remote rồi dừng;Thy gửi DOCX trực tiếp và linkreview cho GPT Web. Không tự Word vòng mới/W02/PPT/app/demo/Cốc Cốc.
+
+Các block bên dưới là lịch sử.
+
+## Lịch sử — W01 Word 67 trang, 10/10/2026
 
 CURRENT TASK: W01 VERIFIED kỹ thuật; hồ sơ đã phát hành, chờ Thy/GPT Web nghiệm thu.
 SOURCE CHECKPOINT: ff0e5d7; Detaituan8910/.agent/decisions/20261010-word-w01-approval.md.

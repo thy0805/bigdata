@@ -1,6 +1,20 @@
 # Bản đồ tài liệu đồ án tuần 8–10
 
-## Nguồn hiện hành W01
+## Nguồn hiện hành W01.1
+
+Scope `decisions/20261010-word-w011-scope.md` ưu tiên W01 đã được duyệt có điều kiện. Checklist `qa/word-w011-20261010/checklist.md` hiện hành;artifact.md hợp đồng giữ format. Các tài liệu W01 bên dưới là lịch sử tại d66a3c9.
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx | Sản phẩm67 trang mới, gửi trực tiếp | VERIFIED Word;acceptance PENDING | Duyệt W01.1 |
+| .agent/qa/word-w011-20261010/review.md; final-verification.json; manifest.json | Gate cuối và caveat1568/1571 | Hiện hành | GPT Web rà |
+| .agent/qa/word-w011-20261010/CHANGES.md; changes.json | Exact18 diff | VERIFIED | Rà thay đổi |
+| .agent/qa/word-w011-20261010/page-review.md; visual-verification.json; page-diff.json | 67 trang xem riêng/9đổi58giống | VERIFIED trong scope;trang10 cũ ngoài scope | QA thị giác |
+| .agent/qa/word-w011-20261010/verification.json; field-probe.json; font-audit.json; preservation.json | Word37/37/field9/9/font;3link runtime INCOMPLETE | Hiện hành | Kiểm bằng chứng |
+| .agent/qa/word-w011-20261010/attempt-history.md; verification-attempt1.json; preservation-attempt1.json | Lịch sử kiểm không sửa ngược | Lịch sử | Truy lỗi |
+| .agent/scripts/edit_word_w011.py; verify_word_w011.py; handoff_word_w011.py; publish_word_w011.py | Helper riêng không đổi nguồn cũ | Hiện hành | QA/phát hành;không rerun authoring ghi đè |
+
+## Lịch sử — nguồn W01
 
 `decisions/20261010-word-w01-approval.md` ưu tiên scope W00 chỉ đọc. `qa/word-w01-20261010/checklist.md` là checklist canonical; `artifact.md` là hợp đồng template/preserve/slots. W01 VERIFIED kỹ thuật67 trang, chờ nghiệm thu; W02 chưa được duyệt. Source v3/Hậu/mẫu nguyên byte. Đọc các nguồn này trước mọi lần tiếp tục sau compact.
 

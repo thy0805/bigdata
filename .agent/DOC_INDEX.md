@@ -1,5 +1,19 @@
 # Bản đồ tài liệu
 
+## Nguồn hiện hành W01.1
+
+W01 nội dung/bố cục chính đã được Thy/GPT Web duyệt có điều kiện sửa nhỏ;decision W01.1 có ưu tiên về phạm vi lượt này. Không tự W02.
+
+| Tài liệu | Vai trò | Trạng thái | Đọc khi |
+| --- | --- | --- | --- |
+| Detaituan8910/context.md; .agent/qa/word-w011-20261010/checklist.md | Recovery và checklist hiện hành | S01–S04 VERIFIED;S05 IN_PROGRESS | Đầu phiên |
+| Detaituan8910/.agent/decisions/20261010-word-w011-scope.md | Phạm vi sửa nhỏ | Hiện hành | Trước sửa |
+| Detaituan8910/.agent/qa/word-w011-20261010/review.md; final-verification.json; manifest.json | Bàn giao Word và giới hạn snapshot | VERIFIED Word;acceptance PENDING | Thy/GPT Web duyệt |
+| Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md; changes.json; page-review.md | 18 diff và rà67 trang | Hiện hành | Kiểm nội dung/bố cục |
+| Detaituan8910/BaoCao_PhanTich_DuDoan_DienNang_UCI_W01_1_v1_20261010.docx | Sản phẩm mới, gửi trực tiếp | VERIFIED;không GitHub;7khung đen | Duyệt artifact |
+
+Các bản đồ W01 bên dưới là lịch sử tại checkpoint d66a3c9, không ghi đè W01.1.
+
 Nguồn hiện hành W01: `Detaituan8910/.agent/decisions/20261010-word-w01-approval.md`, checklist và review trong `Detaituan8910/.agent/qa/word-w01-20261010/`. W01 VERIFIED kỹ thuật67 trang/font khớp Mauwword; chờ Thy/GPT Web nghiệm thu. W02 chưa duyệt. W00 và các pending cũ bên dưới là lịch sử.
 
 | Tài liệu W01 | Vai trò | Trạng thái | Đọc khi |
