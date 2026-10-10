@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "commit": "76a764bafcdf08b6ef10ee59586b20ee35c70d13",
+  "remote_main": "76a764bafcdf08b6ef10ee59586b20ee35c70d13",
+  "readback_count": 39,
+  "readback_method": "Read each allowlisted path from raw.githubusercontent.com at the commit and compare with git blob bytes",
+  "office_published": false,
+  "source_and_outputs_hashes_rechecked": true,
+  "guarded_sources_products_templates": "37/37",
+  "acceptance": "PENDING_THY_GPT_WEB",
+  "note": "Snapshot of first publication. Final publication-receipt.local.json verifies HEAD after this checkpoint update. No DOCX, PDF, PNG, full-text readback, raw dataset or model was staged."
+}

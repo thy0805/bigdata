@@ -77,6 +77,6 @@ for folder, version, expected in OUTPUTS:
 changes = read(BASE / 'word-w02-20261010/changes.json')
 parts = ['# W02 — thay đổi trước và sau', '', 'Chỉ 14 đoạn thân bài có span/câu dẫn được bỏ, cùng một ô phân công Phát. Chỉ số paragraph là zero-based trong OOXML nguồn.', '']
 for item in changes:
-    parts.extend([f"## Paragraph {item.get('index', 'ô phân công')}", '', '**Trước:** ' + item['before'], '', '**Sau:** ' + item['after'], ''])
+    parts.extend([f"## Paragraph {item.get('index', 'ô phân công')}", '', '**Trước:** ' + (item['before'] or '(ô trống)'), '', '**Sau:** ' + item['after'], ''])
 (BASE / 'word-w02-20261010/CHANGES.md').write_text('\n'.join(parts), encoding='utf-8')
 print(json.dumps({'status': 'VERIFIED', 'outputs': [read(BASE / f / 'final-verification.json')['sha256'] for f, _, _ in OUTPUTS], 'preservation': '37/37', 'acceptance': 'PENDING_THY_GPT_WEB'}, ensure_ascii=False))

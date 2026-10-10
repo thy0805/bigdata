@@ -6,7 +6,7 @@ CURRENT TASK: W02 và W02.1 VERIFIED kỹ thuật/hồ sơ, chốt Git và bàn 
 SOURCE CHECKPOINT: 15bd7a2, decision W02/W021; nguồn Thy chỉnh SHA876945c3...9cb5b34 giữ nguyên.
 ALLOWED SCOPE: chỉ hai Word mới/QA/điều phối/Git hồ sơ; không Office/ảnh/PDF/dữ liệu lớn trên Git.
 LOCKED: nguồn/mẫu/hai bìa/số liệu/5Equation/model/data/code/PPT/demo; root rule và project mistake dirty có sẵn không commit.
-APPLIED BUT UNVERIFIED: không còn DOCX chưa kiểm; remote cần receipt local sau push.
+APPLIED BUT UNVERIFIED: không còn DOCX chưa kiểm;publication76a764b đã kiểmremote39/39;receipt local kiểm HEAD cuối sau checkpoint.
 VERIFIED: W02 53/53/SHA507b2426...b20ba96;W02.1 48/48/SHAdb0cf6ef...2223788. Mỗi bản69PNG xem riêng,18bảng/3TOC/21refs;7hình thật,14diff dẫn,PhátCh3–5/code/Word/Excel,%trống. W02.1 lịch4cột3tuần/bỏ21ngày,65/69trang giốngpixelW02;37/37 guard khớp.
 PENDING: Thy/GPT Web nghiệm thu; lịch là tổ chức đầu việc, không ba tuần lịch sử đã xác minh. Trang10 ngắt tên dài cũ ngoài scope; chưa HTTP-audit mới21website.
 LAST EVIDENCE: Detaituan8910/.agent/qa/word-w02-20261010 và word-w021-20261010: review/final-verification/manifest/page-review. Native Word/PDFium, bundled renderer thiếu soffice.

@@ -88,6 +88,6 @@ Chỉ 14 đoạn thân bài có span/câu dẫn được bỏ, cùng một ô ph
 
 ## Paragraph ô phân công
 
-**Trước:** 
+**Trước:** (ô trống)
 
 **Sau:** Chương 3, 4, 5; lập trình hệ thống; báo cáo Word và xử lý, trình bày dữ liệu bằng Excel.

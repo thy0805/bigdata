@@ -15,7 +15,7 @@ Scope canonical: ../../decisions/20261010-word-w02-w021-scope.md. Hai lượt đ
 | W021-02 | Bỏ ngày truy cập, bảo toàn 21 nguồn/link | References source và mẫu trường | VERIFIED | changes.json21 exact deletions;verification.json | Giữ DOI/năm xuất bản/URL/hyperlink; không freshHTTPaudit |
 | W021-03 | Field/render/mỗi trang/21 hyperlink/bảo toàn | Output W02.1 so W02 đã kiểm | VERIFIED | NativeWord69trang/18bảng/5Equation/3TOC;48/48;69PNG đã xem;37/37guards | 65tranggiốngpixel,đổi3/67/68/69 |
 | W021-04 | Bàn giao cuối, checkpoint và điểm dừng | Các gate riêng hai pha | VERIFIED | word-w021-20261010/review.md;final-verification.json;manifest.json;context/PLAN | Nghiệm thu PENDING;dừng,không PPT/demo/app |
-| PUB-01 | Chỉ phát hành hồ sơ/điều phối/helper, xác minh remote | Git allowlist, không Office/PDF/PNG/raw | IN_PROGRESS | publication-index.json và publication-receipt.local.json sau push | Không stage root rule/project mistake dirty có sẵn |
+| PUB-01 | Chỉ phát hành hồ sơ/điều phối/helper, xác minh remote | Git allowlist, không Office/PDF/PNG/raw | VERIFIED | publication-initial.json:76a764b remote39/39;publication-index.json0findings;receipt local kiểm HEAD cuối | Không stage root rule/project mistake dirty có sẵn;nghiệm thu PENDING |
 
 ## Lịch sử preflight — ảnh trong Word nguồn trước authoring
 

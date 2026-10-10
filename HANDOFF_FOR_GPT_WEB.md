@@ -2,7 +2,7 @@
 
 ## Mới nhất — W02 và W02.1, 10/10/2026
 
-Thy giao hai lượt làm liên tiếp và yêu cầu tiếp tục chốt từ checkpoint, không tạo lại Word. Hai bản VERIFIED kỹ thuật, **chờ Thy/GPT Web nghiệm thu W02.1**.
+Thy giao hai lượt làm liên tiếp và yêu cầu tiếp tục chốt từ checkpoint, không tạo lại Word. Hai bản VERIFIED kỹ thuật, **chờ Thy/GPT Web nghiệm thu W02.1**. Hồ sơ phát hành đầu `76a764b` đã đọc lại39/39file khớp GitHub; [publication-initial.json](Detaituan8910/.agent/qa/word-w021-20261010/publication-initial.json) ghi snapshot,receipt local kiểm HEAD cuối sau cập nhật checkpoint.
 
 Đọc [review W02.1](Detaituan8910/.agent/qa/word-w021-20261010/review.md), [gate cuối](Detaituan8910/.agent/qa/word-w021-20261010/final-verification.json), [lịch và 21 diff tham khảo](Detaituan8910/.agent/qa/word-w021-20261010/changes.json), [rà 69 trang](Detaituan8910/.agent/qa/word-w021-20261010/page-review.md), [manifest](Detaituan8910/.agent/qa/word-w021-20261010/manifest.json).
 
