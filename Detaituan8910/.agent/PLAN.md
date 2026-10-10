@@ -2,7 +2,7 @@
 
 ## Hiện hành — W01.1
 
-Canonical `qa/word-w011-20261010/checklist.md`;scope `decisions/20261010-word-w011-scope.md`. S01–S04 VERIFIED trong phạm vi Word:37/37,9/9 field,67 trang xem riêng,37 guard nguồn;18 điểm sửa. Snapshot ngoài Word INCOMPLETE1568/1571,3 link runtime không đọc được,0 changed/missing. S05 IN_PROGRESS phát hành Git. Acceptance PENDING;W02 chưa duyệt. Không sửa thêm DOCX;đẩy hồ sơ/kiểm remote rồi dừng. Các mục dưới là lịch sử.
+Canonical `qa/word-w011-20261010/checklist.md`;scope `decisions/20261010-word-w011-scope.md`. S01–S05 VERIFIED trong phạm vi Word/bàn giao:37/37,9/9 field,67 trang xem riêng,37 guard nguồn;18 điểm sửa;publication59b68e3 remote34/34. Snapshot ngoài Word INCOMPLETE1568/1571,3 link runtime không đọc được,0 changed/missing. Receipt local kiểm HEAD cuối sau checkpoint. Acceptance PENDING;W02 chưa duyệt. Dừng,không sửa thêm DOCX hoặc tự giai đoạn mới. Các mục dưới là lịch sử.
 
 ## Lịch sử — W01 VERIFIED, chờ nghiệm thu
 

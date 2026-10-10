@@ -1,175 +1,55 @@
 {
   "status": "PASS",
-  "at": "2026-10-10T02:23:25.304981+00:00",
+  "at": "2026-10-10T02:24:52.840832+00:00",
   "scope": "Only new W01.1 evidence/helpers and current coordination. Dirty root rule excluded.",
   "files": [
     {
       "path": ".agent/DOC_INDEX.md",
-      "bytes": 26347,
-      "sha256": "62f32de55f3ea46f213ede8922711bfd2e202609000ee8eeaa2860e004f7e8f7"
+      "bytes": 26364,
+      "sha256": "32d85555856fcf765c683c1a69073f2e697b2ed3a45e02cf30f2550de7500362"
     },
     {
       "path": ".agent/PLAN.md",
-      "bytes": 18153,
-      "sha256": "99c70355587f53a57c0f2b31018044a7f3ec9c114fe94f843a473636173006b5"
+      "bytes": 18188,
+      "sha256": "309bc2957058fa15830dc56593e20eab894f51bddff0cadafea1339c42ab140b"
     },
     {
       "path": ".agent/context.md",
-      "bytes": 54060,
-      "sha256": "2636d826a246def84a8a7220167adb22503de23134046bf28662e69610e9f165"
-    },
-    {
-      "path": "Detaituan8910/.agent/DOC_INDEX.md",
-      "bytes": 32651,
-      "sha256": "81d019452c69bedc7aa88eba2ea7a32309c083816829eb891114a7fe78242fda"
+      "bytes": 54199,
+      "sha256": "e3eb22baaebcbf4c25ff6bd8176fb1ad8a94c74fd48404cdae2965eadd58f010"
     },
     {
       "path": "Detaituan8910/.agent/PLAN.md",
-      "bytes": 21958,
-      "sha256": "afc918cc287fa3562f6d3e5063044ab6c4b2a77c5fbb511f16826629a656bccb"
-    },
-    {
-      "path": "Detaituan8910/.agent/decisions/20261010-word-w011-scope.md",
-      "bytes": 1852,
-      "sha256": "7e3a70ff9a87a6164bd284baea39079db8e41c15bfb2ad57ff9246b26b934efd"
-    },
-    {
-      "path": "Detaituan8910/.agent/mistake.md",
-      "bytes": 13349,
-      "sha256": "b05cdc95ba794d05d9f5fce51dd71b5def6902eac4472305f10d000e2038b6b3"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md",
-      "bytes": 6439,
-      "sha256": "8005a5966b1a20a3a720359e2837499bb5f4b216d6a61c470cbec4bc6be5a8e5"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/applied.json",
-      "bytes": 334,
-      "sha256": "f71016761466fe4437cbd24b1b857a91e4e9dc2c6e39b30a789d7a25cd1526d8"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/artifact.md",
-      "bytes": 2063,
-      "sha256": "9d560d1fac8e8854f0aca085d09a63e58b6b808ae60314abc12793ba5a70a4ce"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/attempt-history.md",
-      "bytes": 1163,
-      "sha256": "d560ff83025d5a468c7c590de3f9e9148d51882834e83c145299c5a9d6d13295"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/changes.json",
-      "bytes": 7565,
-      "sha256": "1b09333f4315ea337f10b312deed29cb4c6aaffdae72a94528c5008bc613f62b"
+      "bytes": 22010,
+      "sha256": "95c75fa70d450b887459d3591c50894c48adc86d867693e19c04bb981d012b1e"
     },
     {
       "path": "Detaituan8910/.agent/qa/word-w011-20261010/checklist.md",
-      "bytes": 1085,
-      "sha256": "84a95b696f6acceb5907c86c1e924a1d372202b13b3e8b7f1b97197e28789178"
+      "bytes": 1177,
+      "sha256": "7eb9312ed130ef297be50b22fca3cef8db3fcb428be6c9483ac6c5f6904bf8c1"
     },
     {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/field-probe.json",
-      "bytes": 1500,
-      "sha256": "1004c641120b9cc28c444928735df7a1ab347ac6cf064467a04e7a74c1611f66"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/final-verification.json",
-      "bytes": 2143,
-      "sha256": "67ed6fa0bf6d16e34ff724d8fe54ada612a68c8610251b8288e173f9f53577c1"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/font-audit.json",
-      "bytes": 17070,
-      "sha256": "58c4a1283e2b5d261e8506e3dceab8bd327875d61463e82f8cd509480774d015"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/manifest.json",
-      "bytes": 2992,
-      "sha256": "5d5bea9b611dd2c7110be56b6c63cb91ac520c0d57b4670a53495ac56f1856bf"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/page-diff.json",
-      "bytes": 17055,
-      "sha256": "4c88a65889e7d0a911050d25bd8051ee0025a49c460e50cb58963b6a6f236a68"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/page-review.md",
-      "bytes": 8070,
-      "sha256": "a5d6201cd6a50efbde16330d10fa7ce60c12ff3bbada9818d246d9aa45ce0bb9"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preflight.json",
-      "bytes": 6010,
-      "sha256": "2c4a47f954e22da42cb64cf62f36f6bddaa1e923d3c661d05c853b4fc23d1e0c"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preservation-attempt1.json",
-      "bytes": 403,
-      "sha256": "a8bbc6318bd564a7b603e3d1d259e82ff8024a3978cbc97b3bffbb926666d59d"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preservation.json",
-      "bytes": 624,
-      "sha256": "5205d83447d04c9edace90d50317c0a513fa66c04e39b2180d93903742062a67"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/review.md",
-      "bytes": 4329,
-      "sha256": "193ed9d6dfa22c7bdc264a51b282b178bb2ddcf493c7033e2feec670347442b7"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/verification-attempt1.json",
-      "bytes": 5986,
-      "sha256": "542234014ab69c9753c979f799c4f078fda4198014b995e5152a042e3c7d613a"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/verification.json",
-      "bytes": 12457,
-      "sha256": "55efcdc4ba49a7141ac20c29b264eb22eb3150a469ffe6deee74d86355c98ccd"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/visual-verification.json",
-      "bytes": 25283,
-      "sha256": "3a4ca3a776d1220a5d8947d580d161fc5b93a5423164884833fcd7e111e14990"
-    },
-    {
-      "path": "Detaituan8910/.agent/qa/word-w011-20261010/word-summary.json",
-      "bytes": 445,
-      "sha256": "f70bb888fb13f071e675faa7e19510882dd6b5ffb3181b61830f1ce99c252d58"
-    },
-    {
-      "path": "Detaituan8910/.agent/scripts/edit_word_w011.py",
-      "bytes": 8213,
-      "sha256": "930e3c09061a7b912424fd289b2414f7519cb7bec422b3766213bad359a4c381"
-    },
-    {
-      "path": "Detaituan8910/.agent/scripts/handoff_word_w011.py",
-      "bytes": 12337,
-      "sha256": "e2a40a8a565586e1b9629201be49728153e98bdbe3be85e38366d033e481c9d0"
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/publication-initial.json",
+      "bytes": 7696,
+      "sha256": "930fd60ffcc57b21f535d9976cde32f995bd0d5995deb305c299a39c5a55181b"
     },
     {
       "path": "Detaituan8910/.agent/scripts/publish_word_w011.py",
-      "bytes": 6041,
-      "sha256": "f2075196c08e1d68a08c7a8c940f19fd4c2926b19c647faf42b15947fa46a70a"
-    },
-    {
-      "path": "Detaituan8910/.agent/scripts/verify_word_w011.py",
-      "bytes": 16290,
-      "sha256": "2e0fe13deb0894c67b6e374edf44ceac49e3de9336d456d9a47a8af495f878d7"
+      "bytes": 6069,
+      "sha256": "4c9fc5f622d43b9989a15b4a9d4066a20622a765a476738a8abe2878837f38c2"
     },
     {
       "path": "Detaituan8910/context.md",
-      "bytes": 61524,
-      "sha256": "ab9b0a0778210f6cb93ab3e8caed9959fde11e33c979260607b698c1dac804df"
+      "bytes": 61642,
+      "sha256": "357629e7e4c31b3b4b84282baf09addf79d6c5bea210c5575e256024336da2cd"
     },
     {
       "path": "HANDOFF_FOR_GPT_WEB.md",
-      "bytes": 11840,
-      "sha256": "c7b3dfddbf3b6de72fff74d4654db56d78fbce0d181a71dec64eca782a349194"
+      "bytes": 12174,
+      "sha256": "82216220d5026112c575f05e9697b2e0a1da70911597066517b0340043a7e705"
     }
   ],
-  "count": 33,
+  "count": 9,
   "findings": [],
   "limits": "Pattern scan is not a guarantee against every secret. Office/render/fulltext/probe copies excluded."
 }

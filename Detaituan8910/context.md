@@ -6,11 +6,11 @@ CURRENT TASK: W01.1 VERIFIED trong phạm vi Word; chờ Thy/GPT Web nghiệm th
 SOURCE CHECKPOINT: d66a3c9cf7b3ec09e3a97faef2ac6df8e2c80559; decisions/20261010-word-w011-scope.md;qa/word-w011-20261010/checklist.md.
 ALLOWED SCOPE: bản Word mới, lời QA nội bộ5.15–5.16/B5.3 và vài câu tương tự Ch3–5,2 linebreak bảng;QA/render/helper/Git hồ sơ.
 LOCKED: W01/nguồn/mẫu,bìa/styles/fields/math/7 khung đen;app/data/model/schema/metric/SQL. W02/PPT/demo không mở.
-APPLIED BUT UNVERIFIED: phát hành GitHub S05 đang IN_PROGRESS; chưa kiểm remote. Kiểm snapshot 3 liên kết runtime INCOMPLETE, không phải lỗi Word đã sửa.
+APPLIED BUT UNVERIFIED: không còn sửa Word chưa kiểm; nghiệm thu vẫn PENDING. Kiểm snapshot 3 liên kết runtime INCOMPLETE, không phải lỗi Word đã sửa.
 VERIFIED: DOCX W01.1 SHA fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006;37/37 kiểm Word,9/9 field probe,67 PNG xem riêng;9 trang đổi/58 pixel-identical;18 sửa whitelist;hai bìa/7 khung đen/18 bảng/5 Equation/style nguyên;37 guard nguồn khớp. 1568/1571 snapshot khớp,0 changed/missing,3 reparse links venv-probe không đọc được.
-PENDING: Thy/GPT Web nghiệm thu W01.1;S05 remote read-back. W02 chưa duyệt,I04 DEFERRED. Trang10 glossary HGB xuống dòng xấu có sẵn, ngoài scope, không sửa.
-LAST EVIDENCE: qa/word-w011-20261010/{review.md,CHANGES.md,final-verification.json,page-review.md,manifest.json};raw verification INCOMPLETE37PASS+1INCOMPLETE; giữ attempt1 lịch sử.
-NEXT EXACT ACTION: commit/push hồ sơ đúng allowlist,kiểm remote rồi dừng;Thy gửi DOCX trực tiếp và link review cho GPT Web. Không tự W02/PPT/app/demo/Cốc Cốc.
+PENDING: Thy/GPT Web nghiệm thu W01.1. W02 chưa duyệt,I04 DEFERRED. Trang10 glossary HGB xuống dòng xấu có sẵn, ngoài scope, không sửa.
+LAST EVIDENCE: qa/word-w011-20261010/{review.md,CHANGES.md,final-verification.json,page-review.md,manifest.json};raw verification INCOMPLETE37PASS+1INCOMPLETE; giữ attempt1 lịch sử. Publication59b68e3 remote34/34/index0findings;publication-receipt.local.json kiểm HEAD cuối sau cập nhật checkpoint.
+NEXT EXACT ACTION: dừng;Thy gửi DOCX trực tiếp và link review cho GPT Web. Đầu phiên tiếp theo đọc phản hồi/receipt Git thực tế,không tự W02/PPT/app/demo/Cốc Cốc.
 
 Các block bên dưới là lịch sử.
 

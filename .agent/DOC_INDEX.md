@@ -6,7 +6,7 @@ W01 nội dung/bố cục chính đã được Thy/GPT Web duyệt có điều k
 
 | Tài liệu | Vai trò | Trạng thái | Đọc khi |
 | --- | --- | --- | --- |
-| Detaituan8910/context.md; .agent/qa/word-w011-20261010/checklist.md | Recovery và checklist hiện hành | S01–S04 VERIFIED;S05 IN_PROGRESS | Đầu phiên |
+| Detaituan8910/context.md; Detaituan8910/.agent/qa/word-w011-20261010/checklist.md | Recovery và checklist hiện hành | S01–S05 VERIFIED;acceptance PENDING | Đầu phiên |
 | Detaituan8910/.agent/decisions/20261010-word-w011-scope.md | Phạm vi sửa nhỏ | Hiện hành | Trước sửa |
 | Detaituan8910/.agent/qa/word-w011-20261010/review.md; final-verification.json; manifest.json | Bàn giao Word và giới hạn snapshot | VERIFIED Word;acceptance PENDING | Thy/GPT Web duyệt |
 | Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md; changes.json; page-review.md | 18 diff và rà67 trang | Hiện hành | Kiểm nội dung/bố cục |

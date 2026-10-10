@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "at": "2026-10-10T02:23:54.762061+00:00",
+  "commit": "59b68e3ee811a9af14d7c3b9906680e43de183ca",
+  "remote_main": "59b68e3ee811a9af14d7c3b9906680e43de183ca",
+  "checks": [
+    {
+      "path": ".agent/context.md",
+      "status": "PASS",
+      "sha256": "2636d826a246def84a8a7220167adb22503de23134046bf28662e69610e9f165",
+      "bytes": 54060
+    },
+    {
+      "path": ".agent/PLAN.md",
+      "status": "PASS",
+      "sha256": "99c70355587f53a57c0f2b31018044a7f3ec9c114fe94f843a473636173006b5",
+      "bytes": 18153
+    },
+    {
+      "path": ".agent/DOC_INDEX.md",
+      "status": "PASS",
+      "sha256": "62f32de55f3ea46f213ede8922711bfd2e202609000ee8eeaa2860e004f7e8f7",
+      "bytes": 26347
+    },
+    {
+      "path": "HANDOFF_FOR_GPT_WEB.md",
+      "status": "PASS",
+      "sha256": "c7b3dfddbf3b6de72fff74d4654db56d78fbce0d181a71dec64eca782a349194",
+      "bytes": 11840
+    },
+    {
+      "path": "Detaituan8910/context.md",
+      "status": "PASS",
+      "sha256": "ab9b0a0778210f6cb93ab3e8caed9959fde11e33c979260607b698c1dac804df",
+      "bytes": 61524
+    },
+    {
+      "path": "Detaituan8910/.agent/PLAN.md",
+      "status": "PASS",
+      "sha256": "afc918cc287fa3562f6d3e5063044ab6c4b2a77c5fbb511f16826629a656bccb",
+      "bytes": 21958
+    },
+    {
+      "path": "Detaituan8910/.agent/DOC_INDEX.md",
+      "status": "PASS",
+      "sha256": "81d019452c69bedc7aa88eba2ea7a32309c083816829eb891114a7fe78242fda",
+      "bytes": 32651
+    },
+    {
+      "path": "Detaituan8910/.agent/mistake.md",
+      "status": "PASS",
+      "sha256": "b05cdc95ba794d05d9f5fce51dd71b5def6902eac4472305f10d000e2038b6b3",
+      "bytes": 13349
+    },
+    {
+      "path": "Detaituan8910/.agent/decisions/20261010-word-w011-scope.md",
+      "status": "PASS",
+      "sha256": "7e3a70ff9a87a6164bd284baea39079db8e41c15bfb2ad57ff9246b26b934efd",
+      "bytes": 1852
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/edit_word_w011.py",
+      "status": "PASS",
+      "sha256": "930e3c09061a7b912424fd289b2414f7519cb7bec422b3766213bad359a4c381",
+      "bytes": 8213
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/verify_word_w011.py",
+      "status": "PASS",
+      "sha256": "2e0fe13deb0894c67b6e374edf44ceac49e3de9336d456d9a47a8af495f878d7",
+      "bytes": 16290
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/handoff_word_w011.py",
+      "status": "PASS",
+      "sha256": "e2a40a8a565586e1b9629201be49728153e98bdbe3be85e38366d033e481c9d0",
+      "bytes": 12337
+    },
+    {
+      "path": "Detaituan8910/.agent/scripts/publish_word_w011.py",
+      "status": "PASS",
+      "sha256": "f2075196c08e1d68a08c7a8c940f19fd4c2926b19c647faf42b15947fa46a70a",
+      "bytes": 6041
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/artifact.md",
+      "status": "PASS",
+      "sha256": "9d560d1fac8e8854f0aca085d09a63e58b6b808ae60314abc12793ba5a70a4ce",
+      "bytes": 2063
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/checklist.md",
+      "status": "PASS",
+      "sha256": "84a95b696f6acceb5907c86c1e924a1d372202b13b3e8b7f1b97197e28789178",
+      "bytes": 1085
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/attempt-history.md",
+      "status": "PASS",
+      "sha256": "d560ff83025d5a468c7c590de3f9e9148d51882834e83c145299c5a9d6d13295",
+      "bytes": 1163
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preflight.json",
+      "status": "PASS",
+      "sha256": "2c4a47f954e22da42cb64cf62f36f6bddaa1e923d3c661d05c853b4fc23d1e0c",
+      "bytes": 6010
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/applied.json",
+      "status": "PASS",
+      "sha256": "f71016761466fe4437cbd24b1b857a91e4e9dc2c6e39b30a789d7a25cd1526d8",
+      "bytes": 334
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/changes.json",
+      "status": "PASS",
+      "sha256": "1b09333f4315ea337f10b312deed29cb4c6aaffdae72a94528c5008bc613f62b",
+      "bytes": 7565
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/CHANGES.md",
+      "status": "PASS",
+      "sha256": "8005a5966b1a20a3a720359e2837499bb5f4b216d6a61c470cbec4bc6be5a8e5",
+      "bytes": 6439
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/field-probe.json",
+      "status": "PASS",
+      "sha256": "1004c641120b9cc28c444928735df7a1ab347ac6cf064467a04e7a74c1611f66",
+      "bytes": 1500
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/final-verification.json",
+      "status": "PASS",
+      "sha256": "67ed6fa0bf6d16e34ff724d8fe54ada612a68c8610251b8288e173f9f53577c1",
+      "bytes": 2143
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/font-audit.json",
+      "status": "PASS",
+      "sha256": "58c4a1283e2b5d261e8506e3dceab8bd327875d61463e82f8cd509480774d015",
+      "bytes": 17070
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/manifest.json",
+      "status": "PASS",
+      "sha256": "5d5bea9b611dd2c7110be56b6c63cb91ac520c0d57b4670a53495ac56f1856bf",
+      "bytes": 2992
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/page-review.md",
+      "status": "PASS",
+      "sha256": "a5d6201cd6a50efbde16330d10fa7ce60c12ff3bbada9818d246d9aa45ce0bb9",
+      "bytes": 8070
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/page-diff.json",
+      "status": "PASS",
+      "sha256": "4c88a65889e7d0a911050d25bd8051ee0025a49c460e50cb58963b6a6f236a68",
+      "bytes": 17055
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preservation.json",
+      "status": "PASS",
+      "sha256": "5205d83447d04c9edace90d50317c0a513fa66c04e39b2180d93903742062a67",
+      "bytes": 624
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/review.md",
+      "status": "PASS",
+      "sha256": "193ed9d6dfa22c7bdc264a51b282b178bb2ddcf493c7033e2feec670347442b7",
+      "bytes": 4329
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/verification-attempt1.json",
+      "status": "PASS",
+      "sha256": "542234014ab69c9753c979f799c4f078fda4198014b995e5152a042e3c7d613a",
+      "bytes": 5986
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/preservation-attempt1.json",
+      "status": "PASS",
+      "sha256": "a8bbc6318bd564a7b603e3d1d259e82ff8024a3978cbc97b3bffbb926666d59d",
+      "bytes": 403
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/verification.json",
+      "status": "PASS",
+      "sha256": "55efcdc4ba49a7141ac20c29b264eb22eb3150a469ffe6deee74d86355c98ccd",
+      "bytes": 12457
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/visual-verification.json",
+      "status": "PASS",
+      "sha256": "3a4ca3a776d1220a5d8947d580d161fc5b93a5423164884833fcd7e111e14990",
+      "bytes": 25283
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/word-summary.json",
+      "status": "PASS",
+      "sha256": "f70bb888fb13f071e675faa7e19510882dd6b5ffb3181b61830f1ce99c252d58",
+      "bytes": 445
+    },
+    {
+      "path": "Detaituan8910/.agent/qa/word-w011-20261010/publication-index.json",
+      "status": "PASS",
+      "sha256": "d8b140f8f332d7fdf29c8d2fb0457ab7a96f2ad46d1248426b442ff174ab3601",
+      "bytes": 6588
+    }
+  ],
+  "readback_count": 34,
+  "output_sha256": "fafe4d7485601ba667a468990c1c80e188bf0e7126dd3edaf51059dfca3e2006",
+  "office_published": false,
+  "acceptance": "PENDING_THY_GPT_WEB"
+}

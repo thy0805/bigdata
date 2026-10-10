@@ -18,7 +18,7 @@ PUBLIC = ['artifact.md', 'checklist.md', 'attempt-history.md', 'preflight.json',
           'changes.json', 'CHANGES.md', 'field-probe.json', 'final-verification.json', 'font-audit.json',
           'manifest.json', 'page-review.md', 'page-diff.json', 'preservation.json', 'review.md',
           'verification-attempt1.json', 'preservation-attempt1.json', 'verification.json',
-          'visual-verification.json', 'word-summary.json']
+          'visual-verification.json', 'word-summary.json', 'publication-initial.json']
 COORDINATION = ['.agent/context.md', '.agent/PLAN.md', '.agent/DOC_INDEX.md', 'HANDOFF_FOR_GPT_WEB.md',
                 'Detaituan8910/context.md', 'Detaituan8910/.agent/PLAN.md',
                 'Detaituan8910/.agent/DOC_INDEX.md', 'Detaituan8910/.agent/mistake.md',

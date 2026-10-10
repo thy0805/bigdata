@@ -8,6 +8,8 @@ W01.1 VERIFIED Word37/37,field9/9,67trang;hai bìa/styles/7khung đen/số liệ
 
 Ngoại lệ rõ: snapshot1568/1571 khớp,3link runtime venv-probe không đọc được,0changed/missing;rawverification INCOMPLETE37PASS+1INCOMPLETE, không giả định1571/1571. Trang10glossary HGB ngắt chữ chưa đẹp có sẵn giốngpixelW01,ngoài scope sửa. Không thay đổi mô hình/dữ liệu/app. AcceptancePENDING,W02 chưa được phép;I04DEFERRED. Dừng chờ duyệt.
 
+Hồ sơ đã phát hành tại59b68e3,remote34/34 file đọc lại khớp. [publication-initial.json](Detaituan8910/.agent/qa/word-w011-20261010/publication-initial.json) là evidence lượt đầu;checkpoint sau chỉ cập nhật trạng thái phát hành. Receipt local cuối kiểm HEAD thực tế,không công bố Office.
+
 ## Lịch sử — W01 Word 67 trang, 10/10/2026
 
 Đọc [review W01](Detaituan8910/.agent/qa/word-w01-20261010/review.md), [final-verification](Detaituan8910/.agent/qa/word-w01-20261010/final-verification.json), [thay đổi chương](Detaituan8910/.agent/qa/word-w01-20261010/CHAPTER_CHANGES.md), [danh sách bảng/hình](Detaituan8910/.agent/qa/word-w01-20261010/TABLE_FIGURE_LIST.md) và [rà đủ67 trang](Detaituan8910/.agent/qa/word-w01-20261010/page-review.md).
